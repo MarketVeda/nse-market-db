@@ -1,0 +1,84 @@
+name: fundamentals-and-news
+
+on:
+  schedule:
+    # Financials: Every Sunday at 8:00 AM IST = 02:30 UTC
+    - cron: "30 2 * * 0"
+    # News/Announcements: Every weekday at 6:00 PM IST = 12:30 UTC
+    - cron: "30 12 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  # ── Job 1: Financials (runs Sunday only) ────────────────────────────────────
+  fetch-financials:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 2 * * 0'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml
+
+      - name: Fetch financials from screener.in (500 symbols, ~20 min)
+        run: python scripts/fetch_financials.py
+
+      - name: Commit financials
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/financials/
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Financials screener.in $(date +'%Y-%m-%d')"
+            git push
+          fi
+
+  # ── Job 2: News & Announcements (runs weekdays only) ───────────────────────
+  fetch-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 12 * * 1-5'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install nse httpx[http2] nsefin requests
+
+      - name: Fetch news and announcements from NSE
+        run: python scripts/fetch_news.py
+
+      - name: Commit news
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news/
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "News/announcements $(date +'%Y-%m-%d')"
+            git push
+          fi
