@@ -1,11 +1,9 @@
 #!/usr/bin/env python3
 """
-fetch_intraday.py
------------------
-Fetches today's full intraday candles for all FnO universe symbols.
-Timeframes: 15min, 5min, 1min
-Runs AFTER market close (3:35 PM IST).
-Saves to: data/intraday/YYYY-MM-DD.json
+fetch_intraday.py — Intraday candles for FnO universe (211 symbols)
+Timeframes: 15min, 5min, 1min + computed stats (VWAP, opening range, vol surge)
+Output: data/intraday/YYYY-MM-DD.json
+Runs after market close (3:35 PM IST) — fetches COMPLETE day's candles
 """
 
 import sys, os
@@ -52,35 +50,28 @@ FNO_SYMBOLS = [
 TIMEFRAMES = {"15min": "15minute", "5min": "5minute", "1min": "minute"}
 
 
-def c2d(c: dict) -> dict:
-    """Candle to compact dict."""
+def c2d(c):
     dt = c["date"]
-    t  = dt.strftime("%H:%M") if hasattr(dt, "strftime") else str(dt)[:16]
-    return {"t": t, "o": round(c["open"],2), "h": round(c["high"],2),
-            "l": round(c["low"],2), "c": round(c["close"],2), "v": c.get("volume",0)}
+    t  = dt.strftime("%H:%M") if hasattr(dt,"strftime") else str(dt)[:16]
+    return {"t":t,"o":round(c["open"],2),"h":round(c["high"],2),
+            "l":round(c["low"],2),"c":round(c["close"],2),"v":c.get("volume",0)}
 
 
-def intraday_stats(candles: list) -> dict:
+def intraday_stats(candles):
     if not candles:
         return {}
     o   = [c["h"] for c in candles]
-    lo  = [c["l"] for c in candles if c["l"] > 0]
+    lo  = [c["l"] for c in candles if c["l"]>0]
     v   = [c["v"] for c in candles]
     cls = [c["c"] for c in candles]
-    # VWAP
     pv  = sum(((c["h"]+c["l"]+c["c"])/3)*c["v"] for c in candles if c["v"]>0)
     tv  = sum(c["v"] for c in candles if c["v"]>0)
-    vwap = round(pv/tv,2) if tv > 0 else 0
-    # Opening range (first 2 × 15min = first 30 min)
-    or_h = max(c["h"] for c in candles[:2]) if len(candles)>=2 else candles[0]["h"]
-    or_l = min(c["l"] for c in candles[:2]) if len(candles)>=2 else candles[0]["l"]
-    # Last-hour volume surge
-    lh_v  = sum(v[-4:]) if len(v)>=4 else sum(v)
-    avg_v = sum(v)/len(v) if v else 1
-    surge = round(lh_v/(avg_v*4), 2) if avg_v > 0 else 0
-    # Range tightness
-    day_range_pct = round((max(o)-min(lo))/cls[-1]*100, 2) if cls[-1] else 0
-
+    vwap= round(pv/tv,2) if tv>0 else 0
+    or_h= max(c["h"] for c in candles[:2]) if len(candles)>=2 else candles[0]["h"]
+    or_l= min(c["l"] for c in candles[:2]) if len(candles)>=2 else candles[0]["l"]
+    lh_v= sum(v[-4:]) if len(v)>=4 else sum(v)
+    avg_v=sum(v)/len(v) if v else 1
+    surge=round(lh_v/(avg_v*4),2) if avg_v>0 else 0
     return {
         "day_open":           candles[0]["o"],
         "day_high":           max(o),
@@ -91,8 +82,10 @@ def intraday_stats(candles: list) -> dict:
         "opening_range_low":  or_l,
         "vwap":               vwap,
         "vol_surge_last_hr":  surge,
-        "day_range_pct":      day_range_pct,
+        "day_range_pct":      round((max(o)-min(lo))/cls[-1]*100,2) if cls[-1] and lo else 0,
         "total_volume":       sum(v),
+        "close_vs_vwap":      "above" if cls[-1]>vwap else "below",
+        "close_vs_or_high":   "above" if cls[-1]>or_h else "below",
     }
 
 
@@ -101,22 +94,30 @@ def main():
     kite     = get_kite()
     today    = datetime.today()
     date_str = today.strftime("%Y-%m-%d")
+    mkt_s    = today.replace(hour=9,  minute=15, second=0, microsecond=0)
+    mkt_e    = today.replace(hour=15, minute=30, second=0, microsecond=0)
 
-    mkt_start = today.replace(hour=9,  minute=15, second=0, microsecond=0)
-    mkt_end   = today.replace(hour=15, minute=30, second=0, microsecond=0)
-
-    # Load instrument map built by fetch_eod.py
     map_path  = Path("data/master/instrument_map.json")
     if not map_path.exists():
-        log.error("Instrument map missing — run fetch_eod.py first or they run in sequence")
+        log.error("Instrument map missing — fetch_eod.py must run first")
         sys.exit(1)
     token_map = json.loads(map_path.read_text())["tokens"]
 
     output = {
-        "fetch_date": date_str,
-        "fetch_time": today.strftime("%H:%M:%S IST"),
-        "source":     "Zerodha Kite Connect",
-        "symbols":    {}
+        "data_type":   "INTRADAY_CANDLES",
+        "description": "Complete intraday candle data for FnO universe — 15min, 5min, 1min",
+        "universe":    "NSE FnO (211 symbols)",
+        "fetch_date":  date_str,
+        "fetch_time":  today.strftime("%H:%M:%S IST"),
+        "source":      "Zerodha Kite Connect Historical API",
+        "market_hours":"09:15 to 15:30 IST",
+        "timeframes":  ["15min (25 candles/day)", "5min (75 candles/day)", "1min (375 candles/day)"],
+        "stats_fields":["day_open","day_high","day_low","day_close","day_change_pct",
+                        "opening_range_high","opening_range_low","vwap",
+                        "vol_surge_last_hr","day_range_pct","total_volume",
+                        "close_vs_vwap","close_vs_or_high"],
+        "note":        "Data fetched after 3:30 PM — complete day candles only",
+        "symbols":     {}
     }
 
     failed = []
@@ -128,11 +129,10 @@ def main():
 
         log.info(f"[{i:3d}/{len(FNO_SYMBOLS)}] {sym}")
         sym_data = {}
-
         for tf_name, tf_kite in TIMEFRAMES.items():
             try:
-                candles  = kite.historical_data(inst["token"], mkt_start, mkt_end, tf_kite)
-                cdicts   = [c2d(c) for c in candles]
+                candles = kite.historical_data(inst["token"], mkt_s, mkt_e, tf_kite)
+                cdicts  = [c2d(c) for c in candles]
                 sym_data[tf_name] = cdicts
                 if tf_name == "15min" and cdicts:
                     sym_data["stats"] = intraday_stats(cdicts)
@@ -150,7 +150,6 @@ def main():
     out = Path(f"data/intraday/{date_str}.json")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(output, indent=2, default=str))
-
     ok = sum(1 for v in output["symbols"].values() if v.get("data_grade")=="A")
     log.info(f"=== Intraday Done: {out} | {ok}/{len(FNO_SYMBOLS)} OK | {len(failed)} failed ===")
 
