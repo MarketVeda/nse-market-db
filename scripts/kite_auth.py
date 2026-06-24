@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 kite_auth.py - Fully automated Kite Connect login via pyotp
-Fixed: Added totp_type parameter, clock tolerance, better error messages
+Fixed: Capture request_token from redirect without actually connecting to 127.0.0.1
+The trick: disable allow_redirects and read the Location header directly.
 """
 
 import sys, os, json, time, logging
@@ -24,6 +25,7 @@ def _load_cached_token(api_key):
             return None
         d = json.load(open(TOKEN_CACHE))
         if d.get("date") == datetime.today().strftime("%Y-%m-%d") and d.get("api_key") == api_key:
+            log.info("[AUTH] Found cached token for today")
             return d.get("access_token")
     except Exception:
         pass
@@ -35,8 +37,74 @@ def _save_token(api_key, token):
         json.dump({"api_key": api_key, "access_token": token,
                    "date": datetime.today().strftime("%Y-%m-%d")},
                   open(TOKEN_CACHE, "w"))
-    except Exception:
-        pass
+    except Exception as e:
+        log.warning(f"[AUTH] Could not cache token: {e}")
+
+
+def _extract_request_token(sess, api_key):
+    """
+    Get request_token by following the Kite connect/login redirect chain
+    WITHOUT actually connecting to 127.0.0.1.
+    We intercept the redirect at the last hop and read the Location header.
+    """
+    connect_url = f"https://kite.trade/connect/login?v=3&api_key={api_key}"
+    log.info(f"[AUTH] Step 3: GET {connect_url}")
+
+    # Follow redirects manually, stop before connecting to 127.0.0.1
+    url = connect_url
+    for hop in range(10):
+        try:
+            resp = sess.get(url, allow_redirects=False, timeout=15)
+        except requests.exceptions.ConnectionError as e:
+            # If we already hit 127.0.0.1 connection error, the URL is in the exception
+            err_str = str(e)
+            log.info(f"[AUTH] Connection error on hop {hop}: {err_str[:200]}")
+            # Try to extract URL from error message
+            if "127.0.0.1" in err_str:
+                # Extract from the pool URL in error
+                import re
+                match = re.search(r"url: ([^\s]+)", err_str)
+                if match:
+                    redirect_url = "http://127.0.0.1/" + match.group(1).split("/", 3)[-1] if "/" in match.group(1) else match.group(1)
+                    log.info(f"[AUTH] Extracted URL from error: {redirect_url}")
+                    parsed = urlparse(redirect_url)
+                    params = parse_qs(parsed.query)
+                    if "request_token" in params:
+                        return params["request_token"][0]
+            raise
+
+        location = resp.headers.get("Location", "")
+        log.info(f"[AUTH] Hop {hop}: status={resp.status_code}, Location={location[:100]}")
+
+        if resp.status_code in (301, 302, 303, 307, 308) and location:
+            # Check if this redirect points to our redirect URL (127.0.0.1)
+            if "127.0.0.1" in location or "request_token" in location:
+                log.info(f"[AUTH] Found redirect to callback: {location[:200]}")
+                parsed = urlparse(location)
+                params = parse_qs(parsed.query)
+                if "request_token" in params:
+                    return params["request_token"][0]
+                # request_token might be in fragment
+                if "request_token" in parsed.fragment:
+                    frag_params = parse_qs(parsed.fragment)
+                    if "request_token" in frag_params:
+                        return frag_params["request_token"][0]
+            url = location
+            continue
+
+        # Non-redirect response — check if request_token is in final URL
+        parsed = urlparse(resp.url)
+        params = parse_qs(parsed.query)
+        if "request_token" in params:
+            return params["request_token"][0]
+
+        log.warning(f"[AUTH] Unexpected response on hop {hop}: status={resp.status_code}")
+        break
+
+    raise RuntimeError(
+        "Could not extract request_token from redirect chain.\n"
+        "Make sure Redirect URL in developers.kite.trade is set to: https://127.0.0.1/"
+    )
 
 
 def _do_login(api_key, api_secret, user_id, password, totp_secret):
@@ -47,26 +115,24 @@ def _do_login(api_key, api_secret, user_id, password, totp_secret):
         "Content-Type":   "application/x-www-form-urlencoded",
     })
 
-    # Step 1: Credentials
-    log.info(f"[AUTH] Step 1: Login credentials for {user_id}")
+    # Step 1: POST credentials
+    log.info(f"[AUTH] Step 1: Posting credentials for {user_id}")
     r1 = sess.post(LOGIN_URL, data={"user_id": user_id, "password": password})
     r1.raise_for_status()
     d1 = r1.json()
     if d1.get("status") != "success":
         raise RuntimeError(f"Step 1 failed: {d1.get('message', d1)}")
-    request_id    = d1["data"]["request_id"]
-    twofa_type    = d1["data"].get("twofa_type", "totp")   # get the type Kite expects
+    request_id = d1["data"]["request_id"]
+    twofa_type = d1["data"].get("twofa_type", "totp")
     log.info(f"[AUTH] Step 1 OK — request_id={request_id}, twofa_type={twofa_type}")
 
-    # Step 2: TOTP — try current + adjacent time windows for clock tolerance
-    log.info("[AUTH] Step 2: Generating TOTP")
+    # Step 2: POST TOTP with clock tolerance
+    log.info("[AUTH] Step 2: Generating and submitting TOTP")
     totp_obj = pyotp.TOTP(totp_secret)
-
-    # Try current OTP first, then -1 and +1 windows if needed
-    success = False
+    success  = False
     for offset in [0, -1, 1, -2, 2]:
         otp = totp_obj.at(datetime.now(), counter_offset=offset)
-        log.info(f"[AUTH] Trying TOTP offset={offset}: {otp}")
+        log.info(f"[AUTH] TOTP offset={offset}: {otp}")
         r2 = sess.post(TWOFA_URL, data={
             "user_id":      user_id,
             "request_id":   request_id,
@@ -74,53 +140,29 @@ def _do_login(api_key, api_secret, user_id, password, totp_secret):
             "twofa_type":   twofa_type,
             "skip_session": "",
         })
-        if r2.status_code == 200:
-            d2 = r2.json()
-            if d2.get("status") == "success":
-                log.info(f"[AUTH] Step 2 OK with offset={offset}")
-                success = True
-                break
-            else:
-                log.warning(f"[AUTH] TOTP offset={offset} rejected: {d2.get('message','')}")
-        else:
-            log.warning(f"[AUTH] TOTP offset={offset} HTTP {r2.status_code}: {r2.text[:200]}")
+        if r2.status_code == 200 and r2.json().get("status") == "success":
+            log.info(f"[AUTH] Step 2 OK with offset={offset}")
+            success = True
+            break
+        log.warning(f"[AUTH] offset={offset} rejected: {r2.status_code} {r2.text[:100]}")
         time.sleep(0.5)
 
     if not success:
         raise RuntimeError(
-            "Step 2 (TOTP) failed for all offsets.\n"
-            "Possible causes:\n"
-            "  1. Wrong TOTP secret — go to kite.zerodha.com → Profile → "
-            "Password & Security → reset 2FA TOTP → click 'Can't scan? Copy key'\n"
-            "  2. Zerodha account uses SMS OTP not TOTP — enable External TOTP first\n"
-            "  3. Wrong KITE_USER_ID or KITE_PASSWORD"
+            "TOTP rejected. Ensure KITE_TOTP_SECRET matches the key shown when "
+            "you enabled External TOTP on kite.zerodha.com"
         )
 
-    # Step 3: Get request_token via connect/login redirect
-    log.info("[AUTH] Step 3: Getting request_token via connect URL")
-    connect_url = f"https://kite.trade/connect/login?v=3&api_key={api_key}"
-    r3 = sess.get(connect_url, allow_redirects=True)
-    final_url = r3.url
-    log.info(f"[AUTH] Redirect final URL: {final_url}")
-
-    parsed = urlparse(final_url)
-    params = parse_qs(parsed.query)
-
-    if "request_token" not in params:
-        raise RuntimeError(
-            f"request_token missing from redirect. Final URL: {final_url}\n"
-            "FIX: Go to developers.kite.trade → your app → set Redirect URL to: https://127.0.0.1/"
-        )
-
-    request_token = params["request_token"][0]
+    # Step 3: Get request_token from redirect
+    request_token = _extract_request_token(sess, api_key)
     log.info(f"[AUTH] Step 3 OK — request_token={request_token[:12]}...")
 
     # Step 4: Generate access_token
     log.info("[AUTH] Step 4: Generating access_token")
     kite = KiteConnect(api_key=api_key)
-    session_data = kite.generate_session(request_token, api_secret=api_secret)
-    access_token = session_data["access_token"]
-    log.info(f"[AUTH] Step 4 OK — access_token obtained")
+    data = kite.generate_session(request_token, api_secret=api_secret)
+    access_token = data["access_token"]
+    log.info("[AUTH] Step 4 OK — access_token obtained")
     return access_token
 
 
@@ -139,12 +181,12 @@ def get_kite():
         kite.set_access_token(cached)
         try:
             kite.profile()
-            log.info("[AUTH] ✓ Using cached token")
+            log.info("[AUTH] ✓ Cached token valid")
             return kite
         except Exception:
             log.info("[AUTH] Cached token expired, re-logging in")
 
-    # Full login with 3 retries
+    # Full login
     for attempt in range(1, 4):
         try:
             token = _do_login(api_key, api_secret, user_id, password, totp_secret)
@@ -154,8 +196,7 @@ def get_kite():
             log.info(f"[AUTH] ✓ Login successful on attempt {attempt}")
             return kite
         except RuntimeError as e:
-            # RuntimeError means wrong credentials/config — don't retry
-            log.error(f"[AUTH] Fatal error: {e}")
+            log.error(f"[AUTH] Fatal: {e}")
             raise
         except Exception as e:
             log.error(f"[AUTH] Attempt {attempt} failed: {e}")
