@@ -3,7 +3,7 @@
   "description": "F&O Open Interest + live quotes for FnO universe",
   "universe": "NSE FnO (211 symbols)",
   "fetch_date": "2026-06-24",
-  "fetch_time": "11:52:43 IST",
+  "fetch_time": "17:41:45 IST",
   "source": "Zerodha Kite Connect Quotes API",
   "fields": [
     "last_price",
