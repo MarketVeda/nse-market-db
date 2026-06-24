@@ -40,10 +40,12 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/financials/
           if git diff --staged --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
+            git pull --rebase origin main
             git commit -m "Financials screener.in $(date +'%Y-%m-%d')"
             git push
+            echo "Financials committed"
           fi
 
   # ── Job 2: News & Announcements (runs weekdays only) ───────────────────────
@@ -77,8 +79,10 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news/
           if git diff --staged --quiet; then
-            echo "No changes"
+            echo "No changes to commit"
           else
+            git pull --rebase origin main
             git commit -m "News/announcements $(date +'%Y-%m-%d')"
             git push
+            echo "News committed"
           fi
