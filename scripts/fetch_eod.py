@@ -1,14 +1,11 @@
 #!/usr/bin/env python3
 """
-fetch_eod.py
-------------
-Fetches EOD OHLCV + DMA + RS for all NIFTY 500 symbols via Kite Connect.
-Saves to: data/daily/YYYY-MM-DD.json
-Rate: 3 req/sec → ~3 min for 500 symbols
+fetch_eod.py — EOD OHLCV + DMA + RS for NIFTY 500
+Output: data/daily/YYYY-MM-DD.json
 """
 
 import sys, os
-sys.path.insert(0, os.path.dirname(__file__))   # so kite_auth imports cleanly
+sys.path.insert(0, os.path.dirname(__file__))
 
 import json, time, logging
 from datetime import datetime, timedelta
@@ -84,55 +81,47 @@ NIFTY500 = [
 ]
 
 
-def build_instrument_map(kite) -> dict:
-    """Build and cache symbol→token map from Kite NSE instruments dump."""
+def build_instrument_map(kite):
     map_path = Path("data/master/instrument_map.json")
     today    = datetime.today().strftime("%Y-%m-%d")
-    weekday  = datetime.today().weekday()   # 0=Mon
-
-    # Use cache except on Monday (refresh weekly)
+    weekday  = datetime.today().weekday()
     if map_path.exists() and weekday != 0:
         cached = json.loads(map_path.read_text())
         if cached.get("date") == today or weekday != 0:
             log.info(f"Using cached instrument map ({cached.get('date')})")
             return cached["tokens"]
-
-    log.info("Fetching fresh instrument list from Kite...")
+    log.info("Building fresh instrument map from Kite...")
     instruments = kite.instruments("NSE")
     token_map   = {}
     for inst in instruments:
         if inst["instrument_type"] == "EQ":
-            sym = inst["tradingsymbol"].replace("-EQ", "")
-            token_map[sym] = {
-                "token":      inst["instrument_token"],
-                "tradingsym": inst["tradingsymbol"],
-            }
+            sym = inst["tradingsymbol"].replace("-EQ","")
+            token_map[sym] = {"token": inst["instrument_token"], "tradingsym": inst["tradingsymbol"]}
     map_path.parent.mkdir(parents=True, exist_ok=True)
     map_path.write_text(json.dumps({"date": today, "tokens": token_map}, indent=2))
     log.info(f"Instrument map built: {len(token_map)} symbols")
     return token_map
 
 
-def safe_fetch(kite, token: int, interval: str, from_dt, to_dt) -> list:
-    """Fetch historical data with 3 retries."""
+def safe_fetch(kite, token, interval, from_dt, to_dt):
     for attempt in range(3):
         try:
             return kite.historical_data(token, from_dt, to_dt, interval)
         except Exception as e:
             if attempt < 2:
-                log.warning(f"Retry {attempt+1} for token {token}: {e}")
-                time.sleep(2 ** attempt)
+                log.warning(f"Retry {attempt+1}: {e}")
+                time.sleep(2**attempt)
             else:
                 raise
     return []
 
 
-def rs_score(stock_closes: list, nifty_closes: list, period: int = 65) -> float:
-    if len(stock_closes) < period or len(nifty_closes) < period:
+def rs_score(sc, nc, period=65):
+    if len(sc) < period or len(nc) < period:
         return 0.0
-    sr = (stock_closes[-1] - stock_closes[-period]) / stock_closes[-period]
-    nr = (nifty_closes[-1] - nifty_closes[-period]) / nifty_closes[-period]
-    return round(sr / nr if nr != 0 else 0.0, 4)
+    sr = (sc[-1]-sc[-period])/sc[-period]
+    nr = (nc[-1]-nc[-period])/nc[-period]
+    return round(sr/nr if nr!=0 else 0.0, 4)
 
 
 def main():
@@ -140,24 +129,31 @@ def main():
     kite     = get_kite()
     today    = datetime.today()
     date_str = today.strftime("%Y-%m-%d")
-    start    = today - timedelta(days=300)   # enough for 200 DMA
+    start    = today - timedelta(days=300)
 
     token_map = build_instrument_map(kite)
 
-    # Nifty50 baseline (instrument_token 256265 = NIFTY 50 index)
+    # Nifty50 baseline for RS (token 256265)
     nifty_closes = []
     try:
-        nifty_candles = safe_fetch(kite, 256265, "day", start, today)
-        nifty_closes  = [c["close"] for c in nifty_candles]
+        nc = safe_fetch(kite, 256265, "day", start, today)
+        nifty_closes = [c["close"] for c in nc]
         log.info(f"Nifty50: {len(nifty_closes)} candles, last={nifty_closes[-1]}")
     except Exception as e:
         log.warning(f"Nifty50 fetch failed: {e}")
 
     output = {
+        "data_type":     "EOD_DAILY",
+        "description":   "End-of-Day OHLCV + DMA + RS for NIFTY 500 universe",
+        "universe":      "NIFTY500 (500 symbols)",
         "fetch_date":    date_str,
         "fetch_time":    today.strftime("%H:%M:%S IST"),
-        "source":        "Zerodha Kite Connect",
+        "source":        "Zerodha Kite Connect Historical API",
         "nifty50_close": nifty_closes[-1] if nifty_closes else 0,
+        "fields":        ["open","high","low","close","volume","avg_vol_20","prev_close",
+                          "change_pct","52w_high","52w_low","dma_50","dma_150","dma_200",
+                          "rs_raw","delivery_pct","data_grade"],
+        "note":          "delivery_pct merged from data/delivery/ file during analysis",
         "symbols":       {}
     }
 
@@ -165,28 +161,22 @@ def main():
     for i, sym in enumerate(NIFTY500, 1):
         inst = token_map.get(sym)
         if not inst:
-            log.warning(f"[{i:3d}] {sym}: not in instrument map — skipping")
-            output["symbols"][sym] = {"error": "not_found", "data_grade": "C"}
+            log.warning(f"[{i:3d}] {sym}: not in map")
+            output["symbols"][sym] = {"error":"not_found","data_grade":"C"}
             continue
 
         log.info(f"[{i:3d}/{len(NIFTY500)}] {sym}")
         try:
             candles = safe_fetch(kite, inst["token"], "day", start, today)
             if not candles:
-                raise ValueError("Empty candle response")
+                raise ValueError("Empty response")
 
             closes = [c["close"] for c in candles]
-            tc     = candles[-1]   # today's candle
-            pc     = candles[-2] if len(candles) >= 2 else tc
-
-            highs  = [c["high"] for c in candles]
-            lows   = [c["low"]  for c in candles if c["low"] > 0]
-            vols   = [c["volume"] for c in candles if c.get("volume", 0) > 0]
-
+            highs  = [c["high"]  for c in candles]
+            lows   = [c["low"]   for c in candles if c["low"]>0]
+            vols   = [c["volume"] for c in candles if c.get("volume",0)>0]
+            tc, pc = candles[-1], (candles[-2] if len(candles)>=2 else candles[-1])
             n      = len(closes)
-            dma50  = round(sum(closes[-50:])  / min(n, 50),  2) if n >= 10 else None
-            dma150 = round(sum(closes[-150:]) / min(n, 150), 2) if n >= 50 else None
-            dma200 = round(sum(closes[-200:]) / min(n, 200), 2) if n >= 100 else None
 
             output["symbols"][sym] = {
                 "open":       tc["open"],
@@ -194,33 +184,29 @@ def main():
                 "low":        tc["low"],
                 "close":      tc["close"],
                 "volume":     tc.get("volume", 0),
-                "avg_vol_20": int(sum(vols[-20:]) / min(len(vols), 20)) if vols else 0,
+                "avg_vol_20": int(sum(vols[-20:])/min(len(vols),20)) if vols else 0,
                 "prev_close": pc["close"],
-                "change_pct": round(((tc["close"] - pc["close"]) / pc["close"]) * 100, 2) if pc["close"] else 0,
-                "52w_high":   round(max(highs), 2),
-                "52w_low":    round(min(lows), 2) if lows else 0,
-                "dma_50":     dma50,
-                "dma_150":    dma150,
-                "dma_200":    dma200,
+                "change_pct": round(((tc["close"]-pc["close"])/pc["close"])*100,2) if pc["close"] else 0,
+                "52w_high":   round(max(highs),2),
+                "52w_low":    round(min(lows),2) if lows else 0,
+                "dma_50":     round(sum(closes[-50:])/min(n,50),2)   if n>=10  else None,
+                "dma_150":    round(sum(closes[-150:])/min(n,150),2) if n>=50  else None,
+                "dma_200":    round(sum(closes[-200:])/min(n,200),2) if n>=100 else None,
                 "rs_raw":     rs_score(closes, nifty_closes),
                 "data_grade": "A",
             }
-
         except Exception as e:
             log.error(f"  FAILED {sym}: {e}")
-            output["symbols"][sym] = {"error": str(e), "data_grade": "C"}
+            output["symbols"][sym] = {"error":str(e),"data_grade":"C"}
             failed.append(sym)
 
-        time.sleep(0.34)   # ~3 req/sec rate limit
+        time.sleep(0.34)
 
     out = Path(f"data/daily/{date_str}.json")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(output, indent=2, default=str))
-
-    ok = sum(1 for v in output["symbols"].values() if v.get("data_grade") == "A")
+    ok = sum(1 for v in output["symbols"].values() if v.get("data_grade")=="A")
     log.info(f"=== EOD Done: {out} | {ok}/{len(NIFTY500)} OK | {len(failed)} failed ===")
-    if failed:
-        log.warning(f"Failed symbols: {failed}")
 
 
 if __name__ == "__main__":
