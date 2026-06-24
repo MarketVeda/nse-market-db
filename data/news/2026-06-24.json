@@ -1,0 +1,148 @@
+{
+  "data_type": "NEWS_ANNOUNCEMENTS",
+  "description": "Official NSE exchange filings + corporate actions + bulk/block deals",
+  "fetch_date": "2026-06-24",
+  "fetch_time": "12:47:07 IST",
+  "lookback_days": 7,
+  "sources": [
+    "NSE India official API (announcements, board meetings, actions, bulk/block deals)"
+  ],
+  "impact_score_guide": {
+    "20": "Major order win with value (lakh crore / billion dollar)",
+    "18": "Index inclusion (Nifty/Sensex addition)",
+    "17": "Acquisition / major merger",
+    "15": "Large order / strategic acquisition",
+    "13": "Record quarterly results / highest ever profit",
+    "12": "Buyback / regulatory approval / drug approval",
+    "10": "Dividend / bonus / split / capex / expansion",
+    "8": "Board meeting / AGM / QIP fundraise",
+    "5": "Promoter/FII bulk buying",
+    "3": "Routine results / board outcome",
+    "0": "Negative \u2014 penalty / fraud / default (exclude)"
+  },
+  "total_symbols": 8,
+  "high_impact_count": 0,
+  "negative_exclude": 0,
+  "symbols": {
+    "NAM-INDIA": {
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 12.50 Per Share",
+          "score": 10
+        }
+      ],
+      "bulk_block_deals": {}
+    },
+    "LALPATHLAB": {
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 4 Per Share",
+          "score": 10
+        }
+      ],
+      "bulk_block_deals": {}
+    },
+    "BAJAJ-AUTO": {
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "24-Jun-2026",
+          "action": "Buy Back",
+          "score": 5
+        }
+      ],
+      "bulk_block_deals": {}
+    },
+    "LICI": {
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 10 Per Share",
+          "score": 10
+        }
+      ],
+      "bulk_block_deals": {}
+    },
+    "INDUSINDBK": {
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.50 Per Share",
+          "score": 10
+        }
+      ],
+      "bulk_block_deals": {}
+    },
+    "SYNGENE": {
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.25 Per Share",
+          "score": 10
+        }
+      ],
+      "bulk_block_deals": {}
+    },
+    "SONACOMS": {
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.80 Per Share",
+          "score": 10
+        }
+      ],
+      "bulk_block_deals": {}
+    },
+    "ZFCVINDIA": {
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "announcements": [],
+      "board_meeting": {},
+      "corporate_actions": [
+        {
+          "ex_date": "24-Jun-2026",
+          "action": "Bonus 5:1",
+          "score": 5
+        }
+      ],
+      "bulk_block_deals": {}
+    }
+  }
+}
