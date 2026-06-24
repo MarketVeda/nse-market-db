@@ -1,6 +1,21 @@
 {
+  "data_type": "FNO_OI_QUOTES",
+  "description": "F&O Open Interest + live quotes for FnO universe",
+  "universe": "NSE FnO (211 symbols)",
   "fetch_date": "2026-06-24",
-  "fetch_time": "10:47:07 IST",
+  "fetch_time": "11:52:43 IST",
   "source": "Zerodha Kite Connect Quotes API",
+  "fields": [
+    "last_price",
+    "volume",
+    "oi",
+    "oi_day_high",
+    "oi_day_low",
+    "buy_qty",
+    "sell_qty",
+    "avg_price",
+    "data_grade"
+  ],
+  "note": "OI = Open Interest for equity futures. High OI + rising price = long buildup.",
   "symbols": {}
 }

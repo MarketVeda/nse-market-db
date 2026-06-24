@@ -1,7 +1,17 @@
 {
+  "data_type": "DELIVERY_DATA",
+  "description": "NSE delivery quantity and delivery % for all EQ series symbols",
+  "universe": "All NSE EQ symbols (~2000 symbols)",
   "fetch_date": "2026-06-24",
   "data_date": "unknown",
-  "source": "NSE sec_bhavdata_full",
+  "source": "NSE sec_bhavdata_full public CSV",
+  "fields": [
+    "delivery_qty",
+    "delivery_pct",
+    "trade_qty",
+    "data_grade"
+  ],
+  "note": "delivery_pct > 50% = strong institutional interest. High delivery = conviction buying.",
   "total_symbols": 0,
   "symbols": {}
 }

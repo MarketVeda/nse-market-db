@@ -1,8 +1,30 @@
 {
+  "data_type": "EOD_DAILY",
+  "description": "End-of-Day OHLCV + DMA + RS for NIFTY 500 universe",
+  "universe": "NIFTY500 (500 symbols)",
   "fetch_date": "2026-06-24",
-  "fetch_time": "10:35:52 IST",
-  "source": "Zerodha Kite Connect",
+  "fetch_time": "11:42:02 IST",
+  "source": "Zerodha Kite Connect Historical API",
   "nifty50_close": 24013.15,
+  "fields": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "avg_vol_20",
+    "prev_close",
+    "change_pct",
+    "52w_high",
+    "52w_low",
+    "dma_50",
+    "dma_150",
+    "dma_200",
+    "rs_raw",
+    "delivery_pct",
+    "data_grade"
+  ],
+  "note": "delivery_pct merged from data/delivery/ file during analysis",
   "symbols": {
     "360ONE": {
       "open": 1109.7,
