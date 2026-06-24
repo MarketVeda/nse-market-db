@@ -1,95 +1,55 @@
 name: nightly-nse-fetch
 
-# ─── Triggers ─────────────────────────────────────────────────────────────────
 on:
   schedule:
-    # 5:30 PM IST = 12:00 UTC  (Mon–Fri only)
-    # Market closes 3:30 PM, bhavcopy available ~4:30 PM, Definedge API EOD ready ~5 PM
     - cron: "0 12 * * 1-5"
-
   workflow_dispatch:
-    # Manual trigger from GitHub Actions tab (for testing)
-    inputs:
-      reason:
-        description: "Reason for manual run"
-        required: false
-        default: "Manual test"
 
-# ─── Job ──────────────────────────────────────────────────────────────────────
 jobs:
   fetch-nse-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 60    # Safety: kill if it hangs
+    timeout-minutes: 60
 
     steps:
-      # 1. Check out repo with write access via PAT
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
-          fetch-depth: 1
 
-      # 2. Python setup with pip cache
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: "pip"
 
-      # 3. Install dependencies
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install pyintegrate requests
 
-      # 4. Rebuild master token map (runs weekly on Monday, or if map missing)
-      - name: Rebuild symbol token map (Monday only)
-        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'schedule' && github.event.schedule == '0 12 * * 1')
-        run: python scripts/build_master.py
-
-      # 5. Fetch EOD OHLCV for all NIFTY500
       - name: Fetch EOD OHLCV data
         env:
           DEFINEDGE_API_TOKEN: ${{ secrets.DEFINEDGE_API_TOKEN }}
           DEFINEDGE_API_SECRET: ${{ secrets.DEFINEDGE_API_SECRET }}
         run: python scripts/fetch_eod.py
 
-      # 6. Fetch F&O OI data
       - name: Fetch F&O OI data
         env:
           DEFINEDGE_API_TOKEN: ${{ secrets.DEFINEDGE_API_TOKEN }}
           DEFINEDGE_API_SECRET: ${{ secrets.DEFINEDGE_API_SECRET }}
         run: python scripts/fetch_fno_oi.py
 
-      # 7. Fetch delivery data from NSE bhavcopy (public, no auth needed)
       - name: Fetch NSE delivery data
         run: python scripts/fetch_delivery.py
 
-      # 8. Check if any files changed, commit and push if yes
       - name: Commit and push new data
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
-          # Only commit if something changed
           if git diff --staged --quiet; then
-            echo "No data changes to commit (holiday or duplicate run)"
+            echo "No changes to commit"
           else
             DATE=$(date +'%Y-%m-%d')
-            git commit -m "NSE data ${DATE} — auto fetch"
+            git commit -m "NSE data ${DATE}"
             git push
-            echo "✓ Data committed and pushed for ${DATE}"
           fi
-
-      # 9. Log summary
-      - name: Print fetch summary
-        run: |
-          echo "=== Files written today ==="
-          DATE=$(date +'%Y-%m-%d')
-          for f in data/daily/${DATE}.json data/fno_oi/${DATE}.json data/delivery/${DATE}.json; do
-            if [ -f "$f" ]; then
-              echo "  ✓ $f  ($(wc -c < $f) bytes)"
-            else
-              echo "  ✗ $f  MISSING"
-            fi
-          done
