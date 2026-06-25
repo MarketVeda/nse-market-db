@@ -19,7 +19,6 @@ def get_ist_now():
     return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
 
 import json, time, logging
-    return datetime.now(IST).replace(tzinfo=None)
 from pathlib import Path
 from kite_auth import get_kite
 
