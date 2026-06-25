@@ -13,8 +13,13 @@ Output:
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
+from datetime import datetime, timedelta, timezone
+
+def get_ist_now():
+    """Always returns current time as IST — GitHub runners use UTC."""
+    return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
+
 import json, time, logging, shutil
-from datetime import datetime
 from pathlib import Path
 from kite_auth import get_kite
 
@@ -117,12 +122,6 @@ FNO_SYMBOLS = [
 ]
 
 
-def get_ist_now():
-    """Always return current time in IST regardless of server timezone."""
-    from datetime import timezone, timedelta
-    IST = timezone(timedelta(hours=5, minutes=30))
-    return datetime.now(IST).replace(tzinfo=None)   # naive datetime in IST
-
 
 def is_market_open(now):
     if now.weekday() >= 5:
@@ -132,7 +131,7 @@ def is_market_open(now):
 
 def prune_old_live_folders(live_dir: Path, keep_today_only: bool = True):
     """Delete all day folders except today's. Always keep latest.json."""
-    today_str = datetime.today().strftime("%Y-%m-%d")
+    today_str = get_ist_now().strftime("%Y-%m-%d")
     for d in live_dir.iterdir():
         if d.is_dir() and d.name != today_str:
             shutil.rmtree(d)
