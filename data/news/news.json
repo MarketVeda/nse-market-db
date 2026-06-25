@@ -1,0 +1,156 @@
+{
+  "data_type": "NEWS_ANNOUNCEMENTS",
+  "description": "NSE corporate announcements \u2014 incremental, deduped, rolling 7 days",
+  "source": "NSE India official API",
+  "symbols": {
+    "ABDL": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "dae63020fbbf",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 5.40 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NAM-INDIA": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "a6725fb4caba",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 12.50 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SONACOMS": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "16a75fbe4eb4",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.80 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LICI": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "0f59a4be7add",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 10 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SYNGENE": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "5c97751f063f",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.25 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LALPATHLAB": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "8fa5e49474dc",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 4 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "INDUSINDBK": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "73a531baccca",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.50 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SUPREMEIND": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "d3567446fba1",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 25 Per Share",
+          "score": 10,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "KAJARIACER": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "fc63866d8a49",
+          "ex_date": "29-Jun-2026",
+          "action": "Buy Back",
+          "score": 5,
+          "fetched": "15:07"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    }
+  },
+  "last_updated": "2026-06-25 15:07",
+  "total_symbols": 9,
+  "high_impact": 0,
+  "new_this_run": 9,
+  "total_seen_ids": 9
+}
