@@ -12,7 +12,11 @@ import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
 import json, time, logging
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta as _td
+
+def get_ist_now():
+    IST = timezone(_td(hours=5, minutes=30))
+    return datetime.now(IST).replace(tzinfo=None), timedelta
 from pathlib import Path
 from kite_auth import get_kite
 
@@ -96,8 +100,8 @@ def prune_old_files(folder: Path, keep: int):
 
 def build_instrument_map(kite):
     map_path = Path("data/master/instrument_map.json")
-    today    = datetime.today().strftime("%Y-%m-%d")
-    weekday  = datetime.today().weekday()
+    today    = get_ist_now().strftime("%Y-%m-%d")
+    weekday  = get_ist_now().weekday()
     if map_path.exists() and weekday != 0:
         cached = json.loads(map_path.read_text())
         if cached.get("date") == today or weekday != 0:
@@ -140,7 +144,7 @@ def rs_score(sc, nc, period=65):
 def main():
     log.info("=== EOD Fetch Start ===")
     kite     = get_kite()
-    today    = datetime.today()
+    today    = get_ist_now()
     date_str = today.strftime("%Y-%m-%d")
     out      = Path(f"data/daily/{date_str}.json")
 
