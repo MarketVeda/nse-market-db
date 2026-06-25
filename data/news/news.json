@@ -174,12 +174,21 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "6577947753b4",
+          "datetime": "25-Jun-2026 18:41:45",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "LTTS": {
@@ -210,6 +219,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "974ab97849e4",
+          "datetime": "25-Jun-2026 21:34:08",
+          "subject": "News Verification",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -300,6 +318,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "9cb6842425a8",
+          "datetime": "25-Jun-2026 21:59:51",
+          "subject": "Change in Auditors",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "6141d6909592",
+          "datetime": "25-Jun-2026 21:54:56",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "b693d81361d6",
+          "datetime": "25-Jun-2026 21:34:34",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -426,6 +471,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "31e677c1cd02",
+          "datetime": "25-Jun-2026 20:52:59",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "55d40b957bcf",
+          "datetime": "25-Jun-2026 20:46:12",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -1100,11 +1163,29 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "fa8d51cb8cd3",
+          "datetime": "25-Jun-2026 21:33:07",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "33cc862f0903",
+          "datetime": "25-Jun-2026 21:33:07",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 8,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -1406,6 +1487,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "4191524d7392",
+          "datetime": "25-Jun-2026 22:00:14",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -1586,6 +1676,15 @@
           "score": 17,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "834dcf5dbaeb",
+          "datetime": "25-Jun-2026 19:07:51",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -1739,6 +1838,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "b6b96326248d",
+          "datetime": "25-Jun-2026 18:41:37",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -1802,6 +1910,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "bcfdd798f5ab",
+          "datetime": "25-Jun-2026 19:02:27",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -1955,6 +2072,15 @@
           "score": 8,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "24df1c4d5ec2",
+          "datetime": "25-Jun-2026 18:46:27",
+          "subject": "Revised Record date",
+          "category": "",
+          "score": 10,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2144,6 +2270,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "4dfe6813dd71",
+          "datetime": "25-Jun-2026 20:53:49",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2234,6 +2369,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "6cc8abea5e9f",
+          "datetime": "25-Jun-2026 20:57:16",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2521,6 +2665,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "1682810e88e0",
+          "datetime": "25-Jun-2026 21:03:10",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2575,6 +2728,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "e1344db434d4",
+          "datetime": "25-Jun-2026 21:17:47",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2818,6 +2980,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "25333742dc42",
+          "datetime": "25-Jun-2026 21:41:57",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2836,6 +3007,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "eb0113da4fcf",
+          "datetime": "25-Jun-2026 20:33:37",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2917,6 +3097,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "1c33ada7263a",
+          "datetime": "25-Jun-2026 19:09:01",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -2935,6 +3124,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "034782798c16",
+          "datetime": "25-Jun-2026 21:51:23",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "7764bfff38a9",
+          "datetime": "25-Jun-2026 20:37:33",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "9a943207c814",
+          "datetime": "25-Jun-2026 20:24:00",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -5297,7 +5513,17 @@
       "exclude_negative": false
     },
     "SONACOMS": {
-      "announcements": [],
+      "announcements": [
+        {
+          "id": "38e8373dd746",
+          "datetime": "25-Jun-2026 18:47:03",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
       "actions": [
         {
           "id": "16a75fbe4eb4",
@@ -5338,6 +5564,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "262c956a0c1a",
+          "datetime": "25-Jun-2026 19:31:26",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -5401,6 +5636,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "1486b06ec3cd",
+          "datetime": "25-Jun-2026 18:49:57",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "139b33d24a7d",
+          "datetime": "25-Jun-2026 18:40:12",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -5482,6 +5735,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "86b19cf5a0a6",
+          "datetime": "25-Jun-2026 19:25:12",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "4d6a1f140077",
+          "datetime": "25-Jun-2026 18:48:57",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -5536,6 +5807,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "42fb441f0215",
+          "datetime": "25-Jun-2026 20:40:07",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -5815,6 +6095,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "99511244b7e7",
+          "datetime": "25-Jun-2026 20:00:11",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -6049,6 +6338,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "521cbd9d3568",
+          "datetime": "25-Jun-2026 21:22:43",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
         }
       ],
       "actions": [],
@@ -6362,11 +6660,434 @@
       "news_impact_score": 5,
       "has_major_announcement": false,
       "exclude_negative": false
+    },
+    "DRREDDY": {
+      "announcements": [
+        {
+          "id": "69e4df7d3a49",
+          "datetime": "25-Jun-2026 22:39:49",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CHOLAFIN": {
+      "announcements": [
+        {
+          "id": "88f68adf1816",
+          "datetime": "25-Jun-2026 21:12:56",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "b3f06ae4b5d9",
+          "datetime": "25-Jun-2026 20:43:25",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PINELABS": {
+      "announcements": [
+        {
+          "id": "a2744678c381",
+          "datetime": "25-Jun-2026 21:11:26",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SAILIFE": {
+      "announcements": [
+        {
+          "id": "88df1e9ec41f",
+          "datetime": "25-Jun-2026 20:59:53",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ASTRAL": {
+      "announcements": [
+        {
+          "id": "e45d9e106b9e",
+          "datetime": "25-Jun-2026 20:24:45",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "2e17d4993092",
+          "datetime": "25-Jun-2026 19:12:03",
+          "subject": "Scheme of Arrangement",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "8f48d4a7fb4c",
+          "datetime": "25-Jun-2026 19:07:32",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 8,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "POWERGRID": {
+      "announcements": [
+        {
+          "id": "a64333a8d591",
+          "datetime": "25-Jun-2026 20:17:52",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "FORCEMOT": {
+      "announcements": [
+        {
+          "id": "5840a9872d8e",
+          "datetime": "25-Jun-2026 20:00:52",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SUNPHARMA": {
+      "announcements": [
+        {
+          "id": "b9e55386a2d0",
+          "datetime": "25-Jun-2026 19:57:32",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SBILIFE": {
+      "announcements": [
+        {
+          "id": "b57bc452a9ea",
+          "datetime": "25-Jun-2026 19:57:02",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "RAINBOW": {
+      "announcements": [
+        {
+          "id": "fb53c2b41a26",
+          "datetime": "25-Jun-2026 19:45:39",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "0a401e134844",
+          "datetime": "25-Jun-2026 18:53:28",
+          "subject": "Disclosure of material issue",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        },
+        {
+          "id": "fdb423a10244",
+          "datetime": "25-Jun-2026 18:37:34",
+          "subject": "Options to purchase securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ACMESOLAR": {
+      "announcements": [
+        {
+          "id": "708bcf4427e0",
+          "datetime": "25-Jun-2026 19:40:58",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "BALRAMCHIN": {
+      "announcements": [
+        {
+          "id": "10a86611a44e",
+          "datetime": "25-Jun-2026 19:38:02",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "KFINTECH": {
+      "announcements": [
+        {
+          "id": "579db63e33c9",
+          "datetime": "25-Jun-2026 19:37:29",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CIEINDIA": {
+      "announcements": [
+        {
+          "id": "ae2c60f51ddb",
+          "datetime": "25-Jun-2026 19:34:32",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "RKFORGE": {
+      "announcements": [
+        {
+          "id": "4bb8995ed5ff",
+          "datetime": "25-Jun-2026 19:28:39",
+          "subject": "Reply to Clarification- Financial results",
+          "category": "",
+          "score": 3,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 3,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "OFSS": {
+      "announcements": [
+        {
+          "id": "8d721fd69541",
+          "datetime": "25-Jun-2026 19:20:07",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TATACHEM": {
+      "announcements": [
+        {
+          "id": "2e73b3f155fb",
+          "datetime": "25-Jun-2026 19:13:11",
+          "subject": "Spurt in Volume",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LATENTVIEW": {
+      "announcements": [
+        {
+          "id": "1312fa013cbd",
+          "datetime": "25-Jun-2026 19:00:28",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "AMBER": {
+      "announcements": [
+        {
+          "id": "b476e2cd7966",
+          "datetime": "25-Jun-2026 18:54:13",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ZEEL": {
+      "announcements": [
+        {
+          "id": "87b8f7250d14",
+          "datetime": "25-Jun-2026 18:47:37",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SWANCORP": {
+      "announcements": [
+        {
+          "id": "0ed0dca0bc4f",
+          "datetime": "25-Jun-2026 18:37:29",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "23:02"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
     }
   },
-  "last_updated": "2026-06-25 18:37",
-  "total_symbols": 264,
-  "high_impact": 15,
-  "new_this_run": 112,
-  "total_seen_ids": 444
+  "last_updated": "2026-06-25 23:02",
+  "total_symbols": 285,
+  "high_impact": 16,
+  "new_this_run": 59,
+  "total_seen_ids": 503
 }
