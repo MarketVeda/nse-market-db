@@ -20,8 +20,13 @@ import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
 import json, time, re, logging, requests
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+def get_ist_now():
+    """Return current datetime in IST — GitHub runners are UTC."""
+    IST = timezone(timedelta(hours=5, minutes=30))
+    return datetime.now(IST).replace(tzinfo=None)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -243,7 +248,7 @@ def fetch_screener(sym, session):
     result = {
         "url":              url,
         "data_grade":       "A",
-        "last_fetched":     datetime.today().strftime("%Y-%m-%d"),
+        "last_fetched":     get_ist_now().strftime("%Y-%m-%d"),
         "view":             "consolidated" if "consolidated" in url else "standalone",
         "key_metrics":      parse_key_metrics(soup),
         "quarterly_results":parse_table(soup, "quarters"),
@@ -306,7 +311,7 @@ def fetch_screener(sym, session):
 
 def main():
     log.info("=== Financials Incremental Fetch Start ===")
-    today     = datetime.today().strftime("%Y-%m-%d")
+    today     = get_ist_now().strftime("%Y-%m-%d")
     fetch_log = load_fetch_log()
     master    = load_master_data()
 
