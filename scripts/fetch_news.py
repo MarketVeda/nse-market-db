@@ -206,7 +206,7 @@ def main():
             # 1. Announcements (last 24 hours)
             try:
                 anns = nse.announcements(
-                    segment="equities",
+                    index="equities",
                     from_date=from_dt,
                     to_date=get_ist_now()
                 )
@@ -240,7 +240,7 @@ def main():
 
             # 2. Corporate actions (dividend/bonus/split)
             try:
-                actions = nse.actions(segment="equities")
+                actions = nse.actions(index="equities")
                 for a in actions:
                     sym = (a.get("symbol") or "").upper().strip()
                     if sym not in NIFTY500_SET:
