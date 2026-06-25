@@ -117,6 +117,13 @@ FNO_SYMBOLS = [
 ]
 
 
+def get_ist_now():
+    """Always return current time in IST regardless of server timezone."""
+    from datetime import timezone, timedelta
+    IST = timezone(timedelta(hours=5, minutes=30))
+    return datetime.now(IST).replace(tzinfo=None)   # naive datetime in IST
+
+
 def is_market_open(now):
     if now.weekday() >= 5:
         return False
@@ -192,7 +199,7 @@ def fetch_fno_candles(kite, token_map, mkt_start, now):
 
 def main():
     log.info("=== Live Snapshot Start ===")
-    now      = datetime.now()
+    now      = get_ist_now()   # IST time always — GitHub runners are UTC
     date_str = now.strftime("%Y-%m-%d")
     time_str = now.strftime("%H:%M")
 
