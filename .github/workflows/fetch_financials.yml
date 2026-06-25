@@ -1,0 +1,51 @@
+name: fetch-financials
+
+on:
+  schedule:
+    # 4:30 PM IST = 11:00 UTC daily Mon-Fri
+    - cron: "0 11 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  fetch-financials:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install requests beautifulsoup4 lxml
+
+      - name: Fetch financials from screener.in (incremental)
+        run: python scripts/fetch_financials.py
+
+      - name: Commit and push (with retry)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/financials/
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit"
+            exit 0
+          fi
+          git stash
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            git stash pop 2>/dev/null || true
+            git add data/financials/
+            git diff --staged --quiet && echo "Nothing after rebase" && exit 0
+            git commit -m "Financials $(date +'%Y-%m-%d')" 2>/dev/null || true
+            git push origin main && echo "Push OK on attempt $i" && exit 0
+            echo "Attempt $i failed — retrying in $((i*15))s"
+            git stash 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          exit 1
