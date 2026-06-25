@@ -11,12 +11,13 @@ Part 2 → data/delivery/YYYY-MM-DD.json
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
-import json, time, logging, requests
-from datetime import datetime, timezone, timedelta as _td
+from datetime import datetime, timedelta, timezone
 
 def get_ist_now():
-    IST = timezone(_td(hours=5, minutes=30))
-    return datetime.now(IST).replace(tzinfo=None), timedelta
+    """Always returns current time as IST — GitHub runners use UTC."""
+    return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
+
+import json, time, logging, requests
 from pathlib import Path
 from kite_auth import get_kite
 
