@@ -3,30 +3,32 @@
 fetch_financials.py
 -------------------
 INCREMENTAL scraper for screener.in financial data.
+Source: screener.in (free, no API key, no login needed)
+Schedule: Daily 4:30 PM IST via fetch_financials.yml workflow
 
 Strategy:
-  - Maintains a cache file: data/financials/fetch_log.json
-  - Tracks last_fetched date per symbol
-  - Skips symbols fetched today
-  - Only fetches symbols not yet fetched today
-  - Full refresh happens naturally over multiple daily runs
+  - fetch_log.json tracks which symbols were fetched today
+  - Each run fetches ONLY symbols not yet fetched today
+  - Single master file: data/financials/financials.json
+  - Progress saved every 50 symbols — partial runs not lost
+  - First run: ~17 min. Same-day reruns: instant (skip all done)
 
-Schedule: Daily at 4:30 PM IST (after market close)
-Per run: fetches remaining symbols not yet done today
-Time per symbol: 2 sec sleep → ~500 symbols = ~17 min first run, ~0 min subsequent runs same day
+Data per symbol (12 years history):
+  key_metrics, quarterly_results, profit_loss, balance_sheet,
+  cash_flow, ratios, shareholding, minervini_flags, earnings_score_10
 """
 
-import sys, os
-sys.path.insert(0, os.path.dirname(__file__))
-
+import sys
+import os
+import json
+import time
+import re
+import logging
+import requests
 from datetime import datetime, timedelta, timezone
-
-def get_ist_now():
-    """Always returns current time as IST — GitHub runners use UTC."""
-    return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
-
-import json, time, re, logging, requests
 from pathlib import Path
+
+sys.path.insert(0, os.path.dirname(__file__))
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -35,6 +37,23 @@ try:
     from bs4 import BeautifulSoup
 except ImportError:
     raise SystemExit("Run: pip install beautifulsoup4 lxml")
+
+
+def get_ist_now():
+    """Always returns current time in IST — GitHub runners use UTC."""
+    IST = timezone(timedelta(hours=5, minutes=30))
+    return datetime.now(IST).replace(tzinfo=None)
+
+
+HEADERS = {
+    "User-Agent":      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept":          "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Referer":         "https://www.screener.in/",
+}
+
+LOG_FILE  = Path("data/financials/fetch_log.json")
+DATA_FILE = Path("data/financials/financials.json")
 
 NIFTY500 = [
     "360ONE","3MINDIA","ABB","ACC","ACMESOLAR","AIAENG","APLAPOLLO","AUBANK","AWL",
@@ -101,19 +120,8 @@ NIFTY500 = [
     "YESBANK","ZFCVINDIA","ZEEL","ZENTEC","ZENSARTECH","ZYDUSLIFE","ZYDUSWELL","ECLERX"
 ]
 
-HEADERS = {
-    "User-Agent":      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Accept":          "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Referer":         "https://www.screener.in/",
-}
 
-LOG_FILE  = Path("data/financials/fetch_log.json")
-DATA_FILE = Path("data/financials/financials.json")  # single master file
-
-
-def load_fetch_log() -> dict:
-    """Load log of when each symbol was last fetched."""
+def load_fetch_log():
     try:
         if LOG_FILE.exists():
             return json.loads(LOG_FILE.read_text())
@@ -122,13 +130,12 @@ def load_fetch_log() -> dict:
     return {}
 
 
-def save_fetch_log(log_data: dict):
+def save_fetch_log(log_data):
     LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
     LOG_FILE.write_text(json.dumps(log_data, indent=2))
 
 
-def load_master_data() -> dict:
-    """Load existing master financials file."""
+def load_master_data():
     try:
         if DATA_FILE.exists():
             return json.loads(DATA_FILE.read_text())
@@ -137,7 +144,7 @@ def load_master_data() -> dict:
     return {
         "data_type":   "FUNDAMENTALS_SCREENER",
         "description": "Complete financial data from screener.in — P&L, BS, CF, Ratios, Shareholding (12yr)",
-        "source":      "screener.in (consolidated, 12 years history)",
+        "source":      "screener.in (consolidated view, free)",
         "symbols":     {}
     }
 
@@ -145,8 +152,8 @@ def load_master_data() -> dict:
 def clean_num(text):
     if not text:
         return None
-    t = text.strip().replace(",","").replace("%","").replace("Cr.","").strip()
-    if t in ("-","","—","N/A","NA","#"):
+    t = text.strip().replace(",", "").replace("%", "").replace("Cr.", "").strip()
+    if t in ("-", "", "—", "N/A", "NA", "#"):
         return None
     try:
         return float(t)
@@ -171,7 +178,7 @@ def parse_table(soup, section_id):
     if not tbody:
         return {"headers": headers, "rows": rows}
     for tr in tbody.find_all("tr"):
-        cells = tr.find_all(["td","th"])
+        cells = tr.find_all(["td", "th"])
         if not cells:
             continue
         row_name = cells[0].get_text(strip=True).rstrip("+").strip()
@@ -179,11 +186,23 @@ def parse_table(soup, section_id):
             continue
         values = {}
         for i, cell in enumerate(cells[1:], 1):
-            if i-1 < len(headers)-1:
+            if i - 1 < len(headers) - 1:
                 period = headers[i] if i < len(headers) else f"col_{i}"
                 values[period] = clean_num(cell.get_text(strip=True))
         rows[row_name] = values
     return {"headers": headers[1:], "rows": rows}
+
+
+def parse_key_metrics(soup):
+    metrics = {}
+    for li in soup.select("#top li, .company-ratios li"):
+        spans = li.find_all("span")
+        if len(spans) >= 2:
+            key = spans[0].get_text(strip=True).rstrip(":")
+            val = spans[-1].get_text(strip=True)
+            if key and val:
+                metrics[key] = clean_num(val) if clean_num(val) is not None else val
+    return metrics
 
 
 def parse_shareholding(soup):
@@ -202,29 +221,17 @@ def parse_shareholding(soup):
     tbody = table.find("tbody")
     if tbody:
         for tr in tbody.find_all("tr"):
-            cells = tr.find_all(["td","th"])
+            cells = tr.find_all(["td", "th"])
             if not cells:
                 continue
             row_name = cells[0].get_text(strip=True)
             values = {}
             for i, cell in enumerate(cells[1:], 1):
-                if i-1 < len(headers)-1:
+                if i - 1 < len(headers) - 1:
                     period = headers[i] if i < len(headers) else f"col_{i}"
                     values[period] = clean_num(cell.get_text(strip=True))
             rows[row_name] = values
     return {"headers": headers[1:], "rows": rows}
-
-
-def parse_key_metrics(soup):
-    metrics = {}
-    for li in soup.select("#top li, .company-ratios li"):
-        spans = li.find_all("span")
-        if len(spans) >= 2:
-            key = spans[0].get_text(strip=True).rstrip(":")
-            val = spans[-1].get_text(strip=True)
-            if key and val:
-                metrics[key] = clean_num(val) if clean_num(val) is not None else val
-    return metrics
 
 
 def fetch_screener(sym, session):
@@ -246,51 +253,45 @@ def fetch_screener(sym, session):
         return {"error": "invalid_page", "data_grade": "C"}
 
     result = {
-        "url":              url,
-        "data_grade":       "A",
-        "last_fetched":     get_ist_now().strftime("%Y-%m-%d"),
-        "view":             "consolidated" if "consolidated" in url else "standalone",
-        "key_metrics":      parse_key_metrics(soup),
-        "quarterly_results":parse_table(soup, "quarters"),
-        "profit_loss":      parse_table(soup, "profit-loss"),
-        "balance_sheet":    parse_table(soup, "balance-sheet"),
-        "cash_flow":        parse_table(soup, "cash-flow"),
-        "ratios":           parse_table(soup, "ratios"),
-        "shareholding":     parse_shareholding(soup),
+        "url":               url,
+        "data_grade":        "A",
+        "last_fetched":      get_ist_now().strftime("%Y-%m-%d"),
+        "view":              "consolidated" if "consolidated" in url else "standalone",
+        "key_metrics":       parse_key_metrics(soup),
+        "quarterly_results": parse_table(soup, "quarters"),
+        "profit_loss":       parse_table(soup, "profit-loss"),
+        "balance_sheet":     parse_table(soup, "balance-sheet"),
+        "cash_flow":         parse_table(soup, "cash-flow"),
+        "ratios":            parse_table(soup, "ratios"),
+        "shareholding":      parse_shareholding(soup),
     }
 
-    # Derived Minervini flags
     try:
-        pl     = result["profit_loss"].get("rows", {})
-        bs     = result["balance_sheet"].get("rows", {})
-        cf     = result["cash_flow"].get("rows", {})
-        ra     = result["ratios"].get("rows", {})
-
-        sales  = list(pl.get("Sales", {}).values())
-        np_    = list(pl.get("Net Profit", {}).values())
-        roce   = list(ra.get("ROCE %", {}).values())
-        borr   = list(bs.get("Borrowings", {}).values())
-        res_   = list(bs.get("Reserves", {}).values())
-        fcf    = list(cf.get("Free Cash Flow", {}).values())
-
-        rev_g  = round((sales[-1]-sales[-2])/abs(sales[-2])*100,2) if len(sales)>=2 and sales[-2] else None
-        np_g   = round((np_[-1]-np_[-2])/abs(np_[-2])*100,2)      if len(np_)>=2  and np_[-2]   else None
+        pl    = result["profit_loss"].get("rows", {})
+        bs    = result["balance_sheet"].get("rows", {})
+        cf    = result["cash_flow"].get("rows", {})
+        ra    = result["ratios"].get("rows", {})
+        sales = list(pl.get("Sales", {}).values())
+        np_   = list(pl.get("Net Profit", {}).values())
+        roce  = list(ra.get("ROCE %", {}).values())
+        borr  = list(bs.get("Borrowings", {}).values())
+        res_  = list(bs.get("Reserves", {}).values())
+        fcf   = list(cf.get("Free Cash Flow", {}).values())
+        rev_g = round((sales[-1]-sales[-2])/abs(sales[-2])*100, 2) if len(sales) >= 2 and sales[-2] else None
+        np_g  = round((np_[-1]-np_[-2])/abs(np_[-2])*100, 2)      if len(np_) >= 2  and np_[-2]   else None
         roce_l = roce[-1] if roce else None
-        de     = round(borr[-1]/res_[-1],2) if borr and res_ and res_[-1] else None
-        fcf_p  = (fcf[-1]>0) if fcf and fcf[-1] is not None else None
-
+        de    = round(borr[-1]/res_[-1], 2) if borr and res_ and res_[-1] else None
         result["minervini_flags"] = {
             "revenue_growth_pct": rev_g,
             "profit_growth_pct":  np_g,
             "roce_pct":           roce_l,
             "de_ratio":           de,
-            "fcf_positive":       fcf_p,
+            "fcf_positive":       (fcf[-1] > 0) if fcf and fcf[-1] is not None else None,
             "strong_revenue":     rev_g is not None and rev_g > 15,
             "strong_profit":      np_g  is not None and np_g  > 25,
             "high_roce":          roce_l is not None and roce_l > 15,
             "low_debt":           de is not None and de < 1.0,
         }
-
         s = 0
         if np_g  and np_g  > 50: s += 5
         elif np_g  and np_g  > 25: s += 3
@@ -301,8 +302,7 @@ def fetch_screener(sym, session):
         if roce_l and roce_l > 20: s += 2
         elif roce_l and roce_l > 15: s += 1
         result["earnings_score_10"] = s
-
-    except Exception as e:
+    except Exception:
         result["minervini_flags"] = {}
         result["earnings_score_10"] = 0
 
@@ -315,13 +315,12 @@ def main():
     fetch_log = load_fetch_log()
     master    = load_master_data()
 
-    # Determine which symbols need fetching today
     pending = [s for s in NIFTY500 if fetch_log.get(s) != today]
     done    = len(NIFTY500) - len(pending)
     log.info(f"Already fetched today: {done} | Pending: {len(pending)}")
 
     if not pending:
-        log.info("All symbols already fetched today — nothing to do")
+        log.info("All 500 symbols already fetched today — nothing to do")
         return
 
     session = requests.Session()
@@ -343,29 +342,25 @@ def main():
         else:
             failed.append(sym)
         time.sleep(2.0)
+
         if i % 50 == 0:
-            # Save progress every 50 symbols so partial runs aren't lost
             master["last_updated"] = today
             DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
             DATA_FILE.write_text(json.dumps(master, indent=2, default=str))
             save_fetch_log(fetch_log)
-            log.info(f"  Progress saved at {i} symbols")
+            log.info(f"Progress saved at {i} symbols")
 
-    master["last_updated"] = today
+    master["last_updated"]  = today
     master["fetch_summary"] = {
         "date":           today,
         "fetched_today":  fetched,
         "total_complete": sum(1 for s in NIFTY500 if fetch_log.get(s) == today),
         "failed":         failed[:20],
     }
-
     DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
     DATA_FILE.write_text(json.dumps(master, indent=2, default=str))
     save_fetch_log(fetch_log)
-
-    log.info(f"=== Done: fetched {fetched}/{len(pending)} new symbols | Total today: {sum(1 for s in NIFTY500 if fetch_log.get(s)==today)}/500 ===")
-    if failed:
-        log.warning(f"Failed: {failed}")
+    log.info(f"=== Done: {fetched}/{len(pending)} fetched | Total today: {sum(1 for s in NIFTY500 if fetch_log.get(s)==today)}/500 ===")
 
 
 if __name__ == "__main__":
