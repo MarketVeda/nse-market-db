@@ -11,7 +11,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 5.40 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -27,7 +31,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 12.50 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -43,7 +51,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 1.80 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -59,7 +71,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 10 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -75,7 +91,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 1.25 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -91,7 +111,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 4 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -107,7 +131,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 1.50 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -123,7 +151,11 @@
           "ex_date": "25-Jun-2026",
           "action": "Dividend - Rs 25 Per Share",
           "score": 10,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -139,7 +171,11 @@
           "ex_date": "29-Jun-2026",
           "action": "Buy Back",
           "score": 5,
+<<<<<<< Updated upstream
           "fetched": "15:07"
+=======
+          "fetched": "15:13"
+>>>>>>> Stashed changes
         }
       ],
       "board_meeting": {},
@@ -148,7 +184,11 @@
       "exclude_negative": false
     }
   },
+<<<<<<< Updated upstream
   "last_updated": "2026-06-25 15:07",
+=======
+  "last_updated": "2026-06-25 15:13",
+>>>>>>> Stashed changes
   "total_symbols": 9,
   "high_impact": 0,
   "new_this_run": 9,
