@@ -240,7 +240,7 @@ def main():
 
             # 2. Corporate actions (dividend/bonus/split)
             try:
-                actions = nse.actions(index="equities")
+                actions = nse.actions()
                 for a in actions:
                     sym = (a.get("symbol") or "").upper().strip()
                     if sym not in NIFTY500_SET:
