@@ -12,11 +12,13 @@ Output: data/intraday/YYYY-MM-DD.json  (keep last 2 days only)
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
-import json, time, logging
-from datetime import datetime, timezone, timedelta as _td
+from datetime import datetime, timedelta, timezone
 
 def get_ist_now():
-    IST = timezone(_td(hours=5, minutes=30))
+    """Always returns current time as IST — GitHub runners use UTC."""
+    return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
+
+import json, time, logging
     return datetime.now(IST).replace(tzinfo=None)
 from pathlib import Path
 from kite_auth import get_kite
