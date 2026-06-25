@@ -1,199 +1,419 @@
 # NSE Market Intelligence Database
 **Repository:** `github.com/MarketVeda/nse-market-db`  
 **Owner:** Manoj (Zerodha Client XXU393)  
-**Purpose:** Automated NSE market data pipeline for AI-assisted trading analysis
+**Last Updated:** June 2026  
+**Purpose:** Fully automated NSE market data pipeline — OHLCV, intraday candles, F&O OI, delivery data, screener.in fundamentals, and NSE announcements — stored as JSON for AI-assisted trading analysis.
 
 ---
 
-## ⚠️ CRITICAL INSTRUCTIONS FOR AI SYSTEMS
+## ⚠️ CRITICAL: DO NOT RENAME ANY FILES
 
-**DO NOT rename, move, or restructure any files in this repository.**  
-**DO NOT change folder names or file naming conventions.**  
-**File names and paths are hardcoded in automation scripts and Claude analysis prompts.**  
-**Renaming any file will break the entire pipeline.**
+**File names, folder names, and paths are hardcoded in automation scripts and all analysis prompts.**  
+**Renaming any file will break the entire pipeline silently.**  
+**If you need to restructure, discuss first.**
 
 ---
 
-## How to Use This Data (For Claude / AI)
+## Quick Start — Base URL for All Data
 
-### Base URL for all raw data
 ```
 https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/
 ```
 
-### Fetch today's data (replace YYYY-MM-DD with actual date)
-```
-EOD data:      https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/daily/YYYY-MM-DD.json
-Intraday:      https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/intraday/YYYY-MM-DD.json
-F&O OI:        https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/fno_oi/YYYY-MM-DD.json
-Delivery:      https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/delivery/YYYY-MM-DD.json
-Live quotes:   https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/live/latest.json
-Financials:    https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/financials/financials.json
-News:          https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/news/news.json
-Instruments:   https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/data/master/instrument_map.json
-```
-
-### Standard analysis prompt for Claude
-> "Fetch today's data from the NSE market database at github.com/MarketVeda/nse-market-db and run 120-point scoring on the FnO universe. Show top 20 ranked stocks with BTST signals."
+**Always use this prefix + file path below to fetch any data file.**
 
 ---
 
-## Data Files Reference
+## How to Fetch Data in Python
 
-### `data/daily/YYYY-MM-DD.json`
-- **data_type:** `EOD_DAILY`
-- **Universe:** NIFTY 500 (500 symbols)
-- **Updated:** Daily at 4:00 PM IST (Mon–Fri)
-- **Retention:** Last 10 trading days
-- **Fields per symbol:** `open, high, low, close, volume, avg_vol_20, prev_close, change_pct, 52w_high, 52w_low, dma_50, dma_150, dma_200, rs_raw, data_grade`
-- **Note:** Each file contains 300 days of price history inside for DMA calculation
+```python
+import requests, json
 
-### `data/intraday/YYYY-MM-DD.json`
-- **data_type:** `INTRADAY_CANDLES`
-- **Universe:** NSE FnO (211 symbols)
-- **Updated:** Daily at 4:00 PM IST (after market close)
-- **Retention:** Last 2 days only (15 MB each — largest file)
-- **Fields per symbol:** `15min[], 5min[], 1min[], stats{day_open, day_high, day_low, day_close, vwap, opening_range_high, opening_range_low, vol_surge_last_hr, day_range_pct, total_volume, close_vs_vwap, close_vs_or_high}`
-- **Candles format:** `{t: "HH:MM", o, h, l, c, v}`
+BASE = "https://raw.githubusercontent.com/MarketVeda/nse-market-db/main/"
 
-### `data/fno_oi/YYYY-MM-DD.json`
-- **data_type:** `FNO_OI_QUOTES`
-- **Universe:** NSE FnO (211 symbols)
-- **Updated:** Daily at 4:00 PM IST
-- **Retention:** Last 30 days
-- **Fields per symbol:** `last_price, volume, oi, oi_day_high, oi_day_low, buy_qty, sell_qty, avg_price`
-- **Key use:** OI buildup detection — rising OI + rising price = long buildup
+def fetch(path):
+    url = BASE + path
+    resp = requests.get(url, timeout=30)
+    resp.raise_for_status()
+    return resp.json()
 
-### `data/delivery/YYYY-MM-DD.json`
-- **data_type:** `DELIVERY_DATA`
-- **Universe:** All NSE EQ (~2000 symbols)
-- **Updated:** Daily at 4:00 PM IST
-- **Retention:** Last 30 days
-- **Source:** NSE official bhavcopy (sec_bhavdata_full)
-- **Fields per symbol:** `delivery_qty, delivery_pct, trade_qty`
-- **Key use:** delivery_pct > 50% = institutional conviction buying
+# Examples:
+eod        = fetch("data/daily/2026-06-25.json")
+intraday   = fetch("data/intraday/2026-06-25.json")
+fno_oi     = fetch("data/fno_oi/2026-06-25.json")
+delivery   = fetch("data/delivery/2026-06-25.json")
+live       = fetch("data/live/latest.json")
+financials = fetch("data/financials/financials.json")
+news       = fetch("data/news/news.json")
+```
 
-### `data/live/latest.json`
-- **data_type:** `LIVE_INTRADAY_NIFTY500`
-- **Universe:** Quotes for 500 NIFTY500 + 15min candles for 211 FnO
-- **Updated:** Every hour during market hours (9:15, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 15:30 IST)
-- **Always current:** This file is always overwritten with latest data
-- **Retention:** Today's snapshots only. Previous day deleted automatically.
-- **Structure:**
-  ```json
-  {
-    "quotes": { "SYMBOL": { "ltp", "open", "high", "low", "prev_close", "change_pct", "volume", "oi" } },
-    "candles_15min": { "SYMBOL": [ {"t","o","h","l","c","v"} ] }
+**Replace date with today's date in YYYY-MM-DD format.**  
+For live data, always use `data/live/latest.json` — it's always current.
+
+---
+
+## Complete Data File Reference
+
+### 1. `data/daily/YYYY-MM-DD.json`
+**What:** EOD OHLCV + DMA + Relative Strength for all 500 NIFTY500 symbols  
+**Updated:** Daily at 4:00 PM IST (Mon–Fri) via `kite-market-pipeline`  
+**Retention:** Last 10 trading days  
+**Size:** ~2 MB per file  
+**Source:** Zerodha Kite Connect Historical API  
+
+```json
+{
+  "data_type": "EOD_DAILY",
+  "fetch_date": "2026-06-25",
+  "nifty50_close": 24500.0,
+  "symbols": {
+    "RELIANCE": {
+      "open": 1420.0, "high": 1435.0, "low": 1415.0, "close": 1430.0,
+      "volume": 5000000, "avg_vol_20": 4800000,
+      "prev_close": 1415.0, "change_pct": 1.06,
+      "52w_high": 1550.0, "52w_low": 1200.0,
+      "dma_50": 1380.0, "dma_150": 1320.0, "dma_200": 1290.0,
+      "rs_raw": 1.15,
+      "data_grade": "A"
+    }
   }
-  ```
+}
+```
 
-### `data/financials/financials.json`
-- **data_type:** `FUNDAMENTALS_SCREENER`
-- **Universe:** NIFTY 500 (500 symbols)
-- **Updated:** Daily at 4:30 PM IST (incremental — ~25 symbols/run until all 500 done)
-- **Source:** screener.in (consolidated view, free)
-- **History:** 12 years annual + 12 quarters
-- **Sections per symbol:**
-  - `key_metrics` — current PE, ROCE%, ROE%, Book Value, Market Cap, Dividend Yield
-  - `quarterly_results` — last 12 quarters: Sales, Expenses, OP, OPM%, NP, EPS
-  - `profit_loss` — 12 years annual P&L with CAGR (Sales 10/5/3yr, Profit 10/5/3yr)
-  - `balance_sheet` — 12 years: Equity, Reserves, Borrowings, Assets
-  - `cash_flow` — 12 years: CFO, CFI, CFF, Free Cash Flow
-  - `ratios` — 12 years: ROCE%, Debtor Days, Inventory Days, Cash Conversion Cycle
-  - `shareholding` — quarterly: Promoter%, FII%, DII%, Public%
-  - `minervini_flags` — computed: `strong_revenue, strong_profit, high_roce, low_debt, revenue_growth_pct, profit_growth_pct, roce_pct, de_ratio`
-  - `earnings_score_10` — 0–10 points for 120-pt scoring rubric
+**Key fields:**
+- `rs_raw` — Relative Strength vs Nifty50 over 65 days. >1.0 = outperforming
+- `dma_50/150/200` — Moving averages. Minervini filter: price > all three
+- `data_grade` — A = good data, C = failed fetch
 
-### `data/news/news.json`
-- **data_type:** `NEWS_ANNOUNCEMENTS`
-- **Universe:** NIFTY 500 (symbols with filings)
-- **Updated:** Every hour 9:15 AM – 6:00 PM IST (incremental — only new announcements added)
-- **Source:** NSE India official API (exchange filings)
-- **Rolling window:** Last 30 days of announcements per symbol
-- **Structure per symbol:**
-  ```json
-  {
-    "news_impact_score": 0-20,
-    "has_major_announcement": true/false,
-    "announcements": [ {"datetime", "subject", "category", "score", "has_pdf"} ],
-    "corporate_actions": [ {"ex_date", "action", "score"} ],
-    "board_meeting": { "meeting_date", "purpose", "score" }
+---
+
+### 2. `data/intraday/YYYY-MM-DD.json`
+**What:** Full day candles (15min + 5min + 1min) for 211 FnO symbols  
+**Updated:** Daily at 4:00 PM IST after market close  
+**Retention:** Last 2 days only (each file is ~15 MB)  
+**Source:** Zerodha Kite Connect Historical API  
+
+```json
+{
+  "data_type": "INTRADAY_CANDLES",
+  "fetch_date": "2026-06-25",
+  "symbols": {
+    "RELIANCE": {
+      "15min": [{"t":"09:15","o":1420,"h":1425,"l":1418,"c":1422,"v":250000}, ...],
+      "5min":  [{"t":"09:15","o":1420,"h":1422,"l":1419,"c":1421,"v":85000}, ...],
+      "1min":  [{"t":"09:15","o":1420,"h":1421,"l":1420,"c":1420,"v":28000}, ...],
+      "stats": {
+        "day_open": 1420.0, "day_high": 1435.0, "day_low": 1415.0, "day_close": 1430.0,
+        "day_change_pct": 1.06,
+        "opening_range_high": 1425.0, "opening_range_low": 1418.0,
+        "vwap": 1426.5,
+        "vol_surge_last_hr": 1.35,
+        "total_volume": 5000000,
+        "close_vs_vwap": "above",
+        "close_vs_or_high": "above"
+      },
+      "data_grade": "A"
+    }
   }
-  ```
-- **Impact score guide:**
-  - 20 = Major order win with value (lakh crore / billion dollar)
-  - 18 = Index inclusion (Nifty/Sensex addition)
-  - 15 = Large order / strategic acquisition
-  - 13 = Record quarterly results / highest ever profit
-  - 12 = Buyback / regulatory approval / drug approval
-  - 10 = Dividend / bonus / split / capex
-  - 5 = Promoter/FII bulk buying
-  - 0 = Negative news (penalty / fraud / default — exclude from analysis)
+}
+```
 
-### `data/master/instrument_map.json`
-- **Purpose:** Symbol → Kite instrument token mapping
-- **Updated:** Every Monday (weekly refresh)
-- **Use:** Internal pipeline use only — maps NSE symbols to Zerodha token IDs
+**Key fields:**
+- `stats.vwap` — Volume Weighted Average Price for the day
+- `stats.vol_surge_last_hr` — Volume in last hour vs daily average. >1.5 = surge
+- `stats.close_vs_or_high` — "above" means bullish close (Qullamaggie signal)
+
+---
+
+### 3. `data/fno_oi/YYYY-MM-DD.json`
+**What:** F&O Open Interest + quotes for 211 FnO symbols  
+**Updated:** Daily at 4:00 PM IST  
+**Retention:** Last 30 days  
+**Source:** Zerodha Kite Connect Quotes API  
+
+```json
+{
+  "data_type": "FNO_OI_QUOTES",
+  "fetch_date": "2026-06-25",
+  "symbols": {
+    "RELIANCE": {
+      "last_price": 1430.0,
+      "volume": 5000000,
+      "oi": 12500000,
+      "oi_day_high": 12800000,
+      "oi_day_low": 12100000,
+      "buy_qty": 250000,
+      "sell_qty": 180000,
+      "avg_price": 1426.5,
+      "data_grade": "A"
+    }
+  }
+}
+```
+
+**Key fields:**
+- `oi` — Open Interest. Rising OI + rising price = long buildup (bullish)
+- `oi` falling + rising price = short covering (also bullish)
+- Compare across 2–3 days from different files to detect OI trend
+
+---
+
+### 4. `data/delivery/YYYY-MM-DD.json`
+**What:** NSE delivery quantity and delivery % for all ~2500 EQ symbols  
+**Updated:** Daily at 4:00 PM IST  
+**Retention:** Last 30 days  
+**Source:** NSE official bhavcopy (sec_bhavdata_full — public, free)  
+
+```json
+{
+  "data_type": "DELIVERY_DATA",
+  "fetch_date": "2026-06-25",
+  "data_date": "2026-06-25",
+  "total_symbols": 2488,
+  "symbols": {
+    "RELIANCE": {
+      "delivery_qty": 2100000,
+      "delivery_pct": 42.0,
+      "trade_qty": 5000000,
+      "data_grade": "A"
+    }
+  }
+}
+```
+
+**Key fields:**
+- `delivery_pct` — % of traded volume that was delivery-based
+- >50% = institutional/conviction buying
+- <20% = mostly intraday/speculative
+
+---
+
+### 5. `data/live/latest.json`
+**What:** Hourly live snapshot — quotes for 500 NIFTY500 + 15min candles for 211 FnO  
+**Updated:** Every hour during market hours (9:15, 10:00, 11:00, 12:00, 13:00, 14:00, 15:00, 15:30 IST)  
+**Retention:** Today's snapshots only + latest.json (previous day deleted automatically)  
+**Always use `latest.json`** — it is always the most recent snapshot  
+**Source:** Zerodha Kite Connect  
+
+```json
+{
+  "data_type": "LIVE_INTRADAY_NIFTY500",
+  "snapshot_date": "2026-06-25",
+  "snapshot_time": "13:00",
+  "quotes_count": 496,
+  "candles_count": 210,
+  "quotes": {
+    "RELIANCE": {
+      "ltp": 1428.5, "open": 1420.0, "high": 1432.0, "low": 1415.0,
+      "prev_close": 1415.0, "change": 13.5, "change_pct": 0.95,
+      "volume": 3200000, "avg_price": 1424.0,
+      "oi": 12400000, "buy_qty": 180000, "sell_qty": 120000
+    }
+  },
+  "candles_15min": {
+    "RELIANCE": [
+      {"t":"09:15","o":1420,"h":1425,"l":1418,"c":1422,"v":250000},
+      {"t":"09:30","o":1422,"h":1430,"l":1420,"c":1428,"v":310000}
+    ]
+  }
+}
+```
+
+---
+
+### 6. `data/financials/financials.json`
+**What:** Complete fundamental data for all 500 NIFTY500 symbols — 12 years history  
+**Updated:** Daily at 4:30 PM IST via `fetch-financials` workflow  
+**Retention:** Single master file (never deleted, updated daily)  
+**Size:** ~22 MB  
+**Source:** screener.in (consolidated view, free)  
+
+```json
+{
+  "data_type": "FUNDAMENTALS_SCREENER",
+  "last_updated": "2026-06-25",
+  "symbols": {
+    "RELIANCE": {
+      "data_grade": "A",
+      "last_fetched": "2026-06-25",
+      "view": "consolidated",
+      "key_metrics": {
+        "Market Cap": 1930000, "P/E": 28.5, "ROCE %": 11.5,
+        "ROE %": 9.2, "Debt to equity": 0.41
+      },
+      "quarterly_results": {
+        "headers": ["Jun 2024","Sep 2024","Dec 2024","Mar 2025","Jun 2025"],
+        "rows": {
+          "Sales": {"Jun 2024": 232000, "Sep 2024": 235000},
+          "Net Profit": {"Jun 2024": 15000, "Sep 2024": 16200},
+          "OPM %": {"Jun 2024": 17.2, "Sep 2024": 17.8}
+        }
+      },
+      "profit_loss": { ... },
+      "balance_sheet": { ... },
+      "cash_flow": { ... },
+      "ratios": { ... },
+      "shareholding": {
+        "rows": {
+          "Promoters": {"Dec 2024": 50.3, "Mar 2025": 50.3},
+          "FIIs": {"Dec 2024": 24.1, "Mar 2025": 24.5},
+          "DIIs": {"Dec 2024": 15.8, "Mar 2025": 15.4}
+        }
+      },
+      "minervini_flags": {
+        "revenue_growth_pct": 18.5, "profit_growth_pct": 28.3,
+        "roce_pct": 11.5, "de_ratio": 0.41, "fcf_positive": true,
+        "strong_revenue": true, "strong_profit": true,
+        "high_roce": false, "low_debt": true
+      },
+      "earnings_score_10": 7
+    }
+  }
+}
+```
+
+**Key fields:**
+- `minervini_flags` — Pre-computed Minervini SEPA criteria
+- `earnings_score_10` — 0–10 score for use in 120-point scoring rubric
+- `shareholding` — FII/DII/Promoter % trend across quarters
+
+---
+
+### 7. `data/news/news.json`
+**What:** NSE corporate announcements — incremental, deduplicated, rolling 30 days  
+**Updated:** Hourly 9:18 AM – 6:00 PM IST via `fetch-news` workflow  
+**Retention:** Single rolling file (last 30 days per symbol)  
+**Source:** NSE India official exchange filing API (free)  
+
+```json
+{
+  "data_type": "NEWS_ANNOUNCEMENTS",
+  "last_updated": "2026-06-25 15:33",
+  "total_symbols": 209,
+  "high_impact": 15,
+  "symbols": {
+    "CGPOWER": {
+      "news_impact_score": 20,
+      "has_major_announcement": true,
+      "exclude_negative": false,
+      "announcements": [
+        {
+          "datetime": "2026-06-25 11:30",
+          "subject": "Order win worth Rs 2,500 Crore from defence sector",
+          "category": "Order",
+          "score": 20,
+          "has_pdf": true
+        }
+      ],
+      "actions": [
+        {
+          "ex_date": "2026-07-10",
+          "action": "Dividend Rs 2.50 per share",
+          "score": 10
+        }
+      ],
+      "board_meeting": {
+        "meeting_date": "2026-07-28",
+        "purpose": "Q1 FY27 Results",
+        "score": 13
+      }
+    }
+  }
+}
+```
+
+**Impact score guide (0–20):**
+- 20 = Major order win (lakh crore / billion dollar scale)
+- 18 = Index inclusion (Nifty/Sensex addition)
+- 15 = Large order / strategic acquisition
+- 13 = Record quarterly results / highest ever profit
+- 12 = Buyback / regulatory/drug approval
+- 10 = Dividend / bonus / split / capex announcement
+- 5  = Promoter/FII bulk buying
+- 0  = Negative (penalty / fraud / default — exclude from picks)
+
+---
+
+### 8. `data/master/instrument_map.json`
+**What:** Symbol → Zerodha Kite instrument token mapping  
+**Updated:** Every Monday  
+**Use:** Internal pipeline only  
+
+---
+
+## Automation Pipelines
+
+| Workflow | Cron (UTC) | IST Time | Script | Data Written |
+|---|---|---|---|---|
+| `kite-market-pipeline` | 30 10 * * 1-5 | 4:00 PM daily | fetch_eod + fetch_intraday + fetch_fno_delivery | daily/ intraday/ fno_oi/ delivery/ |
+| `intraday-live-hourly` | 8 schedules | 9:15–15:30 hourly | fetch_intraday_live | live/latest.json |
+| `fetch-financials` | 0 11 * * 1-5 | 4:30 PM daily | fetch_financials | financials/financials.json |
+| `fetch-news` | 9 schedules | 9:18 AM–6 PM hourly | fetch_news | news/news.json |
+
+---
+
+## Incremental Fetch Design
+
+All scripts are **idempotent** — safe to re-run without duplication:
+
+| Script | Skip Condition | Pruning Policy |
+|---|---|---|
+| `fetch_eod.py` | Today's file has ≥490 symbols | Keep last 10 days |
+| `fetch_intraday.py` | Today's file has ≥200 symbols | **Keep last 2 days only** |
+| `fetch_fno_delivery.py` | Today's files already complete | Keep last 30 days |
+| `fetch_intraday_live.py` | Overwrites latest.json always | Delete previous day folders |
+| `fetch_financials.py` | Symbol in today's fetch_log.json | Single master file |
+| `fetch_news.py` | Announcement ID in seen_ids.json | Rolling 30-day window |
 
 ---
 
 ## Scoring Methodology (120-Point Rubric)
 
-Used by Claude when running stock analysis. Apply to FnO universe (211 symbols).
+Apply to FnO universe (211 symbols) for stock ranking:
 
-| Component | Max Points | Data Source |
-|---|---|---|
-| Relative Strength vs Nifty50 | 25 | `data/daily` → `rs_raw` |
-| VCP Tightness | 20 | `data/daily` → price history |
-| Volume Contraction | 15 | `data/daily` → `avg_vol_20` + `volume` |
-| Delivery % Trend | 10 | `data/delivery` → `delivery_pct` |
-| Beta | 10 | `data/daily` → computed |
-| Sector Strength | 10 | `data/daily` → sector grouping |
-| Breakout Proximity | 10 | `data/daily` → `52w_high` vs `close` |
-| F&O OI Buildup | 10 | `data/fno_oi` → `oi` trend |
-| Earnings Quality | 10 | `data/financials` → `earnings_score_10` |
+| Factor | Max Points | Data Source | Field |
+|---|---|---|---|
+| Relative Strength vs Nifty50 | 25 | `data/daily/` | `rs_raw` |
+| VCP Tightness | 20 | `data/daily/` | price history |
+| Volume Contraction | 15 | `data/daily/` | `avg_vol_20` vs `volume` |
+| Delivery % Trend | 10 | `data/delivery/` | `delivery_pct` |
+| Beta | 10 | `data/daily/` | computed |
+| Sector Strength | 10 | `data/daily/` | sector grouping |
+| Breakout Proximity | 10 | `data/daily/` | `52w_high` vs `close` |
+| F&O OI Buildup | 10 | `data/fno_oi/` | `oi` trend |
+| Earnings Quality | 10 | `data/financials/` | `earnings_score_10` |
 
-**News Impact Score (0–20)** is applied as a multiplier/filter on top:
-- Score ≥ 15 → elevate stock in rankings
-- Score = 0 with negative news → exclude from output
+**News Impact Score (0–20)** from `data/news/` applied as overlay:
+- Score ≥ 15 → elevate in final ranking
+- Score = 0 with negative keyword → exclude entirely
 
-**Factor priority order** (highest to lowest):
-1. Latest Corporate Announcements (`data/news`)
-2. Fresh News (`data/news`)
-3. F&O Long Build-up (`data/fno_oi`)
-4. Relative Strength (`data/daily` → `rs_raw`)
-5. Delivery Volume Expansion (`data/delivery`)
-6. Sector Momentum (`data/daily`)
-7. Volume Expansion (`data/daily`)
-8. VCP / Consolidation (`data/daily`)
-9. Darvas Box (`data/daily`)
+**Factor Priority Order** (highest to lowest):
+1. Corporate Announcements (`news.json` → `news_impact_score`)
+2. Fresh News (`news.json` → `announcements`)
+3. F&O Long Build-up (`fno_oi/` → `oi` trend)
+4. Relative Strength (`daily/` → `rs_raw`)
+5. Delivery Volume Expansion (`delivery/` → `delivery_pct`)
+6. Sector Momentum (`daily/` → sector grouping)
+7. Volume Expansion (`daily/` → `volume` vs `avg_vol_20`)
+8. VCP / Consolidation (`daily/` → price range tightness)
+9. Darvas Box (`daily/` → new highs on volume)
 10. Other Technical Indicators
 
 ---
 
-## Automation Schedule
+## Minervini SEPA Filters (apply before scoring)
 
-| Pipeline | Schedule | What It Fetches |
-|---|---|---|
-| `kite-market-pipeline` | 4:00 PM IST daily (Mon–Fri) | EOD OHLCV, Full-day intraday, F&O OI, Delivery |
-| `intraday-live-hourly` | 8× during market hours (9:15–15:30 IST) | Live quotes (500 symbols) + 15min candles (211 FnO) |
-| `fundamentals-and-news` → financials | 4:30 PM IST daily (Mon–Fri) | screener.in financials (incremental) |
-| `fundamentals-and-news` → news | Hourly 9:15 AM – 6:00 PM IST | NSE exchange filings (incremental, deduped) |
+All must be TRUE to qualify for BTST/swing consideration:
 
----
-
-## Incremental Fetch Logic
-
-All scripts are designed to be idempotent — safe to re-run without duplication:
-
-| Script | Skip Condition | Pruning |
-|---|---|---|
-| `fetch_eod.py` | Today's file exists with ≥490 symbols | Keep last 10 days |
-| `fetch_intraday.py` | Today's file exists with ≥200 symbols | **Keep last 2 days only** |
-| `fetch_fno_delivery.py` | Today's fno_oi/delivery file already complete | Keep last 30 days |
-| `fetch_intraday_live.py` | Overwrites latest.json each run | Delete previous day folders |
-| `fetch_financials.py` | Symbol in today's fetch_log.json | Single master file (never grows) |
-| `fetch_news.py` | Announcement ID in seen_ids.json | Rolling 30-day window |
+```python
+close > dma_50        # Price above 50-day MA
+close > dma_150       # Price above 150-day MA
+close > dma_200       # Price above 200-day MA
+dma_50 > dma_150      # 50 DMA above 150 DMA (uptrend)
+dma_150 > dma_200     # 150 DMA above 200 DMA (stage 2)
+rs_raw > 1.0          # Outperforming Nifty50
+close >= 52w_high * 0.75   # Within 25% of 52-week high
+```
 
 ---
 
@@ -201,37 +421,55 @@ All scripts are designed to be idempotent — safe to re-run without duplication
 
 ```
 nse-market-db/
-├── README.md                          ← This file
-├── requirements.txt                   ← Python dependencies
+├── README.md
+├── requirements.txt
 ├── scripts/
-│   ├── kite_auth.py                   ← Zerodha Kite auto-login (pyotp TOTP)
-│   ├── fetch_eod.py                   ← EOD OHLCV for 500 symbols
-│   ├── fetch_intraday.py              ← Full-day candles for 211 FnO symbols
-│   ├── fetch_fno_delivery.py          ← F&O OI quotes + NSE delivery bhavcopy
-│   ├── fetch_intraday_live.py         ← Hourly live quotes + candles
-│   ├── fetch_financials.py            ← screener.in financials (incremental)
-│   └── fetch_news.py                  ← NSE exchange announcements (incremental)
+│   ├── kite_auth.py           ← Zerodha Kite auto-login (pyotp TOTP)
+│   ├── fetch_eod.py           ← EOD OHLCV for 500 NIFTY500 symbols
+│   ├── fetch_intraday.py      ← Full-day candles for 211 FnO symbols
+│   ├── fetch_fno_delivery.py  ← F&O OI quotes + NSE delivery bhavcopy
+│   ├── fetch_intraday_live.py ← Hourly live quotes + candles
+│   ├── fetch_financials.py    ← screener.in fundamentals (incremental)
+│   └── fetch_news.py          ← NSE exchange announcements (incremental)
 ├── .github/workflows/
-│   ├── kite_pipeline.yml              ← EOD + Intraday pipeline (4 PM IST)
-│   ├── intraday_live.yml              ← Hourly live snapshots
-│   └── fundamentals_news.yml          ← Financials + News pipeline
+│   ├── kite_pipeline.yml      ← EOD + Intraday + FnO OI + Delivery
+│   ├── intraday_live.yml      ← Hourly live snapshots
+│   ├── fetch_financials.yml   ← Daily screener.in fundamentals
+│   └── fetch_news.yml         ← Hourly NSE announcements
 └── data/
     ├── master/
-    │   └── instrument_map.json        ← Symbol → Kite token map (DO NOT DELETE)
-    ├── daily/                         ← EOD files: YYYY-MM-DD.json (last 10)
-    ├── intraday/                      ← Intraday files: YYYY-MM-DD.json (last 2)
-    ├── fno_oi/                        ← F&O OI files: YYYY-MM-DD.json (last 30)
-    ├── delivery/                      ← Delivery files: YYYY-MM-DD.json (last 30)
+    │   └── instrument_map.json
+    ├── daily/         YYYY-MM-DD.json  (last 10 days)
+    ├── intraday/      YYYY-MM-DD.json  (last 2 days — 15 MB each)
+    ├── fno_oi/        YYYY-MM-DD.json  (last 30 days)
+    ├── delivery/      YYYY-MM-DD.json  (last 30 days)
     ├── live/
-    │   ├── latest.json                ← Always current (overwritten hourly)
-    │   └── YYYY-MM-DD/                ← Today's snapshots only (HH-MM.json)
+    │   ├── latest.json          ← always current
+    │   └── YYYY-MM-DD/          ← today's snapshots only
     ├── financials/
-    │   ├── financials.json            ← Single master file (500 symbols, 12yr)
-    │   └── fetch_log.json             ← Tracks which symbols fetched today
+    │   ├── financials.json      ← single master file (500 symbols)
+    │   └── fetch_log.json       ← tracks which symbols fetched today
     └── news/
-        ├── news.json                  ← Single rolling file (30-day window)
-        └── seen_ids.json              ← Dedup log (announcement IDs, 7-day)
+        ├── news.json            ← single rolling file (30-day window)
+        └── seen_ids.json        ← dedup log (7-day expiry)
 ```
+
+---
+
+## Storage Budget
+
+| Folder | Retention | Approx Size |
+|---|---|---|
+| `data/daily/` | Last 10 days | ~20 MB |
+| `data/intraday/` | Last 2 days | ~30 MB |
+| `data/fno_oi/` | Last 30 days | ~9 MB |
+| `data/delivery/` | Last 30 days | ~15 MB |
+| `data/live/` | Today + latest.json | ~18 MB |
+| `data/financials/` | Single master file | ~22 MB |
+| `data/news/` | Single rolling file | ~5 MB |
+| **Total** | **Stable forever** | **~120 MB** |
+
+GitHub recommended limit: 1 GB. This repo stays well under 150 MB permanently.
 
 ---
 
@@ -243,25 +481,8 @@ nse-market-db/
 | `KITE_API_SECRET` | Zerodha Kite Connect API secret |
 | `KITE_USER_ID` | Zerodha user ID (XXU393) |
 | `KITE_PASSWORD` | Zerodha login password |
-| `KITE_TOTP_SECRET` | External TOTP secret key (from kite.zerodha.com → Account Security) |
+| `KITE_TOTP_SECRET` | External TOTP secret from kite.zerodha.com → Account Security |
 | `PAT_TOKEN` | GitHub Personal Access Token with repo write permissions |
-
----
-
-## Storage Budget
-
-| Folder | Max Files | Max Size |
-|---|---|---|
-| `data/daily/` | 10 files | ~20 MB |
-| `data/intraday/` | 2 files | ~30 MB |
-| `data/fno_oi/` | 30 files | ~9 MB |
-| `data/delivery/` | 30 files | ~15 MB |
-| `data/live/` | 1 day + latest.json | ~18 MB |
-| `data/financials/` | 2 files (master + log) | ~22 MB |
-| `data/news/` | 2 files (news + seen_ids) | ~5 MB |
-| **Total stable** | | **~120 MB** |
-
-GitHub recommended limit: 1 GB. This repo stays under 150 MB permanently.
 
 ---
 
@@ -269,11 +490,11 @@ GitHub recommended limit: 1 GB. This repo stays under 150 MB permanently.
 
 | Data | Source | Cost |
 |---|---|---|
-| OHLCV, Intraday, OI, Live quotes | Zerodha Kite Connect API | Requires Kite subscription |
-| Delivery % | NSE public bhavcopy CSV | Free |
-| Financial ratios, P&L, BS, CF | screener.in (HTTP scraping) | Free |
-| Announcements, Board meetings | NSE India official API | Free |
+| OHLCV, Intraday, OI, Live | Zerodha Kite Connect API | Requires active Kite subscription |
+| Delivery % | NSE official bhavcopy CSV | Free (public) |
+| Fundamentals (P&L, BS, CF) | screener.in | Free (scraping) |
+| Announcements, Board meetings | NSE India exchange API | Free (public) |
 
 ---
 
-*Last updated: June 2026 | Built by Manoj with Claude (Anthropic)*
+*Built by Manoj with Claude (Anthropic) — June 2026*
