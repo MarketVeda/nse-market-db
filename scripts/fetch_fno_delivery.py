@@ -79,7 +79,7 @@ def fetch_fno_oi(kite, date_str):
             pass
 
     log.info("=== F&O OI Fetch Start ===")
-    all_keys = [f"NSE:{s}-EQ" for s in FNO_SYMBOLS]
+    all_keys = [f"NSE:{s}" for s in FNO_SYMBOLS]
     output   = {
         "data_type":   "FNO_OI_QUOTES",
         "description": "F&O OI + live quotes for FnO universe",
@@ -97,7 +97,7 @@ def fetch_fno_oi(kite, date_str):
         try:
             quotes = kite.quote(batch)
             for key, q in quotes.items():
-                sym = key.replace("NSE:","").replace("-EQ","")
+                sym = key.replace("NSE:","")
                 output["symbols"][sym] = {
                     "last_price":  q.get("last_price",0),
                     "volume":      q.get("volume",0),
