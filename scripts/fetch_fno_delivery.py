@@ -12,7 +12,11 @@ import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
 import json, time, logging, requests
-from datetime import datetime, timedelta
+from datetime import datetime, timezone, timedelta as _td
+
+def get_ist_now():
+    IST = timezone(_td(hours=5, minutes=30))
+    return datetime.now(IST).replace(tzinfo=None), timedelta
 from pathlib import Path
 from kite_auth import get_kite
 
@@ -80,7 +84,7 @@ def fetch_fno_oi(kite, date_str):
         "description": "F&O OI + live quotes for FnO universe",
         "universe":    "NSE FnO (211 symbols)",
         "fetch_date":  date_str,
-        "fetch_time":  datetime.today().strftime("%H:%M:%S IST"),
+        "fetch_time":  get_ist_now().strftime("%H:%M:%S IST"),
         "source":      "Zerodha Kite Connect Quotes API",
         "fields":      ["last_price","volume","oi","oi_day_high","oi_day_low",
                         "buy_qty","sell_qty","avg_price","data_grade"],
@@ -199,7 +203,7 @@ def fetch_delivery(date_str):
 
 def main():
     kite     = get_kite()
-    date_str = datetime.today().strftime("%Y-%m-%d")
+    date_str = get_ist_now().strftime("%Y-%m-%d")
     fetch_fno_oi(kite, date_str)
     fetch_delivery(date_str)
 
