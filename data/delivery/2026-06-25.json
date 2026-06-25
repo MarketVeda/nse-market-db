@@ -1,0 +1,9 @@
+{
+  "data_type": "DELIVERY_DATA",
+  "description": "NSE delivery quantity and delivery % for all EQ symbols",
+  "fetch_date": "2026-06-25",
+  "data_date": "unknown",
+  "source": "NSE sec_bhavdata_full public CSV",
+  "total_symbols": 0,
+  "symbols": {}
+}

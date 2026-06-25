@@ -1,0 +1,20 @@
+{
+  "data_type": "FNO_OI_QUOTES",
+  "description": "F&O OI + live quotes for FnO universe",
+  "universe": "NSE FnO (211 symbols)",
+  "fetch_date": "2026-06-25",
+  "fetch_time": "07:24:16 IST",
+  "source": "Zerodha Kite Connect Quotes API",
+  "fields": [
+    "last_price",
+    "volume",
+    "oi",
+    "oi_day_high",
+    "oi_day_low",
+    "buy_qty",
+    "sell_qty",
+    "avg_price",
+    "data_grade"
+  ],
+  "symbols": {}
+}
