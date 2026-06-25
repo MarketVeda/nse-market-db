@@ -19,14 +19,15 @@ Result: Each hourly run adds only NEW announcements — zero duplication.
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
-import json, time, logging, hashlib
 from datetime import datetime, timedelta, timezone
-from pathlib import Path
 
 def get_ist_now():
-    """Return current datetime in IST — GitHub runners are UTC."""
-    IST = timezone(timedelta(hours=5, minutes=30))
-    return datetime.now(IST).replace(tzinfo=None)
+    """Always returns current time as IST — GitHub runners use UTC."""
+    return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
+
+import json, time, logging, hashlib
+from pathlib import Path
+
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
