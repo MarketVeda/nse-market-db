@@ -20,8 +20,13 @@ import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
 import json, time, logging, hashlib
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+def get_ist_now():
+    """Return current datetime in IST — GitHub runners are UTC."""
+    IST = timezone(timedelta(hours=5, minutes=30))
+    return datetime.now(IST).replace(tzinfo=None)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -143,18 +148,18 @@ def load_seen_ids() -> set:
         if SEEN_LOG.exists():
             data = json.loads(SEEN_LOG.read_text())
             # Only keep IDs from last 7 days
-            cutoff = (datetime.today() - timedelta(days=7)).strftime("%Y-%m-%d")
+            cutoff = (get_ist_now() - timedelta(days=7)).strftime("%Y-%m-%d")
             return {k for k, v in data.items() if v >= cutoff}
     except Exception:
         pass
     return set()
 
 def save_seen_ids(seen: set, existing_log: dict):
-    today = datetime.today().strftime("%Y-%m-%d")
+    today = get_ist_now().strftime("%Y-%m-%d")
     for sid in seen:
         existing_log[sid] = today
     # Prune old entries
-    cutoff = (datetime.today() - timedelta(days=7)).strftime("%Y-%m-%d")
+    cutoff = (get_ist_now() - timedelta(days=7)).strftime("%Y-%m-%d")
     pruned = {k: v for k, v in existing_log.items() if v >= cutoff}
     SEEN_LOG.parent.mkdir(parents=True, exist_ok=True)
     SEEN_LOG.write_text(json.dumps(pruned, indent=2))
@@ -174,9 +179,9 @@ def load_news_file() -> dict:
 
 def main():
     log.info("=== News Incremental Fetch Start ===")
-    today     = datetime.today().strftime("%Y-%m-%d")
-    now_str   = datetime.today().strftime("%H:%M")
-    from_dt   = datetime.today() - timedelta(days=1)   # last 24 hours only
+    today     = get_ist_now().strftime("%Y-%m-%d")
+    now_str   = get_ist_now().strftime("%H:%M")
+    from_dt   = get_ist_now() - timedelta(days=1)   # last 24 hours only
 
     # Load existing state
     try:
@@ -202,7 +207,7 @@ def main():
                 anns = nse.announcements(
                     segment="equities",
                     from_date=from_dt,
-                    to_date=datetime.today()
+                    to_date=get_ist_now()
                 )
                 log.info(f"NSE returned {len(anns)} raw announcements")
                 for a in anns:
@@ -289,7 +294,7 @@ def main():
         log.error(f"NSE client error: {e}")
 
     # Prune old announcements (keep last 30 days per symbol)
-    cutoff = (datetime.today() - timedelta(days=30)).strftime("%Y-%m-%d")
+    cutoff = (get_ist_now() - timedelta(days=30)).strftime("%Y-%m-%d")
     for sym, data in news_data["symbols"].items():
         anns = data.get("announcements", [])
         data["announcements"] = [
