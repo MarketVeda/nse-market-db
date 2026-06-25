@@ -120,27 +120,48 @@ def fetch_fno_oi(kite, date_str):
 
 
 def parse_bhavcopy(csv_text):
+    """
+    Parse NSE sec_bhavdata_full CSV.
+    Columns: SYMBOL,SERIES,DATE1,PREV_CL_PR,OPEN_PRICE,HIGH_PRICE,LOW_PRICE,
+             LAST_PRICE,CLOSE_PRICE,AVG_PRICE,TTL_TRD_QNTY,TURNOVER_LACS,
+             NO_OF_TRADES,DELIV_QTY,DELIV_PER
+    """
     results = {}
     lines   = csv_text.strip().split("\n")
     if len(lines) < 2:
         return results
     header = [h.strip() for h in lines[0].split(",")]
-    col    = {n:i for i,n in enumerate(header)}
+    col    = {n: i for i, n in enumerate(header)}
+    log.info(f"Bhavcopy columns: {header[:6]}...")
+
+    sym_idx   = col.get("SYMBOL",    0)
+    ser_idx   = col.get("SERIES",    1)
+    vol_idx   = col.get("TTL_TRD_QNTY", col.get("TOTTRDQTY", -1))
+    del_idx   = col.get("DELIV_QTY", -1)
+    pct_idx   = col.get("DELIV_PER", -1)
+
     for line in lines[1:]:
         parts = [p.strip() for p in line.split(",")]
         if len(parts) < 5:
             continue
         try:
-            if parts[col.get("SERIES",1)] != "EQ":
+            if parts[ser_idx] != "EQ":
                 continue
-            sym       = parts[col["SYMBOL"]]
-            trade_qty = int(parts[col["TOTTRDQTY"]]) if parts[col.get("TOTTRDQTY","")] else 0
-            deliv_qty = int(parts[col["DELIV_QTY"]]) if col.get("DELIV_QTY") and parts[col["DELIV_QTY"]] else 0
-            deliv_pct = float(parts[col["DELIV_PER"]]) if col.get("DELIV_PER") and parts[col["DELIV_PER"]] else 0.0
-            results[sym] = {"delivery_qty":deliv_qty,"delivery_pct":round(deliv_pct,2),"trade_qty":trade_qty,"data_grade":"A"}
+            sym       = parts[sym_idx]
+            trade_qty = int(float(parts[vol_idx]))   if vol_idx >= 0 and parts[vol_idx] else 0
+            deliv_qty = int(float(parts[del_idx]))   if del_idx >= 0 and parts[del_idx] else 0
+            deliv_pct = round(float(parts[pct_idx]), 2) if pct_idx >= 0 and parts[pct_idx] else 0.0
+            if sym:
+                results[sym] = {
+                    "delivery_qty": deliv_qty,
+                    "delivery_pct": deliv_pct,
+                    "trade_qty":    trade_qty,
+                    "data_grade":   "A"
+                }
         except (IndexError, ValueError, KeyError):
             continue
     return results
+
 
 
 def fetch_delivery(date_str):
