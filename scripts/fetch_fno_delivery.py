@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """
 fetch_fno_delivery.py
-Part 1 → data/fno_oi/YYYY-MM-DD.json    : F&O OI + volume + buy/sell qty
-Part 2 → data/delivery/YYYY-MM-DD.json  : NSE delivery qty + delivery % for ALL EQ symbols
+---------------------
+INCREMENTAL: Skips if today's fno_oi file already exists.
+PRUNING:     Keeps last 30 days for fno_oi, last 30 days for delivery.
+Part 1 → data/fno_oi/YYYY-MM-DD.json
+Part 2 → data/delivery/YYYY-MM-DD.json
 """
 
 import sys, os
@@ -15,6 +18,9 @@ from kite_auth import get_kite
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
+
+KEEP_FNO_OI  = 30
+KEEP_DELIVERY = 30
 
 FNO_SYMBOLS = [
     "360ONE","ABB","APLAPOLLO","AUBANK","ADANIENSOL","ADANIENT","ADANIGREEN",
@@ -47,48 +53,65 @@ FNO_SYMBOLS = [
 ]
 
 
+def prune_old_files(folder: Path, keep: int):
+    files = sorted(folder.glob("*.json"))
+    for f in files[:-keep]:
+        f.unlink()
+        log.info(f"Pruned: {f.name}")
+
+
 def fetch_fno_oi(kite, date_str):
+    out = Path(f"data/fno_oi/{date_str}.json")
+
+    # INCREMENTAL: skip if already done today
+    if out.exists():
+        try:
+            existing = json.loads(out.read_text())
+            if len(existing.get("symbols",{})) >= 200:
+                log.info("FnO OI already fetched today — skipping")
+                return
+        except Exception:
+            pass
+
     log.info("=== F&O OI Fetch Start ===")
     all_keys = [f"NSE:{s}-EQ" for s in FNO_SYMBOLS]
     output   = {
         "data_type":   "FNO_OI_QUOTES",
-        "description": "F&O Open Interest + live quotes for FnO universe",
+        "description": "F&O OI + live quotes for FnO universe",
         "universe":    "NSE FnO (211 symbols)",
         "fetch_date":  date_str,
         "fetch_time":  datetime.today().strftime("%H:%M:%S IST"),
         "source":      "Zerodha Kite Connect Quotes API",
         "fields":      ["last_price","volume","oi","oi_day_high","oi_day_low",
                         "buy_qty","sell_qty","avg_price","data_grade"],
-        "note":        "OI = Open Interest for equity futures. High OI + rising price = long buildup.",
         "symbols":     {}
     }
 
-    for start in range(0, len(all_keys), 200):
-        batch = all_keys[start:start+200]
+    for start in range(0, len(all_keys), 500):
+        batch = all_keys[start:start+500]
         try:
             quotes = kite.quote(batch)
             for key, q in quotes.items():
                 sym = key.replace("NSE:","").replace("-EQ","")
                 output["symbols"][sym] = {
-                    "last_price":  q.get("last_price", 0),
-                    "volume":      q.get("volume", 0),
-                    "oi":          q.get("oi", 0),
-                    "oi_day_high": q.get("oi_day_high", 0),
-                    "oi_day_low":  q.get("oi_day_low", 0),
-                    "buy_qty":     q.get("buy_quantity", 0),
-                    "sell_qty":    q.get("sell_quantity", 0),
-                    "avg_price":   q.get("average_price", 0),
+                    "last_price":  q.get("last_price",0),
+                    "volume":      q.get("volume",0),
+                    "oi":          q.get("oi",0),
+                    "oi_day_high": q.get("oi_day_high",0),
+                    "oi_day_low":  q.get("oi_day_low",0),
+                    "buy_qty":     q.get("buy_quantity",0),
+                    "sell_qty":    q.get("sell_quantity",0),
+                    "avg_price":   q.get("average_price",0),
                     "data_grade":  "A",
                 }
             time.sleep(0.5)
         except Exception as e:
-            log.error(f"Quote batch [{start}:{start+200}] failed: {e}")
-            time.sleep(2)
+            log.error(f"Quote batch failed: {e}")
 
-    out = Path(f"data/fno_oi/{date_str}.json")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(output, indent=2))
-    log.info(f"=== F&O OI Done: {out} | {len(output['symbols'])} symbols ===")
+    log.info(f"=== FnO OI Done: {len(output['symbols'])} symbols ===")
+    prune_old_files(out.parent, KEEP_FNO_OI)
 
 
 def parse_bhavcopy(csv_text):
@@ -109,20 +132,27 @@ def parse_bhavcopy(csv_text):
             trade_qty = int(parts[col["TOTTRDQTY"]]) if parts[col.get("TOTTRDQTY","")] else 0
             deliv_qty = int(parts[col["DELIV_QTY"]]) if col.get("DELIV_QTY") and parts[col["DELIV_QTY"]] else 0
             deliv_pct = float(parts[col["DELIV_PER"]]) if col.get("DELIV_PER") and parts[col["DELIV_PER"]] else 0.0
-            results[sym] = {
-                "delivery_qty": deliv_qty,
-                "delivery_pct": round(deliv_pct, 2),
-                "trade_qty":    trade_qty,
-                "data_grade":   "A"
-            }
+            results[sym] = {"delivery_qty":deliv_qty,"delivery_pct":round(deliv_pct,2),"trade_qty":trade_qty,"data_grade":"A"}
         except (IndexError, ValueError, KeyError):
             continue
     return results
 
 
 def fetch_delivery(date_str):
-    log.info("=== Delivery Data Fetch Start ===")
-    today   = datetime.strptime(date_str, "%Y-%m-%d")
+    out = Path(f"data/delivery/{date_str}.json")
+
+    # INCREMENTAL: skip if already done today
+    if out.exists():
+        try:
+            existing = json.loads(out.read_text())
+            if existing.get("total_symbols",0) >= 1000:
+                log.info("Delivery already fetched today — skipping")
+                return
+        except Exception:
+            pass
+
+    log.info("=== Delivery Fetch Start ===")
+    today   = datetime.strptime(date_str,"%Y-%m-%d")
     headers = {
         "User-Agent":      "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
         "Referer":         "https://www.nseindia.com/",
@@ -132,7 +162,7 @@ def fetch_delivery(date_str):
     delivery_data = {}
     used_date     = None
 
-    for days_back in range(0, 4):
+    for days_back in range(0,4):
         attempt = today - timedelta(days=days_back)
         if attempt.weekday() >= 5:
             continue
@@ -154,20 +184,17 @@ def fetch_delivery(date_str):
 
     output = {
         "data_type":     "DELIVERY_DATA",
-        "description":   "NSE delivery quantity and delivery % for all EQ series symbols",
-        "universe":      "All NSE EQ symbols (~2000 symbols)",
+        "description":   "NSE delivery quantity and delivery % for all EQ symbols",
         "fetch_date":    date_str,
         "data_date":     used_date.strftime("%Y-%m-%d") if used_date else "unknown",
         "source":        "NSE sec_bhavdata_full public CSV",
-        "fields":        ["delivery_qty","delivery_pct","trade_qty","data_grade"],
-        "note":          "delivery_pct > 50% = strong institutional interest. High delivery = conviction buying.",
         "total_symbols": len(delivery_data),
         "symbols":       delivery_data,
     }
-    out = Path(f"data/delivery/{date_str}.json")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(output, indent=2))
-    log.info(f"=== Delivery Done: {out} | {len(delivery_data)} symbols ===")
+    log.info(f"=== Delivery Done: {len(delivery_data)} symbols ===")
+    prune_old_files(out.parent, KEEP_DELIVERY)
 
 
 def main():
@@ -175,7 +202,6 @@ def main():
     date_str = datetime.today().strftime("%Y-%m-%d")
     fetch_fno_oi(kite, date_str)
     fetch_delivery(date_str)
-    log.info("=== All F&O + Delivery Done ===")
 
 
 if __name__ == "__main__":
