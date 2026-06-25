@@ -13,7 +13,11 @@ import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
 import json, time, logging
-from datetime import datetime
+from datetime import datetime, timezone, timedelta as _td
+
+def get_ist_now():
+    IST = timezone(_td(hours=5, minutes=30))
+    return datetime.now(IST).replace(tzinfo=None)
 from pathlib import Path
 from kite_auth import get_kite
 
@@ -106,7 +110,7 @@ def intraday_stats(candles):
 def main():
     log.info("=== Intraday Fetch Start ===")
     kite     = get_kite()
-    today    = datetime.today()
+    today    = get_ist_now()
     date_str = today.strftime("%Y-%m-%d")
     out      = Path(f"data/intraday/{date_str}.json")
 
