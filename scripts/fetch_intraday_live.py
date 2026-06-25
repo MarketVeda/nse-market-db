@@ -139,14 +139,14 @@ def prune_old_live_folders(live_dir: Path, keep_today_only: bool = True):
 
 
 def fetch_all_quotes(kite, token_map):
-    all_keys = [f"NSE:{s}-EQ" for s in NIFTY500 if token_map.get(s)]
+    all_keys = [f"NSE:{s}" for s in NIFTY500 if token_map.get(s)]
     results  = {}
     for start in range(0, len(all_keys), 500):
         batch = all_keys[start:start+500]
         try:
             quotes = kite.quote(batch)
             for key, q in quotes.items():
-                sym  = key.replace("NSE:","").replace("-EQ","")
+                sym  = key.replace("NSE:","")
                 ohlc = q.get("ohlc",{})
                 prev = ohlc.get("close",0)
                 ltp  = q.get("last_price",0)
