@@ -19,14 +19,13 @@ Time per symbol: 2 sec sleep → ~500 symbols = ~17 min first run, ~0 min subseq
 import sys, os
 sys.path.insert(0, os.path.dirname(__file__))
 
-import json, time, re, logging, requests
-from datetime import datetime, timezone, timedelta
-from pathlib import Path
+from datetime import datetime, timedelta, timezone
 
 def get_ist_now():
-    """Return current datetime in IST — GitHub runners are UTC."""
-    IST = timezone(timedelta(hours=5, minutes=30))
-    return datetime.now(IST).replace(tzinfo=None)
+    """Always returns current time as IST — GitHub runners use UTC."""
+    return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
+
+import json, time, re, logging, requests
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
