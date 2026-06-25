@@ -2,18 +2,16 @@ name: intraday-live-hourly
 
 on:
   schedule:
-    # Every hour during NSE market hours: 09:15 to 15:30 IST
-    # IST = UTC + 5:30
-    - cron: "45 3  * * 1-5"   # 09:15 IST — market open
+    # Every hour during NSE market hours: 09:15 to 15:30 IST (UTC+5:30)
+    - cron: "45 3  * * 1-5"   # 09:15 IST
     - cron: "30 4  * * 1-5"   # 10:00 IST
     - cron: "30 5  * * 1-5"   # 11:00 IST
     - cron: "30 6  * * 1-5"   # 12:00 IST
     - cron: "30 7  * * 1-5"   # 13:00 IST
     - cron: "30 8  * * 1-5"   # 14:00 IST
     - cron: "30 9  * * 1-5"   # 15:00 IST
-    - cron: "0  10 * * 1-5"   # 15:30 IST — market close snapshot
-
-  workflow_dispatch:   # manual trigger for testing
+    - cron: "0  10 * * 1-5"   # 15:30 IST
+  workflow_dispatch:
 
 jobs:
   live-snapshot:
@@ -21,7 +19,7 @@ jobs:
     timeout-minutes: 12
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
@@ -32,11 +30,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install kiteconnect pyotp requests
+        run: pip install kiteconnect pyotp requests
 
-      - name: Fetch live snapshot (500 quotes + 211 FnO candles)
+      - name: Fetch live snapshot (market hours check inside script)
         env:
           KITE_API_KEY:     ${{ secrets.KITE_API_KEY }}
           KITE_API_SECRET:  ${{ secrets.KITE_API_SECRET }}
@@ -45,25 +41,18 @@ jobs:
           KITE_TOTP_SECRET: ${{ secrets.KITE_TOTP_SECRET }}
         run: python scripts/fetch_intraday_live.py
 
-      - name: Commit and push snapshot
+      - name: Commit snapshot
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/live/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No new snapshot (market closed or no changes)"
           else
+            for i in 1 2 3; do
+              git pull --rebase origin main && break || sleep 5
+            done
             TIME=$(TZ='Asia/Kolkata' date +'%H:%M IST')
-            git commit -m "Live snapshot ${TIME} — NIFTY500 quotes + FnO candles"
+            git commit -m "Live snapshot ${TIME}"
             git push
-            echo "Snapshot committed: ${TIME}"
-          fi
-
-      - name: Summary
-        if: always()
-        run: |
-          if [ -f "data/live/latest.json" ]; then
-            Q=$(python3 -c "import json; d=json.load(open('data/live/latest.json')); print(len(d.get('quotes',{})))" 2>/dev/null || echo "?")
-            T=$(python3 -c "import json; d=json.load(open('data/live/latest.json')); print(d.get('snapshot_time','?'))" 2>/dev/null || echo "?")
-            echo "Snapshot: ${T} IST | ${Q} symbols"
           fi
