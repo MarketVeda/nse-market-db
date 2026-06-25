@@ -2,87 +2,81 @@ name: fundamentals-and-news
 
 on:
   schedule:
-    - cron: "0 11 * * 1-5"     # Financials: 4:30 PM IST daily
-    - cron: "45 3  * * 1-5"    # News: 09:15 IST
-    - cron: "30 4  * * 1-5"    # News: 10:00 IST
-    - cron: "30 5  * * 1-5"    # News: 11:00 IST
-    - cron: "30 6  * * 1-5"    # News: 12:00 IST
-    - cron: "30 7  * * 1-5"    # News: 13:00 IST
-    - cron: "30 8  * * 1-5"    # News: 14:00 IST
-    - cron: "30 9  * * 1-5"    # News: 15:00 IST
-    - cron: "0  10 * * 1-5"    # News: 15:30 IST
-    - cron: "30 12 * * 1-5"    # News: 18:00 IST EOD
+    - cron: "0 11 * * 1-5"     # 4:30 PM IST — triggers financials
+    - cron: "45 3  * * 1-5"    # 09:15 IST — triggers news
+    - cron: "30 4  * * 1-5"    # 10:00 IST
+    - cron: "30 5  * * 1-5"    # 11:00 IST
+    - cron: "30 6  * * 1-5"    # 12:00 IST
+    - cron: "30 7  * * 1-5"    # 13:00 IST
+    - cron: "30 8  * * 1-5"    # 14:00 IST
+    - cron: "30 9  * * 1-5"    # 15:00 IST
+    - cron: "0  10 * * 1-5"    # 15:30 IST
+    - cron: "30 12 * * 1-5"    # 18:00 IST EOD
   workflow_dispatch:
 
 jobs:
+  # ── Job 1: Financials ────────────────────────────────────────────────────────
   fetch-financials:
     runs-on: ubuntu-latest
     timeout-minutes: 40
     if: >
       github.event_name == 'workflow_dispatch' ||
       github.event.schedule == '0 11 * * 1-5'
-
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - run: pip install requests beautifulsoup4 lxml
-
-      - name: Fetch financials (incremental)
+      - name: Fetch financials
         run: python scripts/fetch_financials.py
-
       - name: Commit financials
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/financials/
           if git diff --staged --quiet; then
-            echo "Nothing new to commit"
+            echo "Nothing new"
           else
             git pull --rebase origin main
             git add data/financials/
             git commit -m "Financials $(date +'%Y-%m-%d')"
             git push
-            echo "Financials pushed OK"
           fi
 
+  # ── Job 2: News — RUNS AFTER financials on 4:30 PM trigger ─────────────────
+  # On all other hourly crons, financials is skipped so news runs alone
   fetch-news:
     runs-on: ubuntu-latest
     timeout-minutes: 8
+    needs: [fetch-financials]
     if: >
-      github.event_name == 'workflow_dispatch' ||
-      github.event.schedule != '0 11 * * 1-5'
-
+      always() && (
+        github.event_name == 'workflow_dispatch' ||
+        github.event.schedule != '0 11 * * 1-5'
+      )
     steps:
       - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
-
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - run: pip install nse httpx[http2] requests
-
-      - name: Fetch news (incremental)
+      - name: Fetch news
         run: python scripts/fetch_news.py
-
       - name: Commit news
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news/
           if git diff --staged --quiet; then
-            echo "No new announcements this run"
+            echo "No new announcements"
           else
             git pull --rebase origin main
             git add data/news/
             git commit -m "News $(date +'%Y-%m-%d %H:%M')"
             git push
-            echo "News pushed OK"
           fi
