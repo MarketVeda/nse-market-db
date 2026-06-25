@@ -2,15 +2,15 @@ name: intraday-live-hourly
 
 on:
   schedule:
-    # Every hour during NSE market hours: 09:15 to 15:30 IST (UTC+5:30)
-    - cron: "45 3  * * 1-5"   # 09:15 IST
+    # Staggered to avoid conflict with fundamentals_news.yml (which runs 3 min later)
+    - cron: "45 3  * * 1-5"   # 09:15 IST — market open
     - cron: "30 4  * * 1-5"   # 10:00 IST
     - cron: "30 5  * * 1-5"   # 11:00 IST
     - cron: "30 6  * * 1-5"   # 12:00 IST
     - cron: "30 7  * * 1-5"   # 13:00 IST
     - cron: "30 8  * * 1-5"   # 14:00 IST
     - cron: "30 9  * * 1-5"   # 15:00 IST
-    - cron: "0  10 * * 1-5"   # 15:30 IST
+    - cron: "0  10 * * 1-5"   # 15:30 IST — market close
   workflow_dispatch:
 
 jobs:
@@ -19,18 +19,16 @@ jobs:
     timeout-minutes: 12
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
 
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install kiteconnect pyotp requests
+      - run: pip install kiteconnect pyotp requests
 
       - name: Fetch live snapshot (market hours check inside script)
         env:
@@ -41,18 +39,26 @@ jobs:
           KITE_TOTP_SECRET: ${{ secrets.KITE_TOTP_SECRET }}
         run: python scripts/fetch_intraday_live.py
 
-      - name: Commit snapshot
+      - name: Commit and push (with retry)
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/live/
           if git diff --staged --quiet; then
-            echo "No new snapshot (market closed or no changes)"
-          else
-            for i in 1 2 3; do
-              git pull --rebase origin main && break || sleep 5
-            done
-            TIME=$(TZ='Asia/Kolkata' date +'%H:%M IST')
-            git commit -m "Live snapshot ${TIME}"
-            git push
+            echo "No changes (market closed or no new data)"
+            exit 0
           fi
+          git stash
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            git rebase origin/main
+            git stash pop 2>/dev/null || true
+            git add data/live/
+            git diff --staged --quiet && echo "Nothing after rebase" && exit 0
+            git commit -m "Live $(TZ='Asia/Kolkata' date +'%H:%M IST')" 2>/dev/null || true
+            git push origin main && echo "✓ Push OK on attempt $i" && exit 0
+            echo "Attempt $i failed — retrying in $((i*15))s"
+            git stash 2>/dev/null || true
+            sleep $((i * 15))
+          done
+          echo "All push attempts failed" && exit 1
