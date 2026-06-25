@@ -2,18 +2,28 @@ name: fundamentals-and-news
 
 on:
   schedule:
-    # Financials: Every Sunday at 8:00 AM IST = 02:30 UTC
-    - cron: "30 2 * * 0"
-    # News/Announcements: Every weekday at 6:00 PM IST = 12:30 UTC
-    - cron: "30 12 * * 1-5"
+    # Financials: Daily at 4:30 PM IST = 11:00 UTC (Mon–Fri)
+    - cron: "0 11 * * 1-5"
+    # News: Hourly 9:15 AM – 6:00 PM IST
+    - cron: "45 3  * * 1-5"   # 09:15 IST
+    - cron: "30 4  * * 1-5"   # 10:00 IST
+    - cron: "30 5  * * 1-5"   # 11:00 IST
+    - cron: "30 6  * * 1-5"   # 12:00 IST
+    - cron: "30 7  * * 1-5"   # 13:00 IST
+    - cron: "30 8  * * 1-5"   # 14:00 IST
+    - cron: "30 9  * * 1-5"   # 15:00 IST
+    - cron: "0  10 * * 1-5"   # 15:30 IST
+    - cron: "30 12 * * 1-5"   # 18:00 IST EOD
   workflow_dispatch:
 
 jobs:
-  # ── Job 1: Financials (runs Sunday only) ────────────────────────────────────
+  # ── Financials: daily incremental at 4:30 PM only ──────────────────────────
   fetch-financials:
     runs-on: ubuntu-latest
     timeout-minutes: 40
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 2 * * 0'
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.schedule == '0 11 * * 1-5'
 
     steps:
       - name: Checkout
@@ -27,11 +37,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install requests beautifulsoup4 lxml
+        run: pip install requests beautifulsoup4 lxml
 
-      - name: Fetch financials from screener.in (500 symbols, ~20 min)
+      - name: Fetch financials (incremental — only symbols not yet done today)
         run: python scripts/fetch_financials.py
 
       - name: Commit financials
@@ -40,19 +48,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/financials/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes — all symbols already fetched today"
           else
-            git pull --rebase origin main
-            git commit -m "Financials screener.in $(date +'%Y-%m-%d')"
+            for i in 1 2 3; do
+              git pull --rebase origin main && break || sleep 5
+            done
+            git commit -m "Financials $(date +'%Y-%m-%d')"
             git push
-            echo "Financials committed"
           fi
 
-  # ── Job 2: News & Announcements (runs weekdays only) ───────────────────────
+  # ── News: every hour (incremental — only new announcement IDs) ─────────────
   fetch-news:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 12 * * 1-5'
+    timeout-minutes: 8
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.schedule != '0 11 * * 1-5'
 
     steps:
       - name: Checkout
@@ -66,11 +77,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install nse httpx[http2] nsefin requests
+        run: pip install nse httpx[http2] requests
 
-      - name: Fetch news and announcements from NSE
+      - name: Fetch news (incremental — only new announcements since last run)
         run: python scripts/fetch_news.py
 
       - name: Commit news
@@ -79,10 +88,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/news/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No new announcements this run"
           else
-            git pull --rebase origin main
-            git commit -m "News/announcements $(date +'%Y-%m-%d')"
+            for i in 1 2 3; do
+              git pull --rebase origin main && break || sleep 5
+            done
+            NEW=$(python3 -c "import json; d=json.load(open('data/news/news.json')); print(d.get('new_this_run',0))" 2>/dev/null || echo "?")
+            TIME=$(TZ='Asia/Kolkata' date +'%H:%M IST')
+            git commit -m "News +${NEW} new @ ${TIME}"
             git push
-            echo "News committed"
           fi
