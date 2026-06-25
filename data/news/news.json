@@ -40,11 +40,20 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "5a3b899ded4c",
+          "datetime": "25-Jun-2026 15:37:09",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "has_pdf": true,
+          "fetched": "15:43"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 8,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -114,9 +123,17 @@
           "fetched": "15:35"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "d3567446fba1",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 25 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -483,9 +500,17 @@
           "fetched": "15:35"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "0f59a4be7add",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 10 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -2130,7 +2155,15 @@
           "fetched": "15:35"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "fc63866d8a49",
+          "ex_date": "29-Jun-2026",
+          "action": "Buy Back",
+          "score": 5,
+          "fetched": "15:43"
+        }
+      ],
       "board_meeting": {},
       "news_impact_score": 12,
       "has_major_announcement": false,
@@ -3082,6 +3115,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "6b3dd94dfc7b",
+          "datetime": "25-Jun-2026 15:38:46",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "15:43"
         }
       ],
       "actions": [],
@@ -3253,6 +3295,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "86c506c331a0",
+          "datetime": "25-Jun-2026 15:41:30",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "15:43"
         }
       ],
       "actions": [],
@@ -3381,9 +3432,17 @@
           "fetched": "15:35"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "5c97751f063f",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.25 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -4569,9 +4628,17 @@
           "fetched": "15:35"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "73a531baccca",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.50 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -4727,11 +4794,75 @@
       "news_impact_score": 5,
       "has_major_announcement": false,
       "exclude_negative": false
+    },
+    "ABDL": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "dae63020fbbf",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 5.40 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NAM-INDIA": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "a6725fb4caba",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 12.50 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SONACOMS": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "16a75fbe4eb4",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 1.80 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LALPATHLAB": {
+      "announcements": [],
+      "actions": [
+        {
+          "id": "8fa5e49474dc",
+          "ex_date": "25-Jun-2026",
+          "action": "Dividend - Rs 4 Per Share",
+          "score": 10,
+          "fetched": "15:43"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
     }
   },
-  "last_updated": "2026-06-25 15:35",
-  "total_symbols": 205,
+  "last_updated": "2026-06-25 15:43",
+  "total_symbols": 209,
   "high_impact": 15,
-  "new_this_run": 320,
-  "total_seen_ids": 320
+  "new_this_run": 12,
+  "total_seen_ids": 332
 }
