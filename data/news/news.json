@@ -17081,6 +17081,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_26062026170602_Schaeffler_Specialwindow_SocialMediaupdate_June262026.pdf",
           "fetched": "17:55"
+        },
+        {
+          "id": "7a3dec879a75",
+          "datetime": "26-Jun-2026 22:07:00",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_26062026220643_Schaeffler_Reg30_Intimation_Appt_ChristopheHannequinandChetanMaini.pdf",
+          "fetched": "22:41"
+        },
+        {
+          "id": "47cfb0820ed0",
+          "datetime": "26-Jun-2026 22:05:24",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_26062026220514_Schaeffler_Reg30_Intimation_Appt_ChristopheHannequinandChetanMaini.pdf",
+          "fetched": "22:41"
         }
       ],
       "actions": [],
@@ -17815,10 +17837,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-26 22:05",
+  "last_updated": "2026-06-26 22:41",
   "total_symbols": 464,
   "high_impact": 17,
-  "new_this_run": 0,
-  "total_seen_ids": 1383,
+  "new_this_run": 2,
+  "total_seen_ids": 1385,
   "guidance_events": 64
 }
