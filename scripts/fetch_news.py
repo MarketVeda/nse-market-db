@@ -182,7 +182,7 @@ def main():
     log.info("=== News Incremental Fetch Start ===")
     today     = get_ist_now().strftime("%Y-%m-%d")
     now_str   = get_ist_now().strftime("%H:%M")
-    from_dt   = get_ist_now() - timedelta(days=1)   # last 24 hours only
+    from_dt   = get_ist_now() - timedelta(days=7)   # 7-day lookback — dedup via seen_ids prevents duplicates
 
     # Load existing state
     try:
