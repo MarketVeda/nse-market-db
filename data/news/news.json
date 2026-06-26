@@ -741,6 +741,17 @@
           "fetched": "23:02",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "8a70b0510220",
+          "datetime": "26-Jun-2026 17:58:39",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GALLANTT_26062026175757_GIL_26062026.pdf",
+          "fetched": "17:58"
         }
       ],
       "actions": [],
@@ -7649,10 +7660,21 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SOBHA_26062026152016_SE_Trading_Window_Closure.pdf",
           "fetched": "17:55"
+        },
+        {
+          "id": "76373be15ee3",
+          "datetime": "26-Jun-2026 17:57:05",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SOBHA_26062026175550_COVERING_LETTER_RECORD_DATE_FINAL__DIVIDEND_.pdf",
+          "fetched": "17:58"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -16865,12 +16887,35 @@
       "has_guidance_event": false,
       "next_result_date": "",
       "next_result_purpose": ""
+    },
+    "DEVYANI": {
+      "announcements": [
+        {
+          "id": "747a9758f3ee",
+          "datetime": "26-Jun-2026 17:57:22",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DEVYANI_26062026175631_SE_Intimation_-_Trading_window_closure_DSC.pdf",
+          "fetched": "17:58"
+        }
+      ],
+      "actions": [],
+      "board_meetings": [],
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-26 17:55",
-  "total_symbols": 454,
+  "last_updated": "2026-06-26 17:58",
+  "total_symbols": 455,
   "high_impact": 17,
-  "new_this_run": 102,
-  "total_seen_ids": 1308,
+  "new_this_run": 3,
+  "total_seen_ids": 1311,
   "guidance_events": 62
 }
