@@ -3057,6 +3057,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_26062026151223_SEIntimation26062026.pdf",
           "fetched": "17:55"
+        },
+        {
+          "id": "ecea12a09d38",
+          "datetime": "26-Jun-2026 21:31:59",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK_26062026212411_Outcome_legal_review_June232026.pdf",
+          "fetched": "21:33"
         }
       ],
       "actions": [],
@@ -4871,6 +4882,17 @@
           "fetched": "13:49",
           "guidance_flag": true,
           "pdf_url": ""
+        },
+        {
+          "id": "e45296edf4a2",
+          "datetime": "26-Jun-2026 21:11:58",
+          "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_26062026211059_BSENSE.pdf",
+          "fetched": "21:33"
         }
       ],
       "actions": [],
@@ -5319,6 +5341,17 @@
           "fetched": "23:02",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "bb4f77537bf7",
+          "datetime": "26-Jun-2026 21:29:29",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/rkbhagia_26062026212907_ESGRatingIntimation.pdf",
+          "fetched": "21:33"
         }
       ],
       "actions": [],
@@ -16832,6 +16865,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KEC_26062026152736_SETradingWindowClosure.pdf",
           "fetched": "17:55"
+        },
+        {
+          "id": "8112bd9d2c33",
+          "datetime": "26-Jun-2026 21:30:46",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KEC_26062026213021_SEIntimation.pdf",
+          "fetched": "21:33"
         }
       ],
       "actions": [],
@@ -17760,10 +17804,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-26 21:04",
+  "last_updated": "2026-06-26 21:33",
   "total_symbols": 464,
   "high_impact": 17,
-  "new_this_run": 67,
-  "total_seen_ids": 1378,
+  "new_this_run": 4,
+  "total_seen_ids": 1382,
   "guidance_events": 64
 }
