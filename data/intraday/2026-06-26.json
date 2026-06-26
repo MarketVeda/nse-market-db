@@ -1,0 +1,1271 @@
+{
+  "data_type": "INTRADAY_CANDLES",
+  "description": "Full day intraday candles for FnO universe \u2014 15min/5min/1min",
+  "universe": "NSE FnO (211 symbols)",
+  "fetch_date": "2026-06-26",
+  "fetch_time": "13:35:40 IST",
+  "source": "Zerodha Kite Connect Historical API",
+  "note": "Keep last 2 days only \u2014 pruned automatically",
+  "symbols": {
+    "360ONE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ABB": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "APLAPOLLO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "AUBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ADANIENSOL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ADANIENT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ADANIGREEN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ADANIPORTS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ADANIPOWER": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ABCAPITAL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ALKEM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "AMBER": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "AMBUJACEM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ANGELONE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "APOLLOHOSP": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ASHOKLEY": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ASIANPAINT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ASTRAL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "AUROPHARMA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DMART": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "AXISBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BSE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BAJAJ-AUTO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BAJFINANCE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BAJAJFINSV": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BAJAJHLDNG": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BANDHANBNK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BANKBARODA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BANKINDIA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BDL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BEL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BHARATFORG": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BHEL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BPCL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BHARTIARTL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BIOCON": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BLUESTARCO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BOSCHLTD": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "BRITANNIA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CGPOWER": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CANBK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CDSL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CHOLAFIN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CIPLA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "COALINDIA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "COCHINSHIP": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "COFORGE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "COLPAL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CAMS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CONCOR": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CROMPTON": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "CUMMINSIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DLF": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DABUR": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DALBHARAT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DELHIVERY": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DIVISLAB": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DIXON": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "DRREDDY": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ETERNAL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "EICHERMOT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "EXIDEIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "FORCEMOT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NYKAA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "FORTIS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GAIL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GVT&D": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GMRAIRPORT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GLENMARK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GODFRYPHLP": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GODREJCP": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GODREJPROP": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "GRASIM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HCLTECH": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HDFCAMC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HDFCBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HDFCLIFE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HAVELLS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HEROMOTOCO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HINDALCO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HAL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HINDPETRO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HINDUNILVR": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HINDZINC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "POWERINDIA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "HYUNDAI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ICICIBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ICICIGI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ICICIPRULI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "IDFCFIRSTB": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ITC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "INDIANB": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "IEX": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "IOC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "IRFC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "IREDA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "INDUSTOWER": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "INDUSINDBK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NAUKRI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "INFY": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "INOXWIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "INDIGO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "JINDALSTEL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "JSWENERGY": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "JSWSTEEL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "JIOFIN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "JUBLFOOD": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "KEI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "KPITTECH": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "KALYANKJIL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "KAYNES": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "KFINTECH": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "KOTAKBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LTF": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LICHSGFIN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LTM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LAURUSLABS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LICI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LODHA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "LUPIN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "M&M": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MANAPPURAM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MANKIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MARICO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MARUTI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MFSL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MAXHEALTH": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MAZDOCK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MOTILALOFS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MPHASIS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MCX": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MUTHOOTFIN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NBCC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NHPC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NMDC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NTPC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NATIONALUM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NESTLEIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NAM-INDIA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "NUVAMA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ONGC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "OIL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PAYTM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "OFSS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "POLICYBZR": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PGEL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PIIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PNBHOUSING": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PAGEIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PATANJALI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PERSISTENT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PETRONET": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PIDILITIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "POLYCAB": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PFC": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "POWERGRID": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PREMIERENE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PRESTIGE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PNB": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "RBLBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "RECLTD": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "RADICO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "RVNL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "RELIANCE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SBICARD": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SBILIFE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SHREECEM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SRF": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SAMMAANCAP": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "MOTHERSON": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SHRIRAMFIN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SIEMENS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SOLARINDS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SONACOMS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SBIN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SAIL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SUNPHARMA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SUPREMEIND": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SUZLON": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "SWIGGY": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TATACONSUM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TVSMOTOR": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TCS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TATAELXSI": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TMPV": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TATAPOWER": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TATASTEEL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TECHM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "FEDERALBNK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "INDHOTEL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "PHOENIXLTD": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TITAN": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TORNTPHARM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TRENT": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "TIINDIA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "UNOMINDA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "UPL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ULTRACEMCO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "UNIONBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "UNITDSPR": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "VBL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "VEDL": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "VMM": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "IDEA": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "VOLTAS": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "WAAREEENER": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "WIPRO": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "YESBANK": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    },
+    "ZYDUSLIFE": {
+      "15min": [],
+      "5min": [],
+      "1min": [],
+      "data_grade": "C"
+    }
+  }
+}
