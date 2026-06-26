@@ -6,30 +6,27 @@ Runs hourly during market hours AND at 6 PM daily.
 Only fetches announcements NOT already in the news file.
 Tracks seen announcement IDs to avoid duplicates.
 
-Logic:
-  1. Load existing news file + seen_ids
-  2. Fetch last 7 days of announcements (gap-safe; dedup prevents duplicates)
-  3. Add only NEW IDs
-  4. Save updated file + seen_ids log
-
-FIXES vs original:
-  - fetch window: days=1 → days=7 (gap-resilient)
-  - seen_ids expiry: 7 → 30 days (matches announcement rolling window)
-  - SCORE_MAP: fixed 3 false-positive bugs:
-      a) "Disclosure under SEBI Takeover Regulations" was scoring 17 (matched "takeover")
-         → now correctly scores 5 (routine promoter/investor disclosure, not an actual takeover)
-      b) "Bagging/Receiving of orders/contracts" was scoring 5 (missed "order bagged")
-         → now scores 20 correctly
-      c) "Analyst/Investor Meet" was scoring 5 (no match)
-         → now scores 13 (management guidance event — high signal for momentum traders)
-  - board_meeting: was overwriting on every run (only last meeting kept per symbol)
-         → now stored as a LIST, all upcoming meetings preserved
-  - New field: "pdf_url" saved when attchmntFile present (Claude can fetch PDF later)
-  - New field: "guidance_flag" set True when subject indicates forward guidance
-  - New subject categories added to SCORE_MAP:
-      "Financial Results" (13), "Investor Presentation" (13), "Press Release" (10),
-      "Commencement of operations" (10), "New project" / "new contract" (15),
-      "Credit Rating upgrade" (8), "Credit Rating downgrade" negative score
+FIXES in this version:
+  1. Fetch window: days=1 → days=7  (gap-resilient)
+  2. seen_ids expiry: 7 → 30 days   (matches rolling window)
+  3. SCORE_MAP: 5 bugs fixed —
+       a) "Disclosure under SEBI Takeover Regulations" was 17 → now 5
+          (routine SAST promoter disclosure, NOT an actual takeover)
+       b) "Bagging/Receiving of orders/contracts" was 5 → now 20
+          (genuine order win)
+       c) "Analysts/Institutional Investor Meet" was 5 → now 13
+          (management guidance event)
+       d) "Acquisition" (bare subject) was falling through to 5 → now 15
+       e) "Clarification - Financial Results" was hitting score=13
+          via 'financial results' match → now 5 (low-signal exchange query)
+  4. board_meeting single dict overwrite → board_meetings[] list
+     (preserves all upcoming meetings, not just last one fetched)
+  5. pdf_url double-prefix bug fixed
+     (attchmntFile already contains full URL path — was prefixing base URL twice)
+  6. New fields: guidance_flag, pdf_url, has_guidance_event,
+     next_result_date, next_result_purpose
+  7. BACKFILL: on each run, re-scores all existing announcements with
+     the corrected SCORE_MAP (one-time cost, idempotent after first pass)
 """
 
 import sys, os
@@ -38,12 +35,10 @@ sys.path.insert(0, os.path.dirname(__file__))
 from datetime import datetime, timedelta, timezone
 
 def get_ist_now():
-    """Always returns current time as IST — GitHub runners use UTC."""
     return datetime.now(timezone(timedelta(hours=5, minutes=30))).replace(tzinfo=None)
 
 import json, time, logging, hashlib
 from pathlib import Path
-
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
@@ -120,82 +115,56 @@ NIFTY500_SET = {
     "YESBANK","ZFCVINDIA","ZEEL","ZENTEC","ZENSARTECH","ZYDUSLIFE","ZYDUSWELL","ECLERX"
 }
 
-# ── SCORE MAP ──────────────────────────────────────────────────────────────────
-# Priority: negative exclusions checked FIRST, then positive matches top-to-bottom.
-# All matching is done on lowercased subject text.
-#
-# CRITICAL RULES:
-#   - "Disclosure under SEBI Takeover Regulations" = routine promoter holding
-#     disclosure (SAST), NOT an actual takeover. Score: 5 (generic update).
-#     Do NOT match "takeover" in the subject "Takeover Regulations".
-#   - "Bagging/Receiving of orders/contracts" = genuine order win. Score: 20.
-#   - "Analysts/Institutional Investor Meet" = management guidance event.
-#     Score: 13 (forward guidance; high signal for momentum).
-#   - "Financial Results" alone = 13 (actual result announcement).
-#   - "Investor Presentation" = 13 (management guidance + strategy).
-#   - "Clarification - Financial Results" = 5 (routine BSE query response).
-# ──────────────────────────────────────────────────────────────────────────────
+# ── NSE base URL for PDF filing downloads ────────────────────────────────────
+NSE_BASE = "https://nsearchives.nseindia.com/"
 
-SCORE_MAP = [
-    # ── Negative first — these EXCLUDE (score 0) ─────────────────────────────
-    (0,  ["penalty imposed","fine imposed","sebi action","sebi order","fraud",
-          "default on","insolvency","scam","investigation by","ban imposed",
-          "suspension of","criminal","nclt order","attachment of","show cause"]),
+# ── Guidance event subjects — management gave forward outlook ─────────────────
+GUIDANCE_SUBJECTS = {
+    "analysts/institutional investor meet/con. call updates",
+    "analyst meet", "investor meet", "investor presentation",
+    "con. call update", "conference call update",
+    "management meet", "management presentation", "roadshow", "earnings call",
+}
 
-    # ── Score 20 — Blockbuster order wins ────────────────────────────────────
+# ── SCORE_MAP ─────────────────────────────────────────────────────────────────
+# Checked in order: first match wins.
+# Special pre-check in impact_score(): 'clarification' prefix → always 5.
+# Negative exclusions checked immediately after that.
+_NEGATIVES = [
+    "penalty imposed","fine imposed","sebi action","sebi order","fraud",
+    "default on","insolvency","scam","investigation by","ban imposed",
+    "suspension of","criminal","nclt order","attachment of","show cause",
+]
+_SCORE_MAP = [
     (20, ["order win","order bagged","order received","contract awarded",
           "bagging/receiving","bagging of orders","receiving of orders",
           "lakh crore order","billion dollar order","mega order",
           "loi received","letter of intent"]),
-
-    # ── Score 18 — Index events ───────────────────────────────────────────────
-    (18, ["index inclusion","added to nifty","nifty addition","sensex addition",
-          "nifty50 inclusion","nifty 50 addition"]),
-
-    # ── Score 17 — Confirmed M&A (completed, approved) ───────────────────────
-    # NOTE: "Disclosure under SEBI Takeover Regulations" must NOT match here.
-    # Use tight phrases that only appear in real M&A completions.
+    (18, ["index inclusion","added to nifty","nifty addition","sensex addition"]),
     (17, ["acquisition completed","merger approved","merger completed",
           "amalgamation approved","takeover offer","open offer launched",
           "open offer completed"]),
-
-    # ── Score 15 — Large orders, acquisitions announced (not yet completed) ──
     (15, ["large order","major order","significant order","order worth",
           "crore order","acquisition of","acquires","acquiring","proposes to acquire",
           "major contract","strategic agreement signed","new project awarded",
-          "order inflow"]),
-
-    # ── Score 13 — Results + guidance events ─────────────────────────────────
-    # "Financial Results" subject = actual result filing (high impact)
-    # "Analyst/Investor Meet" = management gave guidance (forward-looking)
-    # "Investor Presentation" = strategy/guidance deck filed with exchange
+          "order inflow","acquisition"]),
     (13, ["financial results","quarterly results","q1 results","q2 results",
           "q3 results","q4 results","annual results","fy results",
           "record profit","highest ever profit","all time high profit",
           "analysts/institutional investor meet","analyst meet","investor meet",
           "con. call update","conference call update","investor presentation",
           "management meet","management presentation","roadshow"]),
-
-    # ── Score 12 — Regulatory approvals, buybacks ────────────────────────────
     (12, ["buyback","buy-back","share repurchase","regulatory approval",
           "sebi approval","rbi approval","drug approval","fda approval",
           "ema approval","nclat approval","nclt approval","cci approval",
           "environmental clearance"]),
-
-    # ── Score 10 — Corporate actions + capex + new capacity ──────────────────
     (10, ["dividend","bonus share","stock split","rights issue","record date",
           "capex","expansion plan","new plant","capacity addition",
           "commencement of commercial production","commencement of operations",
           "commercial operations commenced","press release","fund raising",
           "fundraise","qip","preferential allotment","ipo","fpo"]),
-
-    # ── Score 8 — Board meetings, AGM, credit rating upgrades ────────────────
     (8,  ["outcome of board meeting","board meeting outcome","agm","egm",
           "credit rating upgrade","rating upgrade","rating revised upward"]),
-
-    # ── Score 5 — Generic disclosures, routine filings ───────────────────────
-    # Includes "Disclosure under SEBI Takeover Regulations" (SAST routine filing)
-    # Includes trading window, newspaper ads, general updates
     (5,  ["trading window","general updates","updates","shareholders meeting",
           "esop","esos","esps","newspaper publication","copy of newspaper",
           "change in director","change in management","appointment",
@@ -205,51 +174,42 @@ SCORE_MAP = [
           "agreements","tie up","promoter buying","bulk deal","block deal",
           "spurt in volume","price movement","corrigendum","committee meeting",
           "news verification","clarification"]),
-
-    # ── Score 3 — Clarifications on results (not the result itself) ──────────
-    (3,  ["clarification - financial","reply to clarification","board outcome"]),
-
-    # ── Default fallback score for unmatched subjects ─────────────────────────
-    # (handled in impact_score() function below)
 ]
-
-# Subjects that indicate management gave FORWARD GUIDANCE (next quarter/year outlook)
-# These get guidance_flag=True in the stored entry — useful for fundamental analysis
-GUIDANCE_SUBJECTS = {
-    "analysts/institutional investor meet/con. call updates",
-    "analyst meet",
-    "investor meet",
-    "investor presentation",
-    "con. call update",
-    "conference call update",
-    "management meet",
-    "management presentation",
-    "roadshow",
-    "earnings call",
-}
 
 
 def impact_score(text: str) -> int:
-    t = text.lower()
-    # Check negatives first
-    neg_kws = SCORE_MAP[0][1]
-    if any(k in t for k in neg_kws):
+    t = text.lower().strip()
+    # Clarification subjects are ALWAYS low-signal (score=5) regardless of content.
+    # Must be checked before score=13 keywords fire on 'financial results'.
+    if t.startswith("clarification") or t.startswith("reply to clarification"):
+        return 5
+    if any(k in t for k in _NEGATIVES):
         return 0
-    # Then positive matches, highest score first
-    for score, kws in SCORE_MAP[1:]:
+    for score, kws in _SCORE_MAP:
         if any(k in t for k in kws):
             return score
-    return 5   # default: generic but present
+    return 5
 
 
 def is_guidance_event(text: str) -> bool:
-    """True when the filing subject indicates mgmt gave forward guidance."""
-    t = text.lower()
+    t = text.lower().strip()
     return any(g in t for g in GUIDANCE_SUBJECTS)
 
 
+def make_pdf_url(attach_field: str) -> str:
+    """
+    NSE attchmntFile field sometimes contains the full URL, sometimes just the path.
+    Always normalise to a clean https://nsearchives.nseindia.com/... URL.
+    """
+    if not attach_field:
+        return ""
+    f = attach_field.strip()
+    # Strip any accidental base-URL prefix before re-applying it
+    f = f.replace(NSE_BASE, "").lstrip("/")
+    return NSE_BASE + f if f else ""
+
+
 def ann_id(ann: dict) -> str:
-    """Generate stable unique ID for an announcement."""
     key = f"{ann.get('symbol','')}{ann.get('exchdisstime','')}{ann.get('desc','')[:50]}"
     return hashlib.md5(key.encode()).hexdigest()[:12]
 
@@ -265,10 +225,9 @@ NEWS_FILE = Path("data/news/news.json")
 def load_seen_ids() -> set:
     try:
         if SEEN_LOG.exists():
-            data = json.loads(SEEN_LOG.read_text())
-            # Keep IDs from last 30 days (matches announcement rolling window)
+            raw = json.loads(SEEN_LOG.read_text())
             cutoff = (get_ist_now() - timedelta(days=30)).strftime("%Y-%m-%d")
-            return {k for k, v in data.items() if v >= cutoff}
+            return {k for k, v in raw.items() if v >= cutoff}
     except Exception:
         pass
     return set()
@@ -278,7 +237,6 @@ def save_seen_ids(seen: set, existing_log: dict):
     today = get_ist_now().strftime("%Y-%m-%d")
     for sid in seen:
         existing_log[sid] = today
-    # Prune IDs older than 30 days
     cutoff = (get_ist_now() - timedelta(days=30)).strftime("%Y-%m-%d")
     pruned = {k: v for k, v in existing_log.items() if v >= cutoff}
     SEEN_LOG.parent.mkdir(parents=True, exist_ok=True)
@@ -300,24 +258,59 @@ def load_news_file() -> dict:
 
 
 def ensure_sym(news_data: dict, sym: str):
+    """Ensure symbol exists with correct schema. Migrates legacy board_meeting dict → list."""
     if sym not in news_data["symbols"]:
         news_data["symbols"][sym] = {
-            "announcements": [],
-            "actions":       [],
-            "board_meetings": [],   # LIST — all upcoming meetings, not just latest
+            "announcements":  [],
+            "actions":        [],
+            "board_meetings": [],
         }
-    # Migrate legacy single board_meeting dict → list
-    if "board_meeting" in news_data["symbols"][sym] and "board_meetings" not in news_data["symbols"][sym]:
-        old = news_data["symbols"][sym].pop("board_meeting")
-        news_data["symbols"][sym]["board_meetings"] = [old] if old else []
+        return
+    d = news_data["symbols"][sym]
+    # Migrate old single board_meeting dict to board_meetings list
+    if "board_meeting" in d:
+        old_bm = d.pop("board_meeting")
+        if "board_meetings" not in d:
+            d["board_meetings"] = [old_bm] if (old_bm and old_bm.get("meeting_date")) else []
+    if "board_meetings" not in d:
+        d["board_meetings"] = []
+
+
+def backfill_scores(news_data: dict):
+    """
+    Re-score ALL existing announcements with the corrected SCORE_MAP.
+    Also adds guidance_flag and pdf_url fields if missing.
+    Idempotent — safe to run on every startup.
+    """
+    rescored = 0
+    for sym, d in news_data["symbols"].items():
+        ensure_sym(news_data, sym)
+        for a in d.get("announcements", []):
+            subj = a.get("subject", "")
+            new_score = impact_score(subj)
+            new_guidance = is_guidance_event(subj)
+            changed = (a.get("score") != new_score or
+                       "guidance_flag" not in a or
+                       "pdf_url" not in a)
+            if changed:
+                a["score"] = new_score
+                a["guidance_flag"] = new_guidance
+                if "pdf_url" not in a:
+                    a["pdf_url"] = ""   # can't reconstruct URL for old entries
+                rescored += 1
+        for m in d.get("board_meetings", []):
+            subj = m.get("purpose", "")
+            m["score"] = impact_score(subj)
+            if "guidance_flag" not in m:
+                m["guidance_flag"] = is_guidance_event(subj)
+    log.info(f"Backfill: re-scored {rescored} existing announcements")
 
 
 def main():
     log.info("=== News Incremental Fetch Start ===")
     today   = get_ist_now().strftime("%Y-%m-%d")
     now_str = get_ist_now().strftime("%H:%M")
-    # 7-day lookback — gap-resilient. seen_ids dedup ensures zero duplicates.
-    from_dt = get_ist_now() - timedelta(days=7)
+    from_dt = get_ist_now() - timedelta(days=7)   # 7-day lookback, gap-resilient
 
     try:
         seen_raw = json.loads(SEEN_LOG.read_text()) if SEEN_LOG.exists() else {}
@@ -326,159 +319,156 @@ def main():
     seen_ids  = load_seen_ids()
     news_data = load_news_file()
 
+    # Migrate all existing symbols to correct schema + re-score with fixed SCORE_MAP
+    for sym in list(news_data["symbols"].keys()):
+        ensure_sym(news_data, sym)
+    backfill_scores(news_data)
+
     log.info(f"Already seen: {len(seen_ids)} announcement IDs")
     new_count = 0
 
     if not NSE_LIB:
-        log.warning("nse library not available — skipping")
-        return
+        log.warning("nse library not available — skipping fetch")
+    else:
+        try:
+            with NSE("/tmp/nse_news_cache", server=True) as nse:
 
-    try:
-        with NSE("/tmp/nse_news_cache", server=True) as nse:
+                # ── 1. Announcements ─────────────────────────────────────────
+                try:
+                    anns = nse.announcements(
+                        index="equities",
+                        from_date=from_dt,
+                        to_date=get_ist_now()
+                    )
+                    log.info(f"NSE returned {len(anns)} raw announcements")
+                    for a in anns:
+                        sym = (a.get("symbol") or "").upper().strip()
+                        if sym not in NIFTY500_SET:
+                            continue
+                        aid = ann_id({"symbol": sym,
+                                      "exchdisstime": a.get("exchdisstime",""),
+                                      "desc": a.get("desc","")})
+                        if aid in seen_ids:
+                            continue
+                        subject  = safe(a.get("desc") or a.get("subject") or "")
+                        pdf_file = safe(a.get("attchmntFile",""))
+                        entry = {
+                            "id":            aid,
+                            "datetime":      safe(a.get("exchdisstime","")),
+                            "subject":       subject,
+                            "category":      safe(a.get("anncategory","")),
+                            "score":         impact_score(subject),
+                            "guidance_flag": is_guidance_event(subject),
+                            "has_pdf":       bool(pdf_file),
+                            "pdf_url":       make_pdf_url(pdf_file),
+                            "fetched":       now_str,
+                        }
+                        ensure_sym(news_data, sym)
+                        news_data["symbols"][sym]["announcements"].append(entry)
+                        seen_ids.add(aid)
+                        new_count += 1
+                except Exception as e:
+                    log.error(f"Announcements fetch error: {e}")
 
-            # ── 1. Announcements ─────────────────────────────────────────────
-            try:
-                anns = nse.announcements(
-                    index="equities",
-                    from_date=from_dt,
-                    to_date=get_ist_now()
-                )
-                log.info(f"NSE returned {len(anns)} raw announcements")
-                for a in anns:
-                    sym = (a.get("symbol") or "").upper().strip()
-                    if sym not in NIFTY500_SET:
-                        continue
-                    aid = ann_id({"symbol": sym,
-                                  "exchdisstime": a.get("exchdisstime",""),
-                                  "desc": a.get("desc","")})
-                    if aid in seen_ids:
-                        continue
-                    subject  = safe(a.get("desc") or a.get("subject") or "")
-                    pdf_file = safe(a.get("attchmntFile",""))
-                    entry = {
-                        "id":            aid,
-                        "datetime":      safe(a.get("exchdisstime","")),
-                        "subject":       subject,
-                        "category":      safe(a.get("anncategory","")),
-                        "score":         impact_score(subject),
-                        "guidance_flag": is_guidance_event(subject),
-                        "has_pdf":       bool(pdf_file),
-                        # PDF URL for later fetching — management presentations,
-                        # result PDFs, investor presentations can be downloaded
-                        # and parsed by Claude to extract guidance/numbers
-                        "pdf_url":       f"https://nsearchives.nseindia.com/{pdf_file}" if pdf_file else "",
-                        "fetched":       now_str,
-                    }
-                    ensure_sym(news_data, sym)
-                    news_data["symbols"][sym]["announcements"].append(entry)
-                    seen_ids.add(aid)
-                    new_count += 1
-            except Exception as e:
-                log.error(f"Announcements fetch error: {e}")
+                # ── 2. Corporate actions ─────────────────────────────────────
+                try:
+                    actions = nse.actions()
+                    for a in actions:
+                        sym = (a.get("symbol") or "").upper().strip()
+                        if sym not in NIFTY500_SET:
+                            continue
+                        aid = ann_id({"symbol": sym,
+                                      "exchdisstime": str(a.get("exDate","")),
+                                      "desc": a.get("subject","")})
+                        if aid in seen_ids:
+                            continue
+                        subject = safe(a.get("subject") or a.get("purpose") or "")
+                        entry = {
+                            "id":      aid,
+                            "ex_date": safe(a.get("exDate") or a.get("recordDate") or ""),
+                            "action":  subject,
+                            "score":   impact_score(subject),
+                            "fetched": now_str,
+                        }
+                        ensure_sym(news_data, sym)
+                        news_data["symbols"][sym]["actions"].append(entry)
+                        seen_ids.add(aid)
+                        new_count += 1
+                except Exception as e:
+                    log.error(f"Actions fetch error: {e}")
 
-            # ── 2. Corporate actions (dividend / bonus / split) ──────────────
-            try:
-                actions = nse.actions()
-                for a in actions:
-                    sym = (a.get("symbol") or "").upper().strip()
-                    if sym not in NIFTY500_SET:
-                        continue
-                    aid = ann_id({"symbol": sym,
-                                  "exchdisstime": str(a.get("exDate","")),
-                                  "desc": a.get("subject","")})
-                    if aid in seen_ids:
-                        continue
-                    subject = safe(a.get("subject") or a.get("purpose") or "")
-                    entry = {
-                        "id":      aid,
-                        "ex_date": safe(a.get("exDate") or a.get("recordDate") or ""),
-                        "action":  subject,
-                        "score":   impact_score(subject),
-                        "fetched": now_str,
-                    }
-                    ensure_sym(news_data, sym)
-                    news_data["symbols"][sym]["actions"].append(entry)
-                    seen_ids.add(aid)
-                    new_count += 1
-            except Exception as e:
-                log.error(f"Actions fetch error: {e}")
+                # ── 3. Board meetings ─────────────────────────────────────────
+                # Stored as list — all upcoming meetings preserved per symbol.
+                # Purpose field: "Q1 FY27 Results", "Interim Dividend", "Fund Raising"
+                # next_result_date computed from this list at summary step below.
+                try:
+                    meetings = nse.boardMeetings(fno=False)
+                    for m in meetings:
+                        sym = (m.get("symbol") or "").upper().strip()
+                        if sym not in NIFTY500_SET:
+                            continue
+                        purpose = safe(m.get("purpose") or m.get("bm_desc") or "")
+                        date_   = safe(m.get("bm_date") or m.get("meetingDate") or "")
+                        aid     = ann_id({"symbol": sym, "exchdisstime": date_, "desc": purpose})
+                        if aid in seen_ids:
+                            continue
+                        entry = {
+                            "id":            aid,
+                            "meeting_date":  date_,
+                            "purpose":       purpose,
+                            "score":         impact_score(purpose),
+                            "guidance_flag": is_guidance_event(purpose),
+                            "fetched":       now_str,
+                        }
+                        ensure_sym(news_data, sym)
+                        news_data["symbols"][sym]["board_meetings"].append(entry)
+                        seen_ids.add(aid)
+                        new_count += 1
+                except Exception as e:
+                    log.error(f"Board meetings error: {e}")
 
-            # ── 3. Board meetings (upcoming results dates + purpose) ──────────
-            # FIXED: was overwriting a single dict on each run → lost all but last meeting.
-            # Now stored as a list; duplicates prevented via seen_ids.
-            # board_meetings list = upcoming Q result dates + AGM + capex decisions.
-            # PURPOSE field is the key: "Q1 FY27 Results", "Interim Dividend",
-            # "Fund Raising", "Buyback" — directly tells you what's coming.
-            try:
-                meetings = nse.boardMeetings(fno=False)
-                for m in meetings:
-                    sym = (m.get("symbol") or "").upper().strip()
-                    if sym not in NIFTY500_SET:
-                        continue
-                    purpose = safe(m.get("purpose") or m.get("bm_desc") or "")
-                    date_   = safe(m.get("bm_date") or m.get("meetingDate") or "")
-                    aid     = ann_id({"symbol": sym, "exchdisstime": date_, "desc": purpose})
-                    if aid in seen_ids:
-                        continue
-                    entry = {
-                        "id":           aid,
-                        "meeting_date": date_,
-                        "purpose":      purpose,
-                        "score":        impact_score(purpose),
-                        "guidance_flag": is_guidance_event(purpose),
-                        "fetched":      now_str,
-                    }
-                    ensure_sym(news_data, sym)
-                    news_data["symbols"][sym]["board_meetings"].append(entry)
-                    seen_ids.add(aid)
-                    new_count += 1
-            except Exception as e:
-                log.error(f"Board meetings error: {e}")
+        except Exception as e:
+            log.error(f"NSE client error: {e}")
 
-    except Exception as e:
-        log.error(f"NSE client error: {e}")
-
-    # ── Prune old announcements (keep last 30 days per symbol, max 50) ────────
+    # ── Prune old entries ─────────────────────────────────────────────────────
     cutoff = (get_ist_now() - timedelta(days=30)).strftime("%Y-%m-%d")
-    for sym, data in news_data["symbols"].items():
-        # Prune announcements
-        data["announcements"] = [
-            a for a in data.get("announcements", [])
+    for sym, d in news_data["symbols"].items():
+        d["announcements"] = [
+            a for a in d.get("announcements", [])
             if a.get("datetime","") >= cutoff or not a.get("datetime","")
         ][-50:]
-        # Prune board_meetings — keep only future meetings (or last 30 days)
-        data["board_meetings"] = [
-            m for m in data.get("board_meetings", [])
+        d["board_meetings"] = [
+            m for m in d.get("board_meetings", [])
             if m.get("meeting_date","") >= cutoff or not m.get("meeting_date","")
         ][-10:]
 
-    # ── Update summary scores per symbol ──────────────────────────────────────
-    for sym, data in news_data["symbols"].items():
+    # ── Compute per-symbol summary fields ────────────────────────────────────
+    for sym, d in news_data["symbols"].items():
         all_scores = (
-            [a.get("score",0) for a in data.get("announcements",[])] +
-            [a.get("score",0) for a in data.get("actions",[])] +
-            [m.get("score",0) for m in data.get("board_meetings",[])]
+            [a.get("score",0) for a in d.get("announcements",[])] +
+            [a.get("score",0) for a in d.get("actions",[])] +
+            [m.get("score",0) for m in d.get("board_meetings",[])]
         )
-        data["news_impact_score"]       = max(all_scores) if all_scores else 0
-        data["has_major_announcement"]  = data["news_impact_score"] >= 15
-        data["exclude_negative"]        = data["news_impact_score"] == 0 and bool(data.get("announcements"))
-        # guidance_flag at symbol level — True if ANY announcement or board meeting
-        # was a management guidance event (analyst meet, investor presentation, etc.)
-        data["has_guidance_event"]      = any(
-            a.get("guidance_flag") for a in data.get("announcements",[])
-        ) or any(
-            m.get("guidance_flag") for m in data.get("board_meetings",[])
+        d["news_impact_score"]       = max(all_scores) if all_scores else 0
+        d["has_major_announcement"]  = d["news_impact_score"] >= 15
+        d["exclude_negative"]        = d["news_impact_score"] == 0 and bool(d.get("announcements"))
+        d["has_guidance_event"]      = (
+            any(a.get("guidance_flag") for a in d.get("announcements",[])) or
+            any(m.get("guidance_flag") for m in d.get("board_meetings",[]))
         )
-        # next_result_date — earliest upcoming board meeting with "results" in purpose
+        # next upcoming board meeting where purpose mentions results
         result_meetings = sorted(
-            [m for m in data.get("board_meetings",[])
-             if "result" in m.get("purpose","").lower() and m.get("meeting_date","") >= today],
+            [m for m in d.get("board_meetings",[])
+             if "result" in m.get("purpose","").lower()
+             and m.get("meeting_date","") >= today],
             key=lambda x: x["meeting_date"]
         )
-        data["next_result_date"]   = result_meetings[0]["meeting_date"] if result_meetings else ""
-        data["next_result_purpose"] = result_meetings[0]["purpose"]     if result_meetings else ""
+        d["next_result_date"]    = result_meetings[0]["meeting_date"] if result_meetings else ""
+        d["next_result_purpose"] = result_meetings[0]["purpose"]      if result_meetings else ""
 
+    # ── Write outputs ─────────────────────────────────────────────────────────
     news_data["last_updated"]    = f"{today} {now_str}"
+    news_data["description"]     = "NSE corporate announcements — incremental, deduped, rolling 30 days"
     news_data["total_symbols"]   = len(news_data["symbols"])
     news_data["high_impact"]     = sum(1 for v in news_data["symbols"].values() if v.get("news_impact_score",0) >= 15)
     news_data["guidance_events"] = sum(1 for v in news_data["symbols"].values() if v.get("has_guidance_event"))
@@ -489,8 +479,10 @@ def main():
     NEWS_FILE.write_text(json.dumps(news_data, indent=2, default=str))
     save_seen_ids(seen_ids, seen_raw)
 
-    log.info(f"=== News Done: +{new_count} new | {len(news_data['symbols'])} symbols | "
-             f"{news_data['high_impact']} high-impact | {news_data['guidance_events']} guidance events ===")
+    log.info(
+        f"=== News Done: +{new_count} new | {len(news_data['symbols'])} symbols | "
+        f"{news_data['high_impact']} high-impact | {news_data['guidance_events']} guidance events ==="
+    )
 
 
 if __name__ == "__main__":
