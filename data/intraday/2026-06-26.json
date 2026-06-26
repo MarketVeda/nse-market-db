@@ -3,7 +3,7 @@
   "description": "Full day intraday candles for FnO universe \u2014 15min/5min/1min",
   "universe": "NSE FnO (211 symbols)",
   "fetch_date": "2026-06-26",
-  "fetch_time": "13:35:40 IST",
+  "fetch_time": "22:44:17 IST",
   "source": "Zerodha Kite Connect Historical API",
   "note": "Keep last 2 days only \u2014 pruned automatically",
   "symbols": {
