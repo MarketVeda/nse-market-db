@@ -12282,6 +12282,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "71db123fd713",
+          "datetime": "26-Jun-2026 22:54:08",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACHEMYS_26062026225319_SE_intimation_signed.pdf",
+          "fetched": "23:46"
         }
       ],
       "actions": [],
@@ -12598,6 +12609,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "1970430e00a3",
+          "datetime": "26-Jun-2026 23:03:12",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HONASA16_26062026230256_RSM_Update.pdf",
+          "fetched": "23:46"
         }
       ],
       "actions": [],
@@ -16620,9 +16642,32 @@
       "next_result_purpose": ""
     },
     "MAXHEALTH": {
-      "announcements": [],
+      "announcements": [
+        {
+          "id": "8c2a2f7fbf1a",
+          "datetime": "26-Jun-2026 23:00:57",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_26062026230026_SE_Intimation_Closure_of_Trading_Window_Q1_2026-27.pdf",
+          "fetched": "23:46"
+        },
+        {
+          "id": "baa8ca666bf3",
+          "datetime": "26-Jun-2026 22:55:04",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_26062026225439_SE_Intimation_Income_Tax_Order.pdf",
+          "fetched": "23:46"
+        }
+      ],
       "actions": [],
-      "news_impact_score": 0,
+      "news_impact_score": 5,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -17837,10 +17882,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-26 22:41",
+  "last_updated": "2026-06-26 23:46",
   "total_symbols": 464,
   "high_impact": 17,
-  "new_this_run": 2,
-  "total_seen_ids": 1385,
+  "new_this_run": 4,
+  "total_seen_ids": 1389,
   "guidance_events": 64
 }
