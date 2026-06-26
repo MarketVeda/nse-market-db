@@ -55,25 +55,36 @@ For live data, always use `data/live/latest.json` — it's always current.
 ## Complete Data File Reference
 
 ### 1. `data/daily/YYYY-MM-DD.json`
-**What:** EOD OHLCV + DMA + Relative Strength for all 500 NIFTY500 symbols  
+**What:** EOD OHLCV **full 5-year history** + DMA + RS + ATR for all 500 NIFTY500 symbols  
 **Updated:** Daily at 4:00 PM IST (Mon–Fri) via `kite-market-pipeline`  
-**Retention:** Last 10 trading days  
-**Size:** ~2 MB per file  
+**Retention:** Last **3** trading days  
+**Size:** ~35–45 MB per file  
 **Source:** Zerodha Kite Connect Historical API  
 
 ```json
 {
   "data_type": "EOD_DAILY",
   "fetch_date": "2026-06-25",
+  "history_days": 1825,
   "nifty50_close": 24500.0,
+  "nifty50_history": [{"d":"2021-06-25","o":15600,"h":15700,"l":15550,"c":15650,"v":0}, "...~1260 rows"],
   "symbols": {
     "RELIANCE": {
       "open": 1420.0, "high": 1435.0, "low": 1415.0, "close": 1430.0,
-      "volume": 5000000, "avg_vol_20": 4800000,
-      "prev_close": 1415.0, "change_pct": 1.06,
-      "52w_high": 1550.0, "52w_low": 1200.0,
+      "volume": 5000000, "prev_close": 1415.0, "change_pct": 1.06,
       "dma_50": 1380.0, "dma_150": 1320.0, "dma_200": 1290.0,
-      "rs_raw": 1.15,
+      "rs_raw": 1.15, "rs_65": 1.15, "rs_126": 1.22, "rs_252": 1.08,
+      "52w_high": 1550.0, "52w_low": 1200.0,
+      "atr_14": 18.5, "atr_21": 17.2, "atr_pct": 1.29,
+      "avg_vol_10": 5100000, "avg_vol_20": 4800000, "avg_vol_50": 4500000,
+      "minervini_pass": true,
+      "candle_count": 1258,
+      "dates":   ["2021-06-25", "...", "2026-06-25"],
+      "opens":   [1200.0, "..."],
+      "highs":   [1215.0, "..."],
+      "lows":    [1195.0, "..."],
+      "closes":  [1210.0, "..."],
+      "volumes": [4200000, "..."],
       "data_grade": "A"
     }
   }
@@ -81,8 +92,14 @@ For live data, always use `data/live/latest.json` — it's always current.
 ```
 
 **Key fields:**
-- `rs_raw` — Relative Strength vs Nifty50 over 65 days. >1.0 = outperforming
-- `dma_50/150/200` — Moving averages. Minervini filter: price > all three
+- `dates/opens/highs/lows/closes/volumes` — Parallel arrays, ~1260 entries (5 years). Index N = same candle across all arrays. `dates[-1]` = today.
+- `candle_count` — Actual number of trading days fetched
+- `rs_raw` / `rs_65/126/252` — RS vs Nifty50. Primary=65-day. >1.0 = outperforming
+- `dma_50/150/200` — Pre-computed MAs. Minervini: price > all three
+- `atr_14` / `atr_pct` — Average True Range for stop-loss sizing and VCP tightness
+- `avg_vol_10/20/50` — Volume averages at 3 windows for contraction detection
+- `minervini_pass` — Pre-computed boolean: all 7 Minervini Stage 2 conditions met
+- `nifty50_history` — Full Nifty50 index OHLCV for custom RS calculations
 - `data_grade` — A = good data, C = failed fetch
 
 ---
@@ -358,7 +375,7 @@ All scripts are **idempotent** — safe to re-run without duplication:
 
 | Script | Skip Condition | Pruning Policy |
 |---|---|---|
-| `fetch_eod.py` | Today's file has ≥490 symbols | Keep last 10 days |
+| `fetch_eod.py` | Today's file has ≥490 symbols | Keep last **3** days |
 | `fetch_intraday.py` | Today's file has ≥200 symbols | **Keep last 2 days only** |
 | `fetch_fno_delivery.py` | Today's files already complete | Keep last 30 days |
 | `fetch_intraday_live.py` | Overwrites latest.json always | Delete previous day folders |
@@ -460,16 +477,16 @@ nse-market-db/
 
 | Folder | Retention | Approx Size |
 |---|---|---|
-| `data/daily/` | Last 10 days | ~20 MB |
+| `data/daily/` | Last **3** days | ~120 MB |
 | `data/intraday/` | Last 2 days | ~30 MB |
 | `data/fno_oi/` | Last 30 days | ~9 MB |
 | `data/delivery/` | Last 30 days | ~15 MB |
 | `data/live/` | Today + latest.json | ~18 MB |
 | `data/financials/` | Single master file | ~22 MB |
 | `data/news/` | Single rolling file | ~5 MB |
-| **Total** | **Stable forever** | **~120 MB** |
+| **Total** | **Stable forever** | **~220 MB** |
 
-GitHub recommended limit: 1 GB. This repo stays well under 150 MB permanently.
+GitHub recommended limit: 1 GB. This repo stays well under 300 MB permanently.
 
 ---
 
