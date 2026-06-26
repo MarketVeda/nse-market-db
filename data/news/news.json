@@ -58,6 +58,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "9366c113a62a",
+          "datetime": "23-Jun-2026 19:33:05",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -112,6 +121,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "0be11813fb79",
+          "datetime": "23-Jun-2026 21:08:03",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "06dbd78f3171",
+          "datetime": "23-Jun-2026 17:27:44",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "4647ae13d820",
+          "datetime": "22-Jun-2026 10:33:10",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -183,6 +219,15 @@
           "score": 15,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "f08b8ae8d12d",
+          "datetime": "22-Jun-2026 07:31:48",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -228,6 +273,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "4c16ec227a6b",
+          "datetime": "23-Jun-2026 22:44:04",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "ba958672e0ef",
+          "datetime": "23-Jun-2026 13:55:05",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -428,9 +491,17 @@
           "fetched": "15:35"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "64bd76981792",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 5 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -534,12 +605,39 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "202f6b4be404",
+          "datetime": "26-Jun-2026 13:22:57",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "89db3b2f59a8",
+          "datetime": "23-Jun-2026 17:05:50",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "50418a97bc84",
+          "datetime": "22-Jun-2026 17:40:19",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "LICI": {
@@ -570,6 +668,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "91a4de440be1",
+          "datetime": "23-Jun-2026 14:50:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [
@@ -596,6 +703,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "be999d786cc7",
+          "datetime": "23-Jun-2026 19:03:02",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "297a47fcbefe",
+          "datetime": "22-Jun-2026 18:09:34",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -677,6 +802,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "a15acf7998b5",
+          "datetime": "23-Jun-2026 17:35:30",
+          "subject": "Options to purchase securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "b693e59cef8a",
+          "datetime": "23-Jun-2026 17:15:52",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -704,6 +847,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "5464b48e564f",
+          "datetime": "21-Jun-2026 13:36:27",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -812,6 +964,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "0a56ee1439ad",
+          "datetime": "26-Jun-2026 13:47:16",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "2c9ad2c9ad8c",
+          "datetime": "22-Jun-2026 17:32:23",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -848,6 +1018,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "a279e70ceff4",
+          "datetime": "22-Jun-2026 13:45:11",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -875,6 +1054,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "7ede189ca68c",
+          "datetime": "26-Jun-2026 12:37:28",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -893,6 +1081,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "0d77b5123bff",
+          "datetime": "23-Jun-2026 18:41:47",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -920,6 +1117,51 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "d6563249feda",
+          "datetime": "22-Jun-2026 22:08:08",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9250982971ef",
+          "datetime": "22-Jun-2026 22:04:14",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "57f2cb9aa0e2",
+          "datetime": "22-Jun-2026 21:54:26",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "695b812aae3c",
+          "datetime": "22-Jun-2026 15:59:06",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "adce279bf1dd",
+          "datetime": "22-Jun-2026 10:17:46",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1091,6 +1333,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "7bfc96508e25",
+          "datetime": "23-Jun-2026 16:37:11",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1145,6 +1396,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "656ea640dc62",
+          "datetime": "21-Jun-2026 00:04:23",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1181,6 +1441,15 @@
           "score": 8,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "7df9ea83e18b",
+          "datetime": "22-Jun-2026 16:46:17",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1226,6 +1495,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "f4f2b48ffcd4",
+          "datetime": "23-Jun-2026 23:54:36",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "a21dbf95ca94",
+          "datetime": "23-Jun-2026 19:37:02",
+          "subject": "Sale or disposal",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1262,6 +1549,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "782263758a2d",
+          "datetime": "22-Jun-2026 17:13:36",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1280,12 +1576,21 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "157c8e2bc772",
+          "datetime": "23-Jun-2026 16:10:41",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "ABLBL": {
@@ -1325,6 +1630,51 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "541b7ea62663",
+          "datetime": "23-Jun-2026 19:13:08",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "18f342aaf580",
+          "datetime": "23-Jun-2026 17:40:23",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e6ad4b35ad61",
+          "datetime": "22-Jun-2026 21:47:46",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e5f2ccb82531",
+          "datetime": "22-Jun-2026 15:43:53",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "47818e75ef8d",
+          "datetime": "22-Jun-2026 15:42:02",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1460,6 +1810,69 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "abe84b583e67",
+          "datetime": "26-Jun-2026 13:05:16",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "33322920c4bd",
+          "datetime": "23-Jun-2026 22:36:29",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "afc4afcc47b2",
+          "datetime": "23-Jun-2026 22:28:01",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "16964c07d090",
+          "datetime": "23-Jun-2026 20:39:24",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "dd42f15ebddf",
+          "datetime": "22-Jun-2026 22:59:18",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "4018c605c26c",
+          "datetime": "22-Jun-2026 22:58:11",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1676fbbb9bcd",
+          "datetime": "21-Jun-2026 18:22:18",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1595,6 +2008,51 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "20488718e214",
+          "datetime": "23-Jun-2026 16:52:59",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "584385239f1f",
+          "datetime": "22-Jun-2026 17:28:43",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "4b39285a15fa",
+          "datetime": "22-Jun-2026 17:24:44",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "369ae52aba2a",
+          "datetime": "22-Jun-2026 17:18:28",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "4cd2f55afe03",
+          "datetime": "22-Jun-2026 16:10:21",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1613,6 +2071,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "4eb44f0d9d45",
+          "datetime": "23-Jun-2026 12:37:16",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1685,6 +2152,24 @@
           "score": 8,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "0325e880ac5a",
+          "datetime": "22-Jun-2026 17:37:45",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "d4df7fdc878d",
+          "datetime": "22-Jun-2026 14:53:13",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1766,11 +2251,29 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "ed685fedd098",
+          "datetime": "22-Jun-2026 16:19:32",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "65521bfbebe9",
+          "datetime": "22-Jun-2026 16:11:19",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -1847,6 +2350,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "4b489b69018e",
+          "datetime": "23-Jun-2026 15:31:19",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1874,6 +2386,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "5d65807b0c32",
+          "datetime": "23-Jun-2026 18:02:34",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1919,6 +2440,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "d25020fce67d",
+          "datetime": "26-Jun-2026 12:27:37",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1937,6 +2467,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "cb8d15b2b969",
+          "datetime": "23-Jun-2026 14:01:24",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -1955,11 +2494,64 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "e618e954c752",
+          "datetime": "26-Jun-2026 12:21:02",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "85b9e38ca6d3",
+          "datetime": "23-Jun-2026 15:54:20",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "4156be45f7d6",
+          "datetime": "22-Jun-2026 21:17:22",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "75d8fea417ce",
+          "datetime": "22-Jun-2026 14:52:55",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9c714d34975e",
+          "datetime": "22-Jun-2026 14:18:55",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "25fd0852b906",
+          "ex_date": "29-Jun-2026",
+          "action": "Dividend - Rs 11 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -2081,6 +2673,33 @@
           "score": 10,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "45ac5113223a",
+          "datetime": "23-Jun-2026 10:43:12",
+          "subject": "Price movement",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "76b91cef93d1",
+          "datetime": "22-Jun-2026 20:00:55",
+          "subject": "Price movement",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "62d35cb89fcd",
+          "datetime": "22-Jun-2026 13:14:18",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2099,6 +2718,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "803578a4e711",
+          "datetime": "26-Jun-2026 12:20:19",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2144,6 +2772,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "1b0a2cbb5ad2",
+          "datetime": "22-Jun-2026 16:32:10",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2207,6 +2844,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "eaece466c8e9",
+          "datetime": "23-Jun-2026 15:51:36",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2252,11 +2898,92 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "c189e6d00cbb",
+          "datetime": "23-Jun-2026 15:05:44",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "55e5a8e6585f",
+          "datetime": "23-Jun-2026 14:59:28",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "af3ee07eb4a9",
+          "datetime": "22-Jun-2026 20:40:52",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9d8587ecdbda",
+          "datetime": "22-Jun-2026 19:28:59",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "44ebf14d56c8",
+          "datetime": "22-Jun-2026 19:28:59",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "b08fad7bcd2f",
+          "datetime": "22-Jun-2026 19:14:11",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "93702919b827",
+          "datetime": "22-Jun-2026 15:55:46",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "7d0dd0fe5ded",
+          "datetime": "21-Jun-2026 12:03:28",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "225a0a2b877e",
+          "datetime": "21-Jun-2026 11:31:06",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -2279,6 +3006,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "daa221b89258",
+          "datetime": "26-Jun-2026 11:30:26",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2351,6 +3087,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "744d375dcc41",
+          "datetime": "21-Jun-2026 13:08:43",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1732fbdc36bc",
+          "datetime": "21-Jun-2026 12:42:19",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2378,6 +3132,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "76a062a7a34a",
+          "datetime": "26-Jun-2026 10:37:24",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2432,6 +3195,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "02e3d8900234",
+          "datetime": "23-Jun-2026 12:50:48",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "29c263caacab",
+          "datetime": "23-Jun-2026 12:40:06",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [
@@ -2521,6 +3302,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "b137c3935c12",
+          "datetime": "21-Jun-2026 13:09:28",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2557,6 +3347,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "a5428c45ee57",
+          "datetime": "26-Jun-2026 11:37:53",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2674,6 +3473,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "9cd8b086c44b",
+          "datetime": "23-Jun-2026 16:13:32",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "3342fee2f7fc",
+          "datetime": "23-Jun-2026 16:09:36",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2701,6 +3518,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "922c62616f61",
+          "datetime": "23-Jun-2026 22:51:22",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "31712bbb4670",
+          "datetime": "22-Jun-2026 10:20:35",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2737,6 +3572,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "906bcf20a2a8",
+          "datetime": "22-Jun-2026 20:00:15",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2755,6 +3599,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "2e639f80bdd4",
+          "datetime": "22-Jun-2026 16:38:40",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2800,6 +3653,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "67b59ab416d0",
+          "datetime": "23-Jun-2026 09:24:11",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2881,6 +3743,24 @@
           "score": 15,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "7f4b0186d096",
+          "datetime": "23-Jun-2026 18:15:38",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "8c29a54a57d0",
+          "datetime": "22-Jun-2026 19:00:21",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2917,6 +3797,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "e5f7901658f5",
+          "datetime": "26-Jun-2026 11:55:38",
+          "subject": "Scheme of Arrangement",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9b9b602d3460",
+          "datetime": "26-Jun-2026 11:51:29",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2953,6 +3851,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "094807657906",
+          "datetime": "23-Jun-2026 16:50:20",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -2989,11 +3896,38 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "5beeb91d3ad2",
+          "datetime": "23-Jun-2026 19:24:56",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "a21de4b45678",
+          "datetime": "23-Jun-2026 18:15:01",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "02e762304ecb",
+          "datetime": "23-Jun-2026 18:13:50",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -3043,6 +3977,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "aa60ba3eb492",
+          "datetime": "25-Jun-2026 23:38:52",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1c5eeb047ba9",
+          "datetime": "23-Jun-2026 15:48:15",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3079,6 +4031,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "e95a425d76f1",
+          "datetime": "23-Jun-2026 13:41:26",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3178,6 +4139,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "c12bfc3ec220",
+          "datetime": "22-Jun-2026 18:34:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3241,11 +4211,38 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "611830c54f90",
+          "datetime": "23-Jun-2026 19:10:20",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "6f0e7637fa47",
+          "datetime": "22-Jun-2026 13:16:09",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "18aa59560371",
+          "datetime": "22-Jun-2026 13:12:49",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 8,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -3259,6 +4256,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "fb7a787441a1",
+          "datetime": "22-Jun-2026 18:29:25",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3286,6 +4292,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "ffae629d5535",
+          "datetime": "23-Jun-2026 18:16:01",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "3dcaae6a4df0",
+          "datetime": "23-Jun-2026 18:00:52",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "93892b419f0c",
+          "datetime": "22-Jun-2026 18:28:47",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3340,12 +4373,48 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "460cd3dfb3f9",
+          "datetime": "23-Jun-2026 18:41:36",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "588b4d31e9c1",
+          "datetime": "23-Jun-2026 15:50:31",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "33069e052c05",
+          "datetime": "23-Jun-2026 15:37:45",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "38d473513583",
+          "datetime": "22-Jun-2026 19:11:03",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "HDFCAMC": {
@@ -3448,6 +4517,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "3e771126b6d4",
+          "datetime": "26-Jun-2026 13:24:02",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "58c6904ac8bb",
+          "datetime": "26-Jun-2026 00:03:54",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "07fb5e35363b",
+          "datetime": "25-Jun-2026 23:57:13",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3493,6 +4589,24 @@
           "score": 17,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "b3a976e24051",
+          "datetime": "26-Jun-2026 12:23:43",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "81f8a4883014",
+          "datetime": "22-Jun-2026 11:00:09",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3547,6 +4661,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "9f81c633765c",
+          "datetime": "23-Jun-2026 19:16:53",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "fc50fbb321b7",
+          "datetime": "23-Jun-2026 18:46:07",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3745,6 +4877,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "34a746c1ebef",
+          "datetime": "23-Jun-2026 17:56:00",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "cf9fb8e99932",
+          "datetime": "23-Jun-2026 15:47:13",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1710501afd0e",
+          "datetime": "23-Jun-2026 10:29:58",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3808,6 +4967,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "ef8581c691c9",
+          "datetime": "23-Jun-2026 18:29:43",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -3853,9 +5021,35 @@
           "score": 15,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "af64ccc1221e",
+          "datetime": "26-Jun-2026 11:36:48",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "a610fe5ba23b",
+          "datetime": "23-Jun-2026 15:33:10",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "f451b7f9d286",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 6.50 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
@@ -3889,12 +5083,39 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "b3e0b49d75be",
+          "datetime": "22-Jun-2026 15:58:51",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "d073456b4133",
+          "datetime": "22-Jun-2026 15:58:21",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "b7d6d6c921a3",
+          "datetime": "22-Jun-2026 15:56:18",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "MANAPPURAM": {
@@ -3907,11 +5128,65 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "89bd3b31c136",
+          "datetime": "23-Jun-2026 12:58:17",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "fd647b33ddb6",
+          "datetime": "23-Jun-2026 12:50:26",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "182ff49bbd51",
+          "datetime": "23-Jun-2026 12:48:44",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "a686c4c9cdc1",
+          "datetime": "23-Jun-2026 12:46:32",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "835456e08492",
+          "datetime": "23-Jun-2026 12:45:05",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e702cb87fe4a",
+          "datetime": "22-Jun-2026 14:48:28",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 8,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -3934,6 +5209,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "a0b5d7f73aa7",
+          "datetime": "23-Jun-2026 20:21:50",
+          "subject": "Offer for sale",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4095,6 +5379,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "bf7f5227284e",
+          "datetime": "26-Jun-2026 12:33:48",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "7897f4d3e7c0",
+          "datetime": "23-Jun-2026 13:06:19",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "cf852bb80ac4",
+          "datetime": "23-Jun-2026 12:45:03",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4122,11 +5433,46 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "3578c7ff837b",
+          "datetime": "23-Jun-2026 17:36:47",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e33f6ba186ef",
+          "datetime": "22-Jun-2026 17:13:35",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "91b31bb7a224",
+          "datetime": "22-Jun-2026 17:03:18",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "3f0f26b0f9b2",
+          "ex_date": "30-Jun-2026",
+          "action": "Dividend - Rs 5 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -4221,6 +5567,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "250b26c88db4",
+          "datetime": "23-Jun-2026 15:23:00",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "63e2b40b358a",
+          "datetime": "23-Jun-2026 15:20:35",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4239,12 +5603,21 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "4ac76f5d3fdf",
+          "datetime": "22-Jun-2026 15:57:53",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "3MINDIA": {
@@ -4257,6 +5630,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "4f2fe2cbe087",
+          "datetime": "26-Jun-2026 11:30:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4275,12 +5657,57 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "dcaebf118762",
+          "datetime": "22-Jun-2026 19:16:13",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "90709b6a9db5",
+          "datetime": "22-Jun-2026 19:15:31",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "b35296e21bca",
+          "datetime": "22-Jun-2026 19:15:05",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "6dba850ebd7d",
+          "datetime": "22-Jun-2026 19:13:13",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "d54a66acfdcf",
+          "datetime": "22-Jun-2026 19:11:19",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "JUBLPHARMA": {
@@ -4293,6 +5720,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "93179794ebe7",
+          "datetime": "26-Jun-2026 00:23:03",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4329,6 +5765,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "8729d8b59a6a",
+          "datetime": "22-Jun-2026 22:52:54",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4367,9 +5812,17 @@
           "fetched": "15:35"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "416d629d46fc",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 8 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -4383,6 +5836,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "6c3a893e15db",
+          "datetime": "22-Jun-2026 16:29:29",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4410,6 +5872,33 @@
           "score": 10,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "7b6b3bad18af",
+          "datetime": "23-Jun-2026 16:26:02",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "64ab9e53c210",
+          "datetime": "22-Jun-2026 19:53:54",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "cdb8ecba07af",
+          "datetime": "22-Jun-2026 18:53:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4491,6 +5980,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "65317895ff5a",
+          "datetime": "26-Jun-2026 12:56:46",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4509,6 +6007,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "bb4ae17a845a",
+          "datetime": "26-Jun-2026 12:41:02",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "2a074f1b580b",
+          "datetime": "22-Jun-2026 14:54:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4644,6 +6160,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "b2c83f5e4036",
+          "datetime": "23-Jun-2026 10:17:01",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4662,6 +6187,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "1dc18411eac8",
+          "datetime": "26-Jun-2026 11:31:13",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4770,6 +6304,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "7ae8fdce1a57",
+          "datetime": "23-Jun-2026 12:05:36",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4824,6 +6367,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "ab52a8181f07",
+          "datetime": "23-Jun-2026 19:10:30",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "31f52ca56bff",
+          "datetime": "22-Jun-2026 18:01:56",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4851,6 +6412,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "b1d7d651335a",
+          "datetime": "23-Jun-2026 18:56:58",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4869,6 +6439,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "18c58f769178",
+          "datetime": "26-Jun-2026 12:08:01",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4887,6 +6466,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "715f0f3898c5",
+          "datetime": "23-Jun-2026 17:07:50",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4923,6 +6511,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "4705f9859f3b",
+          "datetime": "22-Jun-2026 18:27:53",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -4977,12 +6574,39 @@
           "score": 8,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "a7b8d157a8fa",
+          "datetime": "23-Jun-2026 19:39:39",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "ce87fd209e4f",
+          "datetime": "22-Jun-2026 15:34:51",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9c087f76c98c",
+          "datetime": "22-Jun-2026 15:33:38",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 8,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "FEDERALBNK": {
@@ -5049,11 +6673,28 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "69cc4023f590",
+          "datetime": "23-Jun-2026 18:28:42",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "7f2d37e1c9b4",
+          "ex_date": "30-Jun-2026",
+          "action": "Dividend - Rs 6 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -5067,6 +6708,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "49dc5094ed71",
+          "datetime": "22-Jun-2026 13:43:05",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5175,6 +6825,15 @@
           "score": 17,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "581e6f57eee5",
+          "datetime": "23-Jun-2026 11:41:09",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5202,6 +6861,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "b79575b4699b",
+          "datetime": "22-Jun-2026 16:04:59",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5247,6 +6915,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "33454bc55ec0",
+          "datetime": "21-Jun-2026 15:02:11",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5372,6 +7049,24 @@
           "score": 3,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "6cd2b68c1f43",
+          "datetime": "22-Jun-2026 16:18:20",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "58ca9fb21dcd",
+          "datetime": "22-Jun-2026 16:01:38",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5462,6 +7157,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "15:35"
+        },
+        {
+          "id": "31374000a043",
+          "datetime": "22-Jun-2026 19:37:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5496,6 +7200,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "80f56ad0b8a4",
+          "datetime": "22-Jun-2026 12:46:01",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [
@@ -5522,6 +7235,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "6eb8a9d452c5",
+          "datetime": "23-Jun-2026 18:31:21",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "f7ab0e205918",
+          "datetime": "22-Jun-2026 19:19:44",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [
@@ -5573,11 +7304,20 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "d7f782df82df",
+          "datetime": "22-Jun-2026 17:32:14",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -5654,6 +7394,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "2052d1660711",
+          "datetime": "23-Jun-2026 18:35:51",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "6f3ec270d97c",
+          "datetime": "22-Jun-2026 18:23:25",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5690,11 +7448,29 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "5a4717cd979f",
+          "datetime": "22-Jun-2026 17:57:39",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "0530cc072eee",
+          "datetime": "22-Jun-2026 17:52:42",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
+      "news_impact_score": 8,
       "has_major_announcement": false,
       "exclude_negative": false
     },
@@ -5708,6 +7484,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "fe2505deb9fe",
+          "datetime": "26-Jun-2026 07:54:25",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5771,6 +7556,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "638752bbf06f",
+          "datetime": "23-Jun-2026 22:38:06",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5789,6 +7583,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "f46ea3c89451",
+          "datetime": "23-Jun-2026 18:46:10",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -5906,12 +7709,30 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "28761c3f384b",
+          "datetime": "23-Jun-2026 19:40:16",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "cc35ae556c19",
+          "datetime": "22-Jun-2026 20:57:13",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "NETWEB": {
@@ -5942,6 +7763,42 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "45f3d3fcef40",
+          "datetime": "23-Jun-2026 19:25:25",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "7e2c35fc5361",
+          "datetime": "23-Jun-2026 19:12:23",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "d9d9d90e8cc0",
+          "datetime": "22-Jun-2026 19:46:13",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "556226b8d817",
+          "datetime": "22-Jun-2026 17:26:20",
+          "subject": "Credit Rating- New",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6032,6 +7889,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "fa8078dd8c12",
+          "datetime": "23-Jun-2026 15:30:35",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6140,6 +8006,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "21e4a3251f3b",
+          "datetime": "23-Jun-2026 17:10:36",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "5707312ed432",
+          "datetime": "23-Jun-2026 16:28:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6158,12 +8042,21 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "0bebff138bc5",
+          "datetime": "22-Jun-2026 15:16:31",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "ZENTEC": {
@@ -6212,6 +8105,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "a9bfd2516b2e",
+          "datetime": "22-Jun-2026 18:17:22",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6284,12 +8186,21 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "5de979a1a265",
+          "datetime": "22-Jun-2026 11:40:15",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "VEDPOWER": {
@@ -6302,6 +8213,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "d02af445c86c",
+          "datetime": "21-Jun-2026 13:30:07",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6347,6 +8267,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "142af89d830a",
+          "datetime": "23-Jun-2026 15:46:21",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6401,6 +8330,33 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "6a71ceba48d4",
+          "datetime": "23-Jun-2026 17:58:01",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "560a0a589c06",
+          "datetime": "22-Jun-2026 18:18:53",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "8a9e2beff6e0",
+          "datetime": "22-Jun-2026 14:23:08",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6419,12 +8375,30 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "7a8d2d6750aa",
+          "datetime": "23-Jun-2026 08:51:46",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "96899985c5bc",
+          "datetime": "22-Jun-2026 19:21:01",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "GPIL": {
@@ -6437,6 +8411,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "0a2ec3cd4c2c",
+          "datetime": "23-Jun-2026 18:50:20",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6455,6 +8438,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "b0a703bb9fec",
+          "datetime": "23-Jun-2026 15:00:15",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6491,12 +8483,21 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "e878c8c906c2",
+          "datetime": "22-Jun-2026 14:51:03",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "GROWW": {
@@ -6545,12 +8546,39 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "223bc601ba57",
+          "datetime": "23-Jun-2026 17:24:58",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "c5fa4a7810ec",
+          "datetime": "23-Jun-2026 15:39:47",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "a368a6e00987",
+          "datetime": "22-Jun-2026 16:26:12",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "GVT&D": {
@@ -6581,6 +8609,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "9f05f005715c",
+          "datetime": "21-Jun-2026 13:11:05",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6617,6 +8654,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "8ebfe4f42273",
+          "datetime": "23-Jun-2026 21:00:14",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6635,6 +8681,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "18:37"
+        },
+        {
+          "id": "745451ec87ca",
+          "datetime": "23-Jun-2026 16:31:13",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6671,6 +8726,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "acb807db6be6",
+          "datetime": "22-Jun-2026 16:59:24",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6734,6 +8798,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "a9468334180c",
+          "datetime": "22-Jun-2026 17:03:00",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6788,6 +8861,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "87331df83344",
+          "datetime": "23-Jun-2026 19:04:00",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "3e50645bc775",
+          "datetime": "23-Jun-2026 15:46:59",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -6914,6 +9005,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "1e7d4a9fc415",
+          "datetime": "23-Jun-2026 23:34:30",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -7004,6 +9104,24 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "36ff4d762482",
+          "datetime": "26-Jun-2026 12:58:13",
+          "subject": "Spurt in Volume",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "b4b0209f8220",
+          "datetime": "22-Jun-2026 15:25:44",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -7022,6 +9140,15 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "2a3600ce8ae8",
+          "datetime": "22-Jun-2026 11:13:07",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
@@ -7058,12 +9185,21 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "23:02"
+        },
+        {
+          "id": "cb376bc03fc4",
+          "datetime": "22-Jun-2026 15:10:48",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
         }
       ],
       "actions": [],
       "board_meeting": {},
-      "news_impact_score": 5,
-      "has_major_announcement": false,
+      "news_impact_score": 17,
+      "has_major_announcement": true,
       "exclude_negative": false
     },
     "SWANCORP": {
@@ -7083,11 +9219,3101 @@
       "news_impact_score": 5,
       "has_major_announcement": false,
       "exclude_negative": false
+    },
+    "IRCON": {
+      "announcements": [
+        {
+          "id": "b2598cc89cae",
+          "datetime": "26-Jun-2026 13:46:31",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "622d59b16274",
+          "datetime": "26-Jun-2026 13:42:31",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "614d48cc96d4",
+          "datetime": "23-Jun-2026 14:45:05",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "2f351623ae01",
+          "datetime": "23-Jun-2026 14:12:08",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e2ccc4c25ddb",
+          "datetime": "23-Jun-2026 13:59:57",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CUMMINSIND": {
+      "announcements": [
+        {
+          "id": "3af806942e8b",
+          "datetime": "26-Jun-2026 13:33:31",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PIRAMALFIN": {
+      "announcements": [
+        {
+          "id": "7b2f79d458d9",
+          "datetime": "26-Jun-2026 13:32:50",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "HONASA": {
+      "announcements": [
+        {
+          "id": "657b6859fad0",
+          "datetime": "26-Jun-2026 13:24:34",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "01e1fd090d45",
+          "datetime": "23-Jun-2026 18:21:18",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9c2490acece8",
+          "datetime": "23-Jun-2026 18:11:49",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 15,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "IPCALAB": {
+      "announcements": [
+        {
+          "id": "ab99f3b35751",
+          "datetime": "26-Jun-2026 13:16:58",
+          "subject": "Amalgamation/Merger",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "80ed3cdf9703",
+          "datetime": "26-Jun-2026 13:12:42",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "5caa8eebdf71",
+          "datetime": "22-Jun-2026 10:53:23",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 8,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "UNITDSPR": {
+      "announcements": [
+        {
+          "id": "4c7ece0eb35b",
+          "datetime": "26-Jun-2026 13:16:44",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PREMIERENE": {
+      "announcements": [
+        {
+          "id": "4eb9e0dc2986",
+          "datetime": "26-Jun-2026 12:45:05",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "INDIACEM": {
+      "announcements": [
+        {
+          "id": "bd04e707e45f",
+          "datetime": "26-Jun-2026 12:33:24",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "165b2cc52f33",
+          "datetime": "23-Jun-2026 19:23:10",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "0c646dab0240",
+          "datetime": "23-Jun-2026 18:18:57",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "c83bf1e260c5",
+          "datetime": "23-Jun-2026 18:14:31",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ERIS": {
+      "announcements": [
+        {
+          "id": "38cb60852de8",
+          "datetime": "26-Jun-2026 12:31:58",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "98784beb943e",
+          "datetime": "23-Jun-2026 16:13:11",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "DCMSHRIRAM": {
+      "announcements": [
+        {
+          "id": "186ee116cca8",
+          "datetime": "26-Jun-2026 12:30:44",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ESCORTS": {
+      "announcements": [
+        {
+          "id": "c5fa7de2ab01",
+          "datetime": "26-Jun-2026 12:24:05",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "366208bf2c38",
+          "datetime": "22-Jun-2026 15:36:57",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9391afaf8d2a",
+          "datetime": "22-Jun-2026 15:30:10",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "695d5435e179",
+          "datetime": "22-Jun-2026 15:26:38",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e773fe1a0cd9",
+          "datetime": "22-Jun-2026 15:22:55",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "471f41e7f3b2",
+          "datetime": "22-Jun-2026 15:17:57",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "50b56e7ec00a",
+          "datetime": "21-Jun-2026 20:17:46",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "BEL": {
+      "announcements": [
+        {
+          "id": "c42e4581138a",
+          "datetime": "26-Jun-2026 12:20:55",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1751d40ce68b",
+          "datetime": "22-Jun-2026 16:08:23",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "DELHIVERY": {
+      "announcements": [
+        {
+          "id": "556be629226d",
+          "datetime": "26-Jun-2026 12:08:13",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "237faaac4a80",
+          "datetime": "23-Jun-2026 14:14:23",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "HAL": {
+      "announcements": [
+        {
+          "id": "c575bba5fca9",
+          "datetime": "26-Jun-2026 12:05:29",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CHENNPETRO": {
+      "announcements": [
+        {
+          "id": "b09fe03e42ac",
+          "datetime": "26-Jun-2026 12:01:40",
+          "subject": "Change in Company Secretary/Compliance Officer",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "GESHIP": {
+      "announcements": [
+        {
+          "id": "17cacaabfb03",
+          "datetime": "26-Jun-2026 11:56:40",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "985c31ed309b",
+          "datetime": "26-Jun-2026 10:39:21",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TEGA": {
+      "announcements": [
+        {
+          "id": "ea6817299c54",
+          "datetime": "26-Jun-2026 11:49:56",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "DEEPAKNTR": {
+      "announcements": [
+        {
+          "id": "9195e503fc28",
+          "datetime": "26-Jun-2026 11:49:09",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "AIAENG": {
+      "announcements": [
+        {
+          "id": "efba4227b44e",
+          "datetime": "26-Jun-2026 11:33:08",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MRPL": {
+      "announcements": [
+        {
+          "id": "0e0973c137c6",
+          "datetime": "26-Jun-2026 11:31:45",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "7c2319056a67",
+          "datetime": "22-Jun-2026 16:42:32",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TECHNOE": {
+      "announcements": [
+        {
+          "id": "0d721abaf9e0",
+          "datetime": "26-Jun-2026 11:30:06",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "DOMS": {
+      "announcements": [
+        {
+          "id": "531a271faba7",
+          "datetime": "26-Jun-2026 11:24:10",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "JUBLINGREA": {
+      "announcements": [
+        {
+          "id": "4949b335dd7a",
+          "datetime": "26-Jun-2026 11:01:37",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "c36abc5521ef",
+          "datetime": "23-Jun-2026 17:47:23",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PFIZER": {
+      "announcements": [
+        {
+          "id": "222013a979b7",
+          "datetime": "26-Jun-2026 10:47:30",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TORNTPHARM": {
+      "announcements": [
+        {
+          "id": "aa148f2452f4",
+          "datetime": "26-Jun-2026 10:05:09",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "361b3e94aff6",
+          "datetime": "23-Jun-2026 17:29:46",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "975435d7b35d",
+          "datetime": "23-Jun-2026 17:14:44",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "AJANTPHARM": {
+      "announcements": [
+        {
+          "id": "e2edc8b6e8dc",
+          "datetime": "26-Jun-2026 09:53:34",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LUPIN": {
+      "announcements": [
+        {
+          "id": "42dea462ed60",
+          "datetime": "26-Jun-2026 09:38:36",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "5ecf081b07c8",
+          "datetime": "22-Jun-2026 19:56:11",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "JSWINFRA": {
+      "announcements": [
+        {
+          "id": "03fa7f336d5e",
+          "datetime": "25-Jun-2026 23:45:26",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "719ae41894af",
+          "datetime": "25-Jun-2026 23:38:28",
+          "subject": "Committee Meeting Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "7ee06b1ec8dc",
+          "datetime": "22-Jun-2026 19:25:46",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "56d1d838071b",
+          "datetime": "22-Jun-2026 19:22:38",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "6b2f9ab44add",
+          "datetime": "22-Jun-2026 19:13:23",
+          "subject": "Committee Meeting Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "2b4d5d25e4a4",
+          "datetime": "22-Jun-2026 19:01:49",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "6714e0cf2323",
+          "datetime": "21-Jun-2026 17:03:29",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "M&MFIN": {
+      "announcements": [
+        {
+          "id": "121903a2b993",
+          "datetime": "25-Jun-2026 23:42:50",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "110a347e0325",
+          "datetime": "25-Jun-2026 23:19:32",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "58edc456f94e",
+          "datetime": "22-Jun-2026 17:47:17",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "HDBFS": {
+      "announcements": [
+        {
+          "id": "89411658354d",
+          "datetime": "25-Jun-2026 23:25:20",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "0a261a4b0155",
+          "datetime": "22-Jun-2026 15:43:36",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ABCAPITAL": {
+      "announcements": [
+        {
+          "id": "95bcb3d33b11",
+          "datetime": "23-Jun-2026 23:00:44",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9f662c6bc0e4",
+          "datetime": "23-Jun-2026 09:45:55",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ATHERENERG": {
+      "announcements": [
+        {
+          "id": "296d20043f58",
+          "datetime": "23-Jun-2026 22:39:39",
+          "subject": "Options to purchase securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "4d76adbc5b63",
+          "datetime": "21-Jun-2026 20:39:21",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "RPOWER": {
+      "announcements": [
+        {
+          "id": "050a0bb943ec",
+          "datetime": "23-Jun-2026 22:16:57",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "COHANCE": {
+      "announcements": [
+        {
+          "id": "9e7d7545b622",
+          "datetime": "23-Jun-2026 20:45:58",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "COFORGE": {
+      "announcements": [
+        {
+          "id": "dcfa1bb4c6da",
+          "datetime": "23-Jun-2026 20:44:04",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CGCL": {
+      "announcements": [
+        {
+          "id": "a4542f0d7e6b",
+          "datetime": "23-Jun-2026 20:09:04",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "2e2ea1535b40",
+          "datetime": "23-Jun-2026 20:06:00",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "177d17717915",
+          "datetime": "23-Jun-2026 19:59:30",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "9867b4648241",
+          "datetime": "22-Jun-2026 14:58:26",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "M&M": {
+      "announcements": [
+        {
+          "id": "4fac8502b719",
+          "datetime": "23-Jun-2026 20:08:44",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "267331049e70",
+          "datetime": "23-Jun-2026 13:55:39",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "6ead0a35fdd8",
+          "datetime": "22-Jun-2026 17:09:49",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "POLYMED": {
+      "announcements": [
+        {
+          "id": "a4c46b7bcf6d",
+          "datetime": "23-Jun-2026 20:03:32",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e8ad284ec10d",
+          "datetime": "22-Jun-2026 14:57:41",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PERSISTENT": {
+      "announcements": [
+        {
+          "id": "087b88a3fbe7",
+          "datetime": "23-Jun-2026 19:47:08",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "d93a4a6b37ad",
+          "datetime": "22-Jun-2026 21:36:22",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "d6e1a7a7a544",
+          "datetime": "22-Jun-2026 17:25:23",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PIIND": {
+      "announcements": [
+        {
+          "id": "9bb870864831",
+          "datetime": "23-Jun-2026 19:43:52",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 15,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "TRENT": {
+      "announcements": [
+        {
+          "id": "349cd606259b",
+          "datetime": "23-Jun-2026 19:35:38",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1be42b421888",
+          "datetime": "23-Jun-2026 19:13:32",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "KIRLOSENG": {
+      "announcements": [
+        {
+          "id": "1e73e6d356cd",
+          "datetime": "23-Jun-2026 19:17:25",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TMCV": {
+      "announcements": [
+        {
+          "id": "76bf165b661a",
+          "datetime": "23-Jun-2026 18:59:27",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1afceefaea88",
+          "datetime": "23-Jun-2026 09:38:23",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "f3621c1c0668",
+          "datetime": "21-Jun-2026 14:14:20",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "RECLTD": {
+      "announcements": [
+        {
+          "id": "93d86d6a9ac0",
+          "datetime": "23-Jun-2026 18:52:40",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SUNDARMFIN": {
+      "announcements": [
+        {
+          "id": "adc1a05efe01",
+          "datetime": "23-Jun-2026 18:45:49",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "f493522e08d5",
+          "datetime": "22-Jun-2026 20:04:04",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "POWERINDIA": {
+      "announcements": [
+        {
+          "id": "77c5c48e7067",
+          "datetime": "23-Jun-2026 18:45:03",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "BANKINDIA": {
+      "announcements": [
+        {
+          "id": "2a098464e2e7",
+          "datetime": "23-Jun-2026 18:42:27",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e18cb68b353b",
+          "datetime": "23-Jun-2026 18:38:51",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "bb378c3662b3",
+          "datetime": "23-Jun-2026 16:45:15",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "83251cfa379c",
+          "datetime": "22-Jun-2026 11:07:55",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "CUB": {
+      "announcements": [
+        {
+          "id": "08d1c250cb0c",
+          "datetime": "23-Jun-2026 18:34:07",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "8ff063fafb1f",
+          "datetime": "23-Jun-2026 18:31:01",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "UBL": {
+      "announcements": [
+        {
+          "id": "ece2b741cbb7",
+          "datetime": "23-Jun-2026 18:29:46",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "a378ee602cae",
+          "datetime": "23-Jun-2026 11:04:21",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "b346305a6f8a",
+          "datetime": "22-Jun-2026 15:31:36",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "REDINGTON": {
+      "announcements": [
+        {
+          "id": "e3f05508cb65",
+          "datetime": "23-Jun-2026 18:05:04",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "d2b190304310",
+          "datetime": "22-Jun-2026 19:46:48",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MOTILALOFS": {
+      "announcements": [
+        {
+          "id": "a50e2a741159",
+          "datetime": "23-Jun-2026 18:00:00",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "3605aeeefea6",
+          "datetime": "22-Jun-2026 22:52:28",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "BAJAJHLDNG": {
+      "announcements": [
+        {
+          "id": "194cfb88e30f",
+          "datetime": "23-Jun-2026 17:56:11",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [
+        {
+          "id": "d6b849f3ee8a",
+          "ex_date": "30-Jun-2026",
+          "action": "Dividend - Rs 130 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NUVOCO": {
+      "announcements": [
+        {
+          "id": "ce10c81c55e3",
+          "datetime": "23-Jun-2026 17:47:24",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "BAJAJFINSV": {
+      "announcements": [
+        {
+          "id": "a1474c53ed56",
+          "datetime": "23-Jun-2026 17:44:02",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [
+        {
+          "id": "a8b6c44bf8e3",
+          "ex_date": "30-Jun-2026",
+          "action": "Dividend - Rs 1.50 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 10,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NYKAA": {
+      "announcements": [
+        {
+          "id": "466baca21010",
+          "datetime": "23-Jun-2026 17:41:41",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "BAJAJHFL": {
+      "announcements": [
+        {
+          "id": "21972a8ff4ac",
+          "datetime": "23-Jun-2026 17:31:01",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NIVABUPA": {
+      "announcements": [
+        {
+          "id": "28a1973366d4",
+          "datetime": "23-Jun-2026 17:24:33",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "90f8ec1a81bb",
+          "datetime": "23-Jun-2026 17:18:35",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LENSKART": {
+      "announcements": [
+        {
+          "id": "48200a4f5d5d",
+          "datetime": "23-Jun-2026 17:24:33",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "APOLLOTYRE": {
+      "announcements": [
+        {
+          "id": "5109f80555b5",
+          "datetime": "23-Jun-2026 17:17:00",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LLOYDSME": {
+      "announcements": [
+        {
+          "id": "547947591c87",
+          "datetime": "23-Jun-2026 17:16:19",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "708a527acf3d",
+          "datetime": "23-Jun-2026 17:09:00",
+          "subject": "Options to purchase securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "ccba4319a9c2",
+          "datetime": "23-Jun-2026 17:05:18",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "IGIL": {
+      "announcements": [
+        {
+          "id": "78ecec13e314",
+          "datetime": "23-Jun-2026 17:11:07",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "3bdc6b603b63",
+          "datetime": "23-Jun-2026 10:57:06",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "8f43f7379c30",
+          "datetime": "23-Jun-2026 10:50:52",
+          "subject": "Change in Company Secretary/Compliance Officer",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e367030e5a0c",
+          "datetime": "23-Jun-2026 10:48:11",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 8,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NTPC": {
+      "announcements": [
+        {
+          "id": "657cfaae921e",
+          "datetime": "23-Jun-2026 16:53:20",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e99ad4dfd180",
+          "datetime": "23-Jun-2026 16:27:19",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "0530c3761101",
+          "datetime": "23-Jun-2026 15:51:43",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TATAPOWER": {
+      "announcements": [
+        {
+          "id": "178aa3400fda",
+          "datetime": "23-Jun-2026 16:48:29",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "BALKRISIND": {
+      "announcements": [
+        {
+          "id": "904c9b3baa51",
+          "datetime": "23-Jun-2026 16:48:17",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "INOXWIND": {
+      "announcements": [
+        {
+          "id": "8b12c5922d4d",
+          "datetime": "23-Jun-2026 16:44:13",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "553aa3cc9936",
+          "datetime": "22-Jun-2026 19:20:40",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PPLPHARMA": {
+      "announcements": [
+        {
+          "id": "2dc7f808d9fd",
+          "datetime": "23-Jun-2026 16:37:59",
+          "subject": "News Verification",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "7079686f9631",
+          "datetime": "23-Jun-2026 13:10:59",
+          "subject": "News Verification",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "KOTAKBANK": {
+      "announcements": [
+        {
+          "id": "7f1cc65f3d27",
+          "datetime": "23-Jun-2026 16:29:10",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "28a47e0a21de",
+          "datetime": "22-Jun-2026 18:43:27",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "DABUR": {
+      "announcements": [
+        {
+          "id": "163c196fde16",
+          "datetime": "23-Jun-2026 16:27:12",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "c9f9f6bae9c7",
+          "datetime": "23-Jun-2026 15:48:10",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "EIDPARRY": {
+      "announcements": [
+        {
+          "id": "c23d05a73bb7",
+          "datetime": "23-Jun-2026 16:12:18",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "EXIDEIND": {
+      "announcements": [
+        {
+          "id": "ac153fbeb1a7",
+          "datetime": "23-Jun-2026 16:09:34",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [
+        {
+          "id": "caa6222965d6",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 2 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "JYOTICNC": {
+      "announcements": [
+        {
+          "id": "0a88becc3866",
+          "datetime": "23-Jun-2026 16:04:47",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "NAVINFLUOR": {
+      "announcements": [
+        {
+          "id": "c49c01d7e97c",
+          "datetime": "23-Jun-2026 15:57:03",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "IEX": {
+      "announcements": [
+        {
+          "id": "6403a8ae0932",
+          "datetime": "23-Jun-2026 15:51:59",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "a7d393eb5967",
+          "datetime": "23-Jun-2026 11:23:27",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NHPC": {
+      "announcements": [
+        {
+          "id": "e81af62b6522",
+          "datetime": "23-Jun-2026 15:50:47",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "LGEINDIA": {
+      "announcements": [
+        {
+          "id": "27796ecc33ac",
+          "datetime": "23-Jun-2026 15:33:34",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "VOLTAS": {
+      "announcements": [
+        {
+          "id": "316160d8bef2",
+          "datetime": "23-Jun-2026 15:07:50",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "f0e0f2079393",
+          "datetime": "21-Jun-2026 00:17:04",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TATATECH": {
+      "announcements": [
+        {
+          "id": "dbd8a58370ad",
+          "datetime": "23-Jun-2026 14:53:25",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "COROMANDEL": {
+      "announcements": [
+        {
+          "id": "286d32c18271",
+          "datetime": "23-Jun-2026 14:47:52",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MUTHOOTFIN": {
+      "announcements": [
+        {
+          "id": "93043ce89162",
+          "datetime": "23-Jun-2026 14:44:07",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ICICIPRULI": {
+      "announcements": [
+        {
+          "id": "926687852ac0",
+          "datetime": "23-Jun-2026 14:44:06",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "EICHERMOT": {
+      "announcements": [
+        {
+          "id": "d78f451b160d",
+          "datetime": "23-Jun-2026 14:41:51",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "OLAELEC": {
+      "announcements": [
+        {
+          "id": "31e826a85471",
+          "datetime": "23-Jun-2026 14:09:49",
+          "subject": "Press Release",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "572ae6ff375d",
+          "datetime": "22-Jun-2026 17:44:32",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "SCHNEIDER": {
+      "announcements": [
+        {
+          "id": "aa92ea4d592a",
+          "datetime": "23-Jun-2026 14:06:56",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "GRASIM": {
+      "announcements": [
+        {
+          "id": "e69ed1e11489",
+          "datetime": "23-Jun-2026 13:19:16",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "2d12a7f7a0fa",
+          "datetime": "23-Jun-2026 12:16:55",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "e2c4f4ffbcff",
+          "datetime": "22-Jun-2026 16:21:29",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 15,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "ACUTAAS": {
+      "announcements": [
+        {
+          "id": "ac6f2a85e9e5",
+          "datetime": "23-Jun-2026 11:23:34",
+          "subject": "Action(s) initiated or orders passed",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "043bb38d4387",
+          "datetime": "22-Jun-2026 21:26:03",
+          "subject": "Action(s) initiated or orders passed",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "KALYANKJIL": {
+      "announcements": [
+        {
+          "id": "3ee42e56341d",
+          "datetime": "23-Jun-2026 11:06:52",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MSUMI": {
+      "announcements": [
+        {
+          "id": "694bcbdd0a19",
+          "datetime": "22-Jun-2026 23:43:29",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "HINDALCO": {
+      "announcements": [
+        {
+          "id": "6a8630990a29",
+          "datetime": "22-Jun-2026 22:22:19",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "b0d3d62d3b8d",
+          "datetime": "22-Jun-2026 13:57:14",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NUVAMA": {
+      "announcements": [
+        {
+          "id": "88c5c6de2572",
+          "datetime": "22-Jun-2026 21:23:15",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MARICO": {
+      "announcements": [
+        {
+          "id": "c03ae31c235a",
+          "datetime": "22-Jun-2026 20:15:07",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ABSLAMC": {
+      "announcements": [
+        {
+          "id": "d61213a03e97",
+          "datetime": "22-Jun-2026 20:03:55",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "8d141c248a73",
+          "datetime": "22-Jun-2026 14:40:04",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "1e4b88f9fd49",
+          "datetime": "22-Jun-2026 14:30:35",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "GLAND": {
+      "announcements": [
+        {
+          "id": "ae051c505cb4",
+          "datetime": "22-Jun-2026 19:57:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "IDEA": {
+      "announcements": [
+        {
+          "id": "48058f53d588",
+          "datetime": "22-Jun-2026 19:53:43",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "JAINREC": {
+      "announcements": [
+        {
+          "id": "b88f7d436415",
+          "datetime": "22-Jun-2026 19:10:47",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "CYIENT": {
+      "announcements": [
+        {
+          "id": "10f490f11e5e",
+          "datetime": "22-Jun-2026 18:47:13",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "DALBHARAT": {
+      "announcements": [
+        {
+          "id": "584583aab9b6",
+          "datetime": "22-Jun-2026 18:43:22",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "49bd80af8579",
+          "datetime": "21-Jun-2026 16:38:07",
+          "subject": "Commencement of commercial production/operations",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SYRMA": {
+      "announcements": [
+        {
+          "id": "9f4ef5d1812e",
+          "datetime": "22-Jun-2026 18:30:01",
+          "subject": "Agreements",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CHOICEIN": {
+      "announcements": [
+        {
+          "id": "0f0a45f46ed8",
+          "datetime": "22-Jun-2026 18:20:54",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "DMART": {
+      "announcements": [
+        {
+          "id": "1b89c87acf2e",
+          "datetime": "22-Jun-2026 18:20:11",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "30b2576134bf",
+          "datetime": "21-Jun-2026 14:34:34",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CAPLIPOINT": {
+      "announcements": [
+        {
+          "id": "49e6069981f2",
+          "datetime": "22-Jun-2026 18:13:27",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "GAIL": {
+      "announcements": [
+        {
+          "id": "d38dccb29ccd",
+          "datetime": "22-Jun-2026 18:08:23",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TIMKEN": {
+      "announcements": [
+        {
+          "id": "32084714cd8b",
+          "datetime": "22-Jun-2026 17:46:09",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "GABRIEL": {
+      "announcements": [
+        {
+          "id": "ab058f0d5a96",
+          "datetime": "22-Jun-2026 17:36:24",
+          "subject": "Clarification - Financial Results",
+          "category": "",
+          "score": 3,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 3,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "HUDCO": {
+      "announcements": [
+        {
+          "id": "9422e0edbc39",
+          "datetime": "22-Jun-2026 17:01:44",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MPHASIS": {
+      "announcements": [
+        {
+          "id": "5cfec3fbaed3",
+          "datetime": "22-Jun-2026 16:48:30",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MAHABANK": {
+      "announcements": [
+        {
+          "id": "8d323818e901",
+          "datetime": "22-Jun-2026 16:20:20",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TATACONSUM": {
+      "announcements": [
+        {
+          "id": "9260f63d62f1",
+          "datetime": "22-Jun-2026 16:19:52",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "IKS": {
+      "announcements": [
+        {
+          "id": "b5c38f93eaaf",
+          "datetime": "22-Jun-2026 15:58:52",
+          "subject": "Credit Rating- New",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TBOTEK": {
+      "announcements": [
+        {
+          "id": "d2c39e07a541",
+          "datetime": "22-Jun-2026 15:56:36",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "TATACAP": {
+      "announcements": [
+        {
+          "id": "5ed9439970c0",
+          "datetime": "22-Jun-2026 14:46:52",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "INDHOTEL": {
+      "announcements": [
+        {
+          "id": "b06d151dcd7b",
+          "datetime": "22-Jun-2026 14:21:09",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "POLICYBZR": {
+      "announcements": [
+        {
+          "id": "e23d8ede3b70",
+          "datetime": "22-Jun-2026 13:39:32",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PAGEIND": {
+      "announcements": [
+        {
+          "id": "fcf7014f16a0",
+          "datetime": "22-Jun-2026 12:25:01",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NATIONALUM": {
+      "announcements": [
+        {
+          "id": "e7bc249ad298",
+          "datetime": "22-Jun-2026 11:45:07",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 5,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "URBANCO": {
+      "announcements": [
+        {
+          "id": "1adacdebedd6",
+          "datetime": "22-Jun-2026 11:11:03",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 17,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 17,
+      "has_major_announcement": true,
+      "exclude_negative": false
+    },
+    "AAVAS": {
+      "announcements": [
+        {
+          "id": "5348f1d5ccad",
+          "datetime": "22-Jun-2026 09:42:13",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "3e0b6ec8ab18",
+          "datetime": "21-Jun-2026 17:51:04",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "has_pdf": true,
+          "fetched": "13:49"
+        },
+        {
+          "id": "c6889d8597e9",
+          "datetime": "21-Jun-2026 15:49:11",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "has_pdf": true,
+          "fetched": "13:49"
+        }
+      ],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 8,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PWL": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ANANTRAJ": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "OLECTRA": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "JSWENERGY": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "RAMCOCEM": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "KPRMILL": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MAXHEALTH": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PRESTIGE": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "UCOBANK": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "HBLENGINE": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "PETRONET": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NESTLEIND": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MOTHERSON": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "GODREJPROP": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SOLARINDS": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "ETERNAL": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SHRIRAMFIN": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CONCOR": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SPLPETRO": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "TATAINVEST": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "APTUS": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "CHAMBLFERT": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MARUTI": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "JSWCEMENT": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "KEC": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "AWL": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SBFC": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "MRF": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "SUNTV": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
+    },
+    "NCC": {
+      "announcements": [],
+      "actions": [],
+      "board_meeting": {},
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false
     }
   },
-  "last_updated": "2026-06-26 00:58",
-  "total_symbols": 285,
-  "high_impact": 16,
-  "new_this_run": 0,
-  "total_seen_ids": 503
+  "last_updated": "2026-06-26 13:49",
+  "total_symbols": 431,
+  "high_impact": 42,
+  "new_this_run": 702,
+  "total_seen_ids": 1205
 }
