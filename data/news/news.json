@@ -8096,6 +8096,17 @@
           "fetched": "13:49",
           "guidance_flag": true,
           "pdf_url": ""
+        },
+        {
+          "id": "6ba85df063d9",
+          "datetime": "26-Jun-2026 21:58:11",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_26062026215758_InvestorMeetOutcome26062026.pdf",
+          "fetched": "22:01"
         }
       ],
       "actions": [],
@@ -17804,10 +17815,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-26 21:33",
+  "last_updated": "2026-06-26 22:01",
   "total_symbols": 464,
   "high_impact": 17,
-  "new_this_run": 4,
-  "total_seen_ids": 1382,
+  "new_this_run": 1,
+  "total_seen_ids": 1383,
   "guidance_events": 64
 }
