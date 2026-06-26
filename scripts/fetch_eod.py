@@ -3,9 +3,15 @@
 fetch_eod.py — EOD OHLCV + DMA + RS for NIFTY 500
 ---------------------------------------------------
 INCREMENTAL: Skips fetch if today's file already exists and has >490 symbols.
-PRUNING:     Deletes files older than 10 trading days after successful fetch.
-             (History is INSIDE each file — 300 days of closes per symbol)
-Output: data/daily/YYYY-MM-DD.json  (one file per trading day, keep last 10)
+PRUNING:     Deletes files older than 3 trading days after successful fetch.
+             (History is INSIDE each file — 5 years = ~1260 candles per symbol)
+Output: data/daily/YYYY-MM-DD.json  (one file per trading day, keep last 3)
+
+HISTORY POLICY:
+  Each daily file contains FULL OHLCV history arrays per symbol (5 years).
+  This enables VCP pattern detection, pivot analysis, multi-timeframe RS,
+  ATR tightness, Stage analysis, Darvas Box — all from a single file.
+  File size: ~35–45 MB per day. Keep last 3 = ~120 MB stable.
 """
 
 import sys, os
@@ -24,7 +30,8 @@ from kite_auth import get_kite
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger(__name__)
 
-KEEP_DAYS = 10   # keep last 10 daily files
+KEEP_DAYS    = 3     # keep last 3 daily files (each ~40 MB → ~120 MB stable)
+HISTORY_DAYS = 1825  # 5 years of daily candles (~1260 trading days)
 
 NIFTY500 = [
     "360ONE","3MINDIA","ABB","ACC","ACMESOLAR","AIAENG","APLAPOLLO","AUBANK","AWL",
@@ -142,6 +149,29 @@ def rs_score(sc, nc, period=65):
     return round(sr/nr if nr!=0 else 0.0, 4)
 
 
+def rs_score_period(sc, nc, period):
+    """RS over a specific lookback — used for multi-period RS table."""
+    if len(sc) < period or len(nc) < period:
+        return None
+    sr = (sc[-1]-sc[-period])/sc[-period]
+    nr = (nc[-1]-nc[-period])/nc[-period]
+    return round(sr/nr if nr!=0 else 0.0, 4)
+
+
+def compute_atr(candles, period=14):
+    """Average True Range over last `period` candles."""
+    if len(candles) < period + 1:
+        return None
+    trs = []
+    for i in range(1, len(candles)):
+        h = candles[i]["high"]
+        l = candles[i]["low"]
+        pc = candles[i-1]["close"]
+        trs.append(max(h - l, abs(h - pc), abs(l - pc)))
+    recent = trs[-period:]
+    return round(sum(recent) / len(recent), 2)
+
+
 def main():
     log.info("=== EOD Fetch Start ===")
     kite     = get_kite()
@@ -161,26 +191,33 @@ def main():
         except Exception:
             pass
 
-    start     = today - timedelta(days=300)
+    start     = today - timedelta(days=HISTORY_DAYS)
     token_map = build_instrument_map(kite)
 
-    nifty_closes = []
+    # Fetch Nifty50 index history (token 256265) for RS calculation
+    nifty_candles = []
+    nifty_closes  = []
     try:
-        nc = safe_fetch(kite, 256265, "day", start, today)
-        nifty_closes = [c["close"] for c in nc]
+        nifty_candles = safe_fetch(kite, 256265, "day", start, today)
+        nifty_closes  = [c["close"] for c in nifty_candles]
         log.info(f"Nifty50: {len(nifty_closes)} candles, last={nifty_closes[-1]}")
     except Exception as e:
         log.warning(f"Nifty50 failed: {e}")
 
     output = {
-        "data_type":     "EOD_DAILY",
-        "description":   "End-of-Day OHLCV + DMA + RS for NIFTY 500",
-        "universe":      "NIFTY500 (500 symbols)",
-        "fetch_date":    date_str,
-        "fetch_time":    today.strftime("%H:%M:%S IST"),
-        "source":        "Zerodha Kite Connect Historical API",
-        "nifty50_close": nifty_closes[-1] if nifty_closes else 0,
-        "symbols":       {}
+        "data_type":        "EOD_DAILY",
+        "description":      "End-of-Day OHLCV full history + DMA + RS for NIFTY 500",
+        "universe":         "NIFTY500 (500 symbols)",
+        "fetch_date":       date_str,
+        "fetch_time":       today.strftime("%H:%M:%S IST"),
+        "source":           "Zerodha Kite Connect Historical API",
+        "history_days":     HISTORY_DAYS,
+        "nifty50_close":    nifty_closes[-1] if nifty_closes else 0,
+        "nifty50_history":  [{"d": c["date"].strftime("%Y-%m-%d") if hasattr(c["date"],"strftime") else str(c["date"])[:10],
+                              "o": c["open"], "h": c["high"], "l": c["low"],
+                              "c": c["close"], "v": c.get("volume", 0)}
+                             for c in nifty_candles],
+        "symbols":          {}
     }
 
     failed = []
@@ -194,39 +231,132 @@ def main():
             candles = safe_fetch(kite, inst["token"], "day", start, today)
             if not candles:
                 raise ValueError("Empty")
-            closes = [c["close"] for c in candles]
-            highs  = [c["high"]  for c in candles]
-            lows   = [c["low"]   for c in candles if c["low"]>0]
-            vols   = [c["volume"] for c in candles if c.get("volume",0)>0]
-            tc, pc = candles[-1], (candles[-2] if len(candles)>=2 else candles[-1])
-            n      = len(closes)
+
+            # ── Build compact OHLCV history arrays ──────────────────────────
+            # Stored as parallel arrays (not list-of-dicts) to keep file lean.
+            # dates[] aligns 1:1 with opens[], highs[], lows[], closes[], vols[]
+            dates  = []
+            opens  = []
+            highs  = []
+            lows_a = []
+            closes = []
+            vols   = []
+            for c in candles:
+                d = c["date"]
+                dates.append(d.strftime("%Y-%m-%d") if hasattr(d,"strftime") else str(d)[:10])
+                opens.append(round(c["open"],  2))
+                highs.append(round(c["high"],  2))
+                lows_a.append(round(c["low"],  2))
+                closes.append(round(c["close"], 2))
+                vols.append(c.get("volume", 0))
+
+            # ── Latest candle summary ────────────────────────────────────────
+            tc  = candles[-1]
+            pc  = candles[-2] if len(candles) >= 2 else candles[-1]
+            n   = len(closes)
+            v_clean = [v for v in vols if v > 0]
+
+            # ── Pre-computed indicators (avoid re-computing in scanner) ──────
+            dma_50  = round(sum(closes[-50:]) /min(n,50),  2) if n >= 10  else None
+            dma_150 = round(sum(closes[-150:])/min(n,150), 2) if n >= 50  else None
+            dma_200 = round(sum(closes[-200:])/min(n,200), 2) if n >= 100 else None
+
+            # Multi-period RS for relative strength ranking
+            rs_65   = rs_score_period(closes, nifty_closes, 65)
+            rs_126  = rs_score_period(closes, nifty_closes, 126)   # ~6 months
+            rs_252  = rs_score_period(closes, nifty_closes, 252)   # ~1 year
+            rs_raw  = rs_65  # backward-compatible primary RS field
+
+            # ATR for VCP tightness / stop-loss sizing
+            atr_14  = compute_atr(candles, 14)
+            atr_21  = compute_atr(candles, 21)
+
+            # 52-week high/low from actual history window
+            highs_all = [c["high"]  for c in candles]
+            lows_all  = [c["low"]   for c in candles if c["low"] > 0]
+            # True 52w = last 252 trading days
+            w52_hi = round(max(highs_all[-252:] if n >= 252 else highs_all), 2)
+            w52_lo = round(min(lows_all[-252:]  if len(lows_all) >= 252 else lows_all), 2) if lows_all else 0
+
+            # Volume averages at multiple windows
+            avg_vol_10  = int(sum(v_clean[-10:]) /min(len(v_clean),10))  if v_clean else 0
+            avg_vol_20  = int(sum(v_clean[-20:]) /min(len(v_clean),20))  if v_clean else 0
+            avg_vol_50  = int(sum(v_clean[-50:]) /min(len(v_clean),50))  if v_clean else 0
+
+            # Minervini Stage 2 flags (pre-computed for fast filtering)
+            close_now = tc["close"]
+            minervini_pass = bool(
+                dma_50 and dma_150 and dma_200 and
+                close_now > dma_50 and
+                close_now > dma_150 and
+                close_now > dma_200 and
+                dma_50 > dma_150 and
+                dma_150 > dma_200 and
+                rs_raw is not None and rs_raw > 1.0 and
+                close_now >= w52_hi * 0.75
+            )
+
             output["symbols"][sym] = {
-                "open":       tc["open"],
-                "high":       tc["high"],
-                "low":        tc["low"],
-                "close":      tc["close"],
-                "volume":     tc.get("volume",0),
-                "avg_vol_20": int(sum(vols[-20:])/min(len(vols),20)) if vols else 0,
-                "prev_close": pc["close"],
-                "change_pct": round(((tc["close"]-pc["close"])/pc["close"])*100,2) if pc["close"] else 0,
-                "52w_high":   round(max(highs),2),
-                "52w_low":    round(min(lows),2) if lows else 0,
-                "dma_50":     round(sum(closes[-50:])/min(n,50),2)   if n>=10  else None,
-                "dma_150":    round(sum(closes[-150:])/min(n,150),2) if n>=50  else None,
-                "dma_200":    round(sum(closes[-200:])/min(n,200),2) if n>=100 else None,
-                "rs_raw":     rs_score(closes, nifty_closes),
-                "data_grade": "A",
+                # ── Today's summary (fast access, no array scan needed) ──────
+                "open":         tc["open"],
+                "high":         tc["high"],
+                "low":          tc["low"],
+                "close":        close_now,
+                "volume":       tc.get("volume", 0),
+                "prev_close":   pc["close"],
+                "change_pct":   round(((close_now - pc["close"]) / pc["close"]) * 100, 2) if pc["close"] else 0,
+
+                # ── Moving averages ──────────────────────────────────────────
+                "dma_50":       dma_50,
+                "dma_150":      dma_150,
+                "dma_200":      dma_200,
+
+                # ── Relative Strength ────────────────────────────────────────
+                "rs_raw":       rs_raw,       # primary (65-day, backward compat)
+                "rs_65":        rs_65,
+                "rs_126":       rs_126,
+                "rs_252":       rs_252,
+
+                # ── Range / volatility ───────────────────────────────────────
+                "52w_high":     w52_hi,
+                "52w_low":      w52_lo,
+                "atr_14":       atr_14,
+                "atr_21":       atr_21,
+                "atr_pct":      round(atr_14 / close_now * 100, 2) if atr_14 and close_now else None,
+
+                # ── Volume averages ──────────────────────────────────────────
+                "avg_vol_10":   avg_vol_10,
+                "avg_vol_20":   avg_vol_20,
+                "avg_vol_50":   avg_vol_50,
+
+                # ── Minervini pre-filter ─────────────────────────────────────
+                "minervini_pass": minervini_pass,
+
+                # ── Full OHLCV history arrays ────────────────────────────────
+                # Parallel arrays — index N of each array = same candle.
+                # dates[0] is oldest, dates[-1] is today.
+                "candle_count": n,
+                "dates":        dates,
+                "opens":        opens,
+                "highs":        highs,
+                "lows":         lows_a,
+                "closes":       closes,
+                "volumes":      vols,
+
+                "data_grade":   "A",
             }
+
         except Exception as e:
             log.error(f"  FAILED {sym}: {e}")
-            output["symbols"][sym] = {"error":str(e),"data_grade":"C"}
+            output["symbols"][sym] = {"error": str(e), "data_grade": "C"}
             failed.append(sym)
         time.sleep(0.34)
 
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(output, indent=2, default=str))
-    ok = sum(1 for v in output["symbols"].values() if v.get("data_grade")=="A")
-    log.info(f"=== EOD Done: {ok}/{len(NIFTY500)} OK | {len(failed)} failed ===")
+    ok       = sum(1 for v in output["symbols"].values() if v.get("data_grade") == "A")
+    mp_count = sum(1 for v in output["symbols"].values() if v.get("minervini_pass"))
+    log.info(f"=== EOD Done: {ok}/{len(NIFTY500)} OK | {mp_count} Minervini pass | {len(failed)} failed ===")
 
     # PRUNE: keep only last KEEP_DAYS files
     prune_old_files(out.parent, KEEP_DAYS)
