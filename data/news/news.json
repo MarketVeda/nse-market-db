@@ -19,7 +19,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ASTERDM": {
       "announcements": [
@@ -73,7 +77,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INFY": {
       "announcements": [
@@ -154,7 +162,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SUPREMEIND": {
       "announcements": [
@@ -180,7 +192,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INDGN": {
       "announcements": [
@@ -198,7 +214,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AUROPHARMA": {
       "announcements": [
@@ -234,7 +254,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LTTS": {
       "announcements": [
@@ -252,7 +276,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TMPV": {
       "announcements": [
@@ -297,7 +325,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SJVN": {
       "announcements": [
@@ -315,7 +347,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SUZLON": {
       "announcements": [
@@ -342,7 +378,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GLENMARK": {
       "announcements": [
@@ -369,7 +409,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CIPLA": {
       "announcements": [
@@ -414,7 +458,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "WOCKPHARMA": {
       "announcements": [
@@ -432,7 +480,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CEATLTD": {
       "announcements": [
@@ -450,7 +502,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FLUOROCHEM": {
       "announcements": [
@@ -477,7 +533,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "UNIONBANK": {
       "announcements": [
@@ -503,7 +563,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PHOENIXLTD": {
       "announcements": [
@@ -530,7 +594,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GALLANTT": {
       "announcements": [
@@ -566,7 +634,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JINDALSAW": {
       "announcements": [
@@ -638,7 +710,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LICI": {
       "announcements": [
@@ -691,7 +767,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "POLYCAB": {
       "announcements": [
@@ -727,7 +807,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JSL": {
       "announcements": [
@@ -826,7 +910,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "YESBANK": {
       "announcements": [
@@ -862,7 +950,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JWL": {
       "announcements": [
@@ -889,7 +981,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PNB": {
       "announcements": [
@@ -925,7 +1021,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RHIM": {
       "announcements": [
@@ -988,7 +1088,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ICICIBANK": {
       "announcements": [
@@ -1033,7 +1137,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CLEAN": {
       "announcements": [
@@ -1069,7 +1177,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GRAPHITE": {
       "announcements": [
@@ -1096,7 +1208,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TITAN": {
       "announcements": [
@@ -1168,7 +1284,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "COCHINSHIP": {
       "announcements": [
@@ -1186,7 +1306,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MAZDOCK": {
       "announcements": [
@@ -1204,7 +1328,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "POONAWALLA": {
       "announcements": [
@@ -1231,7 +1359,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CDSL": {
       "announcements": [
@@ -1267,7 +1399,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FIRSTCRY": {
       "announcements": [
@@ -1312,7 +1448,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TITAGARH": {
       "announcements": [
@@ -1348,7 +1488,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LT": {
       "announcements": [
@@ -1411,7 +1555,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ONGC": {
       "announcements": [
@@ -1456,7 +1604,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TECHM": {
       "announcements": [
@@ -1519,7 +1671,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TTML": {
       "announcements": [
@@ -1564,7 +1720,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AIIL": {
       "announcements": [
@@ -1591,7 +1751,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ABLBL": {
       "announcements": [
@@ -1609,7 +1773,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BAJAJ-AUTO": {
       "announcements": [
@@ -1681,7 +1849,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BLUEJET": {
       "announcements": [
@@ -1699,7 +1871,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NEWGEN": {
       "announcements": [
@@ -1717,7 +1893,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RITES": {
       "announcements": [
@@ -1753,7 +1933,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GODFRYPHLP": {
       "announcements": [
@@ -1771,7 +1955,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AXISBANK": {
       "announcements": [
@@ -1879,7 +2067,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ADANIENT": {
       "announcements": [
@@ -1915,7 +2107,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "STARHEALTH": {
       "announcements": [
@@ -1942,7 +2138,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "UTIAMC": {
       "announcements": [
@@ -2059,7 +2259,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RAILTEL": {
       "announcements": [
@@ -2086,7 +2290,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PARADEEP": {
       "announcements": [
@@ -2104,7 +2312,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DATAPATTNS": {
       "announcements": [
@@ -2122,7 +2334,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BANDHANBNK": {
       "announcements": [
@@ -2176,7 +2392,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MANKIND": {
       "announcements": [
@@ -2194,7 +2414,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RELIANCE": {
       "announcements": [
@@ -2230,7 +2454,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BSOFT": {
       "announcements": [
@@ -2275,7 +2503,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "UPL": {
       "announcements": [
@@ -2311,7 +2543,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HDFCBANK": {
       "announcements": [
@@ -2329,7 +2565,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LTFOODS": {
       "announcements": [
@@ -2365,7 +2605,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HINDPETRO": {
       "announcements": [
@@ -2401,7 +2645,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "360ONE": {
       "announcements": [
@@ -2419,7 +2667,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ADANIGREEN": {
       "announcements": [
@@ -2455,7 +2707,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KIMS": {
       "announcements": [
@@ -2482,7 +2738,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KPIL": {
       "announcements": [
@@ -2553,7 +2813,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HOMEFIRST": {
       "announcements": [
@@ -2634,7 +2898,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NIACL": {
       "announcements": [
@@ -2706,7 +2974,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GLAXO": {
       "announcements": [
@@ -2733,7 +3005,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BSE": {
       "announcements": [
@@ -2787,7 +3063,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GRANULES": {
       "announcements": [
@@ -2805,7 +3085,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VBL": {
       "announcements": [
@@ -2823,7 +3107,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MEDANTA": {
       "announcements": [
@@ -2859,7 +3147,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HEG": {
       "announcements": [
@@ -2985,7 +3277,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TVSMOTOR": {
       "announcements": [
@@ -3021,7 +3317,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IREDA": {
       "announcements": [
@@ -3039,7 +3339,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MFSL": {
       "announcements": [
@@ -3057,7 +3361,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VEDL": {
       "announcements": [
@@ -3111,7 +3419,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "THERMAX": {
       "announcements": [
@@ -3147,7 +3459,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BPCL": {
       "announcements": [
@@ -3174,7 +3490,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KAJARIACER": {
       "announcements": [
@@ -3227,7 +3547,11 @@
       "board_meeting": {},
       "news_impact_score": 12,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BIKAJI": {
       "announcements": [
@@ -3245,7 +3569,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IGL": {
       "announcements": [
@@ -3263,7 +3591,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CRAFTSMAN": {
       "announcements": [
@@ -3290,7 +3622,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RRKABEL": {
       "announcements": [
@@ -3317,7 +3653,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CONCORDBIO": {
       "announcements": [
@@ -3335,7 +3675,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BEML": {
       "announcements": [
@@ -3362,7 +3706,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PTCIL": {
       "announcements": [
@@ -3380,7 +3728,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ZFCVINDIA": {
       "announcements": [
@@ -3416,7 +3768,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HCLTECH": {
       "announcements": [
@@ -3497,7 +3853,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ZYDUSWELL": {
       "announcements": [
@@ -3542,7 +3902,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HEROMOTOCO": {
       "announcements": [
@@ -3587,7 +3951,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SHREECEM": {
       "announcements": [
@@ -3614,7 +3982,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INDIGO": {
       "announcements": [
@@ -3632,7 +4004,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BHARTIARTL": {
       "announcements": [
@@ -3668,7 +4044,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HDFCLIFE": {
       "announcements": [
@@ -3704,7 +4084,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JUBLFOOD": {
       "announcements": [
@@ -3731,7 +4115,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATASTEEL": {
       "announcements": [
@@ -3767,7 +4155,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "APOLLOHOSP": {
       "announcements": [
@@ -3821,7 +4213,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BERGEPAINT": {
       "announcements": [
@@ -3866,7 +4262,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KARURVYSYA": {
       "announcements": [
@@ -3929,7 +4329,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ATGL": {
       "announcements": [
@@ -3956,7 +4360,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NLCINDIA": {
       "announcements": [
@@ -4001,7 +4409,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KEI": {
       "announcements": [
@@ -4046,7 +4458,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ICICIAMC": {
       "announcements": [
@@ -4073,7 +4489,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ADANIPORTS": {
       "announcements": [
@@ -4118,7 +4538,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RADICO": {
       "announcements": [
@@ -4154,7 +4578,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SBICARD": {
       "announcements": [
@@ -4244,7 +4672,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INDIANB": {
       "announcements": [
@@ -4271,7 +4703,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GRAVITA": {
       "announcements": [
@@ -4325,7 +4761,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LTF": {
       "announcements": [
@@ -4343,7 +4783,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ABFRL": {
       "announcements": [
@@ -4361,7 +4805,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "WIPRO": {
       "announcements": [
@@ -4415,7 +4863,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HDFCAMC": {
       "announcements": [
@@ -4433,7 +4885,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CRISIL": {
       "announcements": [
@@ -4451,7 +4907,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FSL": {
       "announcements": [
@@ -4478,7 +4938,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JKCEMENT": {
       "announcements": [
@@ -4550,7 +5014,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INDUSTOWER": {
       "announcements": [
@@ -4568,7 +5036,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "WAAREEENER": {
       "announcements": [
@@ -4613,7 +5085,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATAELXSI": {
       "announcements": [
@@ -4649,7 +5125,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CANBK": {
       "announcements": [
@@ -4685,7 +5165,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SAPPHIRE": {
       "announcements": [
@@ -4703,7 +5187,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SHYAMMETL": {
       "announcements": [
@@ -4739,7 +5227,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VAML": {
       "announcements": [
@@ -4766,7 +5258,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CROMPTON": {
       "announcements": [
@@ -4784,7 +5280,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SBIN": {
       "announcements": [
@@ -4820,7 +5320,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ONESOURCE": {
       "announcements": [
@@ -4838,7 +5342,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PIDILITIND": {
       "announcements": [
@@ -4865,7 +5373,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CREDITACC": {
       "announcements": [
@@ -4910,7 +5422,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TRITURBINE": {
       "announcements": [
@@ -4937,7 +5453,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PNBHOUSING": {
       "announcements": [
@@ -4982,7 +5502,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INTELLECT": {
       "announcements": [
@@ -5009,7 +5533,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BHARATFORG": {
       "announcements": [
@@ -5053,7 +5581,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BLS": {
       "announcements": [
@@ -5071,7 +5603,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PCBL": {
       "announcements": [
@@ -5116,7 +5652,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MANAPPURAM": {
       "announcements": [
@@ -5188,7 +5728,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IRFC": {
       "announcements": [
@@ -5224,7 +5768,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KAYNES": {
       "announcements": [
@@ -5242,7 +5790,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SYNGENE": {
       "announcements": [
@@ -5277,7 +5829,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JIOFIN": {
       "announcements": [
@@ -5295,7 +5851,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SAIL": {
       "announcements": [
@@ -5313,7 +5873,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PGEL": {
       "announcements": [
@@ -5331,7 +5895,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "EMCURE": {
       "announcements": [
@@ -5349,7 +5917,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ABREL": {
       "announcements": [
@@ -5412,7 +5984,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "WELCORP": {
       "announcements": [
@@ -5474,7 +6050,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BATAINDIA": {
       "announcements": [
@@ -5501,7 +6081,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ECLERX": {
       "announcements": [
@@ -5591,7 +6175,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ASIANPAINT": {
       "announcements": [
@@ -5618,7 +6206,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "3MINDIA": {
       "announcements": [
@@ -5645,7 +6237,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CESC": {
       "announcements": [
@@ -5708,7 +6304,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JUBLPHARMA": {
       "announcements": [
@@ -5735,7 +6335,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VMM": {
       "announcements": [
@@ -5753,7 +6357,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JINDALSTEL": {
       "announcements": [
@@ -5780,7 +6388,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FORTIS": {
       "announcements": [
@@ -5798,7 +6410,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CANFINHOME": {
       "announcements": [
@@ -5824,7 +6440,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "APARINDS": {
       "announcements": [
@@ -5851,7 +6471,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PFC": {
       "announcements": [
@@ -5905,7 +6529,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SCI": {
       "announcements": [
@@ -5932,7 +6560,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "EMAMILTD": {
       "announcements": [
@@ -5950,7 +6582,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SOBHA": {
       "announcements": [
@@ -5968,7 +6604,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CENTRALBK": {
       "announcements": [
@@ -5995,7 +6635,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NH": {
       "announcements": [
@@ -6031,7 +6675,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HSCL": {
       "announcements": [
@@ -6049,7 +6697,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TORNTPOWER": {
       "announcements": [
@@ -6094,7 +6746,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ANGELONE": {
       "announcements": [
@@ -6121,7 +6777,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SIGNATURE": {
       "announcements": [
@@ -6148,7 +6808,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DIXON": {
       "announcements": [
@@ -6175,7 +6839,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "COLPAL": {
       "announcements": [
@@ -6202,7 +6870,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BBTC": {
       "announcements": [
@@ -6220,7 +6892,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BDL": {
       "announcements": [
@@ -6238,7 +6914,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ALKEM": {
       "announcements": [
@@ -6256,7 +6936,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BLUEDART": {
       "announcements": [
@@ -6283,7 +6967,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AARTIIND": {
       "announcements": [
@@ -6319,7 +7007,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FIVESTAR": {
       "announcements": [
@@ -6346,7 +7038,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GODREJIND": {
       "announcements": [
@@ -6391,7 +7087,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ENDURANCE": {
       "announcements": [
@@ -6427,7 +7127,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ENGINERSIN": {
       "announcements": [
@@ -6454,7 +7158,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AFFLE": {
       "announcements": [
@@ -6481,7 +7189,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "OIL": {
       "announcements": [
@@ -6499,7 +7211,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BOSCHLTD": {
       "announcements": [
@@ -6526,7 +7242,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SAREGAMA": {
       "announcements": [
@@ -6607,7 +7327,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FEDERALBNK": {
       "announcements": [
@@ -6625,7 +7349,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CARTRADE": {
       "announcements": [
@@ -6643,7 +7371,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CHOLAHLDNG": {
       "announcements": [
@@ -6661,7 +7393,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BAJFINANCE": {
       "announcements": [
@@ -6696,7 +7432,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TIINDIA": {
       "announcements": [
@@ -6723,7 +7463,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LTM": {
       "announcements": [
@@ -6741,7 +7485,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "WHIRLPOOL": {
       "announcements": [
@@ -6759,7 +7507,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HINDCOPPER": {
       "announcements": [
@@ -6795,7 +7547,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CPPLUS": {
       "announcements": [
@@ -6813,7 +7569,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CGPOWER": {
       "announcements": [
@@ -6840,7 +7600,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NAUKRI": {
       "announcements": [
@@ -6876,7 +7640,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MEESHO": {
       "announcements": [
@@ -6903,7 +7671,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PATANJALI": {
       "announcements": [
@@ -6930,7 +7702,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JSWSTEEL": {
       "announcements": [
@@ -6948,7 +7724,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CARBORUNIV": {
       "announcements": [
@@ -6966,7 +7746,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INDUSINDBK": {
       "announcements": [
@@ -6992,7 +7776,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DEEPAKFERT": {
       "announcements": [
@@ -7010,7 +7798,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NTPCGREEN": {
       "announcements": [
@@ -7028,7 +7820,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MMTC": {
       "announcements": [
@@ -7073,7 +7869,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "APLAPOLLO": {
       "announcements": [
@@ -7091,7 +7891,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ABB": {
       "announcements": [
@@ -7109,7 +7913,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "J&KBANK": {
       "announcements": [
@@ -7127,7 +7935,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SARDAEN": {
       "announcements": [
@@ -7145,7 +7957,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BIOCON": {
       "announcements": [
@@ -7172,7 +7988,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ABDL": {
       "announcements": [],
@@ -7188,7 +8008,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NAM-INDIA": {
       "announcements": [
@@ -7223,7 +8047,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SONACOMS": {
       "announcements": [
@@ -7267,7 +8095,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LALPATHLAB": {
       "announcements": [],
@@ -7283,7 +8115,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TCS": {
       "announcements": [
@@ -7319,7 +8155,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CASTROLIND": {
       "announcements": [
@@ -7337,7 +8177,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BHARTIHEXA": {
       "announcements": [
@@ -7355,7 +8199,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SAMMAANCAP": {
       "announcements": [
@@ -7418,7 +8266,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATACOMM": {
       "announcements": [
@@ -7436,7 +8288,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ELECON": {
       "announcements": [
@@ -7472,7 +8328,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ZYDUSLIFE": {
       "announcements": [
@@ -7499,7 +8359,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IDBI": {
       "announcements": [
@@ -7544,7 +8408,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BLUESTARCO": {
       "announcements": [
@@ -7571,7 +8439,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GICRE": {
       "announcements": [
@@ -7598,7 +8470,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IOB": {
       "announcements": [
@@ -7625,7 +8501,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HEXT": {
       "announcements": [
@@ -7643,7 +8523,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IDFCFIRSTB": {
       "announcements": [
@@ -7670,7 +8554,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "UNOMINDA": {
       "announcements": [
@@ -7697,7 +8585,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LEMONTREE": {
       "announcements": [
@@ -7733,7 +8625,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NETWEB": {
       "announcements": [
@@ -7751,7 +8647,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RBLBANK": {
       "announcements": [
@@ -7805,7 +8705,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NEULANDLAB": {
       "announcements": [
@@ -7823,7 +8727,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "EMMVEE": {
       "announcements": [
@@ -7841,7 +8749,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JBMA": {
       "announcements": [
@@ -7859,7 +8771,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "WELSPUNLIV": {
       "announcements": [
@@ -7877,7 +8793,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NBCC": {
       "announcements": [
@@ -7904,7 +8824,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LODHA": {
       "announcements": [
@@ -7931,7 +8855,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CANHLIFE": {
       "announcements": [
@@ -7949,7 +8877,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ADANIPOWER": {
       "announcements": [
@@ -7976,7 +8908,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VTL": {
       "announcements": [
@@ -7994,7 +8930,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IRCTC": {
       "announcements": [
@@ -8030,7 +8970,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ITCHOTELS": {
       "announcements": [
@@ -8057,7 +9001,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ZENTEC": {
       "announcements": [
@@ -8075,7 +9023,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LICHSGFIN": {
       "announcements": [
@@ -8093,7 +9045,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NAVA": {
       "announcements": [
@@ -8120,7 +9076,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FACT": {
       "announcements": [
@@ -8138,7 +9098,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ATUL": {
       "announcements": [
@@ -8156,7 +9120,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GMRAIRPORT": {
       "announcements": [
@@ -8174,7 +9142,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AADHARHFC": {
       "announcements": [
@@ -8201,7 +9173,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VEDPOWER": {
       "announcements": [
@@ -8228,7 +9204,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VISL": {
       "announcements": [
@@ -8246,7 +9226,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JMFINANCIL": {
       "announcements": [
@@ -8282,7 +9266,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HAVELLS": {
       "announcements": [
@@ -8300,7 +9288,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PVRINOX": {
       "announcements": [
@@ -8318,7 +9310,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BANKBARODA": {
       "announcements": [
@@ -8363,7 +9359,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IIFL": {
       "announcements": [
@@ -8399,7 +9399,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GPIL": {
       "announcements": [
@@ -8426,7 +9430,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ULTRACEMCO": {
       "announcements": [
@@ -8453,7 +9461,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ADANIENSOL": {
       "announcements": [
@@ -8471,7 +9483,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CHALET": {
       "announcements": [
@@ -8498,7 +9514,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GROWW": {
       "announcements": [
@@ -8516,7 +9536,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RVNL": {
       "announcements": [
@@ -8534,7 +9558,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HINDZINC": {
       "announcements": [
@@ -8579,7 +9607,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GVT&D": {
       "announcements": [
@@ -8597,7 +9629,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VOGL": {
       "announcements": [
@@ -8624,7 +9660,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SAGILITY": {
       "announcements": [
@@ -8642,7 +9682,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ICICIGI": {
       "announcements": [
@@ -8669,7 +9713,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GRSE": {
       "announcements": [
@@ -8696,7 +9744,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ENRIN": {
       "announcements": [
@@ -8714,7 +9766,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DRREDDY": {
       "announcements": [
@@ -8741,7 +9797,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CHOLAFIN": {
       "announcements": [
@@ -8768,7 +9828,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PINELABS": {
       "announcements": [
@@ -8786,7 +9850,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SAILIFE": {
       "announcements": [
@@ -8813,7 +9881,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ASTRAL": {
       "announcements": [
@@ -8849,7 +9921,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "POWERGRID": {
       "announcements": [
@@ -8885,7 +9961,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "FORCEMOT": {
       "announcements": [
@@ -8903,7 +9983,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SUNPHARMA": {
       "announcements": [
@@ -8921,7 +10005,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SBILIFE": {
       "announcements": [
@@ -8939,7 +10027,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RAINBOW": {
       "announcements": [
@@ -8975,7 +10067,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ACMESOLAR": {
       "announcements": [
@@ -8993,7 +10089,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BALRAMCHIN": {
       "announcements": [
@@ -9020,7 +10120,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KFINTECH": {
       "announcements": [
@@ -9038,7 +10142,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CIEINDIA": {
       "announcements": [
@@ -9056,7 +10164,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RKFORGE": {
       "announcements": [
@@ -9074,7 +10186,11 @@
       "board_meeting": {},
       "news_impact_score": 3,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "OFSS": {
       "announcements": [
@@ -9092,7 +10208,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATACHEM": {
       "announcements": [
@@ -9128,7 +10248,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LATENTVIEW": {
       "announcements": [
@@ -9155,7 +10279,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AMBER": {
       "announcements": [
@@ -9173,7 +10301,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ZEEL": {
       "announcements": [
@@ -9200,7 +10332,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SWANCORP": {
       "announcements": [
@@ -9218,7 +10354,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IRCON": {
       "announcements": [
@@ -9272,7 +10412,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CUMMINSIND": {
       "announcements": [
@@ -9290,7 +10434,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PIRAMALFIN": {
       "announcements": [
@@ -9308,7 +10456,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HONASA": {
       "announcements": [
@@ -9344,7 +10496,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IPCALAB": {
       "announcements": [
@@ -9380,7 +10536,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "UNITDSPR": {
       "announcements": [
@@ -9398,7 +10558,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PREMIERENE": {
       "announcements": [
@@ -9416,7 +10580,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INDIACEM": {
       "announcements": [
@@ -9461,7 +10629,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ERIS": {
       "announcements": [
@@ -9488,7 +10660,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DCMSHRIRAM": {
       "announcements": [
@@ -9506,7 +10682,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ESCORTS": {
       "announcements": [
@@ -9578,7 +10758,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BEL": {
       "announcements": [
@@ -9605,7 +10789,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DELHIVERY": {
       "announcements": [
@@ -9632,7 +10820,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HAL": {
       "announcements": [
@@ -9650,7 +10842,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CHENNPETRO": {
       "announcements": [
@@ -9668,7 +10864,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GESHIP": {
       "announcements": [
@@ -9695,7 +10895,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TEGA": {
       "announcements": [
@@ -9713,7 +10917,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DEEPAKNTR": {
       "announcements": [
@@ -9731,7 +10939,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AIAENG": {
       "announcements": [
@@ -9749,7 +10961,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MRPL": {
       "announcements": [
@@ -9776,7 +10992,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TECHNOE": {
       "announcements": [
@@ -9794,7 +11014,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DOMS": {
       "announcements": [
@@ -9812,7 +11036,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JUBLINGREA": {
       "announcements": [
@@ -9839,7 +11067,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PFIZER": {
       "announcements": [
@@ -9857,7 +11089,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TORNTPHARM": {
       "announcements": [
@@ -9893,7 +11129,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AJANTPHARM": {
       "announcements": [
@@ -9911,7 +11151,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LUPIN": {
       "announcements": [
@@ -9938,7 +11182,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JSWINFRA": {
       "announcements": [
@@ -10010,7 +11258,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "M&MFIN": {
       "announcements": [
@@ -10046,7 +11298,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HDBFS": {
       "announcements": [
@@ -10073,7 +11329,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ABCAPITAL": {
       "announcements": [
@@ -10100,7 +11360,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ATHERENERG": {
       "announcements": [
@@ -10127,7 +11391,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RPOWER": {
       "announcements": [
@@ -10145,7 +11413,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "COHANCE": {
       "announcements": [
@@ -10163,7 +11435,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "COFORGE": {
       "announcements": [
@@ -10181,7 +11457,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CGCL": {
       "announcements": [
@@ -10226,7 +11506,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "M&M": {
       "announcements": [
@@ -10262,7 +11546,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "POLYMED": {
       "announcements": [
@@ -10289,7 +11577,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PERSISTENT": {
       "announcements": [
@@ -10325,7 +11617,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PIIND": {
       "announcements": [
@@ -10343,7 +11639,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TRENT": {
       "announcements": [
@@ -10370,7 +11670,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KIRLOSENG": {
       "announcements": [
@@ -10388,7 +11692,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TMCV": {
       "announcements": [
@@ -10424,7 +11732,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RECLTD": {
       "announcements": [
@@ -10442,7 +11754,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SUNDARMFIN": {
       "announcements": [
@@ -10469,7 +11785,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "POWERINDIA": {
       "announcements": [
@@ -10487,7 +11807,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BANKINDIA": {
       "announcements": [
@@ -10532,7 +11856,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CUB": {
       "announcements": [
@@ -10559,7 +11887,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "UBL": {
       "announcements": [
@@ -10595,7 +11927,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "REDINGTON": {
       "announcements": [
@@ -10622,7 +11958,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MOTILALOFS": {
       "announcements": [
@@ -10649,7 +11989,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BAJAJHLDNG": {
       "announcements": [
@@ -10675,7 +12019,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NUVOCO": {
       "announcements": [
@@ -10693,7 +12041,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BAJAJFINSV": {
       "announcements": [
@@ -10719,7 +12071,11 @@
       "board_meeting": {},
       "news_impact_score": 10,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NYKAA": {
       "announcements": [
@@ -10737,7 +12093,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BAJAJHFL": {
       "announcements": [
@@ -10755,7 +12115,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NIVABUPA": {
       "announcements": [
@@ -10782,7 +12146,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LENSKART": {
       "announcements": [
@@ -10800,7 +12168,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "APOLLOTYRE": {
       "announcements": [
@@ -10818,7 +12190,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LLOYDSME": {
       "announcements": [
@@ -10854,7 +12230,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IGIL": {
       "announcements": [
@@ -10899,7 +12279,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NTPC": {
       "announcements": [
@@ -10935,7 +12319,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATAPOWER": {
       "announcements": [
@@ -10953,7 +12341,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "BALKRISIND": {
       "announcements": [
@@ -10971,7 +12363,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INOXWIND": {
       "announcements": [
@@ -10998,7 +12394,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PPLPHARMA": {
       "announcements": [
@@ -11025,7 +12425,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KOTAKBANK": {
       "announcements": [
@@ -11052,7 +12456,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DABUR": {
       "announcements": [
@@ -11079,7 +12487,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "EIDPARRY": {
       "announcements": [
@@ -11097,7 +12509,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "EXIDEIND": {
       "announcements": [
@@ -11123,7 +12539,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JYOTICNC": {
       "announcements": [
@@ -11141,7 +12561,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NAVINFLUOR": {
       "announcements": [
@@ -11159,7 +12583,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IEX": {
       "announcements": [
@@ -11186,7 +12614,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NHPC": {
       "announcements": [
@@ -11204,7 +12636,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "LGEINDIA": {
       "announcements": [
@@ -11222,7 +12658,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "VOLTAS": {
       "announcements": [
@@ -11249,7 +12689,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATATECH": {
       "announcements": [
@@ -11267,7 +12711,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "COROMANDEL": {
       "announcements": [
@@ -11285,7 +12733,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MUTHOOTFIN": {
       "announcements": [
@@ -11303,7 +12755,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ICICIPRULI": {
       "announcements": [
@@ -11321,7 +12777,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "EICHERMOT": {
       "announcements": [
@@ -11339,7 +12799,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "OLAELEC": {
       "announcements": [
@@ -11366,7 +12830,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SCHNEIDER": {
       "announcements": [
@@ -11384,7 +12852,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GRASIM": {
       "announcements": [
@@ -11420,7 +12892,11 @@
       "board_meeting": {},
       "news_impact_score": 15,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ACUTAAS": {
       "announcements": [
@@ -11447,7 +12923,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KALYANKJIL": {
       "announcements": [
@@ -11465,7 +12945,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MSUMI": {
       "announcements": [
@@ -11483,7 +12967,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HINDALCO": {
       "announcements": [
@@ -11510,7 +12998,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NUVAMA": {
       "announcements": [
@@ -11528,7 +13020,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MARICO": {
       "announcements": [
@@ -11546,7 +13042,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ABSLAMC": {
       "announcements": [
@@ -11582,7 +13082,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GLAND": {
       "announcements": [
@@ -11594,13 +13098,27 @@
           "score": 5,
           "has_pdf": true,
           "fetched": "13:49"
+        },
+        {
+          "id": "53b829e675c8",
+          "datetime": "26-Jun-2026 13:56:17",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/https://nsearchives.nseindia.com/corporate/GLAND_26062026134427_Trading_window_Closure_30062026.pdf",
+          "fetched": "14:00"
         }
       ],
       "actions": [],
-      "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IDEA": {
       "announcements": [
@@ -11618,7 +13136,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JAINREC": {
       "announcements": [
@@ -11636,7 +13158,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CYIENT": {
       "announcements": [
@@ -11654,7 +13180,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DALBHARAT": {
       "announcements": [
@@ -11681,7 +13211,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SYRMA": {
       "announcements": [
@@ -11699,7 +13233,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CHOICEIN": {
       "announcements": [
@@ -11717,7 +13255,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "DMART": {
       "announcements": [
@@ -11744,7 +13286,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CAPLIPOINT": {
       "announcements": [
@@ -11762,7 +13308,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GAIL": {
       "announcements": [
@@ -11780,7 +13330,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TIMKEN": {
       "announcements": [
@@ -11798,7 +13352,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GABRIEL": {
       "announcements": [
@@ -11816,7 +13374,11 @@
       "board_meeting": {},
       "news_impact_score": 3,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HUDCO": {
       "announcements": [
@@ -11834,7 +13396,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MPHASIS": {
       "announcements": [
@@ -11852,7 +13418,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MAHABANK": {
       "announcements": [
@@ -11870,7 +13440,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATACONSUM": {
       "announcements": [
@@ -11888,7 +13462,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "IKS": {
       "announcements": [
@@ -11906,7 +13484,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TBOTEK": {
       "announcements": [
@@ -11924,7 +13506,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATACAP": {
       "announcements": [
@@ -11942,7 +13528,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "INDHOTEL": {
       "announcements": [
@@ -11960,7 +13550,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "POLICYBZR": {
       "announcements": [
@@ -11978,7 +13572,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PAGEIND": {
       "announcements": [
@@ -11996,7 +13594,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NATIONALUM": {
       "announcements": [
@@ -12014,7 +13616,11 @@
       "board_meeting": {},
       "news_impact_score": 5,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "URBANCO": {
       "announcements": [
@@ -12032,7 +13638,11 @@
       "board_meeting": {},
       "news_impact_score": 17,
       "has_major_announcement": true,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AAVAS": {
       "announcements": [
@@ -12068,7 +13678,11 @@
       "board_meeting": {},
       "news_impact_score": 8,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PWL": {
       "announcements": [],
@@ -12076,7 +13690,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ANANTRAJ": {
       "announcements": [],
@@ -12084,7 +13702,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "OLECTRA": {
       "announcements": [],
@@ -12092,7 +13714,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JSWENERGY": {
       "announcements": [],
@@ -12100,7 +13726,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "RAMCOCEM": {
       "announcements": [],
@@ -12108,7 +13738,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KPRMILL": {
       "announcements": [],
@@ -12116,7 +13750,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MAXHEALTH": {
       "announcements": [],
@@ -12124,7 +13762,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PRESTIGE": {
       "announcements": [],
@@ -12132,7 +13774,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "UCOBANK": {
       "announcements": [],
@@ -12140,7 +13786,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "HBLENGINE": {
       "announcements": [],
@@ -12148,7 +13798,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "PETRONET": {
       "announcements": [],
@@ -12156,7 +13810,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NESTLEIND": {
       "announcements": [],
@@ -12164,7 +13822,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MOTHERSON": {
       "announcements": [],
@@ -12172,7 +13834,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "GODREJPROP": {
       "announcements": [],
@@ -12180,7 +13846,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SOLARINDS": {
       "announcements": [],
@@ -12188,7 +13858,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "ETERNAL": {
       "announcements": [],
@@ -12196,7 +13870,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SHRIRAMFIN": {
       "announcements": [],
@@ -12204,7 +13882,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CONCOR": {
       "announcements": [],
@@ -12212,7 +13894,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SPLPETRO": {
       "announcements": [],
@@ -12220,7 +13906,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "TATAINVEST": {
       "announcements": [],
@@ -12228,7 +13918,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "APTUS": {
       "announcements": [],
@@ -12236,7 +13930,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "CHAMBLFERT": {
       "announcements": [],
@@ -12244,7 +13942,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MARUTI": {
       "announcements": [],
@@ -12252,7 +13954,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "JSWCEMENT": {
       "announcements": [],
@@ -12260,7 +13966,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "KEC": {
       "announcements": [],
@@ -12268,7 +13978,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "AWL": {
       "announcements": [],
@@ -12276,7 +13990,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SBFC": {
       "announcements": [],
@@ -12284,7 +14002,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "MRF": {
       "announcements": [],
@@ -12292,7 +14014,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "SUNTV": {
       "announcements": [],
@@ -12300,7 +14026,11 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     },
     "NCC": {
       "announcements": [],
@@ -12308,12 +14038,17 @@
       "board_meeting": {},
       "news_impact_score": 0,
       "has_major_announcement": false,
-      "exclude_negative": false
+      "exclude_negative": false,
+      "board_meetings": [],
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-26 13:49",
+  "last_updated": "2026-06-26 14:00",
   "total_symbols": 431,
   "high_impact": 42,
-  "new_this_run": 702,
-  "total_seen_ids": 1205
+  "new_this_run": 1,
+  "total_seen_ids": 1206,
+  "guidance_events": 0
 }
