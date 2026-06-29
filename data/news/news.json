@@ -3530,6 +3530,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_29062026203112_SE_Intimation_-_June_29_2026_-_PTC.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "8f7bbc8776e8",
+          "datetime": "29-Jun-2026 23:06:25",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_29062026225958_SEIntimationJune292026CFOGC.pdf",
+          "fetched": "23:28"
         }
       ],
       "actions": [],
@@ -10988,6 +10999,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BIOCON_29062026225131_SE_Intimation_-_Allotment__Preferential_Issue_.pdf",
           "fetched": "22:54"
+        },
+        {
+          "id": "4df4e526ab4b",
+          "datetime": "29-Jun-2026 23:22:04",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Bioconlimited_29062026232036_SEIntimation.pdf",
+          "fetched": "23:28"
         }
       ],
       "actions": [],
@@ -20723,6 +20745,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_29062026195949_ACL_PIT_WINDOW.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "83068190fd47",
+          "datetime": "29-Jun-2026 23:09:38",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_29062026230843_ACL_VOTING_29062026.pdf",
+          "fetched": "23:28"
         }
       ],
       "actions": [],
@@ -20928,6 +20961,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ACC_1_29062026181347_Closure_Trading_Window_30062026.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "a49b7ab193a9",
+          "datetime": "29-Jun-2026 22:59:22",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ACC_1_29062026225902_ACC_Voting_Results_Final.pdf",
+          "fetched": "23:28"
         }
       ],
       "actions": [],
@@ -21398,10 +21442,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-29 22:54",
+  "last_updated": "2026-06-29 23:28",
   "total_symbols": 481,
   "high_impact": 26,
-  "new_this_run": 1,
-  "total_seen_ids": 1689,
+  "new_this_run": 4,
+  "total_seen_ids": 1693,
   "guidance_events": 69
 }
