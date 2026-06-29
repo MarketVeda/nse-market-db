@@ -4703,8 +4703,16 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "b92b4a9b3d66",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 14 Per Share/Special Dividend - Rs 6 Per Share",
+          "score": 10,
+          "fetched": "00:53"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -11012,7 +11020,15 @@
           "fetched": "23:28"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "50d3794f9ede",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Re 0.50 Per Share",
+          "score": 10,
+          "fetched": "00:53"
+        }
+      ],
       "news_impact_score": 15,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -16001,7 +16017,15 @@
           "fetched": "22:14"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "4d3232ddcd82",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 33 Per Share",
+          "score": 10,
+          "fetched": "00:53"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -21442,10 +21466,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-29 23:51",
+  "last_updated": "2026-06-30 00:53",
   "total_symbols": 481,
   "high_impact": 26,
-  "new_this_run": 0,
-  "total_seen_ids": 1693,
+  "new_this_run": 3,
+  "total_seen_ids": 1696,
   "guidance_events": 69
 }
