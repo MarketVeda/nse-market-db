@@ -10977,11 +10977,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BIOCON_27062026193903_IntimationTradingWindow.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "b4f3314db2b2",
+          "datetime": "29-Jun-2026 22:51:41",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BIOCON_29062026225131_SE_Intimation_-_Allotment__Preferential_Issue_.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": false,
@@ -21387,10 +21398,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-29 22:47",
+  "last_updated": "2026-06-29 22:54",
   "total_symbols": 481,
-  "high_impact": 25,
-  "new_this_run": 4,
-  "total_seen_ids": 1688,
+  "high_impact": 26,
+  "new_this_run": 1,
+  "total_seen_ids": 1689,
   "guidance_events": 69
 }
