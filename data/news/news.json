@@ -6838,6 +6838,17 @@
           "fetched": "15:35",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "7db84b9aab00",
+          "datetime": "29-Jun-2026 22:47:22",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIINFRATEL_29062026224654_SENoticePB29062026.pdf",
+          "fetched": "22:47"
         }
       ],
       "actions": [],
@@ -12395,6 +12406,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ZENTEC_27062026220529_SEIntimation_for_IEPF_Shares_Signed.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "5af78bc46412",
+          "datetime": "29-Jun-2026 22:35:40",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZENTEC_29062026223251_29_06_2026_1000.pdf",
+          "fetched": "22:47"
         }
       ],
       "actions": [],
@@ -13974,6 +13996,17 @@
           "fetched": "23:02",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "98dfe4941504",
+          "datetime": "29-Jun-2026 22:26:13",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KFINTECHNSE_29062026222553_Intimation.pdf",
+          "fetched": "22:47"
         }
       ],
       "actions": [],
@@ -19364,6 +19397,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_26062026225439_SE_Intimation_Income_Tax_Order.pdf",
           "fetched": "23:46"
+        },
+        {
+          "id": "95b83e2a9156",
+          "datetime": "29-Jun-2026 22:26:43",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_29062026222621_SE_Intimation_Pre_dispatch_Newspaper_Advertisement.pdf",
+          "fetched": "22:47"
         }
       ],
       "actions": [],
@@ -21343,10 +21387,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-29 22:17",
+  "last_updated": "2026-06-29 22:47",
   "total_symbols": 481,
   "high_impact": 25,
-  "new_this_run": 0,
-  "total_seen_ids": 1684,
+  "new_this_run": 4,
+  "total_seen_ids": 1688,
   "guidance_events": 69
 }
