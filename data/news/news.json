@@ -19936,6 +19936,28 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "a8732071c13c",
+          "datetime": "30-Jun-2026 22:49:23",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VOLTAS_RB_30062026224858_SignedProceedingsFinal.pdf",
+          "fetched": "22:53"
+        },
+        {
+          "id": "cd0d815dd175",
+          "datetime": "30-Jun-2026 22:46:54",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VOLTAS_RB_30062026224513_SignedCoveringVotingResultsScrutiniserReport.pdf",
+          "fetched": "22:53"
         }
       ],
       "actions": [],
@@ -20140,6 +20162,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "42c2b964245b",
+          "datetime": "30-Jun-2026 22:48:16",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_30062026224803_Trading_Window_Closure_OEM.pdf",
+          "fetched": "22:53"
         }
       ],
       "actions": [],
@@ -24806,10 +24839,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-30 22:46",
+  "last_updated": "2026-06-30 22:53",
   "total_symbols": 495,
   "high_impact": 36,
-  "new_this_run": 5,
-  "total_seen_ids": 1984,
+  "new_this_run": 3,
+  "total_seen_ids": 1987,
   "guidance_events": 74
 }
