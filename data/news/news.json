@@ -5315,6 +5315,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BPCL22_29062026141604_stexintimationacqu29626s.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "920e79b538d3",
+          "datetime": "30-Jun-2026 22:35:00",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BPCL22_30062026223452_stexintimationunderReg30-30626s.pdf",
+          "fetched": "22:46"
         }
       ],
       "actions": [],
@@ -13376,6 +13387,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "bb6ee719598b",
+          "datetime": "30-Jun-2026 22:20:28",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_30062026221828_Intimation_Signed.pdf",
+          "fetched": "22:46"
         }
       ],
       "actions": [],
@@ -19163,6 +19185,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026122028_38.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "458e1c5974f1",
+          "datetime": "30-Jun-2026 22:18:16",
+          "subject": "Closure of operations",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/APOLLOTYRE1_30062026221750_ecshedeclosureintimatiom30062026.pdf",
+          "fetched": "22:46"
         }
       ],
       "actions": [],
@@ -22855,6 +22888,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HONAUT_26062026165354_ClosureOfTradingWindow01072026.pdf",
           "fetched": "17:55"
+        },
+        {
+          "id": "0f855762c2de",
+          "datetime": "30-Jun-2026 22:32:24",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HONAUT_30062026223145_SELetterLogochange.pdf",
+          "fetched": "22:46"
         }
       ],
       "actions": [],
@@ -24590,6 +24634,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_30062026215011_30062026Proceedingsof93rdAGMvfsigned.pdf",
           "fetched": "22:06"
+        },
+        {
+          "id": "1227e2e9bbfe",
+          "datetime": "30-Jun-2026 22:22:54",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDUNILVR_30062026222240_SEIntimationOutcomeofAGMsigned.pdf",
+          "fetched": "22:46"
         }
       ],
       "actions": [],
@@ -24751,10 +24806,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-30 22:06",
+  "last_updated": "2026-06-30 22:46",
   "total_symbols": 495,
   "high_impact": 36,
-  "new_this_run": 60,
-  "total_seen_ids": 1979,
+  "new_this_run": 5,
+  "total_seen_ids": 1984,
   "guidance_events": 74
 }
