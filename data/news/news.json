@@ -7105,6 +7105,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Cslogin_26062026181043_SEIntimationPostBuybackPA.pdf",
           "fetched": "21:04"
+        },
+        {
+          "id": "c220fcce3ad7",
+          "datetime": "30-Jun-2026 18:00:55",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Wipro_Secretarial_30062026180028_SEIntimation30062026.pdf",
+          "fetched": "18:01"
         }
       ],
       "actions": [],
@@ -8658,6 +8669,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/EMCURE_29062026180844_IntimationofClosureofTradingWindowQ1FY27.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "ce8966138288",
+          "datetime": "30-Jun-2026 17:57:44",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/EMCURE_30062026175646_IntimationChangeSMPMrKuberJagdaleF.pdf",
+          "fetched": "18:01"
         }
       ],
       "actions": [],
@@ -23561,10 +23583,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-30 17:56",
+  "last_updated": "2026-06-30 18:01",
   "total_symbols": 493,
   "high_impact": 34,
-  "new_this_run": 16,
-  "total_seen_ids": 1873,
+  "new_this_run": 2,
+  "total_seen_ids": 1875,
   "guidance_events": 73
 }
