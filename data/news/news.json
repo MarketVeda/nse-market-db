@@ -2921,6 +2921,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_30062026200938_Stockexchangeintiamtion30062026.pdf",
           "fetched": "22:06"
+        },
+        {
+          "id": "dce1b482582a",
+          "datetime": "30-Jun-2026 23:01:26",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 20,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_30062026230039_STOCKEXCHANGE30062026WARBA.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [],
@@ -2999,6 +3010,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RITES_27062026063109_Intimation_CreditRating_27062026_signed.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "075a8c6130eb",
+          "datetime": "30-Jun-2026 23:32:46",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 20,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RITES_30062026232552_Intimation_Major_Order_BBAU_signed.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [],
@@ -6005,6 +6027,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ZYDUSWELL_30062026191511_SEintimationZydusWellnessGeneralTradingDWC.pdf",
           "fetched": "22:06"
+        },
+        {
+          "id": "bcdf93ea6165",
+          "datetime": "30-Jun-2026 23:25:24",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZYDUSWELL_30062026232259_SEintimationSMP.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [],
@@ -14536,6 +14569,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IIFL_30062026133254_SEIntimation_Newspaper_Ad.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "f29a7cffaed0",
+          "datetime": "30-Jun-2026 23:47:14",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IIFL_30062026234707_SEIntimation_Letter_to_SH.pdf",
+          "fetched": "23:55"
+        },
+        {
+          "id": "c1099435e5cd",
+          "datetime": "30-Jun-2026 22:56:34",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IIFL_30062026225537_SEintimation_AR_Notice.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [],
@@ -15512,6 +15567,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_27062026003827_POWERGRIDLetterhead.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "2ae97abc30e3",
+          "datetime": "30-Jun-2026 23:02:26",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30062026230218_BSENSEReg30EDDt30062026.pdf",
+          "fetched": "23:55"
+        },
+        {
+          "id": "7e0df082575b",
+          "datetime": "30-Jun-2026 23:00:34",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30062026230024_BSENSEReg30AcqDt30062026.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [],
@@ -17995,6 +18072,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AmitDodani_30062026192021_SEIntimationReg30IncorporationofMahindraKandivali.pdf",
           "fetched": "22:06"
+        },
+        {
+          "id": "4945ef5e0323",
+          "datetime": "30-Jun-2026 23:15:35",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AmitDodani_30062026231524_Erkunt_Foundry_-_SE_intimation.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [
@@ -18203,6 +18291,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30062026155400_PSLIntimationofInvestorSessionsJune302026Sd.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "27bc8548f97f",
+          "datetime": "30-Jun-2026 23:14:45",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30062026231426_PSLOutcomeofInvestorAnalystSessionJune302026Sd.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [],
@@ -24599,6 +24698,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MAPMYINDIA_30062026134947_BM_Outcome_30_June_2026.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "506a8a298765",
+          "datetime": "30-Jun-2026 23:34:09",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAPMYINDIA_30062026233402_TWC_June_2026.pdf",
+          "fetched": "23:55"
         }
       ],
       "actions": [],
@@ -24839,10 +24949,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-30 22:53",
+  "last_updated": "2026-06-30 23:55",
   "total_symbols": 495,
   "high_impact": 36,
-  "new_this_run": 3,
-  "total_seen_ids": 1987,
+  "new_this_run": 10,
+  "total_seen_ids": 1997,
   "guidance_events": 74
 }
