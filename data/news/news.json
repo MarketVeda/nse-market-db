@@ -2477,7 +2477,15 @@
           "fetched": "22:06"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "5f3e057c3365",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 36 Per Share",
+          "score": 10,
+          "fetched": "19:09"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -18909,7 +18917,15 @@
           "fetched": "22:14"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "dbd9275dd66f",
+          "ex_date": "03-Jul-2026",
+          "action": "Dividend - Rs 6 Per Share",
+          "score": 10,
+          "fetched": "19:09"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -24947,12 +24963,23 @@
       "has_guidance_event": false,
       "next_result_date": "",
       "next_result_purpose": ""
+    },
+    "AEGISVOPAK": {
+      "announcements": [],
+      "actions": [],
+      "board_meetings": [],
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-06-30 23:55",
-  "total_symbols": 495,
+  "last_updated": "2026-07-01 19:09",
+  "total_symbols": 496,
   "high_impact": 36,
-  "new_this_run": 10,
-  "total_seen_ids": 1997,
+  "new_this_run": 182,
+  "total_seen_ids": 2179,
   "guidance_events": 74
 }
