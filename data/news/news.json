@@ -24976,10 +24976,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-01 22:32",
+  "last_updated": "2026-07-01 22:56",
   "total_symbols": 496,
   "high_impact": 36,
-  "new_this_run": 0,
-  "total_seen_ids": 2217,
+  "new_this_run": 3,
+  "total_seen_ids": 2220,
   "guidance_events": 74
 }
