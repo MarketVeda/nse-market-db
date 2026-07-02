@@ -24974,12 +24974,23 @@
       "has_guidance_event": false,
       "next_result_date": "",
       "next_result_purpose": ""
+    },
+    "JPPOWER": {
+      "announcements": [],
+      "actions": [],
+      "board_meetings": [],
+      "news_impact_score": 0,
+      "has_major_announcement": false,
+      "exclude_negative": false,
+      "has_guidance_event": false,
+      "next_result_date": "",
+      "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-02 00:48",
-  "total_symbols": 496,
+  "last_updated": "2026-07-02 17:28",
+  "total_symbols": 497,
   "high_impact": 36,
-  "new_this_run": 10,
-  "total_seen_ids": 2230,
+  "new_this_run": 105,
+  "total_seen_ids": 2335,
   "guidance_events": 74
 }
