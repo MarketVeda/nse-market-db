@@ -25106,10 +25106,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-07 22:31",
+  "last_updated": "2026-07-07 23:00",
   "total_symbols": 497,
   "high_impact": 36,
-  "new_this_run": 0,
-  "total_seen_ids": 3104,
+  "new_this_run": 2,
+  "total_seen_ids": 3106,
   "guidance_events": 74
 }
