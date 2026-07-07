@@ -10163,7 +10163,15 @@
           "fetched": "22:14"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "fe8af10c52fb",
+          "ex_date": "10-Jul-2026",
+          "action": "Dividend - Rs 6 Per Share",
+          "score": 10,
+          "fetched": "18:10"
+        }
+      ],
       "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -22299,8 +22307,23 @@
     },
     "NESTLEIND": {
       "announcements": [],
-      "actions": [],
-      "news_impact_score": 0,
+      "actions": [
+        {
+          "id": "6f08e94f8cdc",
+          "ex_date": "10-Jul-2026",
+          "action": "Special Dividend - Rs 2 Per Share",
+          "score": 10,
+          "fetched": "18:10"
+        },
+        {
+          "id": "bcc7e109a680",
+          "ex_date": "10-Jul-2026",
+          "action": "Dividend - Rs 5 Per Share",
+          "score": 10,
+          "fetched": "18:10"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -25083,10 +25106,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-07 00:42",
+  "last_updated": "2026-07-07 18:10",
   "total_symbols": 497,
   "high_impact": 36,
-  "new_this_run": 3,
-  "total_seen_ids": 2877,
+  "new_this_run": 170,
+  "total_seen_ids": 3047,
   "guidance_events": 74
 }
