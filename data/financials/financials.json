@@ -377243,7 +377243,7 @@
   "last_updated": "2026-07-08",
   "fetch_summary": {
     "date": "2026-07-08",
-    "fetched_today": 500,
+    "fetched_today": 0,
     "total_complete": 500,
     "failed": [
       "OBEROIROLTY"
