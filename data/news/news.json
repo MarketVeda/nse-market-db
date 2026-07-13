@@ -3525,7 +3525,15 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "43c49865d440",
+          "ex_date": "14-Jul-2026",
+          "action": "Dividend - Rs 40 Per Share",
+          "score": 10,
+          "fetched": "18:13"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -9218,7 +9226,15 @@
           "fetched": "22:14"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "73f49adecb08",
+          "ex_date": "14-Jul-2026",
+          "action": "Dividend - Rs 2.50 Per Share",
+          "score": 10,
+          "fetched": "18:13"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -12617,7 +12633,15 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "a4b889659286",
+          "ex_date": "15-Jul-2026",
+          "action": "Interim Dividend - Rs 12 Per Share",
+          "score": 10,
+          "fetched": "18:13"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -17706,8 +17730,16 @@
           "fetched": "17:32"
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "a785534c4c3e",
+          "ex_date": "13-Jul-2026",
+          "action": "Dividend - Rs 7.50 Per Share",
+          "score": 10,
+          "fetched": "18:13"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -20592,7 +20624,15 @@
           "fetched": "22:14"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "d3b9c3113463",
+          "ex_date": "14-Jul-2026",
+          "action": "Dividend - Re 0.58 Per Share",
+          "score": 10,
+          "fetched": "18:13"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -22400,8 +22440,16 @@
           "fetched": "22:06"
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "7777b40887c1",
+          "ex_date": "14-Jul-2026",
+          "action": "Dividend - Rs 0.25 Per Share",
+          "score": 10,
+          "fetched": "18:13"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -22547,8 +22595,16 @@
     },
     "SPLPETRO": {
       "announcements": [],
-      "actions": [],
-      "news_impact_score": 0,
+      "actions": [
+        {
+          "id": "cb222d10762f",
+          "ex_date": "14-Jul-2026",
+          "action": "Dividend - Rs 8 Per Share",
+          "score": 10,
+          "fetched": "18:13"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -25106,10 +25162,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-10 23:40",
+  "last_updated": "2026-07-13 18:13",
   "total_symbols": 497,
   "high_impact": 36,
-  "new_this_run": 8,
-  "total_seen_ids": 3729,
+  "new_this_run": 189,
+  "total_seen_ids": 3918,
   "guidance_events": 74
 }
