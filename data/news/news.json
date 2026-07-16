@@ -17413,8 +17413,16 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "e5f77eac9817",
+          "ex_date": "17-Jul-2026",
+          "action": "Dividend - Rs 75 Per Share",
+          "score": 10,
+          "fetched": "16:43"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -23288,9 +23296,17 @@
           "fetched": "22:46"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "71aad42b9413",
+          "ex_date": "17-Jul-2026",
+          "action": "Dividend - Rs 110 Per Share",
+          "score": 10,
+          "fetched": "16:43"
+        }
+      ],
       "board_meetings": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "has_guidance_event": false,
@@ -25234,10 +25250,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-15 22:25",
+  "last_updated": "2026-07-16 16:43",
   "total_symbols": 497,
   "high_impact": 36,
-  "new_this_run": 17,
-  "total_seen_ids": 4427,
+  "new_this_run": 108,
+  "total_seen_ids": 4535,
   "guidance_events": 74
 }
