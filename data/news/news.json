@@ -3975,6 +3975,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BANDHANBNK_21072026161339_SE_Disclosure_BM_Outcome_UFR_PressRelease_SMP_AGM_210726.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "21bbc4ebfc98",
+          "datetime": "21-Jul-2026 17:09:15",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BANDHANBNK_21072026170339_SE_Disclosure_BM_Outcome_AGM_Record_Date_210726.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
@@ -4423,6 +4434,17 @@
           "fetched": "15:35",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "9a5ea71755d5",
+          "datetime": "21-Jul-2026 17:28:18",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IIFLWAM_21072026172715_2026721_AllotmentofESOPs_signed.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
@@ -7177,10 +7199,21 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ATGL2024_21072026152427_ATGL_Board_Meeting_Outcome_21072026.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "ee0ca7149205",
+          "datetime": "21-Jul-2026 17:32:04",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ATGL2024_21072026173148_ATGL_SE_Media_Release_21072026.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
-      "news_impact_score": 8,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -8682,6 +8715,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Crompton123_21072026114224_ChangeinSMP.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "694d95e9d22e",
+          "datetime": "21-Jul-2026 17:16:23",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Crompton123_21072026171603_GrantIntimation.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
@@ -10397,6 +10441,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JINDALSTEL_29062026133324_stx_29062026.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "47981143e80c",
+          "datetime": "21-Jul-2026 17:31:47",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JINDALSTEL_21072026173137_Binder1.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
@@ -11008,6 +11063,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ANGEL8896_30062026164521_June302026intimationofallotment.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "8ef4019789e3",
+          "datetime": "21-Jul-2026 17:03:26",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ANGEL8896_21072026170255_21072026Intimationforearningscalltranscript.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [
@@ -11387,14 +11453,25 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "334b868e9f56",
+          "datetime": "21-Jul-2026 16:56:00",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AARTIIND_21072026165528_Concall.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -16462,6 +16539,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/FORCEMOTORS_21072026145056_LtrBseNseIEPFAdvst2026.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "02beff541891",
+          "datetime": "21-Jul-2026 17:25:22",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FORCEMOTORS_21072026172510_LtrBseNseIEPFAdvst2026.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
@@ -18807,11 +18895,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/palavjain_29062026172807_ABCL_NCD_allotment_June_29_2026_Reg_30.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "14b36cc2d75d",
+          "datetime": "21-Jul-2026 16:57:47",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/rsrai_21072026165733_ABCL_SE_Disclosure_ABHI__Rights_Issue_Final.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -20724,6 +20823,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "09f3adc1dfd6",
+          "datetime": "21-Jul-2026 17:08:51",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_21072026170838_Final.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
@@ -21230,10 +21340,32 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_23062026180926_LGEINDIA.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "7a46d75a5eb4",
+          "datetime": "21-Jul-2026 17:25:11",
+          "subject": "Change in Auditors",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LGEINDIA_21072026172408_OutcomeBMJuly.pdf",
+          "fetched": "17:32"
+        },
+        {
+          "id": "f56dd6b837cc",
+          "datetime": "21-Jul-2026 17:22:33",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LGEINDIA_21072026172058_OutcomeBMJuly.pdf",
+          "fetched": "17:32"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 8,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -26634,10 +26766,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-21 16:55",
+  "last_updated": "2026-07-21 17:32",
   "total_symbols": 497,
-  "high_impact": 41,
-  "new_this_run": 0,
-  "total_seen_ids": 5242,
-  "guidance_events": 93
+  "high_impact": 42,
+  "new_this_run": 12,
+  "total_seen_ids": 5254,
+  "guidance_events": 94
 }
