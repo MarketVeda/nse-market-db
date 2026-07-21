@@ -3743,6 +3743,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "8800c877a4a5",
+          "datetime": "21-Jul-2026 21:27:00",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CSUTIAMC_21072026212633_Cover_letter_Proceedings_and_Scrutinizers_Report_23rd_AGM.pdf",
+          "fetched": "21:28"
         }
       ],
       "actions": [
@@ -4041,6 +4052,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BANDHANBNK_21072026170339_SE_Disclosure_BM_Outcome_AGM_Record_Date_210726.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "60816ec268b4",
+          "datetime": "21-Jul-2026 21:07:12",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BANDHANBNK_21072026210518_SE_Disclosure_Earnings_Call_Audio_Recording_Q1_210726_sd.pdf",
+          "fetched": "21:28"
         }
       ],
       "actions": [],
@@ -5548,6 +5570,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TVSMOTOR_21072026105342_AGM-OnewayWebcastLink_sd.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "94a25f575d3d",
+          "datetime": "21-Jul-2026 21:02:05",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TVSMOTOR_21072026205912_NSEBSEIntimation_Creditrating21stjuly2026_sd.pdf",
+          "fetched": "21:28"
         }
       ],
       "actions": [],
@@ -10717,6 +10750,17 @@
           "fetched": "15:35",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "c5a1a56bd6e4",
+          "datetime": "21-Jul-2026 21:21:22",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FORTIS_21072026212110_FHCLTDS_Email_Intiamtion_2026.pdf",
+          "fetched": "21:28"
         }
       ],
       "actions": [],
@@ -24149,6 +24193,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_21072026183229_Outcome_NCDissuance.pdf",
           "fetched": "18:36"
+        },
+        {
+          "id": "d485ac3f4b7d",
+          "datetime": "21-Jul-2026 21:02:20",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_21072026210113_Outcome_NCDissuance.pdf",
+          "fetched": "21:28"
         }
       ],
       "actions": [],
@@ -27822,10 +27877,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-21 20:56",
+  "last_updated": "2026-07-21 21:28",
   "total_symbols": 497,
   "high_impact": 44,
-  "new_this_run": 53,
-  "total_seen_ids": 5350,
+  "new_this_run": 5,
+  "total_seen_ids": 5355,
   "guidance_events": 109
 }
