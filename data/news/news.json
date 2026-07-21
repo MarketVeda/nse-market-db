@@ -5581,14 +5581,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TVSMOTOR_21072026205912_NSEBSEIntimation_Creditrating21stjuly2026_sd.pdf",
           "fetched": "21:28"
+        },
+        {
+          "id": "a00226d86786",
+          "datetime": "21-Jul-2026 21:38:35",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TVSMOTOR_21072026213822_Analystcallrecording21072026_SD.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -8257,10 +8268,43 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CRISIL_21072026110710_SignedBSENSE.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "9a1d9f9eac74",
+          "datetime": "21-Jul-2026 22:20:34",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CRISIL_21072026222006_SignedBSENSE.pdf",
+          "fetched": "22:32"
+        },
+        {
+          "id": "8b44ddb7a18c",
+          "datetime": "21-Jul-2026 22:16:08",
+          "subject": "Dividend",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CRISIL_21072026221525_SignedBSENSE.pdf",
+          "fetched": "22:32"
+        },
+        {
+          "id": "131b4b3c4138",
+          "datetime": "21-Jul-2026 22:12:46",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CRISIL_21072026221145_SignedBSENSE.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -16088,6 +16132,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANITRANS_21072026185122_Press_release.pdf",
           "fetched": "20:56"
+        },
+        {
+          "id": "b629b0887acc",
+          "datetime": "21-Jul-2026 21:50:15",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANITRANS_21072026215005_Outcome_presentation2026.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [],
@@ -19391,6 +19446,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/M_MFIN_21072026193609_ProceedingsofAGMsigned.pdf",
           "fetched": "20:56"
+        },
+        {
+          "id": "a3064ac76b9d",
+          "datetime": "21-Jul-2026 21:49:28",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/M_MFIN_21072026214917_SELtrAudioRecordingsigned.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [
@@ -27877,10 +27943,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-21 21:28",
+  "last_updated": "2026-07-21 22:32",
   "total_symbols": 497,
   "high_impact": 44,
-  "new_this_run": 5,
-  "total_seen_ids": 5355,
-  "guidance_events": 109
+  "new_this_run": 6,
+  "total_seen_ids": 5361,
+  "guidance_events": 110
 }
