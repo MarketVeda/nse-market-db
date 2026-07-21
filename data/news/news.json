@@ -5639,6 +5639,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_11052026123642_23.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "bc36b510266e",
+          "datetime": "21-Jul-2026 18:29:29",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_21072026182547_VEDL.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -6412,6 +6423,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_21072026133732_Release21July2026.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "9f4ec0c7280b",
+          "datetime": "21-Jul-2026 18:21:10",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_21072026182052_Stock_Exchange_Intimation_PostAGM_NP_Ad.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -7856,6 +7878,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRAVITA_26062026181703_Outcome26062026.pdf",
           "fetched": "21:04"
+        },
+        {
+          "id": "97c3be5e766a",
+          "datetime": "21-Jul-2026 18:26:19",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRAVITA_21072026182442_InvestorMeetIntimation28072026.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -9858,6 +9891,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CENTURYTEX_29062026180909_Intimation.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "70b5101e5380",
+          "datetime": "21-Jul-2026 18:35:07",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CENTURYTEX_21072026183453_Intimation.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [
@@ -11339,6 +11383,17 @@
           "fetched": "15:35",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "d0afe39475b0",
+          "datetime": "21-Jul-2026 18:32:00",
+          "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Shelly_21072026183136_BBTCL-Disclosure_under_Reg_30_210726.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -12737,6 +12792,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/jessydenny_30062026114709_SEIntimationPreDispatchofNotice.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "3fcc53408a0e",
+          "datetime": "21-Jul-2026 18:23:18",
+          "subject": "Cessation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/jessydenny_21072026182307_Cessation_of_Mr_Seturaman.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [
@@ -12824,6 +12890,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_30062026170350_TDScommunicationfordividendsigned.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "dbdb572bdcd7",
+          "datetime": "21-Jul-2026 18:31:30",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_21072026183054_GrantofOptiondated21072026signed.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [
@@ -16062,14 +16139,47 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAGILITY_29062026203428_IntimationVotingResultsPBFY27signed.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "723ffd42ba9d",
+          "datetime": "21-Jul-2026 18:31:19",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAGILITY_21072026183016_IntimationResultsQ1FY27signed.pdf",
+          "fetched": "18:36"
+        },
+        {
+          "id": "8a921a76d3de",
+          "datetime": "21-Jul-2026 18:24:32",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAGILITY_21072026182412_IntimationInvestorPresentationQ1FY27signed.pdf",
+          "fetched": "18:36"
+        },
+        {
+          "id": "6851194f30ea",
+          "datetime": "21-Jul-2026 18:20:51",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAGILITY_21072026182026_IntimationBMOutcomeQ1FY27Signed.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -18219,6 +18329,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "e9021e52d1ac",
+          "datetime": "21-Jul-2026 18:30:48",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TEGA_21072026183033_Intimation_Compliance_Certificate_Trusts_sd.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -23230,6 +23351,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACAPITAL_30062026123438_IntimationofPostalBallotnoticeJune2026signed.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "212890a49a8a",
+          "datetime": "21-Jul-2026 18:34:38",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACAPITAL_21072026183426_StockExchangeIntimationAllotmentSigned.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -23555,6 +23687,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_21072026174609_IR.pdf",
           "fetched": "18:20"
+        },
+        {
+          "id": "cc124f44cbea",
+          "datetime": "21-Jul-2026 18:34:09",
+          "subject": "Issue of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_21072026183229_Outcome_NCDissuance.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -26350,6 +26493,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CCL_29062026171901_CTW.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "a2297e871cb3",
+          "datetime": "21-Jul-2026 18:26:27",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CCL_21072026182444_ESO.pdf",
+          "fetched": "18:36"
         }
       ],
       "actions": [],
@@ -27085,10 +27239,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-21 18:20",
+  "last_updated": "2026-07-21 18:36",
   "total_symbols": 497,
   "high_impact": 42,
-  "new_this_run": 25,
-  "total_seen_ids": 5283,
-  "guidance_events": 100
+  "new_this_run": 14,
+  "total_seen_ids": 5297,
+  "guidance_events": 101
 }
