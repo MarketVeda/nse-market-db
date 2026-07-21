@@ -14552,6 +14552,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CANARAHSBCLIFE_21072026000825_Audio_recording-_June_2026.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "4cbefb55922d",
+          "datetime": "21-Jul-2026 17:32:54",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CANARAHSBCLIFE_21072026173243_Newspaper_advertisement-_Pre-intimation_of_AGM.pdf",
+          "fetched": "17:41"
         }
       ],
       "actions": [],
@@ -23324,6 +23335,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_21072026115849_Grant_Intimation.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "8cbade551882",
+          "datetime": "21-Jul-2026 17:35:57",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_21072026173306_Outcome.pdf",
+          "fetched": "17:41"
         }
       ],
       "actions": [],
@@ -23943,14 +23965,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Mathew_21072026143537_FinalDividendPaymentIntimationsigned.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "619a0f01a877",
+          "datetime": "21-Jul-2026 17:38:23",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Mathew_21072026173815_BSENSE_AnalystMeet_21032026.pdf",
+          "fetched": "17:41"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -26640,6 +26673,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VIJAYA_30062026105018_Stx_Intimation.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "2be9eff3e677",
+          "datetime": "21-Jul-2026 17:40:04",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VIJAYA_21072026173953_Post_Dispatch_Newspaper_Adv.pdf",
+          "fetched": "17:41"
         }
       ],
       "actions": [],
@@ -26766,10 +26810,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-21 17:32",
+  "last_updated": "2026-07-21 17:41",
   "total_symbols": 497,
   "high_impact": 42,
-  "new_this_run": 12,
-  "total_seen_ids": 5254,
-  "guidance_events": 94
+  "new_this_run": 4,
+  "total_seen_ids": 5258,
+  "guidance_events": 95
 }
