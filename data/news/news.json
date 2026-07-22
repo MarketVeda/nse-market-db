@@ -4631,6 +4631,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDPETRO1_22072026170612_BoardMeetingOutcome.pdf",
           "fetched": "17:39"
+        },
+        {
+          "id": "6a223d2351a0",
+          "datetime": "22-Jul-2026 17:43:11",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDPETRO1_22072026174215_HandoutSEIntimation.pdf",
+          "fetched": "17:45"
         }
       ],
       "actions": [],
@@ -10878,6 +10889,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ECLERX_29062026131952_BSENSEInvMeetMultiActEquityConsultancy290626.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "f7238e03eea2",
+          "datetime": "22-Jul-2026 17:44:30",
+          "subject": "Price movement",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/-",
+          "fetched": "17:45"
         }
       ],
       "actions": [],
@@ -27426,6 +27448,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TRIL_21072026193901_AudioConCall21072026Revised.pdf",
           "fetched": "20:56"
+        },
+        {
+          "id": "a28eed3544a8",
+          "datetime": "22-Jul-2026 17:42:47",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TRIL_22072026173739_NewspaperPublication22072026.pdf",
+          "fetched": "17:45"
         }
       ],
       "actions": [],
@@ -29584,10 +29617,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-22 17:39",
+  "last_updated": "2026-07-22 17:45",
   "total_symbols": 497,
   "high_impact": 44,
-  "new_this_run": 13,
-  "total_seen_ids": 5510,
+  "new_this_run": 3,
+  "total_seen_ids": 5513,
   "guidance_events": 132
 }
