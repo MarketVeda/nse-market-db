@@ -18968,14 +18968,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Mahindracie_22072026191542_SEintimation.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "f21a7591c3e0",
+          "datetime": "22-Jul-2026 20:51:59",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Mahindracie_22072026205134_SEintimation.pdf",
+          "fetched": "20:53"
         }
       ],
       "actions": [],
-      "news_impact_score": 8,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -30684,10 +30695,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-22 20:51",
+  "last_updated": "2026-07-22 20:53",
   "total_symbols": 497,
   "high_impact": 45,
-  "new_this_run": 63,
-  "total_seen_ids": 5610,
-  "guidance_events": 151
+  "new_this_run": 1,
+  "total_seen_ids": 5611,
+  "guidance_events": 152
 }
