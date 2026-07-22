@@ -14231,6 +14231,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/jkalita01_22072026192540_NGELQ1FY27.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "e56df7e4c6e3",
+          "datetime": "22-Jul-2026 21:14:24",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/jkalita01_22072026211340_Kph_Disclosure.pdf",
+          "fetched": "21:24"
         }
       ],
       "actions": [],
@@ -17766,6 +17777,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VOGL_21072026161226_VOGLIntimationunderReg30DGH.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "f6b3c318ae9e",
+          "datetime": "22-Jul-2026 20:55:30",
+          "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VOGL_22072026204809_VOGL_-_Intimation_PSC_Matter.pdf",
+          "fetched": "21:24"
         }
       ],
       "actions": [],
@@ -30695,10 +30717,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-22 20:53",
+  "last_updated": "2026-07-22 21:24",
   "total_symbols": 497,
   "high_impact": 45,
-  "new_this_run": 1,
-  "total_seen_ids": 5611,
+  "new_this_run": 2,
+  "total_seen_ids": 5613,
   "guidance_events": 152
 }
