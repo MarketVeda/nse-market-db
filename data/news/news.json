@@ -4620,10 +4620,21 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "490d38e067b4",
+          "datetime": "22-Jul-2026 17:08:53",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDPETRO1_22072026170612_BoardMeetingOutcome.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 8,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -6242,14 +6253,25 @@
           "fetched": "15:35",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "9d17dbc74e87",
+          "datetime": "22-Jul-2026 17:19:44",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BIKAJIFOODS_22072026171908_37.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -6418,14 +6440,25 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "9e15893f6de1",
+          "datetime": "22-Jul-2026 17:04:25",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RRKL1995_22072026170233_Intimation_-_Earnings_Call_Q1_26-27.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -13949,6 +13982,17 @@
           "fetched": "15:35",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "ce9ce3da841b",
+          "datetime": "22-Jul-2026 17:25:57",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_22072026172407_Newspaper_Publication_Financials.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
@@ -14112,6 +14156,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "e73e9d45c187",
+          "datetime": "22-Jul-2026 17:39:14",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_22072026173751_Outcome_Final.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [
@@ -14165,6 +14220,28 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "ecaef94b194f",
+          "datetime": "22-Jul-2026 17:26:35",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SONACOMS_22072026172600_Press_Release.pdf",
+          "fetched": "17:39"
+        },
+        {
+          "id": "438c93a88329",
+          "datetime": "22-Jul-2026 17:22:00",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SONACOMS_22072026171925_Outcome_22nd_July_2026.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [
@@ -16713,6 +16790,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_12052026130439_GPIL.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "caa09c372c22",
+          "datetime": "22-Jul-2026 17:21:08",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GPIL_22072026172045_GPILNSEBSENEWSPAPERPUBLICATION22072026.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
@@ -23000,6 +23088,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NHPC_21072026125842_Teesta_VI_STX_Teests_VI.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "c27360d4f943",
+          "datetime": "22-Jul-2026 17:24:43",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NHPC_22072026172418_STX_Intimation_Adv.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
@@ -23311,14 +23410,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_21072026150052_SE_Intimation_July_21_2026.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "c5402dd36c64",
+          "datetime": "22-Jul-2026 17:30:14",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_22072026172854_SE_intimation_Earnings_Call_Transcript_June_30_2026.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -24401,6 +24511,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Himanshugail_22072026162727_Record_Date.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "235521558b50",
+          "datetime": "22-Jul-2026 17:09:45",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Himanshugail_22072026170921_Record_Date.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
@@ -26420,6 +26541,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_21072026180651_20260721_Intimation_of_Record_Date.pdf",
           "fetched": "18:20"
+        },
+        {
+          "id": "7fe2656e7563",
+          "datetime": "22-Jul-2026 17:32:17",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_22072026173147_NewspaperPublicationPreAGM_signed.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
@@ -29315,6 +29447,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VIJAYA_21072026173953_Post_Dispatch_Newspaper_Adv.pdf",
           "fetched": "17:41"
+        },
+        {
+          "id": "42c8c98fade6",
+          "datetime": "22-Jul-2026 16:59:29",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VIJAYA_22072026165917_Stx_Intimation.pdf",
+          "fetched": "17:39"
         }
       ],
       "actions": [],
@@ -29441,10 +29584,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-22 16:58",
+  "last_updated": "2026-07-22 17:39",
   "total_symbols": 497,
   "high_impact": 44,
-  "new_this_run": 0,
-  "total_seen_ids": 5497,
-  "guidance_events": 129
+  "new_this_run": 13,
+  "total_seen_ids": 5510,
+  "guidance_events": 132
 }
