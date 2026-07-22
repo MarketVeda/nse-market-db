@@ -14651,6 +14651,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_22072026174551_SE_Investor_Presentation.pdf",
           "fetched": "18:38"
+        },
+        {
+          "id": "3077a1842d71",
+          "datetime": "22-Jul-2026 22:29:04",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_22072026222745_Recording_intimation.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [
@@ -15207,6 +15218,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACOMM_22072026131926_18472.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "1f8449dd2ee6",
+          "datetime": "22-Jul-2026 21:34:16",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACOMM_22072026213353_18473.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [],
@@ -16335,6 +16357,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_22072026135131_APLoutcomeofBM22072026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "02554494b457",
+          "datetime": "22-Jul-2026 21:48:37",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANIPOWER_22072026214825_APLNoticeofEGM22072026.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [],
@@ -21139,6 +21172,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JSWINFRA_22072026174813_NSE_Intimation.pdf",
           "fetched": "18:38"
+        },
+        {
+          "id": "326c105f1f34",
+          "datetime": "22-Jul-2026 21:34:40",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JSWINFRA_22072026213357_SEIntimation_AGMNotice.pdf",
+          "fetched": "22:32"
         }
       ],
       "actions": [],
@@ -30717,10 +30761,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-22 21:24",
+  "last_updated": "2026-07-22 22:32",
   "total_symbols": 497,
   "high_impact": 45,
-  "new_this_run": 2,
-  "total_seen_ids": 5613,
+  "new_this_run": 4,
+  "total_seen_ids": 5617,
   "guidance_events": 152
 }
