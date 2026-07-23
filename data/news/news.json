@@ -7865,6 +7865,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_23072026153824_Board_Meeting_Results_23072026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "f66d78aa92cc",
+          "datetime": "23-Jul-2026 22:01:39",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_23072026220129_Audio_Recording.pdf",
+          "fetched": "22:35"
         }
       ],
       "actions": [],
@@ -14929,14 +14940,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MEESHO_23072026191403_FFIntimation_correction.pdf",
           "fetched": "21:05"
+        },
+        {
+          "id": "985072c300d1",
+          "datetime": "23-Jul-2026 22:16:04",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MEESHO_23072026221534_Earningscallaudiolink23072026.pdf",
+          "fetched": "22:35"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -15952,6 +15974,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SONACOMS_23072026161354_Investorpresentation.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "bd897b6d963d",
+          "datetime": "23-Jul-2026 21:48:45",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SONACOMS_23072026214803_Intimation.pdf",
+          "fetched": "22:35"
         }
       ],
       "actions": [
@@ -20316,6 +20349,17 @@
           "fetched": "23:02",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "30fdd4ff5b00",
+          "datetime": "23-Jul-2026 21:53:33",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SBILIFE_23072026215320_SENoticeAR23072026_signed.pdf",
+          "fetched": "22:35"
         }
       ],
       "actions": [],
@@ -20480,6 +20524,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ACMECS_21072026200903_Intimation21072026.pdf",
           "fetched": "20:56"
+        },
+        {
+          "id": "3997f3e6f509",
+          "datetime": "23-Jul-2026 21:49:23",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ACMECS_23072026214531_Intimation_23072026.pdf",
+          "fetched": "22:35"
         }
       ],
       "actions": [],
@@ -27006,6 +27061,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDALCOIND_23072026180413_Reg30_AGMOutcome_signed.pdf",
           "fetched": "18:42"
+        },
+        {
+          "id": "393f41f8ff97",
+          "datetime": "23-Jul-2026 22:32:06",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDALCOIND_23072026223130_AGM_Voting_Results_final_signed.pdf",
+          "fetched": "22:35"
         }
       ],
       "actions": [
@@ -33592,10 +33658,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-23 21:39",
+  "last_updated": "2026-07-23 22:35",
   "total_symbols": 497,
   "high_impact": 47,
-  "new_this_run": 0,
-  "total_seen_ids": 5875,
-  "guidance_events": 189
+  "new_this_run": 6,
+  "total_seen_ids": 5881,
+  "guidance_events": 190
 }
