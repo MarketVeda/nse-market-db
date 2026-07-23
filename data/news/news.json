@@ -17197,6 +17197,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CANARAHSBCLIFE_22072026183032_Newspaper_advertisement-_Q1_FY_26-27.pdf",
           "fetched": "18:38"
+        },
+        {
+          "id": "d950dfdc8eaa",
+          "datetime": "23-Jul-2026 17:40:35",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CANARAHSBCLIFE_23072026173834_Intimation_of_AGM_Record_Date_and_Evoting_details.pdf",
+          "fetched": "17:43"
         }
       ],
       "actions": [],
@@ -32558,10 +32569,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-23 17:37",
+  "last_updated": "2026-07-23 17:43",
   "total_symbols": 497,
   "high_impact": 46,
-  "new_this_run": 27,
-  "total_seen_ids": 5781,
+  "new_this_run": 1,
+  "total_seen_ids": 5782,
   "guidance_events": 177
 }
