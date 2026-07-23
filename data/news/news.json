@@ -446,6 +446,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_21072026163426_LtrToSEsCuraTeQANVISAapproval21072026.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "48f7aa5ec446",
+          "datetime": "23-Jul-2026 21:33:41",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_23072026213300_LtrSEsA1BiochenAcquisition23072026.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
@@ -18297,6 +18308,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_23072026210144_IntimationCessationofChiragNegandhiupload.pdf",
           "fetched": "21:05"
+        },
+        {
+          "id": "38d9739cb63a",
+          "datetime": "23-Jul-2026 21:29:56",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_ROID_92782_KMP_Doc.zip",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
@@ -19756,6 +19778,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_23072026205157_SEintimation_newspaperpublication_23072026.pdf",
           "fetched": "21:05"
+        },
+        {
+          "id": "6ed08ce1e1e8",
+          "datetime": "23-Jul-2026 21:20:02",
+          "subject": "Change in Auditors",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_23072026211951_SEintimation_Regulation_30_Director_and_Stat_Auditor_signed.pdf",
+          "fetched": "21:34"
+        },
+        {
+          "id": "4ce4858f6046",
+          "datetime": "23-Jul-2026 21:18:08",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_23072026211751_SEintimation_Regulation_30_Director_and_Stat_Auditor_signed.pdf",
+          "fetched": "21:34"
+        },
+        {
+          "id": "25848fa02b6e",
+          "datetime": "23-Jul-2026 21:13:37",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DRREDDY_23072026211307_SE_Itimation_AGM_outcome_signed.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [
@@ -20581,6 +20636,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KFINTECHNSE_22072026190224_Intimation-AGM_Proceedings_.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "575673ede665",
+          "datetime": "23-Jul-2026 21:33:26",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KFINTECHNSE_23072026213309_Intimation.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [
@@ -22138,10 +22204,21 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CHENNPETRO_23072026131233_Q1_Results.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "7792d4589809",
+          "datetime": "23-Jul-2026 21:20:10",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CHENNPETRO_23072026211911_Reg30_-_Q1_Results.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
-      "news_impact_score": 8,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -22520,6 +22597,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_22072026110529_Intimation_of_ESOP.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "27326166b9a8",
+          "datetime": "23-Jul-2026 21:15:38",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JUBLINGREA_23072026211528_Investor_meet_audio_call_recording.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
@@ -23523,6 +23611,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_23072026132445_Cohance_Q1_Concal_Invite_05082026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "d22f5a749695",
+          "datetime": "23-Jul-2026 21:27:21",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUVENPHARMSUSHEEL_23072026212536_Cohance_SE_disclosure_ESOP_23Jul2026.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
@@ -31143,6 +31242,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ITD_22072026233745_st_exch_intim_BM_3_trading_window_1.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "cf95cf08215a",
+          "datetime": "23-Jul-2026 21:18:43",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ITD_23072026211720_STK_ltr_EOGM_notice_2026.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
@@ -31355,6 +31465,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_23072026175836_GDGIL_Outcome_23072026.pdf",
           "fetched": "18:42"
+        },
+        {
+          "id": "2c174d47d551",
+          "datetime": "23-Jul-2026 21:33:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_23072026213332_Regulation_30_Disclosure_EarningsCallAudioRecording_Q1FY2627.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
@@ -31531,6 +31652,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_23072026160627_SEIntimation23072026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "e4837e9ec4fc",
+          "datetime": "23-Jul-2026 21:07:28",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_23072026210701_Intimation23072026CR.pdf",
+          "fetched": "21:34"
         }
       ],
       "actions": [],
@@ -33460,10 +33592,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-23 21:05",
+  "last_updated": "2026-07-23 21:34",
   "total_symbols": 497,
   "high_impact": 47,
-  "new_this_run": 40,
-  "total_seen_ids": 5863,
+  "new_this_run": 12,
+  "total_seen_ids": 5875,
   "guidance_events": 189
 }
