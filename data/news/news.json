@@ -115,6 +115,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASTERDM2_29062026201307_SE_AMPL_F-s.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "6a70236316fd",
+          "datetime": "23-Jul-2026 16:52:34",
+          "subject": "Name Change",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Mdesai_23072026165149_CML75342.pdf",
+          "fetched": "16:58"
         }
       ],
       "actions": [],
@@ -2157,6 +2168,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GILKOLKATA_30062026135805_LETTER_TO_SE_REG30_FRANKLIN_TEMPLETON_MF.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "eef598100826",
+          "datetime": "23-Jul-2026 16:54:22",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GILKOLKATA_23072026165402_ST_EXCH_FORWARDING_LETTER_GST.pdf",
+          "fetched": "16:58"
         }
       ],
       "actions": [],
@@ -4983,6 +5005,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDPETRO1_23072026164324_Audio_Recording_ConCall.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "81c46e690181",
+          "datetime": "23-Jul-2026 16:54:32",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDPETRO2_23072026165423_SEIntimation23072026_signed.pdf",
+          "fetched": "16:58"
         }
       ],
       "actions": [],
@@ -10456,6 +10489,17 @@
           "fetched": "13:49",
           "guidance_flag": true,
           "pdf_url": ""
+        },
+        {
+          "id": "79a9f826afbb",
+          "datetime": "23-Jul-2026 16:57:17",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PNBHOUSING_23072026165639_SE_Intimation_Notice_Final_sd.pdf",
+          "fetched": "16:58"
         }
       ],
       "actions": [],
@@ -28902,14 +28946,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_22072026173147_NewspaperPublicationPreAGM_signed.pdf",
           "fetched": "17:39"
+        },
+        {
+          "id": "6f95ab0dc2c6",
+          "datetime": "23-Jul-2026 16:55:55",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_23072026165435_20260723_Notice_of_Q1_FY-27_Earnings_Call.pdf",
+          "fetched": "16:58"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -32206,10 +32261,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-23 16:52",
+  "last_updated": "2026-07-23 16:58",
   "total_symbols": 497,
   "high_impact": 46,
-  "new_this_run": 132,
-  "total_seen_ids": 5749,
-  "guidance_events": 173
+  "new_this_run": 5,
+  "total_seen_ids": 5754,
+  "guidance_events": 174
 }
