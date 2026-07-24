@@ -13220,6 +13220,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JINDALSTEL_24072026180707_STX240626.pdf",
           "fetched": "18:34"
+        },
+        {
+          "id": "3244514da650",
+          "datetime": "24-Jul-2026 18:35:03",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JINDALSTEL_24072026181123_STX240626.pdf",
+          "fetched": "18:38"
         }
       ],
       "actions": [],
@@ -16445,14 +16456,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/APLAPOLLO_27062026123140_Outcome_of_BM_Final.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "c67802b1823e",
+          "datetime": "24-Jul-2026 18:35:44",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/APLAPOLLO_24072026183524_con_call_intimation.pdf",
+          "fetched": "18:38"
         }
       ],
       "actions": [],
-      "news_impact_score": 8,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -17561,6 +17583,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_24072026182026_SCL_Exchange_Retail_intimation_57_24072026_UI0.pdf",
           "fetched": "18:34"
+        },
+        {
+          "id": "42238614fb22",
+          "datetime": "24-Jul-2026 18:38:00",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_24072026183740_SCL_Retail_intimation_-57__24072026_PM2.pdf",
+          "fetched": "18:38"
         }
       ],
       "actions": [],
@@ -18718,6 +18751,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_22072026160746_Allotment_under_ESOP_22072026signed.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "24832be37537",
+          "datetime": "24-Jul-2026 18:36:16",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_24072026183557_LDL_Outcome_of_the_BM_24072026.pdf",
+          "fetched": "18:38"
         }
       ],
       "actions": [],
@@ -26251,6 +26295,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RECLTD_24072026173436_DSC_BSENSE_Outcome_24072026.pdf",
           "fetched": "18:34"
+        },
+        {
+          "id": "c0668fb34dcb",
+          "datetime": "24-Jul-2026 18:38:22",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RECLTD_24072026183729_DSC_PR_24072026.pdf",
+          "fetched": "18:38"
         }
       ],
       "actions": [],
@@ -36362,10 +36417,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-24 18:34",
+  "last_updated": "2026-07-24 18:38",
   "total_symbols": 498,
   "high_impact": 51,
-  "new_this_run": 45,
-  "total_seen_ids": 6128,
-  "guidance_events": 215
+  "new_this_run": 5,
+  "total_seen_ids": 6133,
+  "guidance_events": 216
 }
