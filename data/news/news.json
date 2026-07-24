@@ -6893,6 +6893,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_06042026192550_VEDL.pdf",
           "fetched": "16:43"
+        },
+        {
+          "id": "77c20dca5df3",
+          "datetime": "24-Jul-2026 16:50:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VEDL_24072026164807_VEDLPriorIntimationofBoardMeetingJuly302026signed.pdf",
+          "fetched": "16:57"
+        },
+        {
+          "id": "6a96c978a990",
+          "datetime": "24-Jul-2026 16:50:49",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VEDL_24072026165001_VEDLPriorIntimationofBoardMeetingJuly302026signed.pdf",
+          "fetched": "16:57"
         }
       ],
       "actions": [],
@@ -8117,6 +8139,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "2f8f3883434a",
+          "datetime": "24-Jul-2026 16:55:09",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SHREECEM_24072026165403_NSE_BSE_Concall_240726.pdf",
+          "fetched": "16:57"
         }
       ],
       "actions": [
@@ -8128,11 +8161,11 @@
           "fetched": "15:58"
         }
       ],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -21992,6 +22025,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RKFORGE_24072026141943_OutcomeofBM24July2026.pdf",
           "fetched": "16:43"
+        },
+        {
+          "id": "e29063976b02",
+          "datetime": "24-Jul-2026 16:55:22",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RKFORGE_24072026165452_StatementofDeviationJune2026.pdf",
+          "fetched": "16:57"
         }
       ],
       "actions": [],
@@ -25932,6 +25976,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_30062026171121_Arihantapital.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "ab60d22d0cdb",
+          "datetime": "24-Jul-2026 16:56:37",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_24072026165502_Boardresults30062026.pdf",
+          "fetched": "16:57"
         }
       ],
       "actions": [],
@@ -29372,6 +29427,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TIMKEN_23072026124544_SE_Intimation_23072026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "7e30c400c6a3",
+          "datetime": "24-Jul-2026 16:53:40",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TIMKEN_24072026165125_SE_Intimation24072026.pdf",
+          "fetched": "16:57"
         }
       ],
       "actions": [],
@@ -35493,10 +35559,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-24 16:48",
+  "last_updated": "2026-07-24 16:57",
   "total_symbols": 498,
   "high_impact": 51,
-  "new_this_run": 0,
-  "total_seen_ids": 6049,
-  "guidance_events": 205
+  "new_this_run": 6,
+  "total_seen_ids": 6055,
+  "guidance_events": 206
 }
