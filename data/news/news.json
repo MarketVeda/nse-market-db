@@ -4864,14 +4864,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PPLTD_22072026160135_BMintimation_BM28072026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "2b7518758c9e",
+          "datetime": "27-Jul-2026 14:13:46",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PPLTD_27072026140934_InvestormeetIntimation.pdf",
+          "fetched": "14:25"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -7123,6 +7134,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Max_24072026113149_SEDADVPREAGM2026.pdf",
           "fetched": "16:43"
+        },
+        {
+          "id": "decddf9a8edf",
+          "datetime": "27-Jul-2026 14:16:40",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Max_27072026141552_SEDANNUALREPORT2026.pdf",
+          "fetched": "14:25"
+        },
+        {
+          "id": "9edb5d9f0982",
+          "datetime": "27-Jul-2026 14:04:14",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Max_27072026140249_SEDANNUALREPORT2026.pdf",
+          "fetched": "14:25"
+        },
+        {
+          "id": "27b77c787abf",
+          "datetime": "27-Jul-2026 13:54:47",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Max_27072026135416_SEDBRSRMFSL2026.pdf",
+          "fetched": "14:25"
         }
       ],
       "actions": [],
@@ -13984,6 +14028,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JINDALSTEL_25072026203833_Binder1_250726.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "6ed63da43bbf",
+          "datetime": "27-Jul-2026 13:49:14",
+          "subject": "Credit Rating- Revision",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JINDALSTEL_27072026134901_stx_27072026.pdf",
+          "fetched": "14:25"
         }
       ],
       "actions": [],
@@ -15189,6 +15244,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ALKEM_23072026131947_Regulation30-Signed.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "cdbe714a4472",
+          "datetime": "27-Jul-2026 14:21:58",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ALKEM_27072026142043_Intimationforconcallinvite_Signed.pdf",
+          "fetched": "14:25"
         }
       ],
       "actions": [],
@@ -22676,6 +22742,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAGILITY_24072026182140_IntimationROSACRQ1FY27signed.pdf",
           "fetched": "18:34"
+        },
+        {
+          "id": "d31d88eee338",
+          "datetime": "27-Jul-2026 14:01:34",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAGILITY_27072026140124_IntimationAGMAnnualReportsigned.pdf",
+          "fetched": "14:25"
         }
       ],
       "actions": [],
@@ -38680,6 +38757,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026132520_Outcome_of_BM_DSC.pdf",
           "fetched": "13:31"
+        },
+        {
+          "id": "ec9d92b81b8a",
+          "datetime": "27-Jul-2026 13:38:37",
+          "subject": "Integrated Filing- Financial",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026133818_Final_Integrated_Filings_DSC.pdf",
+          "fetched": "14:25"
+        },
+        {
+          "id": "153262575e8d",
+          "datetime": "27-Jul-2026 13:36:30",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUMICHEM_27072026133604_Signed_NDG_Resignation.pdf",
+          "fetched": "14:25"
         }
       ],
       "actions": [],
@@ -38931,10 +39030,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-27 13:31",
+  "last_updated": "2026-07-27 14:25",
   "total_symbols": 498,
   "high_impact": 51,
-  "new_this_run": 14,
-  "total_seen_ids": 6364,
-  "guidance_events": 233
+  "new_this_run": 9,
+  "total_seen_ids": 6373,
+  "guidance_events": 234
 }
