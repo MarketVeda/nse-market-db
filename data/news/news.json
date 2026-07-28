@@ -370,6 +370,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_23072026151001_Callcallintimation28072026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "e7e3cc4ae611",
+          "datetime": "28-Jul-2026 13:11:52",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_28072026131113_InvestorspresentationJune26.pdf",
+          "fetched": "13:30"
+        },
+        {
+          "id": "6a8eaaeccb10",
+          "datetime": "28-Jul-2026 13:06:51",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_28072026130607_PressReleaseJune26.pdf",
+          "fetched": "13:30"
+        },
+        {
+          "id": "215b9ff046a9",
+          "datetime": "28-Jul-2026 12:58:36",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUPREMEIND_28072026125630_FinancialResultsjune26.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [
@@ -1952,6 +1985,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JSL_24072026114815_JSLSEIntimation24072026sd.pdf",
           "fetched": "16:43"
+        },
+        {
+          "id": "82532b9090c7",
+          "datetime": "28-Jul-2026 13:06:17",
+          "subject": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JSL_28072026130606_REGU74.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -4024,6 +4068,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_27072026164331_Transcript_of_Earning_Conference_Call_Q1_FY27.pdf",
           "fetched": "17:23"
+        },
+        {
+          "id": "98cb2883f3ea",
+          "datetime": "28-Jul-2026 12:50:53",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_28072026125026_SEBIintimation.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -8897,6 +8952,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/WABCOINDIA_24072026184006_sdProceedings_22nd_AGM_2026.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "706f4b51b443",
+          "datetime": "28-Jul-2026 13:22:52",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/WABCOINDIA_28072026132212_SdSE_Press_release.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -9501,6 +9567,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_27072026211119_Disclosure_27072026_KMP.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "bf6a7667fa75",
+          "datetime": "28-Jul-2026 13:19:19",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_28072026131854_Notice_of_23rd_AGM_and_Annual_Report.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -14863,6 +14940,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VMMP2024_24072026104846_Disclosure_to_Exchange_July_2026_Newspaper_Advertisement.pdf",
           "fetched": "16:43"
+        },
+        {
+          "id": "b8579a0aa0a3",
+          "datetime": "28-Jul-2026 13:20:52",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VMMP2024_28072026131943_Disclosure_Transcript_VMM_July_2026.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -15823,6 +15911,17 @@
           "fetched": "18:37",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "87dfb320d6ae",
+          "datetime": "28-Jul-2026 13:23:37",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TORNTPOWER_28072026132026_Earning_Call_Intimation.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -28774,6 +28873,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ATHERENERGY_27072026202751_TofileNoticeARsigned.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "c26c67d98631",
+          "datetime": "28-Jul-2026 13:14:22",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ATHERENERGY_28072026131345_TouploadAGM2ndADsigned.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -29074,6 +29184,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_28072026001757_OutcomeofBM.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "7e1c123202f8",
+          "datetime": "28-Jul-2026 13:09:20",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_28072026130840_update_of_Investor_Presentation.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -39104,6 +39225,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_27072026231019_SEAnnualReport2025-26.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "c2d6bea1bda3",
+          "datetime": "28-Jul-2026 13:00:04",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_28072026125936_NewspaperPublication28072026.pdf",
+          "fetched": "13:30"
+        },
+        {
+          "id": "1e627c8df3c1",
+          "datetime": "28-Jul-2026 12:57:35",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_28072026125424_NewspaperPublication28072026.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -40804,6 +40947,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_28072026122216_Cessation_of_DHR.pdf",
           "fetched": "12:43"
+        },
+        {
+          "id": "c6e4280486c2",
+          "datetime": "28-Jul-2026 13:29:53",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_28072026132930_Press_Release.pdf",
+          "fetched": "13:30"
+        },
+        {
+          "id": "ce2aeee85c11",
+          "datetime": "28-Jul-2026 13:19:32",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_28072026131828_Newspaper_publication_Q1.pdf",
+          "fetched": "13:30"
         }
       ],
       "actions": [],
@@ -41741,10 +41906,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-28 12:43",
+  "last_updated": "2026-07-28 13:30",
   "total_symbols": 498,
   "high_impact": 53,
-  "new_this_run": 16,
-  "total_seen_ids": 6620,
+  "new_this_run": 15,
+  "total_seen_ids": 6635,
   "guidance_events": 251
 }
