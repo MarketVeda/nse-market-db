@@ -37,6 +37,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IOC_30062026140751_2026_06_30_Reg_30_Outcome_of_Board_Meeting_Record_date_S.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "789abbfb15aa",
+          "datetime": "28-Jul-2026 15:33:34",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IOC_28072026153323_2026_07_28_Press_Release_Final_S.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -3791,6 +3802,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Authum123_25072026213306_IncomeTaxConcl25072026.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "c4a734143ec5",
+          "datetime": "28-Jul-2026 15:25:26",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Authum123_28072026152511_SE_Intimation_Reg30_Windworld_updates_signed.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -4168,14 +4190,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_14072026182530_12052026192256_BLUEJET.pdf",
           "fetched": "17:23"
+        },
+        {
+          "id": "102bae4ff188",
+          "datetime": "28-Jul-2026 15:19:28",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BLUEJET_28072026151810_SE_upload_call_intimation.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -14259,6 +14292,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CENTURYTEX_27072026200446_129thAGMOutcome.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "1ca34a1b222f",
+          "datetime": "28-Jul-2026 15:24:55",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CENTURYTEX_28072026151949_AGMVotingresults.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [
@@ -20383,6 +20427,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACOMM_28072026113757_18488.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "6bcedb39c1e7",
+          "datetime": "28-Jul-2026 15:23:30",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACOMM_28072026152321_18474.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -21183,6 +21238,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NETWEB1234_23072026130951_Intimation_Earning_Call_Q12026_27.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "45bdb3499b0b",
+          "datetime": "28-Jul-2026 15:40:41",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NETWEB1234_28072026154032_Press_Release_30062026.pdf",
+          "fetched": "15:41"
+        },
+        {
+          "id": "3c91a19d0152",
+          "datetime": "28-Jul-2026 15:18:30",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NETWEB1234_28072026151552_Results.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -23260,6 +23337,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IIFL_24072026221707_SEIntimation_Proceedings.pdf",
           "fetched": "23:30"
+        },
+        {
+          "id": "9ba3d0073e54",
+          "datetime": "28-Jul-2026 15:13:43",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IIFL_28072026151150_Final_Intimation_sd.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -24801,6 +24889,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/lakshmits_28072026143840_Outcome.pdf",
           "fetched": "14:49"
+        },
+        {
+          "id": "c0ca1b1fe59f",
+          "datetime": "28-Jul-2026 15:22:09",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/lakshmits_28072026152047_Investor_Presentation_Jun2026.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [
@@ -24812,11 +24911,11 @@
           "fetched": "16:51"
         }
       ],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -24876,6 +24975,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_28072026144042_BM_outcome_.pdf",
           "fetched": "14:49"
+        },
+        {
+          "id": "c8f6a1c24a7a",
+          "datetime": "28-Jul-2026 14:54:24",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_28072026145410_BM_outcome_.pdf",
+          "fetched": "15:41"
+        },
+        {
+          "id": "e036aa1bdac4",
+          "datetime": "28-Jul-2026 14:50:02",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_28072026144954_InvestorPresentationFinal_.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -30629,14 +30750,36 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CUB_28072026143510_CUBStandaloneUFRQ1FY27.pdf",
           "fetched": "14:49"
+        },
+        {
+          "id": "bdc59dcf8590",
+          "datetime": "28-Jul-2026 15:08:48",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CUB_28072026150817_CUBIP28072026.pdf",
+          "fetched": "15:41"
+        },
+        {
+          "id": "97a76a372b1f",
+          "datetime": "28-Jul-2026 15:00:57",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CUB_28072026145953_CUBPR28072026.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -31941,6 +32084,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_27072026172805_PR.pdf",
           "fetched": "18:12"
+        },
+        {
+          "id": "3d2fa7aa0ae4",
+          "datetime": "28-Jul-2026 15:12:49",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_28072026151239_Final.pdf",
+          "fetched": "15:41"
+        },
+        {
+          "id": "5ea18e1d91e9",
+          "datetime": "28-Jul-2026 15:07:46",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_28072026150549_CoverFinal.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -35644,6 +35809,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/rashna_master_tajhotels_com_27072026103245_EarningsCallTranscript.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "11a0129d34d9",
+          "datetime": "28-Jul-2026 15:00:32",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/farzana_billimoria_ihcltata_co_28072026145753_ESG_Rating_SES_Response_Letter_IHCL_July_2026_sd.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -37576,14 +37752,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_24072026203435_STxIntimation_BrezzaTurbo_24July2026.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "ed38a616d87a",
+          "datetime": "28-Jul-2026 15:35:43",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_28072026153415_STxIntimation_EarningsCall_Q1FY2026_27.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -37965,6 +38152,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NCC_27072026181329_Forwarding_of_BRSR_27July26.pdf",
           "fetched": "18:47"
+        },
+        {
+          "id": "faca24373460",
+          "datetime": "28-Jul-2026 15:06:53",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NCC_28072026150636_Ltr_to_SE_28July26.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
@@ -39002,14 +39200,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ITD_28072026144109_ST_EXCH_BM_OUTCOME.pdf",
           "fetched": "14:49"
+        },
+        {
+          "id": "8e6b26bc4038",
+          "datetime": "28-Jul-2026 15:03:14",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ITD_28072026150228_st_exch_intim_presentation_Signed.pdf",
+          "fetched": "15:41"
         }
       ],
       "actions": [],
       "board_meetings": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -42269,10 +42478,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-28 14:49",
+  "last_updated": "2026-07-28 15:41",
   "total_symbols": 498,
   "high_impact": 53,
-  "new_this_run": 33,
-  "total_seen_ids": 6668,
-  "guidance_events": 254
+  "new_this_run": 19,
+  "total_seen_ids": 6687,
+  "guidance_events": 259
 }
