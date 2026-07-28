@@ -4391,6 +4391,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PANKAJCHAWLA_27072026183131_Earning_Presenatation-30062026.pdf",
           "fetched": "18:47"
+        },
+        {
+          "id": "2cfd4ce06172",
+          "datetime": "28-Jul-2026 12:26:00",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PANKAJCHAWLA_28072026122450_Pre_AGM_Newspaper_Advertisment.pdf",
+          "fetched": "12:43"
+        },
+        {
+          "id": "5c04fd120309",
+          "datetime": "28-Jul-2026 12:16:22",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PANKAJCHAWLA_28072026121608_Newspaper_Advertisment.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
@@ -5706,11 +5728,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/UPL_27072026194610_Intimation_letter.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "7a48d81a4023",
+          "datetime": "28-Jul-2026 12:24:30",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/UPL_28072026122407_Acquisition_Intimation.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -6040,6 +6073,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IIFLWAM_21072026174535_20260721_TranscriptofEarningsCall-signed.pdf",
           "fetched": "18:20"
+        },
+        {
+          "id": "3ed9e941dd15",
+          "datetime": "28-Jul-2026 12:36:09",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_30062026112241_360_ONE.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
@@ -6945,6 +6989,50 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_22072026095907_Intimation.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "d95e1bb645ec",
+          "datetime": "28-Jul-2026 12:30:12",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_28072026122639_Outcome28Jul.pdf",
+          "fetched": "12:43"
+        },
+        {
+          "id": "d3c97757c625",
+          "datetime": "28-Jul-2026 12:22:17",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_28072026122203_Pressrelease.pdf",
+          "fetched": "12:43"
+        },
+        {
+          "id": "d68fb18bd742",
+          "datetime": "28-Jul-2026 12:17:39",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_28072026121655_Presentation.pdf",
+          "fetched": "12:43"
+        },
+        {
+          "id": "14a86e579d2b",
+          "datetime": "28-Jul-2026 12:12:23",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_28072026121000_outcome.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
@@ -7266,6 +7354,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEG_24072026160341_Stxintimation24072026R.pdf",
           "fetched": "16:43"
+        },
+        {
+          "id": "0a785c19da03",
+          "datetime": "28-Jul-2026 12:14:33",
+          "subject": "Action(s) initiated or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEG_28072026121420_Stxintimation28072026.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [
@@ -7817,6 +7916,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VEDL_24072026165001_VEDLPriorIntimationofBoardMeetingJuly302026signed.pdf",
           "fetched": "16:57"
+        },
+        {
+          "id": "94bb198f0266",
+          "datetime": "28-Jul-2026 12:30:45",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026192428_VEDL.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
@@ -18775,6 +18885,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BIOCON_22072026194943_SE_Intimation.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "108374551e74",
+          "datetime": "28-Jul-2026 12:31:56",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_15072026114514_Disc1.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [
@@ -20921,6 +21042,17 @@
           "fetched": "18:37",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "e669f1d6b1c2",
+          "datetime": "28-Jul-2026 11:51:41",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_28072026114957_SignedSEIntimationEarningscallinviteQ1FY27.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [
@@ -20932,11 +21064,11 @@
           "fetched": "16:43"
         }
       ],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -22198,6 +22330,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VedantaPower_24072026174053_EarningsCall.pdf",
           "fetched": "18:34"
+        },
+        {
+          "id": "680e1871bad9",
+          "datetime": "28-Jul-2026 12:31:12",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_22072026181305_VEDPOWER.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
@@ -39961,6 +40104,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SWIGGY_27072026115934_SE_intimation_-_Newspaper_Publication.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "3f51f51218dd",
+          "datetime": "28-Jul-2026 12:26:19",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SWIGGY_28072026122421_SE_intimation_-_Change_in_SMP_Signed.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
@@ -40628,6 +40782,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_27072026184728_right_issue.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "989b02f355f8",
+          "datetime": "28-Jul-2026 12:38:21",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_28072026123754_Appointment_of_DHR.pdf",
+          "fetched": "12:43"
+        },
+        {
+          "id": "e993a8f3dc06",
+          "datetime": "28-Jul-2026 12:22:40",
+          "subject": "Cessation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_28072026122216_Cessation_of_DHR.pdf",
+          "fetched": "12:43"
         }
       ],
       "actions": [],
@@ -41565,10 +41741,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-28 11:44",
+  "last_updated": "2026-07-28 12:43",
   "total_symbols": 498,
-  "high_impact": 52,
-  "new_this_run": 57,
-  "total_seen_ids": 6604,
-  "guidance_events": 250
+  "high_impact": 53,
+  "new_this_run": 16,
+  "total_seen_ids": 6620,
+  "guidance_events": 251
 }
