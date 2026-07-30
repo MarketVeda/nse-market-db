@@ -611,6 +611,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_29072026165321_LtrToSEsIntimationofDate39thAGM29072026.pdf",
           "fetched": "17:11"
+        },
+        {
+          "id": "39783ff92cb5",
+          "datetime": "30-Jul-2026 11:45:19",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_30072026114446_LtrToSEsNoticePublishedAbeforeDispatch30072026.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -5557,6 +5568,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/STARHEALTH_29072026200948_ECPresentationQ1FY27.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "133dbae0a70f",
+          "datetime": "30-Jul-2026 12:32:47",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/STARHEALTH_30072026123045_Q1FY2027ECR.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -8186,6 +8208,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MEDANTA21_24072026180256_GHLEARNINGCALL24JULY2026Signed.pdf",
           "fetched": "18:34"
+        },
+        {
+          "id": "f6e9c624fe77",
+          "datetime": "30-Jul-2026 11:59:23",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MEDANTA21_30072026115912_GHLGRANTOFEQUITYSHARES30JULY2026_NRCSigned.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -9750,6 +9783,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CRAFTSMAN_29072026173751_SEintimationStatementofdeviationorvariationsigned.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "a6be55492831",
+          "datetime": "30-Jul-2026 12:34:08",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CRAFTSMAN_30072026123338_SEIntimationInvestorPresentationsigned.pdf",
+          "fetched": "12:42"
+        },
+        {
+          "id": "5573fc743eda",
+          "datetime": "30-Jul-2026 12:26:21",
+          "subject": "Monitoring Agency Report",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CRAFTSMAN_30072026122548_CALMonitoringAgencyReport30062026signed.pdf",
+          "fetched": "12:42"
+        },
+        {
+          "id": "4ff048bf8415",
+          "datetime": "30-Jul-2026 12:18:11",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CRAFTSMAN_30072026121507_SEIntimationnnewspaper.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [
@@ -15870,6 +15936,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAIL_30072026102012_Image_005.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "28315b98d68e",
+          "datetime": "30-Jul-2026 11:44:55",
+          "subject": "News Verification",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAIL_30072026114401_Image_005.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -20260,6 +20337,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CGPOWER_25072026191618_Disclosure_VotingResults_24072026.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "4ac27eda2e46",
+          "datetime": "30-Jul-2026 12:28:29",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGPOWER_30072026122555_Disclosure_Allotment_30072026.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -24719,6 +24807,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VTL_28072026164511_VTXL_sd.pdf",
           "fetched": "17:06"
+        },
+        {
+          "id": "391f56c781f6",
+          "datetime": "30-Jul-2026 12:02:26",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VTL_30072026120100_vtxl_results_sd.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -26824,6 +26923,28 @@
           "fetched": "18:37",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "bc5747dead81",
+          "datetime": "30-Jul-2026 11:59:27",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BILLIONBRAINS_30072026115630_NoticeARSEIntimationsigned.pdf",
+          "fetched": "12:42"
+        },
+        {
+          "id": "65ffbea95759",
+          "datetime": "30-Jul-2026 11:52:44",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BILLIONBRAINS_30072026115230_Newspaperintimationbeforesigned.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -27389,6 +27510,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VOGL_29072026172839_OutcomeofESOSScheme.pdf",
           "fetched": "17:40"
+        },
+        {
+          "id": "a3996c0705d9",
+          "datetime": "30-Jul-2026 11:52:33",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VOGL_30072026115145_NewspaperAdvertisementQ1FY2027.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -33436,6 +33568,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_29072026181826_Newspaper_Publication.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "44d3bd0a82f9",
+          "datetime": "30-Jul-2026 11:50:44",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_30072026114900_PressRelease30072026Signed.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -36447,6 +36590,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BALKRISIND_29072026173814_Letter_with_Results_Signed.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "df1cbfbde0b2",
+          "datetime": "30-Jul-2026 12:08:31",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BALKRISIND_30072026120807_Proceedings_30072026_signed_1.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [
@@ -36666,6 +36820,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Priyankamehta_29072026204343_PPL_OutcomeofBM_29072026_sd.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "73a228c29718",
+          "datetime": "30-Jul-2026 12:25:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Priyankamehta_30072026122530_SEIntimationAnalystcallAudio__002_.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -37193,6 +37358,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NHPC_27072026190921_Update_Director_Personnel_Appointment_MOP_.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "92263084457a",
+          "datetime": "30-Jul-2026 12:08:37",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NHPC_30072026120456_STX_Dir_Personnel_Appointment.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -41306,6 +41482,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_27072026164624_Transcript30062026.pdf",
           "fetched": "17:23"
+        },
+        {
+          "id": "97379b33da46",
+          "datetime": "30-Jul-2026 12:08:05",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_30072026120523_Outcome-FINAL_2.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -42041,6 +42228,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/UCOBANK_27072026220305_nsebsefitch.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "463bf30fbb32",
+          "datetime": "30-Jul-2026 12:41:31",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/UCOBANK_30072026124124_NSEBSETRANSCRIPT30072026.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
@@ -44435,11 +44633,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GILLETTE_30072026113822_GIL_SE_Intimation_-_Outcome_of_Board_Meeting.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "9bd6c3de5356",
+          "datetime": "30-Jul-2026 11:43:58",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GILLETTE_30072026114339_GIL_SE_Intimation_-_Press_Release.pdf",
+          "fetched": "12:42"
         }
       ],
       "actions": [],
       "board_meetings": [],
-      "news_impact_score": 8,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "has_guidance_event": false,
@@ -48531,10 +48740,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-30 11:43",
+  "last_updated": "2026-07-30 12:42",
   "total_symbols": 498,
   "high_impact": 58,
-  "new_this_run": 88,
-  "total_seen_ids": 7239,
+  "new_this_run": 19,
+  "total_seen_ids": 7258,
   "guidance_events": 301
 }
