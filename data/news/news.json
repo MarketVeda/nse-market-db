@@ -6918,6 +6918,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/532783_23072026165931_intimation.pdf",
           "fetched": "17:37"
+        },
+        {
+          "id": "831918605973",
+          "datetime": "30-Jul-2026 13:17:55",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/532783_30072026131631_Record_Date_Final_Dividend.pdf",
+          "fetched": "13:24"
+        },
+        {
+          "id": "7cea8a163298",
+          "datetime": "30-Jul-2026 13:02:08",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/532783_30072026130154_intimation.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [],
@@ -11072,6 +11094,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_24072026202051_STX_Intimation_-_Call_Money.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "853126752a5a",
+          "datetime": "30-Jul-2026 12:58:18",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIARTL_30072026125748_BhartiAirtelReg30disclosure.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [
@@ -11874,6 +11907,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_21072026151124_CP_Announcement_21_07_2026-Signed.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "612fbaf983e8",
+          "datetime": "30-Jul-2026 12:53:09",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_30072026125250_SE_Intimation_-Letter_of_Intent_30_07_2026-Signed.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [],
@@ -21135,10 +21179,21 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DEEPAKFERT_30062026182522_SE_Intimation.pdf",
           "fetched": "18:58"
+        },
+        {
+          "id": "c51de9a490f4",
+          "datetime": "30-Jul-2026 13:21:30",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DEEPAKFERT_30072026132011_UFR30062026.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 8,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -21514,6 +21569,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_29072026191117_Audiovideo_29072026.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "be0e5f60e0e3",
+          "datetime": "30-Jul-2026 12:43:24",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_30072026124244_Newspaper_Notices.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [],
@@ -28403,14 +28469,25 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "cd2f33fe3d18",
+          "datetime": "30-Jul-2026 13:08:58",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAILIFE_30072026130824_LODR_-_Reg_30_Earnigs_Call_Intimation.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -30333,6 +30410,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LATENTVIEW_29072026110118_SE_Intimation_Covering_Letter_Earnings_Call_invite_Signed.pdf",
           "fetched": "11:49"
+        },
+        {
+          "id": "07f555a383d2",
+          "datetime": "30-Jul-2026 13:24:24",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LATENTVIEW_30072026132248_SE_Intimation_Analyst_Meet_Aug_04_Signed.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [],
@@ -33911,6 +33999,50 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AmitDodani_29072026135535_SEIntimationSlumpSaleMTBD.pdf",
           "fetched": "14:53"
+        },
+        {
+          "id": "993af27a332a",
+          "datetime": "30-Jul-2026 13:11:47",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Pooja_30072026131135_FinaloutcomeMM.pdf",
+          "fetched": "13:24"
+        },
+        {
+          "id": "c8e140eff668",
+          "datetime": "30-Jul-2026 13:02:59",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ferozebaria_30072026130242_IntimationPressRelease30072026.pdf",
+          "fetched": "13:24"
+        },
+        {
+          "id": "067b38f3d42f",
+          "datetime": "30-Jul-2026 13:00:56",
+          "subject": "Amalgamation/Merger",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AmitDodani_30072026130044_SEIntimationMICMLMerger.pdf",
+          "fetched": "13:24"
+        },
+        {
+          "id": "71c11001689a",
+          "datetime": "30-Jul-2026 12:58:46",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Pooja_30072026125821_FinaloutcomeMM.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [
@@ -37028,6 +37160,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DABURU_29072026180955_Audiolink.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "d3d0cfdafa2e",
+          "datetime": "30-Jul-2026 12:59:40",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DABURU_30072026125859_Rating.pdf",
+          "fetched": "13:24"
+        },
+        {
+          "id": "ee41ab29baed",
+          "datetime": "30-Jul-2026 12:50:17",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DABURU_30072026124933_seniormanagemet.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [
@@ -37093,6 +37247,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/EXIDEIND_29072026153707_sdEarningscall.pdf",
           "fetched": "15:44"
+        },
+        {
+          "id": "59d34c0cac3f",
+          "datetime": "30-Jul-2026 12:55:51",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/EXIDEIND_30072026125434_sdBOARDOUTCOME.pdf",
+          "fetched": "13:24"
+        },
+        {
+          "id": "ec13683c1217",
+          "datetime": "30-Jul-2026 12:48:10",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/EXIDEIND_30072026124720_sdBOARDOUTCOME.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [
@@ -47726,6 +47902,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_28072026131828_Newspaper_publication_Q1.pdf",
           "fetched": "13:30"
+        },
+        {
+          "id": "2ca3d16c0d74",
+          "datetime": "30-Jul-2026 13:12:23",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_30072026131204_NP.pdf",
+          "fetched": "13:24"
         }
       ],
       "actions": [],
@@ -48740,10 +48927,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-30 12:42",
+  "last_updated": "2026-07-30 13:24",
   "total_symbols": 498,
   "high_impact": 58,
-  "new_this_run": 19,
-  "total_seen_ids": 7258,
-  "guidance_events": 301
+  "new_this_run": 17,
+  "total_seen_ids": 7275,
+  "guidance_events": 302
 }
