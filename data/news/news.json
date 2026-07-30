@@ -845,6 +845,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SJVN_24072026141903_iepf.pdf",
           "fetched": "16:43"
+        },
+        {
+          "id": "2bbbe2a33a25",
+          "datetime": "30-Jul-2026 17:26:56",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SJVN_30072026172635_bg.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -10157,6 +10168,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CRAFTSMAN_30072026121507_SEIntimationnnewspaper.pdf",
           "fetched": "12:42"
+        },
+        {
+          "id": "90fc3d90f931",
+          "datetime": "30-Jul-2026 17:20:21",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CRAFTSMAN_30072026171426_Earningscalloutcome.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [
@@ -19074,6 +19096,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CPIL_30072026154516_SubmissiontoSENewsletterJuly26.pdf",
           "fetched": "16:08"
+        },
+        {
+          "id": "7694791f1c06",
+          "datetime": "30-Jul-2026 17:10:11",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COLPALS_30072026170915_SubmissiontoSE.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -19153,6 +19186,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BDL_22072026102758_BDLSERSCA30JUNE2026.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "a53cb82e76f7",
+          "datetime": "30-Jul-2026 17:13:16",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BDL_30072026171301_BDLSEIEPFnoticeshareholderFD2018-19July2026.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -19275,6 +19319,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ALKEM_30072026150411_Newspaperintimation_Signed.pdf",
           "fetched": "15:30"
+        },
+        {
+          "id": "4c68e495fa87",
+          "datetime": "30-Jul-2026 17:10:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ALKEM_30072026170935_Exchange_intimation_Signed.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -21546,6 +21601,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CARBORUNIV_26062026181127_Intimation-sd.pdf",
           "fetched": "21:04"
+        },
+        {
+          "id": "c20e016e73db",
+          "datetime": "30-Jul-2026 17:11:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CARBORUNIV_30072026170928_intimation_sd.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [
@@ -21557,11 +21623,11 @@
           "fetched": "11:43"
         }
       ],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -23107,14 +23173,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HexacomApril20_30072026105925_Reg30.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "9b56ba875923",
+          "datetime": "30-Jul-2026 17:14:06",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HexacomApril20_30072026170659_BHL-Stx_Earnings_Call_Intimation.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -23771,14 +23848,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Cadilahc_29072026122616_SEIntimationpenaltystamps29072026.pdf",
           "fetched": "12:48"
+        },
+        {
+          "id": "a0c90497fe12",
+          "datetime": "30-Jul-2026 17:18:55",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Cadilahc_30072026171648_InvestorCall30072026.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -26644,6 +26732,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_24072026184359_PVRINOXConferenceCallAudioLink24072026.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "cd6e4c27c267",
+          "datetime": "30-Jul-2026 17:23:32",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PVRINOXLTD_30072026172047_PVRINOXScreenOpeningJabalpur.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -27682,6 +27781,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BILLIONBRAINS_30072026115230_Newspaperintimationbeforesigned.pdf",
           "fetched": "12:42"
+        },
+        {
+          "id": "d789cce5626b",
+          "datetime": "30-Jul-2026 17:25:52",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BILLIONBRAINS_30072026172535_IntimationReg30creditratingCARESigned.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -29461,6 +29571,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_29072026202209_BSENSEReg30dt29072026signed.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "e3f5cdc0bb16",
+          "datetime": "30-Jul-2026 17:21:49",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30072026172140_BSENSEReg30NP30072026.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -29990,6 +30111,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RAINBOWUSER_30072026161529_Intimationoutcome.pdf",
           "fetched": "17:00"
+        },
+        {
+          "id": "da6beb3cf43b",
+          "datetime": "30-Jul-2026 17:03:04",
+          "subject": "Options to purchase securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RAINBOWUSER_30072026170253_Intimationgrant.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [
@@ -33168,6 +33300,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TORNTPHARM_30072026164928_SE.pdf",
           "fetched": "17:00"
+        },
+        {
+          "id": "dda937c17e22",
+          "datetime": "30-Jul-2026 17:02:02",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TORNTPHARM_30072026170150_SMP.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -35892,6 +36035,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_24072026193656_Audiorecording30062026.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "faf4efbdddfa",
+          "datetime": "30-Jul-2026 17:02:16",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKINDIA6_30072026170204_MCLRCHANGE.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -37568,11 +37722,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_28072026175256_Audio_Call.pdf",
           "fetched": "20:27"
+        },
+        {
+          "id": "076b21a95829",
+          "datetime": "30-Jul-2026 17:24:51",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_30072026172400_Reg-30_Acquistion_RPTL.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -37690,6 +37855,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BALKRISIND_30072026120807_Proceedings_30072026_signed_1.pdf",
           "fetched": "12:42"
+        },
+        {
+          "id": "62ddee58f280",
+          "datetime": "30-Jul-2026 17:04:28",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BALKRISIND_30072026170314_VRandscrutinizerreport12345678910.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [
@@ -38302,14 +38478,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NAVINFLUOR_27072026211348_NFILIntimationReg302026signed.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "b455d044928b",
+          "datetime": "30-Jul-2026 17:03:12",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NAVINFLUOR_30072026170139_Binder1.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -40056,6 +40243,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GLAND_29072026113618_Press_Release_29072026_Final.pdf",
           "fetched": "11:49"
+        },
+        {
+          "id": "a88533beef9f",
+          "datetime": "30-Jul-2026 17:27:14",
+          "subject": "Options to purchase securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GLAND_30072026172130_ESOPGrant30072026-SE_intimation.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -40990,14 +41188,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TIMKEN_24072026165125_SE_Intimation24072026.pdf",
           "fetched": "16:57"
+        },
+        {
+          "id": "e885de6386f8",
+          "datetime": "30-Jul-2026 17:05:46",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TIMKEN_30072026170330_SEIntimation_30072026.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -43238,6 +43447,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_30072026165038_SE_Intimation_Proceedings.pdf",
           "fetched": "17:00"
+        },
+        {
+          "id": "d9d8a2f5db66",
+          "datetime": "30-Jul-2026 17:18:32",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAXHEALTH_30072026171717_SE_Intimation.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -44710,6 +44930,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AWL_23072026113551_SE_Earnings_call_inti.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "0a6a108fce75",
+          "datetime": "30-Jul-2026 17:19:05",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AWL_30072026171743_BM_Outcome.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -48915,6 +49146,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ZENSARTECH_29072026201307_BM_Outcome_Final.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "f2df43e730db",
+          "datetime": "30-Jul-2026 17:22:04",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZENSARTECH_30072026172123_AGM_Proceedings.pdf",
+          "fetched": "17:28"
         }
       ],
       "actions": [],
@@ -50170,10 +50412,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-30 17:00",
+  "last_updated": "2026-07-30 17:28",
   "total_symbols": 498,
-  "high_impact": 59,
-  "new_this_run": 30,
-  "total_seen_ids": 7388,
-  "guidance_events": 307
+  "high_impact": 60,
+  "new_this_run": 22,
+  "total_seen_ids": 7410,
+  "guidance_events": 312
 }
