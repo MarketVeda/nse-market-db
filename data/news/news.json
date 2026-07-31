@@ -6533,6 +6533,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PPLTD_30072026165642_InvestorPresentation30072026.pdf",
           "fetched": "17:00"
+        },
+        {
+          "id": "0ae1f5bd0697",
+          "datetime": "31-Jul-2026 16:39:25",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PPLTD_31072026163759_Audiointimation31072026.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -6622,6 +6633,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Datapatterns_30072026202825_IntimationofPressReleaseQ1FY27.pdf",
           "fetched": "12:03"
+        },
+        {
+          "id": "9450e662b285",
+          "datetime": "31-Jul-2026 16:54:18",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Datapatterns_31072026165403_IntimationofNewspaperAdvertisementQ1FY27.pdf",
+          "fetched": "17:09"
+        },
+        {
+          "id": "70c59b92859d",
+          "datetime": "31-Jul-2026 16:42:40",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Datapatterns_31072026164200_IntimationofInvestorCallRecording31July2026.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -7686,6 +7719,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDPETRO1_30072026174710_SE_Newspaper_Publication_Signed.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "e15744a035ae",
+          "datetime": "31-Jul-2026 16:40:58",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDPETRO1_31072026164000_HPCL_Integrated_Annual_Report_Signed.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -13014,6 +13058,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ATGL2024_28072026193110_ATGL_SE_TranscriptEarningsCall__28072026.pdf",
           "fetched": "20:27"
+        },
+        {
+          "id": "268bbc72d6f7",
+          "datetime": "31-Jul-2026 16:52:23",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ATGL2024_31072026165209_ATGL_Intimation_CareEdge_31072026.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -20083,6 +20138,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ANGEL8896_21072026170255_21072026Intimationforearningscalltranscript.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "169c9d6ca8eb",
+          "datetime": "31-Jul-2026 17:04:24",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ANGEL8896_31072026170342_July312026intimationofallotment.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [
@@ -21747,6 +21813,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/FEDERALBNK_31072026122123_Post_Ad_Newspaper_Publication_300726_S.pdf",
           "fetched": "12:51"
+        },
+        {
+          "id": "7ff5a826db4f",
+          "datetime": "31-Jul-2026 17:02:46",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FEDERALBNK_31072026165719_SE_Intimation_Investor_Pre_Meet_05_08_2026_-_GROUP_MEETING_Signed.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -23151,6 +23228,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Supriya_31072026155628_SE_Intimation_CCM_Post.pdf",
           "fetched": "16:37"
+        },
+        {
+          "id": "28de17b17332",
+          "datetime": "31-Jul-2026 17:04:06",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/jessydenny_31072026170349_Press_release-Rating.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [
@@ -35686,6 +35774,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Lupin2_31072026111234_SELetterPressRelease.pdf",
           "fetched": "12:03"
+        },
+        {
+          "id": "81886fbacbeb",
+          "datetime": "31-Jul-2026 17:08:23",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Lupin2_31072026170502_SELetterPressRelease.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [
@@ -38357,6 +38456,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HitachiEnergy_31072026140328_AGMNOTICE.pdf",
           "fetched": "14:55"
+        },
+        {
+          "id": "f9066ee8d7eb",
+          "datetime": "31-Jul-2026 16:39:42",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HitachiEnergy_31072026163910_WEBLINKLETTER.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -42761,14 +42871,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NWML_30072026191139_SE_BMOutcome_30072026.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "588f18ce1d54",
+          "datetime": "31-Jul-2026 17:07:39",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NWML_31072026170630_SE_EarningsCallAudio_Q1FY27_Final.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
-      "news_impact_score": 8,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -45775,6 +45896,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/URBANCO_31072026155021_Urban_Company_Outcome_BM_Financial_Results_Q1_FY27.pdf",
           "fetched": "16:37"
+        },
+        {
+          "id": "51eca663e2b0",
+          "datetime": "31-Jul-2026 16:52:26",
+          "subject": "Monitoring Agency Report",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/URBANCO_31072026165122_Urban_Company_MAR_Q1_FY27.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -47986,6 +48118,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_30072026184500_CCI_30072026.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "012869aae56c",
+          "datetime": "31-Jul-2026 16:58:57",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_31072026165807_STxIntimation_InvestorPresentation_Q1_FY2026_27.pdf",
+          "fetched": "17:09"
+        },
+        {
+          "id": "622728533a1d",
+          "datetime": "31-Jul-2026 16:50:57",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_31072026164958_STxIntimation_PressRelease_Results_Q1_FY2026_27.pdf",
+          "fetched": "17:09"
+        },
+        {
+          "id": "5377e79f25a6",
+          "datetime": "31-Jul-2026 16:39:45",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_31072026163813_QuickResults_Q1_FY2026_27.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -48930,6 +49095,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_31072026162945_Results.pdf",
           "fetched": "16:37"
+        },
+        {
+          "id": "61f70738ac49",
+          "datetime": "31-Jul-2026 16:42:49",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ITC_31072026164238_SE_Media_.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -51899,6 +52075,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_27072026150605_Regulation_30_Fleetx.pdf",
           "fetched": "15:57"
+        },
+        {
+          "id": "36fa9b681d3f",
+          "datetime": "31-Jul-2026 16:43:08",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_31072026164219_InvestorMeetDisclosure_31072026.pdf",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -52519,6 +52706,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDC_30072026223041_NMDC_CSannoucement_30072026.pdf",
           "fetched": "12:03"
+        },
+        {
+          "id": "f7e6e3b88f31",
+          "datetime": "31-Jul-2026 17:03:50",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDC_ROID_93787_KMP_Doc.zip",
+          "fetched": "17:09"
         }
       ],
       "actions": [],
@@ -54147,10 +54345,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-31 16:37",
+  "last_updated": "2026-07-31 17:09",
   "total_symbols": 498,
   "high_impact": 63,
-  "new_this_run": 39,
-  "total_seen_ids": 7752,
-  "guidance_events": 324
+  "new_this_run": 18,
+  "total_seen_ids": 7770,
+  "guidance_events": 325
 }
