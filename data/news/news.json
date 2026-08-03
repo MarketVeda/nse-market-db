@@ -70,6 +70,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IOC_31072026174223_2026_07_31_Financial_Results_Q1_2026_27_S.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "8197d91fe3dc",
+          "datetime": "31-Jul-2026 22:04:03",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IOC_31072026220346_2026_07_31_Investor_Handouts_Q1_26_27_S.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -170,6 +181,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASTERDM2_30072026182022_SEIntCreditRs.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "8300acecf81e",
+          "datetime": "31-Jul-2026 20:39:47",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ASTERDM2_31072026203814_SEfinals.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -177,7 +199,7 @@
       "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -1420,6 +1442,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CIPLA_27072026225403_FinalGAdvairLaunchSEIntimationSigned.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "6d2d4861e833",
+          "datetime": "31-Jul-2026 22:18:05",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CIPLA_31072026220911_SE_Intimation_310726_rc.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -3243,7 +3276,15 @@
           "fetched": "20:25"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "2ec9957641c6",
+          "ex_date": "03-Aug-2026",
+          "action": "Dividend - Rs 12 Per Share",
+          "score": 10,
+          "fetched": "12:17"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -12586,6 +12627,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_29072026150324_Transcript.pdf",
           "fetched": "15:44"
+        },
+        {
+          "id": "bbae1a413e43",
+          "datetime": "31-Jul-2026 21:11:21",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_31072026211109_SE_Disclosure_-_Press_Release_-_Norse.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -12883,6 +12935,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JUBLFOOD_27072026174928_SEIntimationPreAGMNewspaperAdvt.pdf",
           "fetched": "18:12"
+        },
+        {
+          "id": "f9373a109e22",
+          "datetime": "31-Jul-2026 22:56:23",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JUBLFOOD_31072026225613_Stx_letter.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "1c7d27d0b372",
+          "datetime": "31-Jul-2026 22:42:24",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JUBLFOOD_31072026224214_Stc_BRSR.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "67bc0fc5426b",
+          "datetime": "31-Jul-2026 22:37:25",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JUBLFOOD_31072026223644_Stx_AGM.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -14605,6 +14690,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ABFRL_27072026173222_SE_Intimation.pdf",
           "fetched": "18:12"
+        },
+        {
+          "id": "c22a41d861dd",
+          "datetime": "31-Jul-2026 21:09:11",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ABFRL_31072026210845_SE-F.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -15295,6 +15391,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIINFRATEL_29072026141541_SEPostDispatchAd29072026.pdf",
           "fetched": "14:53"
+        },
+        {
+          "id": "532c45a26cef",
+          "datetime": "31-Jul-2026 20:38:12",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIINFRATEL_31072026203617_SEOutcomePB31072026.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "a3be3eb1f124",
+          "datetime": "31-Jul-2026 20:31:19",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIINFRATEL_31072026202923_SEOutcomePB31072026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -17393,9 +17511,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PCBL_31072026180222_Financials__2_.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "5c89148a6771",
+          "datetime": "31-Jul-2026 21:14:39",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PCBL_31072026211425_IntimationofGSTPenalty31072026.pdf",
+          "fetched": "12:17"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "a48f0d010531",
+          "ex_date": "04-Aug-2026",
+          "action": "Interim Dividend - Rs 4.50 Per Share",
+          "score": 10,
+          "fetched": "12:17"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -22143,8 +22280,16 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "84dbe73208d8",
+          "ex_date": "04-Aug-2026",
+          "action": "Dividend - Rs 270 Per Share",
+          "score": 10,
+          "fetched": "12:17"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -23459,6 +23604,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NAUKRI2_31072026201329_IEIL_Intimation_Cessation_of_SMP.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "a11188bd80cd",
+          "datetime": "31-Jul-2026 21:37:25",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NAUKRI2_31072026213707_IEIL_SE_Intimation_Reg_36_Letter.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "43f48d69a922",
+          "datetime": "31-Jul-2026 21:19:12",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NAUKRI2_31072026211807_IEIL_SE_Intimation_Annual_Report_AGM_Notice.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -27450,6 +27617,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_28072026114957_SignedSEIntimationEarningscallinviteQ1FY27.pdf",
           "fetched": "12:43"
+        },
+        {
+          "id": "f923a5154de7",
+          "datetime": "31-Jul-2026 22:11:09",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NEULANDLAB_31072026220542_SignedSEIntimation31072026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -28602,6 +28780,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ZENTEC_28072026232410_NP_Signed.pdf",
           "fetched": "11:49"
+        },
+        {
+          "id": "a9b470191ccd",
+          "datetime": "31-Jul-2026 23:10:29",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZENTEC_31072026231004_Transcripts_Signed.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -32670,6 +32859,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_31072026172430_BSENSEReg30dt310726.pdf",
           "fetched": "17:37"
+        },
+        {
+          "id": "2425e5ff8ff6",
+          "datetime": "31-Jul-2026 22:49:18",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_31072026224902_BSENSEReg30changedt31072026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -32947,6 +33147,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31072026181812_BM_Outcome_31_July_2026_-_2.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "df9f652fe120",
+          "datetime": "31-Jul-2026 22:22:58",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31072026222215_SEIntimationforVRScrutinizerReport.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "8077d7d5ae76",
+          "datetime": "31-Jul-2026 20:34:31",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNSEC_31072026203342_OutcomeofAGM2026withannexures.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -34677,10 +34899,32 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "6a1298abce8d",
+          "datetime": "31-Jul-2026 20:52:11",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_31072026205156_SEIntimationPressreleasesigned.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "4c13b173f685",
+          "datetime": "31-Jul-2026 20:32:45",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_31072026203231_SEDisclosureEGMproceedingsfs.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -35788,14 +36032,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_21072026200858_SEIntimation_GSTPenalty_21072026_sd.pdf",
           "fetched": "20:56"
+        },
+        {
+          "id": "8f3371b5ba5b",
+          "datetime": "31-Jul-2026 22:22:51",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_31072026222241_IntimationOfEarningConferenceCall_June26.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -38132,7 +38387,15 @@
           "fetched": "17:00"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "4601666397c6",
+          "ex_date": "03-Aug-2026",
+          "action": "Interim Dividend - Rs 4 Per Share",
+          "score": 10,
+          "fetched": "12:17"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -38594,6 +38857,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AmitDodani_30072026201320_SE_Intimation_Novavayu.pdf",
           "fetched": "12:03"
+        },
+        {
+          "id": "d77119ffd391",
+          "datetime": "31-Jul-2026 21:40:07",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Deepak_31072026213952_E_voting_results_for_filing_with_Stock_Exchanges.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -40260,6 +40534,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJAJHLDNG_31072026154326_BHILOUTCOMEBSENSE.pdf",
           "fetched": "16:37"
+        },
+        {
+          "id": "92974022f456",
+          "datetime": "31-Jul-2026 23:03:30",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJAJHLDNG_31072026230306_AGM_Proceeding_BHIL_-_FY2026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -40479,6 +40764,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJAJFINSV_31072026180854_BFSInvestorPresentation.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "8e191c4c88c3",
+          "datetime": "31-Jul-2026 22:41:03",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJAJFINSV_31072026223953_InvestorCallOutcome.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -41768,6 +42064,13 @@
           "action": "Dividend - Rs 4 Per Share",
           "score": 10,
           "fetched": "15:54"
+        },
+        {
+          "id": "e6c15163d9b8",
+          "ex_date": "04-Aug-2026",
+          "action": "Interim Dividend - Rs 4 Per Share",
+          "score": 10,
+          "fetched": "12:17"
         }
       ],
       "news_impact_score": 13,
@@ -44375,6 +44678,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GLAND_31072026200549_Notice_of_AGM_FY26_Final.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "7afef2e55629",
+          "datetime": "31-Jul-2026 20:43:39",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GLAND_31072026204331_Letter_to_Shareholders_FY26_Final.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -47017,6 +47331,61 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_29072026180646_SELetterComments.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "6cfc277099bc",
+          "datetime": "31-Jul-2026 22:05:51",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_31072026220518_letterpressrelease.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "885c8714d756",
+          "datetime": "31-Jul-2026 21:16:07",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_31072026211552_SELEtterOutcome.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "bed5464541c2",
+          "datetime": "31-Jul-2026 21:13:59",
+          "subject": "Change in Auditors",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_31072026211341_SELEtterOutcome.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "ac212883a42f",
+          "datetime": "31-Jul-2026 21:07:45",
+          "subject": "Dividend",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_31072026210646_SELEtterOutcome.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "bd21ab545564",
+          "datetime": "31-Jul-2026 21:01:52",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_31072026210050_SELEtterOutcome.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -47405,6 +47774,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NEAPSPW_29062026183141_Intimation_Trading_Window_Closure_July_2026_signed.pdf",
           "fetched": "22:14"
+        },
+        {
+          "id": "6324e2369b9c",
+          "datetime": "31-Jul-2026 21:22:20",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PWL_ROID_93939_KMP_Doc.zip",
+          "fetched": "12:17"
+        },
+        {
+          "id": "97632a33364c",
+          "datetime": "31-Jul-2026 20:45:15",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NEAPSPW_31072026204357_Intimation_signed.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -48853,6 +49244,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Mathew_27072026153856_BSENSE_Transcript_of_Earning_Call.pdf",
           "fetched": "17:23"
+        },
+        {
+          "id": "5d6cbb6d8315",
+          "datetime": "31-Jul-2026 20:54:34",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Mathew_31072026205101_BSENSEIntimationofESGRatingJuly312026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -48999,7 +49401,15 @@
           "fetched": "16:37"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "a08f2878124e",
+          "ex_date": "04-Aug-2026",
+          "action": "Interim Dividend - Rs 1.60 Per Share",
+          "score": 10,
+          "fetched": "12:17"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -49338,6 +49748,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_31072026172441_20260731NewspaperPublicationFR.pdf",
           "fetched": "17:37"
+        },
+        {
+          "id": "41e6db97999c",
+          "datetime": "31-Jul-2026 20:58:13",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_31072026205742_2026_07_31_Reg_30_TAN_Project_Update.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -49482,6 +49903,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTI_31072026163813_QuickResults_Q1_FY2026_27.pdf",
           "fetched": "17:09"
+        },
+        {
+          "id": "dbc8f39bc000",
+          "datetime": "31-Jul-2026 22:34:31",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_31072026222949_STxIntimation_AudioRecording_31July2026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -51979,6 +52411,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AFCONS_30072026201959_Afcons_ProceedingsofAGM.pdf",
           "fetched": "12:03"
+        },
+        {
+          "id": "14c1dd644ed5",
+          "datetime": "31-Jul-2026 20:57:47",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 20,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AFCONS_31072026205625_Afcons_Press_Release31072026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [
@@ -51991,8 +52434,8 @@
         }
       ],
       "board_meetings": [],
-      "news_impact_score": 10,
-      "has_major_announcement": false,
+      "news_impact_score": 20,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "has_guidance_event": false,
       "next_result_date": "",
@@ -52587,6 +53030,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_29072026220338_Intimation_Signed.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "7451d58a64d5",
+          "datetime": "31-Jul-2026 22:55:18",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_31072026225436_Intimation_signed.pdf",
+          "fetched": "12:17"
+        },
+        {
+          "id": "e809c2e44ed5",
+          "datetime": "31-Jul-2026 22:36:27",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_31072026223519_SEIntimation_signed.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -54335,6 +54800,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AHMED_30072026192434_HFCL_STX_Newspaper_IEPF_30072026.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "388073c70474",
+          "datetime": "31-Jul-2026 23:49:36",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AHMED_31072026234901_HFCL_STX_RO_Intimation_31072026.pdf",
+          "fetched": "12:17"
         }
       ],
       "actions": [],
@@ -55248,7 +55724,15 @@
           "fetched": "16:33"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "c951b2e95a35",
+          "ex_date": "04-Aug-2026",
+          "action": "Dividend - Rs 3.50 Per Share",
+          "score": 10,
+          "fetched": "12:17"
+        }
+      ],
       "board_meetings": [],
       "news_impact_score": 13,
       "has_major_announcement": false,
@@ -55819,10 +56303,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-07-31 20:25",
+  "last_updated": "2026-08-03 12:17",
   "total_symbols": 498,
-  "high_impact": 64,
-  "new_this_run": 118,
-  "total_seen_ids": 7904,
-  "guidance_events": 329
+  "high_impact": 65,
+  "new_this_run": 272,
+  "total_seen_ids": 8176,
+  "guidance_events": 331
 }
