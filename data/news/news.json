@@ -36987,7 +36987,15 @@
           "fetched": "12:51"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "1bdcfb01bf7a",
+          "ex_date": "05-Aug-2026",
+          "action": "Interim Dividend - Rs 32 Per Share",
+          "score": 10,
+          "fetched": "11:45"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -51257,7 +51265,15 @@
           "fetched": "16:37"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "f97bf5585766",
+          "ex_date": "05-Aug-2026",
+          "action": "Interim Dividend - Re 0.05 Per Share",
+          "score": 10,
+          "fetched": "11:45"
+        }
+      ],
       "board_meetings": [],
       "news_impact_score": 13,
       "has_major_announcement": false,
@@ -52092,7 +52108,15 @@
           "fetched": "20:08"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "46f69e814d86",
+          "ex_date": "05-Aug-2026",
+          "action": "Dividend - Rs 2 Per Share",
+          "score": 10,
+          "fetched": "11:45"
+        }
+      ],
       "board_meetings": [],
       "news_impact_score": 10,
       "has_major_announcement": false,
@@ -56303,10 +56327,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-03 20:52",
+  "last_updated": "2026-08-04 11:45",
   "total_symbols": 498,
   "high_impact": 65,
-  "new_this_run": 61,
-  "total_seen_ids": 8403,
+  "new_this_run": 55,
+  "total_seen_ids": 8458,
   "guidance_events": 331
 }
