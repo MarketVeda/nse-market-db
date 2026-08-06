@@ -56402,10 +56402,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-06 11:46",
+  "last_updated": "2026-08-06 12:46",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 90,
-  "total_seen_ids": 9110,
+  "new_this_run": 16,
+  "total_seen_ids": 9126,
   "guidance_events": 331
 }
