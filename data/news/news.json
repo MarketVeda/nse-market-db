@@ -35256,8 +35256,16 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
-      "news_impact_score": 8,
+      "actions": [
+        {
+          "id": "8ffdec6b9a86",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 6 Per Share",
+          "score": 10,
+          "fetched": "11:46"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -40211,7 +40219,15 @@
           "fetched": "16:52"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "ad0b5825bdd6",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 10 Per Share",
+          "score": 10,
+          "fetched": "11:46"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -43820,7 +43836,15 @@
           "fetched": "20:08"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "61a8ad5bffb4",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 10 Per Share",
+          "score": 10,
+          "fetched": "11:46"
+        }
+      ],
       "news_impact_score": 15,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -49932,7 +49956,15 @@
           "fetched": "12:17"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "b7fe251e1c5b",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 140 Per Share",
+          "score": 10,
+          "fetched": "11:46"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -50553,9 +50585,17 @@
           "fetched": "18:20"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "02655d15f152",
+          "ex_date": "06-Aug-2026",
+          "action": "Dividend - Rs 4 Per Share/Special Dividend - 8 Per Share",
+          "score": 10,
+          "fetched": "11:46"
+        }
+      ],
       "board_meetings": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "has_guidance_event": false,
@@ -56362,10 +56402,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-05 20:14",
+  "last_updated": "2026-08-06 11:46",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 91,
-  "total_seen_ids": 9020,
+  "new_this_run": 90,
+  "total_seen_ids": 9110,
   "guidance_events": 331
 }
