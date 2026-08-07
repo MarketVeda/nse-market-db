@@ -21443,7 +21443,15 @@
           "fetched": "17:28"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "746d146aa93f",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 10 Per Share",
+          "score": 10,
+          "fetched": "10:54"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -22784,7 +22792,15 @@
           "fetched": "17:37"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "867eb29ad023",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 1.30 Per Share",
+          "score": 10,
+          "fetched": "10:54"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -24756,7 +24772,15 @@
           "fetched": "20:25"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "09cee3022414",
+          "ex_date": "07-Aug-2026",
+          "action": "Special Dividend - Rs 90 Per Share",
+          "score": 10,
+          "fetched": "10:54"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -27127,7 +27151,15 @@
           "fetched": "13:46"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "f64f4e1edf2f",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Re 0.25 Per Share",
+          "score": 10,
+          "fetched": "10:54"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -36228,7 +36260,15 @@
           "fetched": "15:40"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "8996d458555b",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 54 Per Share",
+          "score": 10,
+          "fetched": "10:54"
+        }
+      ],
       "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -39199,7 +39239,15 @@
           "fetched": "18:38"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "8be597fb52aa",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 10 Per Share",
+          "score": 10,
+          "fetched": "10:54"
+        }
+      ],
       "news_impact_score": 15,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -50120,7 +50168,15 @@
           "fetched": "20:09"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "9a8ccc3bc80d",
+          "ex_date": "07-Aug-2026",
+          "action": "Dividend - Rs 5.50 Per Share",
+          "score": 10,
+          "fetched": "10:54"
+        }
+      ],
       "news_impact_score": 20,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -56402,10 +56458,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-06 20:18",
+  "last_updated": "2026-08-07 10:54",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 126,
-  "total_seen_ids": 9381,
+  "new_this_run": 81,
+  "total_seen_ids": 9462,
   "guidance_events": 331
 }
