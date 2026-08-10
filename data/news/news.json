@@ -56506,10 +56506,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-10 16:14",
+  "last_updated": "2026-08-10 16:46",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 16,
-  "total_seen_ids": 10091,
+  "new_this_run": 15,
+  "total_seen_ids": 10106,
   "guidance_events": 331
 }
