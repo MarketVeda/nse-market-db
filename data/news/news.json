@@ -43073,7 +43073,15 @@
           "fetched": "20:25"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "f1f583503050",
+          "ex_date": "12-Aug-2026",
+          "action": "Dividend - Re 0.21 Per Sh",
+          "score": 10,
+          "fetched": "10:24"
+        }
+      ],
       "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -44819,7 +44827,15 @@
           "fetched": "12:17"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "b3dba7973e4d",
+          "ex_date": "11-Aug-2026",
+          "action": "Dividend - Rs 20 Per Sh",
+          "score": 10,
+          "fetched": "10:24"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -46158,7 +46174,15 @@
           "fetched": "11:43"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "39d86a6c2b38",
+          "ex_date": "12-Aug-2026",
+          "action": "Dividend - Rs 3.10 Per Share",
+          "score": 10,
+          "fetched": "10:24"
+        }
+      ],
       "news_impact_score": 15,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -50753,9 +50777,17 @@
           "fetched": "20:08"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "8226c1d7c2f1",
+          "ex_date": "12-Aug-2026",
+          "action": "Interim Dividend - Rs 2.50 Per Share",
+          "score": 10,
+          "fetched": "10:24"
+        }
+      ],
       "board_meetings": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "has_guidance_event": false,
@@ -53382,7 +53414,15 @@
           "fetched": "20:09"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "69e90fdfa8ee",
+          "ex_date": "12-Aug-2026",
+          "action": "Dividend - Rs 5.25 Per Share",
+          "score": 10,
+          "fetched": "10:24"
+        }
+      ],
       "board_meetings": [],
       "news_impact_score": 13,
       "has_major_announcement": false,
@@ -56506,10 +56546,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-10 19:22",
+  "last_updated": "2026-08-11 10:24",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 95,
-  "total_seen_ids": 10201,
+  "new_this_run": 58,
+  "total_seen_ids": 10259,
   "guidance_events": 331
 }
