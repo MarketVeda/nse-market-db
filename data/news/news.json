@@ -56618,10 +56618,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-13 10:52",
+  "last_updated": "2026-08-13 11:27",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 73,
-  "total_seen_ids": 10819,
+  "new_this_run": 5,
+  "total_seen_ids": 10824,
   "guidance_events": 331
 }
