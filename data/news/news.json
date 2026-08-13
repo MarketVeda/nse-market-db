@@ -6723,7 +6723,15 @@
           "fetched": "20:25"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "2ebf8dbdd1bb",
+          "ex_date": "13-Aug-2026",
+          "action": "Dividend - Rs 1.25 Per Share",
+          "score": 10,
+          "fetched": "10:52"
+        }
+      ],
       "news_impact_score": 20,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -8075,7 +8083,15 @@
           "fetched": "20:25"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "09c39a6e170c",
+          "ex_date": "14-Aug-2026",
+          "action": "Dividend - Rs 19.25 Per Share",
+          "score": 10,
+          "fetched": "10:52"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -22646,7 +22662,15 @@
           "fetched": "17:09"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "40ebbd6ecb14",
+          "ex_date": "14-Aug-2026",
+          "action": "Dividend - Rs 1.20 Per Share",
+          "score": 10,
+          "fetched": "10:52"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -48330,8 +48354,16 @@
           "fetched": "18:42"
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "2dc07e2e76ed",
+          "ex_date": "13-Aug-2026",
+          "action": "Dividend - Rs 2.50 Per Share",
+          "score": 10,
+          "fetched": "10:52"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -48652,7 +48684,15 @@
           "fetched": "16:37"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "67b4c2ecbc52",
+          "ex_date": "13-Aug-2026",
+          "action": "Dividend - Rs 2 Per Share",
+          "score": 10,
+          "fetched": "10:52"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -56578,10 +56618,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-12 19:24",
+  "last_updated": "2026-08-13 10:52",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 94,
-  "total_seen_ids": 10746,
+  "new_this_run": 73,
+  "total_seen_ids": 10819,
   "guidance_events": 331
 }
