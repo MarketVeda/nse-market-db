@@ -19383,8 +19383,16 @@
           "fetched": "20:25"
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "b06adaccc7b5",
+          "ex_date": "19-Aug-2026",
+          "action": "Interim Dividend - Rs 6 Per Share",
+          "score": 10,
+          "fetched": "12:51"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -56760,10 +56768,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-18 11:25",
+  "last_updated": "2026-08-18 12:51",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 6,
-  "total_seen_ids": 11672,
+  "new_this_run": 12,
+  "total_seen_ids": 11684,
   "guidance_events": 331
 }
