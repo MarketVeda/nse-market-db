@@ -56816,10 +56816,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-20 09:52",
+  "last_updated": "2026-08-20 10:34",
   "total_symbols": 499,
   "high_impact": 65,
-  "new_this_run": 53,
-  "total_seen_ids": 12000,
+  "new_this_run": 1,
+  "total_seen_ids": 12001,
   "guidance_events": 331
 }
