@@ -3312,6 +3312,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_31072026191828_NSEBSE_31062026.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "20193d0d476e",
+          "datetime": "21-Aug-2026 10:09:04",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026100835_NSEBSE21082026.pdf",
+          "fetched": "10:34"
         }
       ],
       "actions": [
@@ -11611,6 +11622,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CONCORD_31072026181713_Outcome_BM31072026.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "f0002ec2f960",
+          "datetime": "21-Aug-2026 10:19:20",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CONCORD_21082026101908_Intimation_to_Stock_Exchanges.pdf",
+          "fetched": "10:34"
         }
       ],
       "actions": [],
@@ -18826,6 +18848,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/WELCORP_31072026193048_SEWCPGL.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "7b9dc2ef6d30",
+          "datetime": "21-Aug-2026 10:02:59",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/WELCORP_21082026095934_investor_meet_final.pdf",
+          "fetched": "10:34"
         }
       ],
       "actions": [
@@ -24816,6 +24849,17 @@
           "fetched": "13:49",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "e8e7e7f72ac3",
+          "datetime": "21-Aug-2026 10:30:17",
+          "subject": "Spurt in Volume",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ajaymisra_21082026102510_spurt_sd.pdf",
+          "fetched": "10:34"
         }
       ],
       "actions": [],
@@ -27245,6 +27289,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEXAWARETECH_31072026144858_Newspaper_advt.pdf",
           "fetched": "14:55"
+        },
+        {
+          "id": "cfba86d5425f",
+          "datetime": "21-Aug-2026 10:02:59",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEXAWARETECH_21082026100248_Intimation_of_AI_DAY_Presentation.pdf",
+          "fetched": "10:34"
         }
       ],
       "actions": [],
@@ -28061,6 +28116,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JBMA_31072026112433_Newspaperstx.pdf",
           "fetched": "12:03"
+        },
+        {
+          "id": "5fd9cd2e06b5",
+          "datetime": "21-Aug-2026 10:09:01",
+          "subject": "News Verification",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/-",
+          "fetched": "10:34"
         }
       ],
       "actions": [],
@@ -28380,6 +28446,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_30072026162245_Lodha_Q1FY27_Earnings_call_Transcript_30072026.pdf",
           "fetched": "17:00"
+        },
+        {
+          "id": "0f69e9dbaadd",
+          "datetime": "21-Aug-2026 10:25:33",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_21082026102250_AllotmentunderESOP21082026signed.pdf",
+          "fetched": "10:34"
         }
       ],
       "actions": [],
@@ -56920,10 +56997,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-21 09:53",
+  "last_updated": "2026-08-21 10:34",
   "total_symbols": 499,
   "high_impact": 66,
-  "new_this_run": 58,
-  "total_seen_ids": 12185,
+  "new_this_run": 7,
+  "total_seen_ids": 12192,
   "guidance_events": 331
 }
