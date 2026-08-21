@@ -1803,6 +1803,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/UNIONBANK_30072026173035_Outcome_of_Board_Meeting_30072026.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "9a3dbefe0e7c",
+          "datetime": "21-Aug-2026 11:20:04",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/UNIONBANK_21082026111941_21082026_Presentation.pdf",
+          "fetched": "11:28"
         }
       ],
       "actions": [
@@ -3323,6 +3334,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026100835_NSEBSE21082026.pdf",
           "fetched": "10:34"
+        },
+        {
+          "id": "0e3a374e5cfb",
+          "datetime": "21-Aug-2026 10:59:29",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026105810_NSEBSE_21082026.pdf",
+          "fetched": "11:28"
         }
       ],
       "actions": [
@@ -25603,6 +25625,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_24072026213348_SE_intimation.pdf",
           "fetched": "23:30"
+        },
+        {
+          "id": "d9754c160c53",
+          "datetime": "21-Aug-2026 10:40:00",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_21082026103945_Disclosure.pdf",
+          "fetched": "11:28"
         }
       ],
       "actions": [
@@ -43925,6 +43958,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_31072026175633_SE_Intimation_Non_KYC_and_ECS_Rejection_for_Dividend_final.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "4a80573b9665",
+          "datetime": "21-Aug-2026 10:55:37",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_21082026105511_SE_Intimation_Post_Dispatch_Newspaper_publication_Final.pdf",
+          "fetched": "11:28"
         }
       ],
       "actions": [],
@@ -44442,6 +44486,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_27072026115825_Q1_Earnings_Call.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "ff3b69b727cc",
+          "datetime": "21-Aug-2026 11:19:47",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_21082026111934_Intimation.pdf",
+          "fetched": "11:28"
+        },
+        {
+          "id": "41522c69b3e1",
+          "datetime": "21-Aug-2026 11:07:59",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_21082026110726_Post_Ad.pdf",
+          "fetched": "11:28"
         }
       ],
       "actions": [],
@@ -52067,14 +52133,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASHOKLEYLAND_27072026113226_SEINTIMATION_ALJDLIQUIDATIONPDF.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "569b302e3a20",
+          "datetime": "21-Aug-2026 10:36:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ASHOKLEYLAND_21082026103347_SEINTIMATIONTRANSCRIPTPDF.pdf",
+          "fetched": "11:28"
         }
       ],
       "actions": [],
       "board_meetings": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -56997,10 +57074,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-21 10:34",
+  "last_updated": "2026-08-21 11:28",
   "total_symbols": 499,
   "high_impact": 66,
   "new_this_run": 7,
-  "total_seen_ids": 12192,
-  "guidance_events": 331
+  "total_seen_ids": 12199,
+  "guidance_events": 332
 }
