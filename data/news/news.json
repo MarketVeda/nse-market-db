@@ -8783,6 +8783,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HOMEFIRST_28072026203354_HomeFirstNewspaper.pdf",
           "fetched": "11:49"
+        },
+        {
+          "id": "3b3397249c2b",
+          "datetime": "21-Aug-2026 13:03:29",
+          "subject": "Issue of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HOMEFIRST_21082026130307_Outcome_of_committee_meeting.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [],
@@ -11161,6 +11172,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KAJARIACER_21082026112603_SE_Disclosure.pdf",
           "fetched": "12:55"
+        },
+        {
+          "id": "21639182e0f7",
+          "datetime": "21-Aug-2026 13:12:52",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KAJARIACER_21082026130542_BRSR_Disclosure.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [
@@ -14151,6 +14173,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/rkbhagia_29072026210827_SEINTIMATION.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "df9eefc63382",
+          "datetime": "21-Aug-2026 13:29:09",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/rkbhagia_21082026132854_SEINTIMATION.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [],
@@ -18484,6 +18517,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAIL_30072026114401_Image_005.pdf",
           "fetched": "12:42"
+        },
+        {
+          "id": "cd8f8b22b1df",
+          "datetime": "21-Aug-2026 13:07:57",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAIL_21082026130720_BSE_AGMDATE_RECORDDATE.pdf",
+          "fetched": "13:39"
+        },
+        {
+          "id": "26ada751d8fb",
+          "datetime": "21-Aug-2026 13:05:56",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAIL_21082026130528_BSE_AGMDATE_RECORDDATE.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [],
@@ -28393,6 +28448,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NBCC_31072026181001_Senior_Mang_Intimation_to_SE.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "e2f5c3c7446a",
+          "datetime": "21-Aug-2026 13:08:59",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NBCC_21082026130839_Intimation_post.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [
@@ -31073,6 +31139,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_31072026154611_SEIntimation_31072026.pdf",
           "fetched": "16:37"
+        },
+        {
+          "id": "a685d7023c47",
+          "datetime": "21-Aug-2026 13:01:55",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_21082026130136_SEintimation21082026.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [
@@ -45668,6 +45745,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_30072026172900_30July2026Transcriptsigned.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "f8865aab9c20",
+          "datetime": "21-Aug-2026 13:15:24",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_21082026131513_ClosureofBranchSigned.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [],
@@ -48849,6 +48937,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RAMCOCEM_23072026180457_secomm3.pdf",
           "fetched": "18:42"
+        },
+        {
+          "id": "f5116128b1fe",
+          "datetime": "21-Aug-2026 13:16:56",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RAMCOCEM_21082026131640_VOTSCRUTI2026.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [
@@ -53816,6 +53915,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJCP_22072026190910_GCPL_SE_Intimation_GPCL_200_Cr-F1_Signed.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "b8c1278c05cc",
+          "datetime": "21-Aug-2026 13:30:37",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJCP_21082026133012_SE_Investor_Analyst_Meet_Intimation_21082026_Signed.pdf",
+          "fetched": "13:39"
         }
       ],
       "actions": [
@@ -53828,10 +53938,10 @@
         }
       ],
       "board_meetings": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -57184,10 +57294,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-21 12:55",
+  "last_updated": "2026-08-21 13:39",
   "total_symbols": 499,
   "high_impact": 66,
   "new_this_run": 10,
-  "total_seen_ids": 12209,
-  "guidance_events": 332
+  "total_seen_ids": 12219,
+  "guidance_events": 333
 }
