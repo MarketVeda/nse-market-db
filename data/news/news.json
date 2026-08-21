@@ -3925,6 +3925,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POONAWALLA_31072026174228_PFL_Draft_Intimation__Newspaper_Adv_31072026.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "7be6fa6615fa",
+          "datetime": "21-Aug-2026 14:30:18",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUSHARPOONAWALLA_21082026142953_PFLIntimationAllotmentofNCDs21082026.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -17753,6 +17764,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PCBL_31072026211425_IntimationofGSTPenalty31072026.pdf",
           "fetched": "12:17"
+        },
+        {
+          "id": "1caf289d197e",
+          "datetime": "21-Aug-2026 13:57:38",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PCBL_21082026135659_IntimationofAppointmentofSMP.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [
@@ -27001,6 +27023,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Cadilahc_30072026171648_InvestorCall30072026.pdf",
           "fetched": "17:28"
+        },
+        {
+          "id": "f645e06a842b",
+          "datetime": "21-Aug-2026 13:52:33",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Cadilahc_21082026135055_PressRelease21082026.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -31335,6 +31368,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANITRANS_30072026221324_SE_Intimation_-_PD.pdf",
           "fetched": "12:03"
+        },
+        {
+          "id": "449da3e6896c",
+          "datetime": "21-Aug-2026 14:37:37",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANITRANS_21082026143727_AESL_Investor_Meet.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -33022,6 +33066,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_29072026153850_NewspaperAdvtFinal.pdf",
           "fetched": "15:44"
+        },
+        {
+          "id": "9ab37d96b460",
+          "datetime": "21-Aug-2026 14:31:42",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_21082026143040_4AnnualReportSubmission.pdf",
+          "fetched": "14:39"
+        },
+        {
+          "id": "39eaf9c9737d",
+          "datetime": "21-Aug-2026 14:25:27",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_21082026142511_3AgmNoticeSubmission.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -46263,6 +46329,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_21082026123430_ASLVotingresultandScritinizerReportAGM19082026.pdf",
           "fetched": "12:55"
+        },
+        {
+          "id": "e6a0f6318a81",
+          "datetime": "21-Aug-2026 14:24:21",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_21082026142348_ASLInitmationStoreOpening21082026.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -57294,10 +57371,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-21 13:39",
+  "last_updated": "2026-08-21 14:39",
   "total_symbols": 499,
   "high_impact": 66,
-  "new_this_run": 10,
-  "total_seen_ids": 12219,
+  "new_this_run": 7,
+  "total_seen_ids": 12226,
   "guidance_events": 333
 }
