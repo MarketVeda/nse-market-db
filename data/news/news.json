@@ -17029,6 +17029,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Nisha_22072026145020_SEIntimationOrderMPJuly2026signed.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "2496ea71fae4",
+          "datetime": "21-Aug-2026 14:57:03",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Nisha_21082026145606_SEintimationESOPAllotmentAugust2026.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [
@@ -20375,6 +20386,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/APARINDSSM_31072026154353_SubmissionofConcallTranscript.pdf",
           "fetched": "16:37"
+        },
+        {
+          "id": "479a085354bf",
+          "datetime": "21-Aug-2026 14:41:30",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/APARINDSSM_21082026144101_PublishedPredispatchAGMNoticeAparIndustriesLimited.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [],
@@ -43572,6 +43594,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IEX_31072026182853_Signed_IEX_Intimation_Analyst_meet_Transcript.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "189bfe224a71",
+          "datetime": "21-Aug-2026 14:55:00",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IEX_21082026145423_Signed_IEX_Analyst_Meet_21_08_2026.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [],
@@ -46858,6 +46891,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_30072026003537_SEIntimation_Credit_rating_signed.pdf",
           "fetched": "11:43"
+        },
+        {
+          "id": "c72f561ebb90",
+          "datetime": "21-Aug-2026 15:15:41",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_21082026151524_SE_Disclosure_signed.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [
@@ -49776,6 +49820,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJPROP_21072026193040_SEIntimationICRALimited.pdf",
           "fetched": "20:56"
+        },
+        {
+          "id": "6227c0308c2a",
+          "datetime": "21-Aug-2026 15:14:31",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJPROP_21082026151408_SEIntimationNP21082026.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [
@@ -50474,6 +50529,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/APTUS_31072026174333_SE_Intimation_ESOP_sd.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "d5162e37b436",
+          "datetime": "21-Aug-2026 15:07:59",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/APTUS_21082026150743_Aptus_Investor_Meeting_Intimation_August_24_2026_sd.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [],
@@ -52442,14 +52508,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TRAVELFOOD_26062026154712_TFSWindowClosure26062026.pdf",
           "fetched": "17:55"
+        },
+        {
+          "id": "c6c71419a178",
+          "datetime": "21-Aug-2026 15:11:00",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TRAVELFOOD_21082026151049_TFSLEarningCallTranscript21082026N.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [],
       "board_meetings": [],
-      "news_impact_score": 5,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -54067,6 +54144,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_31072026223519_SEIntimation_signed.pdf",
           "fetched": "12:17"
+        },
+        {
+          "id": "d6347f93bfca",
+          "datetime": "21-Aug-2026 15:10:39",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_21082026151006_Intimation_Signed.pdf",
+          "fetched": "15:32"
         }
       ],
       "actions": [],
@@ -57371,10 +57459,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-21 14:39",
+  "last_updated": "2026-08-21 15:32",
   "total_symbols": 499,
   "high_impact": 66,
-  "new_this_run": 7,
-  "total_seen_ids": 12226,
-  "guidance_events": 333
+  "new_this_run": 8,
+  "total_seen_ids": 12234,
+  "guidance_events": 334
 }
