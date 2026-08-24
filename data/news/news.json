@@ -22980,6 +22980,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AARTIIND_31072026180424_AARTIIND_RMC.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "7a3edd73da91",
+          "datetime": "24-Aug-2026 16:12:03",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AARTIIND_24082026161023_August_24.pdf",
+          "fetched": "16:17"
         }
       ],
       "actions": [],
@@ -28166,6 +28177,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACOMM_21082026125226_18496.pdf",
           "fetched": "12:55"
+        },
+        {
+          "id": "c6c06253629f",
+          "datetime": "24-Aug-2026 15:42:17",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TATACOMM_24082026154205_18499.pdf",
+          "fetched": "16:17"
         }
       ],
       "actions": [],
@@ -29215,6 +29237,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_30072026194933_Intimation.pdf",
           "fetched": "20:09"
+        },
+        {
+          "id": "2cc20ffa77d6",
+          "datetime": "24-Aug-2026 16:08:17",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_24082026160804_Disclosure_Newspaper.pdf",
+          "fetched": "16:17"
         }
       ],
       "actions": [],
@@ -30197,6 +30230,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CANHLIFE_ROID_96870_KMP_Doc.zip",
           "fetched": "18:54"
+        },
+        {
+          "id": "a683900d409a",
+          "datetime": "24-Aug-2026 16:16:55",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CANARAHSBCLIFE_24082026161605_AGM_Voting_results.pdf",
+          "fetched": "16:17"
         }
       ],
       "actions": [],
@@ -38111,6 +38155,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ERIS_30072026145739_intimationsigned.pdf",
           "fetched": "15:30"
+        },
+        {
+          "id": "19a0aeab960e",
+          "datetime": "24-Aug-2026 15:53:29",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ERIS_24082026155310_Intimationsigned.pdf",
+          "fetched": "16:17"
         }
       ],
       "actions": [],
@@ -48218,6 +48273,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_21082026175317_IHLStockExchangeDisclosureFinalSigned.pdf",
           "fetched": "18:54"
+        },
+        {
+          "id": "15f427af592a",
+          "datetime": "24-Aug-2026 16:07:35",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_24082026160723_PR24082026Signed.pdf",
+          "fetched": "16:17"
         }
       ],
       "actions": [],
@@ -60443,10 +60509,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-24 15:42",
+  "last_updated": "2026-08-24 16:17",
   "total_symbols": 499,
   "high_impact": 70,
-  "new_this_run": 8,
-  "total_seen_ids": 12507,
+  "new_this_run": 6,
+  "total_seen_ids": 12513,
   "guidance_events": 342
 }
