@@ -33861,6 +33861,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRSE_30072026153243_Corp_Ann__Receipt_of_Notification_of_Award_ONGC.pdf",
           "fetched": "16:08"
+        },
+        {
+          "id": "3961f8d47e26",
+          "datetime": "24-Aug-2026 10:23:21",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRSE_24082026102244_Corp_Ann__Press_Release_regarding_3_new_facilities.pdf",
+          "fetched": "10:41"
         }
       ],
       "actions": [],
@@ -37231,6 +37242,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_28072026104803_IM_Intimation_sd.pdf",
           "fetched": "11:44"
+        },
+        {
+          "id": "64814e3f3f5c",
+          "datetime": "24-Aug-2026 10:38:18",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_24082026103611_PFL_Outcome_BM_24082026_sd.pdf",
+          "fetched": "10:41"
         }
       ],
       "actions": [],
@@ -50097,6 +50119,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/bakhtawar_irani_tajhotels_com_24082026085942_Reg_30_IHCL_FINAL.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "89da2562bcc0",
+          "datetime": "24-Aug-2026 10:12:35",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bakhtawar_irani_tajhotels_com_24082026101156_Investorpresentation.pdf",
+          "fetched": "10:41"
         }
       ],
       "actions": [],
@@ -59915,10 +59948,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-24 09:59",
+  "last_updated": "2026-08-24 10:41",
   "total_symbols": 499,
   "high_impact": 69,
-  "new_this_run": 132,
-  "total_seen_ids": 12459,
+  "new_this_run": 3,
+  "total_seen_ids": 12462,
   "guidance_events": 341
 }
