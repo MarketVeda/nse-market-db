@@ -3474,6 +3474,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_21082026221317_BSENSE21082026.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "d80dd1eec89f",
+          "datetime": "24-Aug-2026 13:31:53",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24082026132739_BSENSE.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [
@@ -5636,6 +5647,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_25072026125846_NSTLVR_25072026.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "4cb8960d8518",
+          "datetime": "24-Aug-2026 13:49:02",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_24082026134727_coveringsign.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [],
@@ -23733,6 +23755,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAREGAMA_29072026172558_SignedIntimationFinal.pdf",
           "fetched": "17:40"
+        },
+        {
+          "id": "cfa7084b3207",
+          "datetime": "24-Aug-2026 13:29:19",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAREGAMA_24082026132905_Intimation_BRSR_SIGNED.pdf",
+          "fetched": "13:52"
+        },
+        {
+          "id": "a65197dc02f4",
+          "datetime": "24-Aug-2026 13:27:05",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAREGAMA_24082026132640_Inland_letter_intimation_SIGNED.pdf",
+          "fetched": "13:52"
+        },
+        {
+          "id": "217a7c93984d",
+          "datetime": "24-Aug-2026 13:19:58",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAREGAMA_24082026131947_Intimation_Annual_Report_SIGNED.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [],
@@ -26082,6 +26137,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ajaymisra_21082026102510_spurt_sd.pdf",
           "fetched": "10:34"
+        },
+        {
+          "id": "3ea5f2fcabb4",
+          "datetime": "24-Aug-2026 13:12:12",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ajaymisra_24082026131157_NOTICEFILINGF.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [],
@@ -34015,11 +34081,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRSE_24082026102244_Corp_Ann__Press_Release_regarding_3_new_facilities.pdf",
           "fetched": "10:41"
+        },
+        {
+          "id": "bbf3fd8a08f5",
+          "datetime": "24-Aug-2026 13:19:53",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 20,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRSE_24082026131738_Corp_Ann__Receipt_of_Order_from_WBTDCL.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
-      "has_major_announcement": false,
+      "news_impact_score": 20,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": false,
@@ -34597,6 +34674,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAILIFE_30072026130824_LODR_-_Reg_30_Earnigs_Call_Intimation.pdf",
           "fetched": "13:24"
+        },
+        {
+          "id": "0a8656512f22",
+          "datetime": "24-Aug-2026 13:18:51",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAILIFE_24082026131840_Stx_Predispatch_AGM_Intimation_Signed.pdf",
+          "fetched": "13:52"
+        },
+        {
+          "id": "00635cfbc21e",
+          "datetime": "24-Aug-2026 13:16:35",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAILIFE_24082026131610_Stx_Initial_AGM_Intimation_Signed.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [],
@@ -42647,6 +42746,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CUB_29072026115847_CUBPaperAdQ1FY2026.pdf",
           "fetched": "12:48"
+        },
+        {
+          "id": "d46bcb4e0e91",
+          "datetime": "24-Aug-2026 13:35:10",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CUB_24082026133358_CUB_New_Branch_Opening_1001.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [
@@ -58373,11 +58483,33 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDC_ROID_93787_KMP_Doc.zip",
           "fetched": "17:09"
+        },
+        {
+          "id": "3ea3322f51dd",
+          "datetime": "24-Aug-2026 13:21:39",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDC_24082026131904_NMDC68thAGMandRecorddate1.pdf",
+          "fetched": "13:52"
+        },
+        {
+          "id": "275955cebc6b",
+          "datetime": "24-Aug-2026 13:12:48",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NMDC_24082026131158_NMDC68thAGMandRecorddate1.pdf",
+          "fetched": "13:52"
         }
       ],
       "actions": [],
       "board_meetings": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "has_guidance_event": false,
@@ -60146,10 +60278,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-24 13:10",
+  "last_updated": "2026-08-24 13:52",
   "total_symbols": 499,
-  "high_impact": 69,
-  "new_this_run": 13,
-  "total_seen_ids": 12480,
+  "high_impact": 70,
+  "new_this_run": 12,
+  "total_seen_ids": 12492,
   "guidance_events": 341
 }
