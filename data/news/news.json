@@ -15137,6 +15137,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SBICPSL_21082026182934_SEFilingInvestorMeet21August.pdf",
           "fetched": "18:54"
+        },
+        {
+          "id": "9030f63900e8",
+          "datetime": "24-Aug-2026 14:51:24",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SBICARDS_24082026144719_SEFilingESOPAllotmentAugust.pdf",
+          "fetched": "14:54"
         }
       ],
       "actions": [],
@@ -18980,6 +18991,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SYNGENE2_31072026141754_SEIntimationVRSRAGM_Signed.pdf",
           "fetched": "14:55"
+        },
+        {
+          "id": "4657948e3113",
+          "datetime": "24-Aug-2026 14:41:14",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SYNGENE2_24082026144009_Investorcallintimation28082026.pdf",
+          "fetched": "14:54"
         }
       ],
       "actions": [
@@ -26148,6 +26170,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ajaymisra_24082026131157_NOTICEFILINGF.pdf",
           "fetched": "13:52"
+        },
+        {
+          "id": "8a4c5452814f",
+          "datetime": "24-Aug-2026 14:51:38",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ajaymisra_24082026145110_npfilingSDF.pdf",
+          "fetched": "14:54"
         }
       ],
       "actions": [],
@@ -46696,6 +46729,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRASIM_21082026191923_SEIntimationAcquisition.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "1cc3d9ecf13c",
+          "datetime": "24-Aug-2026 14:41:26",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRASIM_24082026144105_SEIntimationNewspaperAdv.pdf",
+          "fetched": "14:54"
         }
       ],
       "actions": [
@@ -50625,6 +50669,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_31072026210050_SELEtterOutcome.pdf",
           "fetched": "12:17"
+        },
+        {
+          "id": "a9a6d55753c2",
+          "datetime": "24-Aug-2026 14:27:31",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_24082026142716_SEletter.pdf",
+          "fetched": "14:54"
         }
       ],
       "actions": [
@@ -57790,6 +57845,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_31072026164219_InvestorMeetDisclosure_31072026.pdf",
           "fetched": "17:09"
+        },
+        {
+          "id": "1c1480456bbf",
+          "datetime": "24-Aug-2026 14:49:42",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_24082026144925_InvestorMeetDisclosure_24082026.pdf",
+          "fetched": "14:54"
         }
       ],
       "actions": [],
@@ -58061,6 +58127,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NSLNISP_21082026120306_NSL_CreditRating_21082026.pdf",
           "fetched": "12:55"
+        },
+        {
+          "id": "7fda49da20ed",
+          "datetime": "24-Aug-2026 14:08:10",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NSLNISP_24082026140709_SE11th_AGM__NSL.pdf",
+          "fetched": "14:54"
         }
       ],
       "actions": [],
@@ -60278,10 +60355,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-24 13:52",
+  "last_updated": "2026-08-24 14:54",
   "total_symbols": 499,
   "high_impact": 70,
-  "new_this_run": 12,
-  "total_seen_ids": 12492,
+  "new_this_run": 7,
+  "total_seen_ids": 12499,
   "guidance_events": 341
 }
