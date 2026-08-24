@@ -19657,6 +19657,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_23072026135121_SE_BM_Intimation_Signed.pdf",
           "fetched": "16:52"
+        },
+        {
+          "id": "fc120d5172ab",
+          "datetime": "24-Aug-2026 11:14:23",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_24082026111340_Intimation_under_Regulation_30_Signed.pdf",
+          "fetched": "11:33"
         }
       ],
       "actions": [
@@ -26770,6 +26781,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_21082026103945_Disclosure.pdf",
           "fetched": "11:28"
+        },
+        {
+          "id": "e84db6d2292c",
+          "datetime": "24-Aug-2026 10:43:35",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_24082026104317_SE_Intimation_August_31_2026.pdf",
+          "fetched": "11:33"
         }
       ],
       "actions": [
@@ -37253,6 +37275,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_24082026103611_PFL_Outcome_BM_24082026_sd.pdf",
           "fetched": "10:41"
+        },
+        {
+          "id": "6a04b35ddcd5",
+          "datetime": "24-Aug-2026 11:21:40",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_24082026111628_PFL_SE_intimation_Financials_s.pdf",
+          "fetched": "11:33"
+        },
+        {
+          "id": "9655924b20ef",
+          "datetime": "24-Aug-2026 10:42:31",
+          "subject": "Preferential issue",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_24082026104005_PFL_Outcome_BM_24082026_sd.pdf",
+          "fetched": "11:33"
         }
       ],
       "actions": [],
@@ -48880,6 +48924,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_21082026151524_SE_Disclosure_signed.pdf",
           "fetched": "15:32"
+        },
+        {
+          "id": "cb462ea34864",
+          "datetime": "24-Aug-2026 10:53:49",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_24082026105235_Project_Gamut_BM_Outcome_24082026_2_signed.pdf",
+          "fetched": "11:33"
         }
       ],
       "actions": [
@@ -59948,10 +60003,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-24 10:41",
+  "last_updated": "2026-08-24 11:33",
   "total_symbols": 499,
   "high_impact": 69,
-  "new_this_run": 3,
-  "total_seen_ids": 12462,
+  "new_this_run": 5,
+  "total_seen_ids": 12467,
   "guidance_events": 341
 }
