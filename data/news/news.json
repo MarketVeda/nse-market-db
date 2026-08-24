@@ -3485,6 +3485,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_24082026132739_BSENSE.pdf",
           "fetched": "13:52"
+        },
+        {
+          "id": "dbe4fef30cf5",
+          "datetime": "24-Aug-2026 14:57:38",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_24082026145442_LETTERTOSTOCKEXCHNAGE.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [
@@ -15670,6 +15681,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Cslogin_29072026181507_SEIntimation29072026.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "aa885af5efd8",
+          "datetime": "24-Aug-2026 15:38:48",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Cslogin_24082026153811_SEIntimation24082026.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [
@@ -17653,6 +17675,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Nisha_21082026145606_SEintimationESOPAllotmentAugust2026.pdf",
           "fetched": "15:32"
+        },
+        {
+          "id": "3686fb0d742a",
+          "datetime": "24-Aug-2026 14:55:42",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Nisha_24082026145300_SEIntimation240826.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [
@@ -17664,11 +17697,11 @@
           "fetched": "16:51"
         }
       ],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -29679,6 +29712,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JBMA_24082026123541_prenewspaperstx.pdf",
           "fetched": "13:10"
+        },
+        {
+          "id": "c37bbb6ac58a",
+          "datetime": "24-Aug-2026 15:32:42",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JBMA_24082026153231_clarificationstx.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [],
@@ -35320,6 +35364,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/FORCEMOTORS_30072026141846_Intimation_Newspaper.pdf",
           "fetched": "14:45"
+        },
+        {
+          "id": "47243c50e9b1",
+          "datetime": "24-Aug-2026 15:37:38",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FORCEMOTORS_24082026153707_Intimation_Reg_30_Newspaper_Publication.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [],
@@ -36133,6 +36188,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNILBCML_21082026194621_BCML_INTEGRATED_ANNUAL_REPORT_2526.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "a5dfa361bdb4",
+          "datetime": "24-Aug-2026 15:23:32",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUNILBCML_24082026152311_BCML_Allotment_240826.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [],
@@ -37304,6 +37370,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_22082026002111_SEDisclosureoutcomefinalsigned.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "aaf60fceb09f",
+          "datetime": "24-Aug-2026 15:37:13",
+          "subject": "Record Date",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_24082026153620_SEDisclosurRecorddatefinalsigned.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [],
@@ -51528,6 +51605,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RAMCOCEM_21082026131640_VOTSCRUTI2026.pdf",
           "fetched": "13:39"
+        },
+        {
+          "id": "66f21c621ebf",
+          "datetime": "24-Aug-2026 15:10:40",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RAMCOCEM_24082026151029_sesmblt.pdf",
+          "fetched": "15:42"
         }
       ],
       "actions": [
@@ -60355,10 +60443,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-24 14:54",
+  "last_updated": "2026-08-24 15:42",
   "total_symbols": 499,
   "high_impact": 70,
-  "new_this_run": 7,
-  "total_seen_ids": 12499,
-  "guidance_events": 341
+  "new_this_run": 8,
+  "total_seen_ids": 12507,
+  "guidance_events": 342
 }
