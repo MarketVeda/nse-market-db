@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-17",
+  "date": "2026-08-24",
   "tokens": {
     "NIFTY 50": {
       "token": 256265,
@@ -4153,10 +4153,6 @@
       "token": 913153,
       "tradingsym": "683MH32-SG"
     },
-    "UCAL": {
-      "token": 913921,
-      "tradingsym": "UCAL"
-    },
     "684HR32-SG": {
       "token": 914177,
       "tradingsym": "684HR32-SG"
@@ -5461,9 +5457,9 @@
       "token": 1380865,
       "tradingsym": "MOL"
     },
-    "NGIL-BE": {
-      "token": 1383425,
-      "tradingsym": "NGIL-BE"
+    "NGIL": {
+      "token": 1382657,
+      "tradingsym": "NGIL"
     },
     "CARTRADE": {
       "token": 1384193,
@@ -5625,9 +5621,9 @@
       "token": 1419521,
       "tradingsym": "706KL39-SG"
     },
-    "ABMINTLLTD": {
-      "token": 1420545,
-      "tradingsym": "ABMINTLLTD"
+    "ABMINTLLTD-BE": {
+      "token": 1421057,
+      "tradingsym": "ABMINTLLTD-BE"
     },
     "685BR30-SG": {
       "token": 1422337,
@@ -7189,9 +7185,9 @@
       "token": 1933569,
       "tradingsym": "NRBBEARING"
     },
-    "UNITEDPOLY-BE": {
-      "token": 1936385,
-      "tradingsym": "UNITEDPOLY-BE"
+    "UNITEDPOLY": {
+      "token": 1935361,
+      "tradingsym": "UNITEDPOLY"
     },
     "CMSINFO": {
       "token": 1946369,
@@ -7296,6 +7292,10 @@
     "722AP42-SG": {
       "token": 1975041,
       "tradingsym": "722AP42-SG"
+    },
+    "UCAL-BE": {
+      "token": 1981185,
+      "tradingsym": "UCAL-BE"
     },
     "ABAN-BE": {
       "token": 1986305,
@@ -7445,9 +7445,9 @@
       "token": 2017281,
       "tradingsym": "AUTOBEES"
     },
-    "MHLXMIRU": {
-      "token": 2018817,
-      "tradingsym": "MHLXMIRU"
+    "MHLXMIRU-BE": {
+      "token": 2019585,
+      "tradingsym": "MHLXMIRU-BE"
     },
     "69PY28-SG": {
       "token": 2020609,
@@ -8413,9 +8413,9 @@
       "token": 2307585,
       "tradingsym": "ANUP"
     },
-    "VCL": {
-      "token": 2309121,
-      "tradingsym": "VCL"
+    "VCL-BE": {
+      "token": 2310913,
+      "tradingsym": "VCL-BE"
     },
     "UFO": {
       "token": 2313985,
@@ -10229,6 +10229,10 @@
       "token": 2760705,
       "tradingsym": "774TS46-SG"
     },
+    "NOIDATOLL": {
+      "token": 2761217,
+      "tradingsym": "NOIDATOLL"
+    },
     "NUCLEUS": {
       "token": 2762497,
       "tradingsym": "NUCLEUS"
@@ -10620,10 +10624,6 @@
     "SHK": {
       "token": 2870273,
       "tradingsym": "SHK"
-    },
-    "NOIDATOLL-BE": {
-      "token": 2870785,
-      "tradingsym": "NOIDATOLL-BE"
     },
     "MAKS-SM": {
       "token": 2871809,
@@ -11681,9 +11681,9 @@
       "token": 3081473,
       "tradingsym": "BASML-BE"
     },
-    "SCPL": {
-      "token": 3090433,
-      "tradingsym": "SCPL"
+    "SCPL-BE": {
+      "token": 3092737,
+      "tradingsym": "SCPL-BE"
     },
     "KAYNES": {
       "token": 3095553,
@@ -13121,6 +13121,10 @@
       "token": 3610369,
       "tradingsym": "76JK35-SG"
     },
+    "AUTOIND": {
+      "token": 3611137,
+      "tradingsym": "AUTOIND"
+    },
     "76GJ35-SG": {
       "token": 3611393,
       "tradingsym": "76GJ35-SG"
@@ -13128,10 +13132,6 @@
     "764UP36-SG": {
       "token": 3611905,
       "tradingsym": "764UP36-SG"
-    },
-    "AUTOIND-BE": {
-      "token": 3612161,
-      "tradingsym": "AUTOIND-BE"
     },
     "NETWORK18": {
       "token": 3612417,
@@ -13213,13 +13213,13 @@
       "token": 3627009,
       "tradingsym": "759PY41-SG"
     },
+    "SHERA-SM": {
+      "token": 3628033,
+      "tradingsym": "SHERA-SM"
+    },
     "IZMO": {
       "token": 3628545,
       "tradingsym": "IZMO"
-    },
-    "SHERA-ST": {
-      "token": 3629057,
-      "tradingsym": "SHERA-ST"
     },
     "NSLNISP": {
       "token": 3630081,
@@ -13789,10 +13789,6 @@
       "token": 3736321,
       "tradingsym": "VELS-ST"
     },
-    "ALPHAGEO": {
-      "token": 3736833,
-      "tradingsym": "ALPHAGEO"
-    },
     "SGBMAR31IV-GB": {
       "token": 3737089,
       "tradingsym": "SGBMAR31IV-GB"
@@ -13800,6 +13796,10 @@
     "GSLSU": {
       "token": 3737345,
       "tradingsym": "GSLSU"
+    },
+    "ALPHAGEO-BE": {
+      "token": 3737857,
+      "tradingsym": "ALPHAGEO-BE"
     },
     "WEBELSOLAR": {
       "token": 3738113,
@@ -13817,9 +13817,9 @@
       "token": 3742209,
       "tradingsym": "CHEMBOND"
     },
-    "HILTON-BE": {
-      "token": 3745537,
-      "tradingsym": "HILTON-BE"
+    "HILTON": {
+      "token": 3744513,
+      "tradingsym": "HILTON"
     },
     "766HR29-SG": {
       "token": 3746561,
@@ -14253,6 +14253,10 @@
       "token": 3838209,
       "tradingsym": "SOTAC-SM"
     },
+    "ASCOM-SM": {
+      "token": 3840257,
+      "tradingsym": "ASCOM-SM"
+    },
     "SUPREMEINF": {
       "token": 3840513,
       "tradingsym": "SUPREMEINF"
@@ -14280,10 +14284,6 @@
     "758NL33-SG": {
       "token": 3845377,
       "tradingsym": "758NL33-SG"
-    },
-    "ASCOM-ST": {
-      "token": 3847681,
-      "tradingsym": "ASCOM-ST"
     },
     "PSUBNKBEES": {
       "token": 3848193,
@@ -15397,10 +15397,6 @@
       "token": 4350721,
       "tradingsym": "739RJ48-SG"
     },
-    "TPHQ": {
-      "token": 4350977,
-      "tradingsym": "TPHQ"
-    },
     "739TS51-SG": {
       "token": 4351233,
       "tradingsym": "739TS51-SG"
@@ -15408,6 +15404,10 @@
     "739KL52-SG": {
       "token": 4351489,
       "tradingsym": "739KL52-SG"
+    },
+    "TPHQ-BE": {
+      "token": 4352001,
+      "tradingsym": "TPHQ-BE"
     },
     "739TN53-SG": {
       "token": 4352769,
@@ -18657,13 +18657,13 @@
       "token": 5224705,
       "tradingsym": "CBAZAAR-ST"
     },
-    "MARINETRAN-SM": {
-      "token": 5224961,
-      "tradingsym": "MARINETRAN-SM"
-    },
     "IOLCP": {
       "token": 5225729,
       "tradingsym": "IOLCP"
+    },
+    "MARINETRAN-ST": {
+      "token": 5225985,
+      "tradingsym": "MARINETRAN-ST"
     },
     "SHEETAL-SM": {
       "token": 5226241,
@@ -19397,13 +19397,13 @@
       "token": 5380097,
       "tradingsym": "925SCL28B-YC"
     },
+    "FMNL": {
+      "token": 5380353,
+      "tradingsym": "FMNL"
+    },
     "971SCL28B-YD": {
       "token": 5380865,
       "tradingsym": "971SCL28B-YD"
-    },
-    "FMNL-BE": {
-      "token": 5381377,
-      "tradingsym": "FMNL-BE"
     },
     "980SCL33D-YG": {
       "token": 5382145,
@@ -24381,9 +24381,9 @@
       "token": 6232833,
       "tradingsym": "864CIFL29A-N0"
     },
-    "NEPHROCARE-ST": {
-      "token": 6234369,
-      "tradingsym": "NEPHROCARE-ST"
+    "NEPHROCARE-SM": {
+      "token": 6233601,
+      "tradingsym": "NEPHROCARE-SM"
     },
     "743NBFID34-N0": {
       "token": 6237185,
@@ -24884,10 +24884,6 @@
     "AKUMS": {
       "token": 6327041,
       "tradingsym": "AKUMS"
-    },
-    "798SHFL26-N0": {
-      "token": 6328321,
-      "tradingsym": "798SHFL26-N0"
     },
     "830SICC27-N0": {
       "token": 6329089,
@@ -26753,9 +26749,9 @@
       "token": 6914305,
       "tradingsym": "715AP47-SG"
     },
-    "ABINFRA": {
-      "token": 6917121,
-      "tradingsym": "ABINFRA"
+    "ABINFRA-BE": {
+      "token": 6916097,
+      "tradingsym": "ABINFRA-BE"
     },
     "890BTL34-N0": {
       "token": 6917377,
@@ -30453,9 +30449,9 @@
       "token": 192409089,
       "tradingsym": "812LTFL29-N0"
     },
-    "QMSMEDI": {
-      "token": 192411393,
-      "tradingsym": "QMSMEDI"
+    "QMSMEDI-BE": {
+      "token": 192423169,
+      "tradingsym": "QMSMEDI-BE"
     },
     "766NBFID36-N0": {
       "token": 192427265,
@@ -32389,9 +32385,9 @@
       "token": 193986817,
       "tradingsym": "749RCFL28-N0"
     },
-    "SUNTECH-ST": {
-      "token": 193988097,
-      "tradingsym": "SUNTECH-ST"
+    "SUNTECH-SM": {
+      "token": 193987329,
+      "tradingsym": "SUNTECH-SM"
     },
     "SAMBHV": {
       "token": 193988353,
@@ -32997,10 +32993,6 @@
       "token": 194153217,
       "tradingsym": "733TS60-SG"
     },
-    "SSFLPP-E1": {
-      "token": 194155521,
-      "tradingsym": "SSFLPP-E1"
-    },
     "MEDISTEP-SM": {
       "token": 194156289,
       "tradingsym": "MEDISTEP-SM"
@@ -33124,10 +33116,6 @@
     "749KL56-SG": {
       "token": 194198017,
       "tradingsym": "749KL56-SG"
-    },
-    "364D200826-TB": {
-      "token": 194198785,
-      "tradingsym": "364D200826-TB"
     },
     "ETL-SM": {
       "token": 194199297,
@@ -35349,9 +35337,9 @@
       "token": 194588673,
       "tradingsym": "SUBAHOTELS-SM"
     },
-    "GLOTTIS-BE": {
-      "token": 194590209,
-      "tradingsym": "GLOTTIS-BE"
+    "GLOTTIS": {
+      "token": 194589697,
+      "tradingsym": "GLOTTIS"
     },
     "VIJAYPD-SM": {
       "token": 194590977,
@@ -35416,10 +35404,6 @@
     "769BR54-SG": {
       "token": 194601729,
       "tradingsym": "769BR54-SG"
-    },
-    "182D270826-TB": {
-      "token": 194602241,
-      "tradingsym": "182D270826-TB"
     },
     "364D250227-TB": {
       "token": 194602497,
@@ -37185,10 +37169,6 @@
       "token": 194829313,
       "tradingsym": "774WB48-SG"
     },
-    "182D210826-TB": {
-      "token": 194829825,
-      "tradingsym": "182D210826-TB"
-    },
     "364D190227-TB": {
       "token": 194830081,
       "tradingsym": "364D190227-TB"
@@ -37300,10 +37280,6 @@
     "77SHFL36-N0": {
       "token": 194851585,
       "tradingsym": "77SHFL36-N0"
-    },
-    "TVSMNCRPS-P1": {
-      "token": 194852097,
-      "tradingsym": "TVSMNCRPS-P1"
     },
     "VITAL-BE": {
       "token": 194854401,
@@ -38237,9 +38213,9 @@
       "token": 195011329,
       "tradingsym": "807TR43-SG"
     },
-    "VIVIDEL-ST": {
-      "token": 195013377,
-      "tradingsym": "VIVIDEL-ST"
+    "VIVIDEL-SM": {
+      "token": 195012609,
+      "tradingsym": "VIVIDEL-SM"
     },
     "87HMDA40-N0": {
       "token": 195019521,
@@ -38289,9 +38265,9 @@
       "token": 195025665,
       "tradingsym": "9PCPL28A-N0"
     },
-    "AARNAV": {
-      "token": 195026177,
-      "tradingsym": "AARNAV"
+    "AARNAV-BE": {
+      "token": 195026945,
+      "tradingsym": "AARNAV-BE"
     },
     "695RECL28-N0": {
       "token": 195027457,
@@ -38441,9 +38417,9 @@
       "token": 195209729,
       "tradingsym": "AKCAPIT"
     },
-    "AMBALALSA": {
-      "token": 195211009,
-      "tradingsym": "AMBALALSA"
+    "AMBALALSA-BE": {
+      "token": 195211777,
+      "tradingsym": "AMBALALSA-BE"
     },
     "ASHIKAG-BE": {
       "token": 195213057,
@@ -38469,9 +38445,9 @@
       "token": 195219969,
       "tradingsym": "BENGALASM"
     },
-    "BI": {
-      "token": 195221249,
-      "tradingsym": "BI"
+    "BI-BE": {
+      "token": 195222017,
+      "tradingsym": "BI-BE"
     },
     "BIMETAL": {
       "token": 195222529,
@@ -39136,10 +39112,6 @@
     "787RJ41-SG": {
       "token": 195462145,
       "tradingsym": "787RJ41-SG"
-    },
-    "91D200826-TB": {
-      "token": 195462401,
-      "tradingsym": "91D200826-TB"
     },
     "182D191126-TB": {
       "token": 195462657,
@@ -40129,9 +40101,9 @@
       "token": 195697921,
       "tradingsym": "ASTRON-BZ"
     },
-    "ANAWIL-ST": {
-      "token": 195698945,
-      "tradingsym": "ANAWIL-ST"
+    "ANAWIL-SM": {
+      "token": 195698177,
+      "tradingsym": "ANAWIL-SM"
     },
     "902LMAEL36-N0": {
       "token": 195700225,
@@ -40204,14 +40176,6 @@
     "364D120827-TB": {
       "token": 195715073,
       "tradingsym": "364D120827-TB"
-    },
-    "GENESYS-RE-BE": {
-      "token": 195715329,
-      "tradingsym": "GENESYS-RE-BE"
-    },
-    "SHANTI-RE-BE": {
-      "token": 195716609,
-      "tradingsym": "SHANTI-RE-BE"
     },
     "LEAPIND": {
       "token": 195717889,
@@ -40317,9 +40281,9 @@
       "token": 195751169,
       "tradingsym": "CRAVATEX"
     },
-    "DHABRIYA": {
-      "token": 195752449,
-      "tradingsym": "DHABRIYA"
+    "DHABRIYA-BE": {
+      "token": 195753217,
+      "tradingsym": "DHABRIYA-BE"
     },
     "ECORECO": {
       "token": 195753729,
@@ -40788,6 +40752,142 @@
     "VGCL": {
       "token": 195904513,
       "tradingsym": "VGCL"
+    },
+    "SUN-RE-ST": {
+      "token": 195907585,
+      "tradingsym": "SUN-RE-ST"
+    },
+    "781SHFL31-N0": {
+      "token": 195908609,
+      "tradingsym": "781SHFL31-N0"
+    },
+    "798ABCL31-N0": {
+      "token": 195909121,
+      "tradingsym": "798ABCL31-N0"
+    },
+    "MILKYMIST": {
+      "token": 195909633,
+      "tradingsym": "MILKYMIST"
+    },
+    "620GS2029-GS": {
+      "token": 195911681,
+      "tradingsym": "620GS2029-GS"
+    },
+    "657GS2033A-GS": {
+      "token": 195911937,
+      "tradingsym": "657GS2033A-GS"
+    },
+    "SHIPROCKET": {
+      "token": 195912193,
+      "tradingsym": "SHIPROCKET"
+    },
+    "PRAMODINI-ST": {
+      "token": 195914241,
+      "tradingsym": "PRAMODINI-ST"
+    },
+    "BLEL": {
+      "token": 195914497,
+      "tradingsym": "BLEL"
+    },
+    "754NBFID41-N0": {
+      "token": 195917057,
+      "tradingsym": "754NBFID41-N0"
+    },
+    "CREDENT-ST": {
+      "token": 195918337,
+      "tradingsym": "CREDENT-ST"
+    },
+    "NIFTYJBLK": {
+      "token": 195918593,
+      "tradingsym": "NIFTYJBLK"
+    },
+    "GSEC10ADD": {
+      "token": 195919361,
+      "tradingsym": "GSEC10ADD"
+    },
+    "LARGEMID50": {
+      "token": 195920129,
+      "tradingsym": "LARGEMID50"
+    },
+    "823ABHF36-N0": {
+      "token": 195920897,
+      "tradingsym": "823ABHF36-N0"
+    },
+    "GSECADINAV": {
+      "token": 195921409,
+      "tradingsym": "GSECADINAV"
+    },
+    "LRMD50INAV": {
+      "token": 195921665,
+      "tradingsym": "LRMD50INAV"
+    },
+    "NFYJBKINAV": {
+      "token": 195921921,
+      "tradingsym": "NFYJBKINAV"
+    },
+    "716OR32-SG": {
+      "token": 195922177,
+      "tradingsym": "716OR32-SG"
+    },
+    "763MZ41-SG": {
+      "token": 195922433,
+      "tradingsym": "763MZ41-SG"
+    },
+    "766MP48A-SG": {
+      "token": 195922689,
+      "tradingsym": "766MP48A-SG"
+    },
+    "91D191126-TB": {
+      "token": 195922945,
+      "tradingsym": "91D191126-TB"
+    },
+    "182D180227-TB": {
+      "token": 195923201,
+      "tradingsym": "182D180227-TB"
+    },
+    "364D190827-TB": {
+      "token": 195923457,
+      "tradingsym": "364D190827-TB"
+    },
+    "IVZSENSEX": {
+      "token": 195923713,
+      "tradingsym": "IVZSENSEX"
+    },
+    "IVZBANKNF": {
+      "token": 195924481,
+      "tradingsym": "IVZBANKNF"
+    },
+    "SKYTECH-ST": {
+      "token": 195926017,
+      "tradingsym": "SKYTECH-ST"
+    },
+    "10PGL28-N0": {
+      "token": 195926273,
+      "tradingsym": "10PGL28-N0"
+    },
+    "IVZBANINAV": {
+      "token": 195926785,
+      "tradingsym": "IVZBANINAV"
+    },
+    "IVZSEXINAV": {
+      "token": 195927041,
+      "tradingsym": "IVZSEXINAV"
+    },
+    "HORIZONIND": {
+      "token": 195931137,
+      "tradingsym": "HORIZONIND"
+    },
+    "LALITHAA": {
+      "token": 195932417,
+      "tradingsym": "LALITHAA"
+    },
+    "783TCHFL31-N0": {
+      "token": 195933697,
+      "tradingsym": "783TCHFL31-N0"
+    },
+    "FASCINATE-ST": {
+      "token": 195934977,
+      "tradingsym": "FASCINATE-ST"
     }
   }
 }
