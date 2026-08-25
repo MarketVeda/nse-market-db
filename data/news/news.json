@@ -14259,6 +14259,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_31072026171714_BSENSE_signed.pdf",
           "fetched": "17:37"
+        },
+        {
+          "id": "176ba0b7617e",
+          "datetime": "25-Aug-2026 10:16:38",
+          "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_25082026100839_BSENSE.pdf",
+          "fetched": "10:35"
         }
       ],
       "actions": [],
@@ -21147,6 +21158,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VMMP2024_24082026163507_Disclosure_letter_to_shareholders_VMM.pdf",
           "fetched": "18:59"
+        },
+        {
+          "id": "7b76134be1cb",
+          "datetime": "25-Aug-2026 10:31:36",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VMMP2024_25082026102805_Disclosure_post_disptach_advertisement_VMM.pdf",
+          "fetched": "10:35"
         }
       ],
       "actions": [],
@@ -44504,6 +44526,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NUVOCO_21082026170807_Nuvoco_Credit_Rating_Aug_20_2026.pdf",
           "fetched": "18:54"
+        },
+        {
+          "id": "7e7ef0f5c45d",
+          "datetime": "25-Aug-2026 10:25:41",
+          "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NUVOCO_25082026102530_SEIntimation_Final.pdf",
+          "fetched": "10:35"
         }
       ],
       "actions": [],
@@ -61813,10 +61846,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-25 09:54",
+  "last_updated": "2026-08-25 10:35",
   "total_symbols": 499,
   "high_impact": 72,
-  "new_this_run": 62,
-  "total_seen_ids": 12634,
+  "new_this_run": 3,
+  "total_seen_ids": 12637,
   "guidance_events": 345
 }
