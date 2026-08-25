@@ -795,6 +795,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_24082026085714_LtrToSEsLannettUSFDA24082026.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "d95ad734164e",
+          "datetime": "25-Aug-2026 14:34:12",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_25082026143334_LtrToSEsInvestorMeet25082026.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -10246,17 +10257,6 @@
     "HEG": {
       "announcements": [
         {
-          "id": "b58ba1a65e10",
-          "datetime": "25-Jun-2026 16:55:39",
-          "subject": "General Updates",
-          "category": "",
-          "score": 5,
-          "has_pdf": true,
-          "fetched": "18:37",
-          "guidance_flag": false,
-          "pdf_url": ""
-        },
-        {
           "id": "098b9eb1a351",
           "datetime": "25-Jun-2026 16:45:57",
           "subject": "Shareholders meeting",
@@ -10794,6 +10794,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEG_24082026190045_FinalOutcome24082026.pdf",
           "fetched": "09:54"
+        },
+        {
+          "id": "a5c0c14e78ee",
+          "datetime": "25-Aug-2026 14:04:18",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEG_ROID_97046_KMP_Doc.zip",
+          "fetched": "14:39"
         }
       ],
       "actions": [
@@ -22933,6 +22944,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_21082026172930_InvestorMeetOutcome21082026.pdf",
           "fetched": "18:54"
+        },
+        {
+          "id": "52021619cba3",
+          "datetime": "25-Aug-2026 14:34:32",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_25082026143414_InvestorMeetOutcome25082026.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -24240,6 +24262,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/OIL_22082026142128_NewspaperAGMNotice_signed.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "5ed5ab7daa07",
+          "datetime": "25-Aug-2026 14:26:30",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OIL_25082026142603_AGMNoticeFinal_signed.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -49697,6 +49730,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_24082026160723_PR24082026Signed.pdf",
           "fetched": "16:17"
+        },
+        {
+          "id": "08f2b4c60274",
+          "datetime": "25-Aug-2026 14:14:10",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_25082026141352_InvestorDayMdCeoCboCSemiSigned.pdf",
+          "fetched": "14:39"
         }
       ],
       "actions": [],
@@ -62242,10 +62286,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-25 13:50",
+  "last_updated": "2026-08-25 14:39",
   "total_symbols": 499,
   "high_impact": 72,
-  "new_this_run": 9,
-  "total_seen_ids": 12673,
+  "new_this_run": 5,
+  "total_seen_ids": 12678,
   "guidance_events": 345
 }
