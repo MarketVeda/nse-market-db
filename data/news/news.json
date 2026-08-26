@@ -917,6 +917,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LTTS_21082026115906_LTTSIEPFNewspaperAdv21082026sd.pdf",
           "fetched": "12:55"
+        },
+        {
+          "id": "65d6591ea8ae",
+          "datetime": "26-Aug-2026 11:55:26",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LTTS_26082026115344_Reg30InvestorAnalystMeetsd.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [],
@@ -1139,6 +1150,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SJVN_31072026182406_1.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "bc8bb99bbb71",
+          "datetime": "26-Aug-2026 11:56:31",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SJVN_26082026115617_1.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [
@@ -5193,6 +5215,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_28072026133026_Signed_SEintimationESG_rating.pdf",
           "fetched": "14:49"
+        },
+        {
+          "id": "b371438096de",
+          "datetime": "26-Aug-2026 11:30:57",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Apekshakhemka_26082026113034_IntimationforInvestorConference_S.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [
@@ -7029,6 +7062,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/STARHEALTH_31072026173926_SE_Intimation_Investor_meets_06082026.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "6c0b2913ed1b",
+          "datetime": "26-Aug-2026 12:19:45",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/STARHEALTH_26082026121349_SE_intimation_2608.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [],
@@ -12202,6 +12246,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BPCL26_31072026120449_stex1stnewspaperadvt31726s.pdf",
           "fetched": "12:51"
+        },
+        {
+          "id": "404b9e5a6e83",
+          "datetime": "26-Aug-2026 11:54:56",
+          "subject": "Action(s) initiated or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BPCL_26082026115439_Stexintimationoffineslevied26826s.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [],
@@ -13548,6 +13603,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_25082026131003_InvestorConferenceparticipation.pdf",
           "fetched": "13:50"
+        },
+        {
+          "id": "c627352c7735",
+          "datetime": "26-Aug-2026 12:43:41",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_26082026124329_Release26August2026.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [],
@@ -22644,6 +22710,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SCI1_25082026145614_Forupload.pdf",
           "fetched": "15:32"
+        },
+        {
+          "id": "655b8e3a3e4b",
+          "datetime": "26-Aug-2026 11:48:56",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SCI1_26082026114817_Q1FineIntimationsd.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [],
@@ -32491,6 +32568,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VTL_25082026193317_VTXL_AR.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "3cc92b72da81",
+          "datetime": "26-Aug-2026 12:54:01",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VTL_26082026125259_VTL_letter_sd.pdf",
+          "fetched": "12:58"
+        },
+        {
+          "id": "ba7ac3a6eb02",
+          "datetime": "26-Aug-2026 12:44:06",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VTL_26082026124341_VTXL_NP_sd.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [
@@ -45255,6 +45354,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RECLTD_25082026225928_Signed_Incorporation_of_SPV_25082026.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "b157bab6b33b",
+          "datetime": "26-Aug-2026 11:34:30",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RECLTD_26082026113359_Signed_ntimation_Fines.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [
@@ -50255,6 +50365,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MSWIL_21082026165628_ESGRatingDisclosure.pdf",
           "fetched": "18:54"
+        },
+        {
+          "id": "e30d9842fd93",
+          "datetime": "26-Aug-2026 12:32:38",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MSWIL_26082026123226_MSWILSEDisclosure292026.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [
@@ -51248,6 +51369,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JAINMETAL_22082026121222_CLNSEBSE.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "22d7468fd53f",
+          "datetime": "26-Aug-2026 12:07:07",
+          "subject": "Agreements",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JAINMETAL_26082026120658_SE_-_Agreement_Execution__1_.pdf",
+          "fetched": "12:58"
+        },
+        {
+          "id": "c4246eeebd1e",
+          "datetime": "26-Aug-2026 12:05:21",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JAINMETAL_26082026120510_Conv_of_Loan_Intimation__1_.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [],
@@ -52593,6 +52736,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_24082026105235_Project_Gamut_BM_Outcome_24082026_2_signed.pdf",
           "fetched": "11:33"
+        },
+        {
+          "id": "1da26c9787f3",
+          "datetime": "26-Aug-2026 11:56:47",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_26082026115630_SE_intimation_merged_signed.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [
@@ -55648,6 +55802,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_24082026180550_InstitutionalInvestorMeet31Aug2026signed.pdf",
           "fetched": "18:59"
+        },
+        {
+          "id": "75f98a79795f",
+          "datetime": "26-Aug-2026 11:41:29",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_26082026113941_STXIntimationVATOrder26082026signed.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [
@@ -58645,6 +58810,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ACE_25082026155112_Investor_Meet02092026.pdf",
           "fetched": "16:12"
+        },
+        {
+          "id": "86232ff105b3",
+          "datetime": "26-Aug-2026 12:06:52",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ACE_26082026120622_Intimation-Newspaper_publication_afterAnnualreportFINAL.pdf",
+          "fetched": "12:58"
         }
       ],
       "actions": [],
@@ -64330,10 +64506,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-26 11:29",
+  "last_updated": "2026-08-26 12:58",
   "total_symbols": 500,
   "high_impact": 75,
-  "new_this_run": 6,
-  "total_seen_ids": 12865,
+  "new_this_run": 16,
+  "total_seen_ids": 12881,
   "guidance_events": 347
 }
