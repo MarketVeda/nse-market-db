@@ -30079,6 +30079,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Cadilahc_25082026165937_SEIntimationESGRatingCRISIL24082026.pdf",
           "fetched": "18:56"
+        },
+        {
+          "id": "9fd19bbad1b6",
+          "datetime": "26-Aug-2026 11:12:11",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Cadilahc_26082026110958_IncorporationWOS.pdf",
+          "fetched": "11:29"
         }
       ],
       "actions": [],
@@ -37018,6 +37029,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAILIFE_25082026190118_Stx_Intimation_AGM_Notice_Signed.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "0c6adbab87e2",
+          "datetime": "26-Aug-2026 10:59:11",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAILIFE_26082026105857_Stx_Intimation_Postdispatch_Signed.pdf",
+          "fetched": "11:29"
         }
       ],
       "actions": [],
@@ -41304,6 +41326,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HAL_29072026170512_changeinmangt_29072026_other.pdf",
           "fetched": "17:11"
+        },
+        {
+          "id": "36c6704cb17a",
+          "datetime": "26-Aug-2026 11:10:46",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HAL_26082026111035_Mediarelease_26082026.pdf",
+          "fetched": "11:29"
         }
       ],
       "actions": [],
@@ -49914,6 +49947,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRASIM_24082026144105_SEIntimationNewspaperAdv.pdf",
           "fetched": "14:54"
+        },
+        {
+          "id": "b5eaf19184ba",
+          "datetime": "26-Aug-2026 11:19:43",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRASIM_26082026111911_SEIntimationESGRating.pdf",
+          "fetched": "11:29"
         }
       ],
       "actions": [
@@ -51976,6 +52020,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_24082026175956_ASLICRANCDCreditRatingIntimation24082026.pdf",
           "fetched": "18:59"
+        },
+        {
+          "id": "f37f18c218a0",
+          "datetime": "26-Aug-2026 11:11:24",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DMART_26082026111105_ASLInitmationReg30_26082026.pdf",
+          "fetched": "11:29"
         }
       ],
       "actions": [],
@@ -54052,6 +54107,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_25082026195045_LetterPenaltyimposedBSE.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "b86de832ca86",
+          "datetime": "26-Aug-2026 11:19:34",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_26082026111921_SELetter.pdf",
+          "fetched": "11:29"
         }
       ],
       "actions": [
@@ -64264,10 +64330,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-26 10:35",
+  "last_updated": "2026-08-26 11:29",
   "total_symbols": 500,
   "high_impact": 75,
-  "new_this_run": 3,
-  "total_seen_ids": 12859,
+  "new_this_run": 6,
+  "total_seen_ids": 12865,
   "guidance_events": 347
 }
