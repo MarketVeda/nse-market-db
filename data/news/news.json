@@ -15566,6 +15566,17 @@
           "fetched": "23:02",
           "guidance_flag": false,
           "pdf_url": ""
+        },
+        {
+          "id": "9a654eabbe2d",
+          "datetime": "26-Aug-2026 15:14:28",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AMCSECRETARIAL_26082026151226_IntimationtoStockExchangeAugust26withannexures.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [],
@@ -24036,6 +24047,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BDL_21082026170709_SMP_21Aug2026SE.pdf",
           "fetched": "18:54"
+        },
+        {
+          "id": "4aec530483d1",
+          "datetime": "26-Aug-2026 15:11:36",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BDL_26082026151021_SECOVFINE26082026.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [],
@@ -24909,6 +24931,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ENGINERSIN_21082026154523_frontpage.pdf",
           "fetched": "16:09"
+        },
+        {
+          "id": "681a952821de",
+          "datetime": "26-Aug-2026 15:28:03",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ENGINERSIN_26082026152657_xchangenoticeandar.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [],
@@ -31910,14 +31943,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/WELSPUNIND_31072026173528_Reg30_TransferCompletionOfWCPGL_signed.pdf",
           "fetched": "20:25"
+        },
+        {
+          "id": "800064db3992",
+          "datetime": "26-Aug-2026 15:29:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/WELSPUNIND_26082026151324_Reg30_investormeet_260826_signed.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [],
-      "news_impact_score": 8,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -35641,6 +35685,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RVNL_25082026195310_Voting_results_And_Scrutinizers_Report_23rd_AGM.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "2997b3867305",
+          "datetime": "26-Aug-2026 15:17:01",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RVNL_26082026151652_Finedetails26082026.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [
@@ -52065,6 +52120,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SYRMASGS_25082026221322_1changeinmanagement.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "45c245d19d6b",
+          "datetime": "26-Aug-2026 15:21:39",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SYRMASGS_26082026152101_SyrmaReg44Evotingdisclosure.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [
@@ -52583,6 +52649,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GAIL_23082026195007_Rupaji.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "f83f636fe12c",
+          "datetime": "26-Aug-2026 15:30:51",
+          "subject": "Disclosure of material issue",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GAIL_26082026153043_Reg30_Fine.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [],
@@ -56223,6 +56300,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJPROP_25082026190035_SEIntimationGRMPL.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "2356e43e8b79",
+          "datetime": "26-Aug-2026 15:11:16",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJPROP_26082026150008_SEIntimationCreditRating.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [
@@ -60964,6 +61052,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJCP_25082026164243_Loss_of_Share_Certificate_SE_Signed.pdf",
           "fetched": "18:56"
+        },
+        {
+          "id": "8a1b91ee3108",
+          "datetime": "26-Aug-2026 15:26:48",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJCP_26082026152323_SE_Intimation_Press_Release_Signed.pdf",
+          "fetched": "15:36"
         }
       ],
       "actions": [
@@ -64748,10 +64847,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-26 14:49",
+  "last_updated": "2026-08-26 15:36",
   "total_symbols": 500,
   "high_impact": 75,
-  "new_this_run": 11,
-  "total_seen_ids": 12903,
-  "guidance_events": 348
+  "new_this_run": 9,
+  "total_seen_ids": 12912,
+  "guidance_events": 349
 }
