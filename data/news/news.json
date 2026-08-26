@@ -18621,6 +18621,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Nisha_25082026155407_SEintimationVivekSharmaresignationsigned.pdf",
           "fetched": "16:12"
+        },
+        {
+          "id": "f19d609cc7df",
+          "datetime": "26-Aug-2026 10:27:58",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PIDILITIND_ROID_97132_KMP_Doc.zip",
+          "fetched": "10:35"
         }
       ],
       "actions": [
@@ -32533,6 +32544,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IRCTC_29072026165025_STXintimation_AdditionalchargeRahulHimalian.pdf",
           "fetched": "17:11"
+        },
+        {
+          "id": "a2f92cba9107",
+          "datetime": "26-Aug-2026 09:56:56",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IRCTC_26082026095647_STXpenaltynoticesQ1FY27.pdf",
+          "fetched": "10:35"
         }
       ],
       "actions": [],
@@ -59296,6 +59318,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AKZOINDIA_25082026094227_JSWDulux_Reg30_Intimation_TGGST_OrderFY22_23_25Aug26.pdf",
           "fetched": "09:54"
+        },
+        {
+          "id": "fd472c58bd18",
+          "datetime": "26-Aug-2026 10:12:37",
+          "subject": "Action(s) initiated or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AKZOINDIA_26082026101206_JSWDulux_Reg30_Intimation_MPGST_SCNFY20_22_26Aug26.pdf",
+          "fetched": "10:35"
         }
       ],
       "actions": [],
@@ -64231,10 +64264,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-26 09:55",
+  "last_updated": "2026-08-26 10:35",
   "total_symbols": 500,
   "high_impact": 75,
-  "new_this_run": 80,
-  "total_seen_ids": 12856,
+  "new_this_run": 3,
+  "total_seen_ids": 12859,
   "guidance_events": 347
 }
