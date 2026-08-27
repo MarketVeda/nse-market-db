@@ -4035,6 +4035,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIBANK1_27082026162709_Lettertoexchange.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "4866c15e0b92",
+          "datetime": "27-Aug-2026 21:42:35",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICI2022_27082026214058_BSENSE27082026.pdf",
+          "fetched": "22:09"
         }
       ],
       "actions": [
@@ -16996,6 +17007,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SBICARDS_25082026190456_SEFilingInvestorMeetPriorAugust2026.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "9f44e6d2144d",
+          "datetime": "27-Aug-2026 22:02:02",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SBICPSL_27082026215727_SEfiling.pdf",
+          "fetched": "22:09"
         }
       ],
       "actions": [],
@@ -29063,6 +29085,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_27082026174144_August272026AnalystMeetIntimationsigned.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "9577ed9f7128",
+          "datetime": "27-Aug-2026 21:10:51",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_27082026210959_SE_Appointment_of_Directors.pdf",
+          "fetched": "22:09"
+        },
+        {
+          "id": "5a89f2ae1831",
+          "datetime": "27-Aug-2026 21:06:37",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_27082026210537_SE_VotingResultsandScrutiniserReport.pdf",
+          "fetched": "22:09"
+        },
+        {
+          "id": "73c997e0d513",
+          "datetime": "27-Aug-2026 21:00:30",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDUSINDBK1_27082026205849_SE_Proceedings_of_AGM.pdf",
+          "fetched": "22:09"
         }
       ],
       "actions": [
@@ -35237,6 +35292,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GMRINFRA_26082026175444_26082026-PreNewspaperadvertisment.pdf",
           "fetched": "19:01"
+        },
+        {
+          "id": "50c7e3b42b59",
+          "datetime": "27-Aug-2026 22:01:07",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GMRINFRA_27082026215810_27082026-Notice_GAL.pdf",
+          "fetched": "22:09"
         }
       ],
       "actions": [],
@@ -55662,6 +55728,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_26082026115630_SE_intimation_merged_signed.pdf",
           "fetched": "12:58"
+        },
+        {
+          "id": "b128a882fc4b",
+          "datetime": "27-Aug-2026 21:44:01",
+          "subject": "Credit Rating- New",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GABRIEL_27082026214338_SE_intimation_debenture_merged_signed.pdf",
+          "fetched": "22:09"
         }
       ],
       "actions": [
@@ -68301,10 +68378,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-27 20:54",
+  "last_updated": "2026-08-27 22:09",
   "total_symbols": 500,
   "high_impact": 78,
-  "new_this_run": 8,
-  "total_seen_ids": 13227,
+  "new_this_run": 7,
+  "total_seen_ids": 13234,
   "guidance_events": 359
 }
