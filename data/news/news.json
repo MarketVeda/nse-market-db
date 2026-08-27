@@ -52772,6 +52772,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_30062026224803_Trading_Window_Closure_OEM.pdf",
           "fetched": "22:53"
+        },
+        {
+          "id": "74f589b4c46d",
+          "datetime": "28-Aug-2026 00:53:18",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28082026005307_SE_Intimation_OEM_Tweet_LFP.pdf",
+          "fetched": "01:26"
         }
       ],
       "actions": [],
@@ -67188,6 +67199,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_27082026235855_brsr.pdf",
           "fetched": "00:43"
+        },
+        {
+          "id": "e178df4b1244",
+          "datetime": "28-Aug-2026 01:00:11",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_28082026010001_MR.pdf",
+          "fetched": "01:26"
         }
       ],
       "actions": [],
@@ -68466,10 +68488,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-28 00:43",
+  "last_updated": "2026-08-28 01:26",
   "total_symbols": 500,
   "high_impact": 79,
-  "new_this_run": 1,
-  "total_seen_ids": 13242,
+  "new_this_run": 2,
+  "total_seen_ids": 13244,
   "guidance_events": 359
 }
