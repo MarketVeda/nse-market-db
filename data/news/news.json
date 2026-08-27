@@ -67177,6 +67177,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_27082026234259_Signed.pdf",
           "fetched": "23:53"
+        },
+        {
+          "id": "db2fb5633e5b",
+          "datetime": "27-Aug-2026 23:59:03",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_27082026235855_brsr.pdf",
+          "fetched": "00:43"
         }
       ],
       "actions": [],
@@ -68455,10 +68466,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-27 23:53",
+  "last_updated": "2026-08-28 00:43",
   "total_symbols": 500,
   "high_impact": 79,
-  "new_this_run": 2,
-  "total_seen_ids": 13241,
+  "new_this_run": 1,
+  "total_seen_ids": 13242,
   "guidance_events": 359
 }
