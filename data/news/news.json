@@ -8051,6 +8051,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RAILTEL_27082026184145_Railtel_Order_Book_Company_Rep_270826.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "a87acfde028f",
+          "datetime": "27-Aug-2026 23:00:23",
+          "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RAILTEL_27082026230010_Intimation_Arbitral_award.pdf",
+          "fetched": "23:22"
+        },
+        {
+          "id": "7cecfdb9319b",
+          "datetime": "27-Aug-2026 22:58:08",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RAILTEL_27082026225752_Intimation_Penalty_Fine.pdf",
+          "fetched": "23:22"
         }
       ],
       "actions": [
@@ -15590,6 +15612,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_27082026193430_BSENSE_signed.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "eadf84b81369",
+          "datetime": "27-Aug-2026 22:36:08",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_27082026223434_BSENSE-TSH_funding.pdf",
+          "fetched": "23:22"
         }
       ],
       "actions": [],
@@ -32634,6 +32667,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_25082026181746_IDFCFIRSTB_Investor_Meetings_-_Sep2026__Revised.pdf",
           "fetched": "18:56"
+        },
+        {
+          "id": "0e70b0e86956",
+          "datetime": "27-Aug-2026 22:55:01",
+          "subject": "Credit Rating- New",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_27082026225434_IDFCFIRSTB_Credit_Rating_CE_SP_27082026.pdf",
+          "fetched": "23:22"
         }
       ],
       "actions": [
@@ -58937,6 +58981,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_26082026181858_STXIntimationCustomOrder26082026signed.pdf",
           "fetched": "19:01"
+        },
+        {
+          "id": "3066bc6f3119",
+          "datetime": "27-Aug-2026 23:04:03",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_27082026230335_NILDisclosuretotheSTXsigned.pdf",
+          "fetched": "23:22"
         }
       ],
       "actions": [
@@ -58955,8 +59010,8 @@
           "fetched": "18:10"
         }
       ],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -68378,10 +68433,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-27 22:09",
+  "last_updated": "2026-08-27 23:22",
   "total_symbols": 500,
-  "high_impact": 78,
-  "new_this_run": 7,
-  "total_seen_ids": 13234,
+  "high_impact": 79,
+  "new_this_run": 5,
+  "total_seen_ids": 13239,
   "guidance_events": 359
 }
