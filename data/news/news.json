@@ -509,6 +509,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_25082026172543_PR_25082026.pdf",
           "fetched": "18:56"
+        },
+        {
+          "id": "caefd63dcd0f",
+          "datetime": "27-Aug-2026 20:48:50",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Infosys_27082026204839_SE_intimation_Newspaper_ad.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [],
@@ -1722,6 +1733,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CIPLA_27082026145507_InvestorMeetingAnalystMeet27082026signed.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "5ee8dcf3f497",
+          "datetime": "27-Aug-2026 20:19:20",
+          "subject": "Other Restructuring",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CIPLA_27082026201905_SEIntimation_Aspergen_27082026_Restructuring_Signed.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [],
@@ -11159,17 +11181,6 @@
     "HEG": {
       "announcements": [
         {
-          "id": "c189e6d00cbb",
-          "datetime": "23-Jun-2026 15:05:44",
-          "subject": "Copy of Newspaper Publication",
-          "category": "",
-          "score": 5,
-          "has_pdf": true,
-          "fetched": "13:49",
-          "guidance_flag": false,
-          "pdf_url": ""
-        },
-        {
           "id": "55e5a8e6585f",
           "datetime": "23-Jun-2026 14:59:28",
           "subject": "Copy of Newspaper Publication",
@@ -11707,6 +11718,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEG_25082026170347_HEG_Final_Press_Realease_Intimation.pdf",
           "fetched": "18:56"
+        },
+        {
+          "id": "b46c6b7699a8",
+          "datetime": "27-Aug-2026 20:32:49",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEG_27082026203227_Stxintimation270826SS.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [
@@ -14595,6 +14617,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEROMOTO_27082026193333_StxIntimation.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "d2df90f9b039",
+          "datetime": "27-Aug-2026 20:52:46",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEROMOTO_27082026204708_Regulation30disclosure.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [
@@ -15928,6 +15961,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KARURVYSYA_27082026194228_Intimation_DSC.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "b779599f126b",
+          "datetime": "27-Aug-2026 20:23:58",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KARURVYSYA_27082026202348_NSE_BSE_ESG_Rating_DSC.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [
@@ -16180,14 +16224,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_26082026183850_Fines_Stock_Exchange_Intimation_Signed.pdf",
           "fetched": "19:01"
+        },
+        {
+          "id": "c5498504a073",
+          "datetime": "27-Aug-2026 20:27:33",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_27082026202657_Stock_Exchange_Intimation-Signed.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -42156,6 +42211,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_27082026200838_SEDisclosureSATorderfinals.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "ba9ccd2e852a",
+          "datetime": "27-Aug-2026 20:35:08",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ZEEL_27082026203455_SEDisclosureoutcomefinals.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [],
@@ -54174,6 +54240,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JAINMETAL_26082026120510_Conv_of_Loan_Intimation__1_.pdf",
           "fetched": "12:58"
+        },
+        {
+          "id": "56e765e1eacb",
+          "datetime": "27-Aug-2026 20:53:16",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JAINMETAL_27082026205229_AGM_ProceedingsNSEBSE.pdf",
+          "fetched": "20:54"
         }
       ],
       "actions": [],
@@ -68224,10 +68301,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-27 20:17",
+  "last_updated": "2026-08-27 20:54",
   "total_symbols": 500,
   "high_impact": 78,
-  "new_this_run": 221,
-  "total_seen_ids": 13219,
-  "guidance_events": 358
+  "new_this_run": 8,
+  "total_seen_ids": 13227,
+  "guidance_events": 359
 }
