@@ -8280,6 +8280,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PPLTD_26082026141439_PostNewspapaertoSE26082026.pdf",
           "fetched": "14:49"
+        },
+        {
+          "id": "bc4ce88c0d2f",
+          "datetime": "27-Aug-2026 23:24:10",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PPLTD_27082026232302_InvestorMeetIntimation1september2026.pdf",
+          "fetched": "23:53"
         }
       ],
       "actions": [],
@@ -67155,6 +67166,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_30062026165553_Intimation_TWC_sd.pdf",
           "fetched": "17:32"
+        },
+        {
+          "id": "1f95d2e171fb",
+          "datetime": "27-Aug-2026 23:43:10",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ASAHIINDIA_27082026234259_Signed.pdf",
+          "fetched": "23:53"
         }
       ],
       "actions": [],
@@ -68433,10 +68455,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-27 23:22",
+  "last_updated": "2026-08-27 23:53",
   "total_symbols": 500,
   "high_impact": 79,
-  "new_this_run": 5,
-  "total_seen_ids": 13239,
+  "new_this_run": 2,
+  "total_seen_ids": 13241,
   "guidance_events": 359
 }
