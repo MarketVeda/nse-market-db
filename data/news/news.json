@@ -1558,7 +1558,15 @@
           "fetched": "09:53"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "24752fbbd527",
+          "ex_date": "31-Aug-2026",
+          "action": "Dividend - Rs 2.50 Per Share",
+          "score": 10,
+          "fetched": "00:27"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -54037,6 +54045,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28082026230154_Intimation_Resignation_CS_OEM_28_8_2026.pdf",
           "fetched": "23:07"
+        },
+        {
+          "id": "0f853040269c",
+          "datetime": "28-Aug-2026 23:11:52",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28082026231142_Intimation_Reg_30__5__OEM.pdf",
+          "fetched": "00:27"
         }
       ],
       "actions": [],
@@ -67820,7 +67839,15 @@
           "fetched": "20:09"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "a2673474e08d",
+          "ex_date": "01-Sep-2026",
+          "action": "Dividend - Rs 3 Per Share",
+          "score": 10,
+          "fetched": "00:27"
+        }
+      ],
       "board_meetings": [],
       "news_impact_score": 13,
       "has_major_announcement": false,
@@ -70028,10 +70055,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-28 23:07",
+  "last_updated": "2026-08-29 00:27",
   "total_symbols": 500,
   "high_impact": 79,
-  "new_this_run": 1,
-  "total_seen_ids": 13384,
+  "new_this_run": 3,
+  "total_seen_ids": 13387,
   "guidance_events": 362
 }
