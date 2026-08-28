@@ -54026,6 +54026,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28082026111144_SE_Intimation_OEM_Tweet.pdf",
           "fetched": "21:11"
+        },
+        {
+          "id": "1cfb3f247268",
+          "datetime": "28-Aug-2026 23:03:10",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28082026230154_Intimation_Resignation_CS_OEM_28_8_2026.pdf",
+          "fetched": "23:07"
         }
       ],
       "actions": [],
@@ -70017,10 +70028,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-28 22:20",
+  "last_updated": "2026-08-28 23:07",
   "total_symbols": 500,
   "high_impact": 79,
-  "new_this_run": 7,
-  "total_seen_ids": 13383,
+  "new_this_run": 1,
+  "total_seen_ids": 13384,
   "guidance_events": 362
 }
