@@ -33183,6 +33183,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEXAWARETECH_25082026115659_PR_Final_Ashoka.pdf",
           "fetched": "12:56"
+        },
+        {
+          "id": "123e27b9dfa5",
+          "datetime": "28-Aug-2026 22:06:35",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEXAWARETECH_28082026220624_Intimation_of_Newspaper_notice.pdf",
+          "fetched": "22:20"
         }
       ],
       "actions": [],
@@ -35822,6 +35833,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LICHSGFIN_28082026190409_Summary_Proceedings_37th_AGM.PDF",
           "fetched": "21:11"
+        },
+        {
+          "id": "7869d0b04c7c",
+          "datetime": "28-Aug-2026 21:11:51",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LICHSGFIN_28082026211129_Appointment_of_Shri_Sandeep_Kumar.PDF",
+          "fetched": "22:20"
         }
       ],
       "actions": [
@@ -43601,6 +43623,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_28082026183312_PFL_SE_Intimation_Issue_close_sd.pdf",
           "fetched": "21:11"
+        },
+        {
+          "id": "911aa2902a09",
+          "datetime": "28-Aug-2026 21:47:21",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_28082026214037_PFL_SE_Intimation_allotment_sd.pdf",
+          "fetched": "22:20"
         }
       ],
       "actions": [],
@@ -48939,6 +48972,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_27072026124732_NSEBSEFINAL.pdf",
           "fetched": "13:31"
+        },
+        {
+          "id": "0e981f5187e5",
+          "datetime": "28-Aug-2026 22:09:34",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_28082026220855_NSEBSELetterReg30AnalystMeet___004_.pdf",
+          "fetched": "22:20"
         }
       ],
       "actions": [],
@@ -49460,6 +49504,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HitachiEnergy_28082026192741_AGMOUTCOME.pdf",
           "fetched": "21:11"
+        },
+        {
+          "id": "1ff287eec994",
+          "datetime": "28-Aug-2026 21:57:25",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HitachiEnergy_28082026215654_outcome.pdf",
+          "fetched": "22:20"
+        },
+        {
+          "id": "6d31db2e2274",
+          "datetime": "28-Aug-2026 21:50:56",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HitachiEnergy_28082026214955_outcome.pdf",
+          "fetched": "22:20"
         }
       ],
       "actions": [],
@@ -55847,6 +55913,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_26082026125713_26082026CCIapprovalFinalSigned.pdf",
           "fetched": "13:51"
+        },
+        {
+          "id": "8bdcc74fa074",
+          "datetime": "28-Aug-2026 22:06:47",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_28082026220636_InvestorCallRecodingSigned.pdf",
+          "fetched": "22:20"
         }
       ],
       "actions": [],
@@ -69940,10 +70017,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-28 21:11",
+  "last_updated": "2026-08-28 22:20",
   "total_symbols": 500,
   "high_impact": 79,
-  "new_this_run": 132,
-  "total_seen_ids": 13376,
+  "new_this_run": 7,
+  "total_seen_ids": 13383,
   "guidance_events": 362
 }
