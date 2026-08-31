@@ -266,6 +266,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASTERDM2_29082026183851_SE_Int_09082026.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "486fe7758b77",
+          "datetime": "31-Aug-2026 22:18:32",
+          "subject": "Capacity addition",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ASTERDM2_31082026221752_SE_Int_31082026__Capacity_Addition_s.pdf",
+          "fetched": "22:41"
         }
       ],
       "actions": [],
@@ -7544,6 +7555,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_26082026220501_Schedule_of_Investor_Analyst_Meet_-_26082026_signed.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "2c1ebc6f5f53",
+          "datetime": "31-Aug-2026 22:19:14",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_31082026221831_AdvanceInmationPresentation31082026Signed.pdf",
+          "fetched": "22:41"
         }
       ],
       "actions": [
@@ -16478,6 +16500,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_27082026223434_BSENSE-TSH_funding.pdf",
           "fetched": "23:22"
+        },
+        {
+          "id": "e1d2d3f15040",
+          "datetime": "31-Aug-2026 22:40:57",
+          "subject": "Diversification/Disinvestment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NIDHIFADNAVIS_31082026224027_BSENSE_Signed.pdf",
+          "fetched": "22:41"
         }
       ],
       "actions": [],
@@ -20971,6 +21004,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ONESOURCECDMO_31082026202941_OS_Intimation_19th_AGM_Notice_and_IAR_FY26_S__1_.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "ce70f2b911c4",
+          "datetime": "31-Aug-2026 22:36:17",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ONESOURCECDMO_31082026223509_OS_Intimation_BRSR_FY26_s.pdf",
+          "fetched": "22:41"
         }
       ],
       "actions": [],
@@ -26471,6 +26515,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SGLOBAL_29072026181716_Reg30collabsigned.pdf",
           "fetched": "20:08"
+        },
+        {
+          "id": "4491d1f381b7",
+          "datetime": "31-Aug-2026 22:19:10",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SIGNATURE_ROID_97550_KMP_Doc.zip",
+          "fetched": "22:41"
+        },
+        {
+          "id": "061c82315dd4",
+          "datetime": "31-Aug-2026 22:12:31",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SGLOBAL_31082026221216_resignationsigned.pdf",
+          "fetched": "22:41"
         }
       ],
       "actions": [],
@@ -36137,11 +36203,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_31082026195602_Lodha_Appt_of_Mr_Kunal_Gandhi_as_R_CEO_Pune_31-08-26.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "91ceff74ccab",
+          "datetime": "31-Aug-2026 22:04:52",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_31082026220403_LDL_Acquisition_of_remaining_shares_in_Bellissimo_Infratech_Pvt_Ltd.pdf",
+          "fetched": "22:41"
         }
       ],
       "actions": [],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -72816,10 +72893,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-31 21:49",
+  "last_updated": "2026-08-31 22:41",
   "total_symbols": 500,
-  "high_impact": 81,
-  "new_this_run": 6,
-  "total_seen_ids": 13639,
+  "high_impact": 82,
+  "new_this_run": 7,
+  "total_seen_ids": 13646,
   "guidance_events": 365
 }
