@@ -21325,8 +21325,16 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "1a7e5af8c8a5",
+          "ex_date": "02-Sep-2026",
+          "action": "Dividend - Rs 2 Per Share",
+          "score": 10,
+          "fetched": "00:40"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -34355,6 +34363,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_30062026202223_SEIntimationIEPFAdvertisement30062026.pdf",
           "fetched": "22:06"
+        },
+        {
+          "id": "bb4916a934a2",
+          "datetime": "31-Aug-2026 23:36:43",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_31082026233538_IntimationtoSENoticeofAGM20252026.pdf",
+          "fetched": "00:40"
+        },
+        {
+          "id": "dea3ff5a31f8",
+          "datetime": "31-Aug-2026 23:24:01",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_31082026232351_SEintimationPreDispatch54thAGMnewspaperAd.pdf",
+          "fetched": "00:40"
         }
       ],
       "actions": [],
@@ -35889,6 +35919,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/WELSPUNIND_28082026140927_Reg_44_Votingresults_signed_final.pdf",
           "fetched": "21:11"
+        },
+        {
+          "id": "e4b8dc7d4e2f",
+          "datetime": "31-Aug-2026 23:21:51",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/WELSPUNIND_31082026232109_Reg30_cleanmax_V3_signed.pdf",
+          "fetched": "00:40"
         }
       ],
       "actions": [],
@@ -53810,7 +53851,15 @@
           "fetched": "15:36"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "a21f031cddee",
+          "ex_date": "02-Sep-2026",
+          "action": "Dividend - Rs 3.50 Per Share",
+          "score": 10,
+          "fetched": "00:40"
+        }
+      ],
       "news_impact_score": 15,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -55794,6 +55843,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MUTHOOTFIN_31082026155537_OutcomeBM31826sd.pdf",
           "fetched": "16:33"
+        },
+        {
+          "id": "564b70e7211a",
+          "datetime": "31-Aug-2026 23:48:19",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MUTHOOTFIN_31082026234806_AGM_SD.pdf",
+          "fetched": "00:40"
         }
       ],
       "actions": [],
@@ -59083,7 +59143,15 @@
           "fetched": "21:11"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "566719c00d12",
+          "ex_date": "02-Sep-2026",
+          "action": "Dividend - Re 0.50 Per Share",
+          "score": 10,
+          "fetched": "00:40"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -68791,6 +68859,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_27082026201251_Intimation_Signed.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "ddf191ef8a35",
+          "datetime": "31-Aug-2026 23:10:23",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BRITANNIA1_31082026230854_Intimation_signed.pdf",
+          "fetched": "00:40"
         }
       ],
       "actions": [],
@@ -72915,10 +72994,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-31 23:02",
+  "last_updated": "2026-09-01 00:40",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 2,
-  "total_seen_ids": 13648,
+  "new_this_run": 9,
+  "total_seen_ids": 13657,
   "guidance_events": 365
 }
