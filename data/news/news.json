@@ -37304,6 +37304,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LICHSGFIN_28082026211129_Appointment_of_Shri_Sandeep_Kumar.PDF",
           "fetched": "22:20"
+        },
+        {
+          "id": "9271fb256e9c",
+          "datetime": "31-Aug-2026 22:56:23",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LICHSGFIN_31082026225610_Change_in_SMP_I_Sreedhar.pdf",
+          "fetched": "23:02"
         }
       ],
       "actions": [
@@ -50591,6 +50602,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_26082026200656_PSLIntimationofInvestorSessionAugust262026sd.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "15c778f064f4",
+          "datetime": "31-Aug-2026 23:02:20",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_31082026230209_PSLESGRatingissuedbySESESGResearchPrivateLimitedSigned.pdf",
+          "fetched": "23:02"
         }
       ],
       "actions": [
@@ -72893,10 +72915,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-31 22:41",
+  "last_updated": "2026-08-31 23:02",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 7,
-  "total_seen_ids": 13646,
+  "new_this_run": 2,
+  "total_seen_ids": 13648,
   "guidance_events": 365
 }
