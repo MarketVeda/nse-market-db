@@ -5772,6 +5772,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ONGC_31082026170852_agminteraction31082026.pdf",
           "fetched": "17:15"
+        },
+        {
+          "id": "84a78f470e0e",
+          "datetime": "31-Aug-2026 21:19:33",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ONGC_31082026211918_proceedings31082026.pdf",
+          "fetched": "21:49"
         }
       ],
       "actions": [],
@@ -26615,6 +26626,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_25082026143414_InvestorMeetOutcome25082026.pdf",
           "fetched": "14:39"
+        },
+        {
+          "id": "326ff2f273b7",
+          "datetime": "31-Aug-2026 21:30:05",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DIXON_31082026212932_IntimationofAGM31082026.pdf",
+          "fetched": "21:49"
         }
       ],
       "actions": [],
@@ -34688,6 +34710,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_27082026225434_IDFCFIRSTB_Credit_Rating_CE_SP_27082026.pdf",
           "fetched": "23:22"
+        },
+        {
+          "id": "1caa3d881655",
+          "datetime": "31-Aug-2026 21:03:05",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_31082026210238_IDFCFIRSTBank_Proceedings_of_12th_AGM.pdf",
+          "fetched": "21:49"
         }
       ],
       "actions": [
@@ -38153,6 +38186,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_25082026194440_StockExchangeIntimationESGRatingsupload.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "2a583fcf20db",
+          "datetime": "31-Aug-2026 20:52:33",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_31082026205223_StockExchangeIntimationCreditRatingsigned.pdf",
+          "fetched": "21:49"
         }
       ],
       "actions": [],
@@ -38629,6 +38673,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKBARODA_31082026200454_SEChange.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "98dd3bb097af",
+          "datetime": "31-Aug-2026 21:36:04",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKBARODA_ROID_97545_KMP_Doc.zip",
+          "fetched": "21:49"
+        },
+        {
+          "id": "e7580f4eb81b",
+          "datetime": "31-Aug-2026 21:30:58",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKBARODA_31082026213051_SECHANGE2.pdf",
+          "fetched": "21:49"
         }
       ],
       "actions": [],
@@ -72750,10 +72816,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-08-31 20:52",
+  "last_updated": "2026-08-31 21:49",
   "total_symbols": 500,
   "high_impact": 81,
-  "new_this_run": 19,
-  "total_seen_ids": 13633,
+  "new_this_run": 6,
+  "total_seen_ids": 13639,
   "guidance_events": 365
 }
