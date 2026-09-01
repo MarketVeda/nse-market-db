@@ -72994,10 +72994,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-01 15:02",
+  "last_updated": "2026-09-01 15:50",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 9,
-  "total_seen_ids": 13723,
+  "new_this_run": 25,
+  "total_seen_ids": 13748,
   "guidance_events": 365
 }
