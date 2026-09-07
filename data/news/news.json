@@ -12491,6 +12491,13 @@
           "action": "Dividend - Rs 3.40 Per Share",
           "score": 10,
           "fetched": "16:51"
+        },
+        {
+          "id": "6bc08796aa0a",
+          "ex_date": "07-Sep-2026",
+          "action": "Demerger",
+          "score": 5,
+          "fetched": "14:09"
         }
       ],
       "news_impact_score": 13,
@@ -31556,7 +31563,15 @@
           "fetched": "09:59"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "d45df6df5331",
+          "ex_date": "08-Sep-2026",
+          "action": "Dividend - Rs 8.50 Per Share",
+          "score": 10,
+          "fetched": "14:09"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -35831,7 +35846,15 @@
           "fetched": "19:01"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "cbc2d894a64c",
+          "ex_date": "09-Sep-2026",
+          "action": "Dividend - Re 0.85 Per Share",
+          "score": 10,
+          "fetched": "14:09"
+        }
+      ],
       "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -42697,7 +42720,15 @@
           "fetched": "19:01"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "277a3db39d9e",
+          "ex_date": "09-Sep-2026",
+          "action": "Dividend - Rs 50 Per Share",
+          "score": 10,
+          "fetched": "14:09"
+        }
+      ],
       "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -73065,10 +73096,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-04 22:00",
+  "last_updated": "2026-09-07 14:09",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 9,
-  "total_seen_ids": 14407,
+  "new_this_run": 130,
+  "total_seen_ids": 14537,
   "guidance_events": 365
 }
