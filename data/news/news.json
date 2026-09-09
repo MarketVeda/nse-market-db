@@ -45108,7 +45108,15 @@
           "fetched": "19:50"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "b832f5e57b43",
+          "ex_date": "10-Sep-2026",
+          "action": "Dividend - Rs 2 Per Share",
+          "score": 10,
+          "fetched": "13:53"
+        }
+      ],
       "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -73104,10 +73112,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-08 22:16",
+  "last_updated": "2026-09-09 13:53",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 17,
-  "total_seen_ids": 14817,
+  "new_this_run": 51,
+  "total_seen_ids": 14868,
   "guidance_events": 365
 }
