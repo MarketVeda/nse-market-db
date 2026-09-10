@@ -73112,10 +73112,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-10 17:13",
+  "last_updated": "2026-09-10 17:51",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 28,
-  "total_seen_ids": 15064,
+  "new_this_run": 21,
+  "total_seen_ids": 15085,
   "guidance_events": 365
 }
