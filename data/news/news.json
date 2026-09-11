@@ -2589,7 +2589,15 @@
           "fetched": "21:11"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "e78932e47fe8",
+          "ex_date": "11-Sep-2026",
+          "action": "Dividend - Rs 2.50 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "news_impact_score": 15,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -25399,7 +25407,15 @@
           "fetched": "20:17"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "efdaedbd57ad",
+          "ex_date": "11-Sep-2026",
+          "action": "Dividend - Rs 60 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "news_impact_score": 15,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -27553,7 +27569,15 @@
           "fetched": "21:11"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "b139db7b2646",
+          "ex_date": "11-Sep-2026",
+          "action": "Dividend - Re 1 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -71825,9 +71849,17 @@
           "fetched": "21:11"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "3c7035e1387b",
+          "ex_date": "11-Sep-2026",
+          "action": "Dividend - Rs 2 Per Share",
+          "score": 10,
+          "fetched": "13:49"
+        }
+      ],
       "board_meetings": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "has_guidance_event": false,
@@ -73112,10 +73144,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-10 22:03",
+  "last_updated": "2026-09-11 13:49",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 24,
-  "total_seen_ids": 15141,
+  "new_this_run": 48,
+  "total_seen_ids": 15189,
   "guidance_events": 365
 }
