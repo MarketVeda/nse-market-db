@@ -27359,7 +27359,15 @@
           "fetched": "15:36"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "ce85d79428b8",
+          "ex_date": "15-Sep-2026",
+          "action": "Dividend - Rs 25 Per Share",
+          "score": 10,
+          "fetched": "14:46"
+        }
+      ],
       "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
@@ -73144,10 +73152,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-11 22:08",
+  "last_updated": "2026-09-14 14:46",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 27,
-  "total_seen_ids": 15324,
+  "new_this_run": 65,
+  "total_seen_ids": 15389,
   "guidance_events": 365
 }
