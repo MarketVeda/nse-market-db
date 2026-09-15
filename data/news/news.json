@@ -73152,10 +73152,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-15 17:31",
+  "last_updated": "2026-09-15 18:22",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 0,
-  "total_seen_ids": 15493,
+  "new_this_run": 61,
+  "total_seen_ids": 15554,
   "guidance_events": 365
 }
