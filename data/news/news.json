@@ -45331,7 +45331,15 @@
           "fetched": "19:50"
         }
       ],
-      "actions": [],
+      "actions": [
+        {
+          "id": "9c0b21ed694e",
+          "ex_date": "17-Sep-2026",
+          "action": "Dividend - Re 0.70 Per Share",
+          "score": 10,
+          "fetched": "14:25"
+        }
+      ],
       "news_impact_score": 20,
       "has_major_announcement": true,
       "exclude_negative": false,
@@ -73176,10 +73184,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-16 22:41",
+  "last_updated": "2026-09-17 14:25",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 5,
-  "total_seen_ids": 15769,
+  "new_this_run": 41,
+  "total_seen_ids": 15810,
   "guidance_events": 365
 }
