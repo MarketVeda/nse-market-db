@@ -73208,10 +73208,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-18 17:11",
+  "last_updated": "2026-09-18 17:50",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 39,
-  "total_seen_ids": 16032,
+  "new_this_run": 23,
+  "total_seen_ids": 16055,
   "guidance_events": 365
 }
