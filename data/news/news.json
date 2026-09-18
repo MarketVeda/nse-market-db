@@ -23203,8 +23203,16 @@
           "pdf_url": ""
         }
       ],
-      "actions": [],
-      "news_impact_score": 5,
+      "actions": [
+        {
+          "id": "09ef62186958",
+          "ex_date": "18-Sep-2026",
+          "action": "Dividend - Re 0.25 Per Share",
+          "score": 10,
+          "fetched": "15:28"
+        }
+      ],
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -73200,10 +73208,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-18 14:37",
+  "last_updated": "2026-09-18 15:28",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 2,
-  "total_seen_ids": 15973,
+  "new_this_run": 20,
+  "total_seen_ids": 15993,
   "guidance_events": 365
 }
