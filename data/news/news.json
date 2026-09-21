@@ -1004,6 +1004,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_31082026100851_LtrtoSEsLannetPR31082026.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "07c14fd29072",
+          "datetime": "21-Sep-2026 16:03:32",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AUROPHARMA_21092026160242_LtrToSEsInvestorMee21092026.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [],
@@ -5865,6 +5876,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ONGC_31082026211918_proceedings31082026.pdf",
           "fetched": "21:49"
+        },
+        {
+          "id": "cf298c3765a8",
+          "datetime": "21-Sep-2026 16:17:08",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ONGC_21092026161641_directorproduction21092026.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [
@@ -32698,6 +32720,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_31082026124024_SE_Intimation_August31_2026.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "0f538cd55fd7",
+          "datetime": "21-Sep-2026 15:58:43",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RNLAM_21092026155813_Disclosure.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [
@@ -40377,6 +40410,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BILLIONBRAINS_28082026125852_ESOP_Grant_SD.pdf",
           "fetched": "21:11"
+        },
+        {
+          "id": "176cec84b3d3",
+          "datetime": "21-Sep-2026 16:28:55",
+          "subject": "Disclosure under SEBI Takeover Regulations",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_21092026160559_GROWW29_1.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [],
@@ -46237,6 +46281,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PEL2024_21092026081400_SE_Press_Release_Final.pdf",
           "fetched": "14:48"
+        },
+        {
+          "id": "e1fcab98180d",
+          "datetime": "21-Sep-2026 15:49:23",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PEL2024_21092026154845_SE_Intimation_Chairman_Speech.pdf",
+          "fetched": "16:29"
+        },
+        {
+          "id": "c766045173f0",
+          "datetime": "21-Sep-2026 15:40:18",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PEL2024_21092026153932_SE_Intimation_AGM_Summary_Final.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [],
@@ -48590,6 +48656,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Lupin2_28082026093643_Stock_Exchange_Intimation_ESG_Rating2026.pdf",
           "fetched": "21:11"
+        },
+        {
+          "id": "e42c85fbeeb9",
+          "datetime": "21-Sep-2026 16:25:27",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Lupin2_21092026162421_BSENSE21092026.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [
@@ -53866,10 +53943,43 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LLOYDSME_27072026190208_20260727_Intimation_Imposition_of_fine_penalty.pdf",
           "fetched": "20:51"
+        },
+        {
+          "id": "280dbcc85b07",
+          "datetime": "21-Sep-2026 15:55:35",
+          "subject": "Capacity addition",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LLOYDSME_21092026155517_20260921_Outcome_of_Board_Meeting.pdf",
+          "fetched": "16:29"
+        },
+        {
+          "id": "612975737963",
+          "datetime": "21-Sep-2026 15:50:39",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LLOYDSME_21092026155025_20260921_Outcome_of_Board_Meeting.pdf",
+          "fetched": "16:29"
+        },
+        {
+          "id": "baaaec6ea53d",
+          "datetime": "21-Sep-2026 15:44:38",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LLOYDSME_21092026154406_20260921_Outcome_of_Board_Meeting.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [],
-      "news_impact_score": 5,
+      "news_impact_score": 10,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
@@ -55860,6 +55970,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NHPC_29082026214521_STX_Update_ESG_score_SnP_.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "b1c09bf24bb0",
+          "datetime": "21-Sep-2026 15:54:29",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NHPC_21092026155414_STX_Crisil_ESG_Rating_revised_.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [
@@ -56068,6 +56189,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VOLTAS_RB_28072026160713_changeinkmp280726.pdf",
           "fetched": "16:28"
+        },
+        {
+          "id": "fbdb7d850042",
+          "datetime": "21-Sep-2026 16:15:28",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VOLTAS_RB_21092026161509_SE_Intimation_21092026.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [],
@@ -63792,6 +63924,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJPROP_29082026202439_SEIntimationPressRelease29082026.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "20c92371a254",
+          "datetime": "21-Sep-2026 15:48:24",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJPROP_21092026154742_SEIntimationVotingResultsPB.pdf",
+          "fetched": "16:29"
         }
       ],
       "actions": [
@@ -73677,10 +73820,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-21 15:38",
+  "last_updated": "2026-09-21 16:29",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 5,
-  "total_seen_ids": 16244,
+  "new_this_run": 13,
+  "total_seen_ids": 16257,
   "guidance_events": 366
 }
