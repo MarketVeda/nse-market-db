@@ -1655,6 +1655,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GLENMARK_21082026084736_Press_Release_21082026_Signed.pdf",
           "fetched": "09:53"
+        },
+        {
+          "id": "6d80d2fb6a10",
+          "datetime": "21-Sep-2026 14:52:05",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GLENMARK_21092026145007_SE_Investor_Meet.pdf",
+          "fetched": "15:38"
         }
       ],
       "actions": [
@@ -22737,6 +22748,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KAYNESTECH_22082026190258_SEIntimationPRBOSGAME.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "29a284091274",
+          "datetime": "21-Sep-2026 14:49:49",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KAYNESTECH_21092026144848_ScrutinizersReport210926.pdf",
+          "fetched": "15:38"
         }
       ],
       "actions": [],
@@ -45810,6 +45832,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PiramalFin_21092026111532_PFL_COD_Allotment_Sep2026.pdf",
           "fetched": "14:48"
+        },
+        {
+          "id": "15567cbca67f",
+          "datetime": "21-Sep-2026 15:32:46",
+          "subject": "Investor Presentation",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_21092026153236_Int_21092026_sd.pdf",
+          "fetched": "15:38"
+        },
+        {
+          "id": "a4eb0bce838c",
+          "datetime": "21-Sep-2026 15:27:06",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_21092026152655_Int_21092026_sd.pdf",
+          "fetched": "15:38"
         }
       ],
       "actions": [],
@@ -67437,6 +67481,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TRIL_29082026110809_IntimationofPostalBallot.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "88a27b251657",
+          "datetime": "21-Sep-2026 15:00:09",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TRIL_21092026150001_TARIL32ndAGMProceedingsOutcome.pdf",
+          "fetched": "15:38"
         }
       ],
       "actions": [],
@@ -73622,10 +73677,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-21 14:48",
+  "last_updated": "2026-09-21 15:38",
   "total_symbols": 500,
   "high_impact": 82,
-  "new_this_run": 109,
-  "total_seen_ids": 16239,
+  "new_this_run": 5,
+  "total_seen_ids": 16244,
   "guidance_events": 366
 }
