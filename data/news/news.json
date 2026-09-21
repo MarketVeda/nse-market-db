@@ -12170,17 +12170,6 @@
     "HEG": {
       "announcements": [
         {
-          "id": "55e5a8e6585f",
-          "datetime": "23-Jun-2026 14:59:28",
-          "subject": "Copy of Newspaper Publication",
-          "category": "",
-          "score": 5,
-          "has_pdf": true,
-          "fetched": "13:49",
-          "guidance_flag": false,
-          "pdf_url": ""
-        },
-        {
           "id": "af3ee07eb4a9",
           "datetime": "22-Jun-2026 20:40:52",
           "subject": "General Updates",
@@ -12718,6 +12707,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEG_27082026203227_Stxintimation270826SS.pdf",
           "fetched": "20:54"
+        },
+        {
+          "id": "f1226fc4a224",
+          "datetime": "21-Sep-2026 21:05:41",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEGAM_21092026210502_STEXInvestorCallPhysical28092026.pdf",
+          "fetched": "21:29"
         }
       ],
       "actions": [
@@ -35888,6 +35888,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_21092026165337_Report_Signed.pdf",
           "fetched": "18:44"
+        },
+        {
+          "id": "d58cfdd6dfe5",
+          "datetime": "21-Sep-2026 21:24:20",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_21092026211939_Intimation.pdf",
+          "fetched": "21:29"
         }
       ],
       "actions": [],
@@ -49854,6 +49865,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/M_MFIN_28082026160401_MMFSLESOPIntimatio20260828signed.pdf",
           "fetched": "21:11"
+        },
+        {
+          "id": "3486d333ee3a",
+          "datetime": "21-Sep-2026 20:51:26",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/M_MFIN_21092026205109_MMFSLESOPIntimatio20260921signed.pdf",
+          "fetched": "21:29"
         }
       ],
       "actions": [
@@ -74766,10 +74788,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-21 20:47",
+  "last_updated": "2026-09-21 21:29",
   "total_symbols": 500,
   "high_impact": 83,
   "new_this_run": 3,
-  "total_seen_ids": 16343,
+  "total_seen_ids": 16346,
   "guidance_events": 369
 }
