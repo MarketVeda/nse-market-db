@@ -7032,6 +7032,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_30082026112955_NSELETTER30082026SIGN.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "d791176174c2",
+          "datetime": "21-Sep-2026 20:04:02",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 20,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_21092026200344_Stock_Exchange_Material_disclosure_Newgen.pdf",
+          "fetched": "20:47"
         }
       ],
       "actions": [],
@@ -18406,6 +18417,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SBICARDS_31082026203639_SEFIlingVotingResults2026.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "10d74a246a08",
+          "datetime": "21-Sep-2026 20:04:27",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SBICARDS_21092026200331_SEFilingCodeofConduct.pdf",
+          "fetched": "20:47"
         }
       ],
       "actions": [],
@@ -64619,6 +64641,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MOTHERSON_21092026101734_Disclsoure_21092026.pdf",
           "fetched": "14:48"
+        },
+        {
+          "id": "9ead054da061",
+          "datetime": "21-Sep-2026 20:45:36",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MOTHERSON_21092026204456_Disclsoure_CCD_Holders.pdf",
+          "fetched": "20:47"
         }
       ],
       "actions": [
@@ -74733,10 +74766,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-21 20:00",
+  "last_updated": "2026-09-21 20:47",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 25,
-  "total_seen_ids": 16340,
+  "new_this_run": 3,
+  "total_seen_ids": 16343,
   "guidance_events": 369
 }
