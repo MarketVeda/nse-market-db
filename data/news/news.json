@@ -7042,6 +7042,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BLUEJET_21092026131426_AGM_Proceedings.pdf",
           "fetched": "14:48"
+        },
+        {
+          "id": "448a61eb3103",
+          "datetime": "22-Sep-2026 20:41:45",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BLUEJET_22092026204114_FinalUploadresults.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -7986,6 +7997,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_22092026181555_Schedule_of_Investor_Analyst_Meet_22092026Signed.pdf",
           "fetched": "18:18"
+        },
+        {
+          "id": "54eb4f3a34e5",
+          "datetime": "22-Sep-2026 22:27:15",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AXISBANK1_22092026222656_SE22092026.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [
@@ -17828,6 +17850,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ATGL2024_31072026165209_ATGL_Intimation_CareEdge_31072026.pdf",
           "fetched": "17:09"
+        },
+        {
+          "id": "9aa2d118594c",
+          "datetime": "22-Sep-2026 20:11:39",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ATGL2024_22092026201127_ATGL_Intimation_SEBI_Order_22092026.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -31772,6 +31805,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NAUKRI2_27082026162904_Stock_Exchange_Intimation-Divestment_Skyserve.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "28d0addb9724",
+          "datetime": "22-Sep-2026 21:00:26",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NAUKRI2_22092026210014_IEIL_Intimation_Investor_Call_Schedule_22_September_2026.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [
@@ -33500,6 +33544,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_22092026200423_Cessation.pdf",
           "fetched": "20:11"
+        },
+        {
+          "id": "282db5cc5786",
+          "datetime": "22-Sep-2026 20:15:23",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_22092026201302_AGM_Proceedings.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -36609,6 +36664,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_22092026165925_ESOP_Allotment_September_22_2026.pdf",
           "fetched": "17:30"
+        },
+        {
+          "id": "26d9882fc9bc",
+          "datetime": "22-Sep-2026 21:19:58",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IDFCFIRSTB_22092026211940_Exchange_Disclosure_SMP_Appointment.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [
@@ -36916,14 +36982,47 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_21092026211939_Intimation.pdf",
           "fetched": "21:29"
+        },
+        {
+          "id": "20471b4a86cd",
+          "datetime": "22-Sep-2026 21:42:37",
+          "subject": "Scheme of Arrangement",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_22092026213712_Intimation_signed.pdf",
+          "fetched": "22:36"
+        },
+        {
+          "id": "7d167d351ab5",
+          "datetime": "22-Sep-2026 20:47:18",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_22092026204501_Conference_Call.pdf",
+          "fetched": "22:36"
+        },
+        {
+          "id": "b0a4e9412459",
+          "datetime": "22-Sep-2026 20:24:57",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_22092026202034_Intimation.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -42020,6 +42119,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CHALET_21092026193630_AGMProceedings21092026.pdf",
           "fetched": "20:00"
+        },
+        {
+          "id": "70e3b8cfb9ce",
+          "datetime": "22-Sep-2026 20:28:47",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CHALET_22092026202825_VotingResults21092026.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -43212,6 +43322,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIGI_24082026185705_ESOSIntimationAugIII.pdf",
           "fetched": "09:54"
+        },
+        {
+          "id": "6bea4720fb26",
+          "datetime": "22-Sep-2026 20:31:17",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIGI_22092026202928_ESOSIntimationSeptIII.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -45141,6 +45262,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SBILIFE_26082026223758_SE26082026_signed.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "cafc9c95915e",
+          "datetime": "22-Sep-2026 20:43:10",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SBILIFE_22092026204216_Outcome_BM_22092026_Signed.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -49160,6 +49292,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_22092026180043_FinalSEAGMProceeding.pdf",
           "fetched": "18:18"
+        },
+        {
+          "id": "c6e56102138a",
+          "datetime": "22-Sep-2026 21:10:20",
+          "subject": "Options to purchase securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_22092026211008_AGMGrantStockOptionsED_22092026.pdf",
+          "fetched": "22:36"
+        },
+        {
+          "id": "934d7c8dc299",
+          "datetime": "22-Sep-2026 20:50:25",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DELHIVERYLTD_22092026205008_IntimationofvotingresultAGM.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -52632,6 +52786,61 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026143439_Intimation_to_Stock_Exchange_-_Credit_Rating_Acuite.pdf",
           "fetched": "14:55"
+        },
+        {
+          "id": "14a056a58622",
+          "datetime": "22-Sep-2026 22:10:34",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026221025_Intimation_VotingResultsandScrutinizerReport.pdf",
+          "fetched": "22:36"
+        },
+        {
+          "id": "32418f02ae1f",
+          "datetime": "22-Sep-2026 22:01:41",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026220131_IntimationofReappointmentofIndependentDirectors.pdf",
+          "fetched": "22:36"
+        },
+        {
+          "id": "b56d614e29e4",
+          "datetime": "22-Sep-2026 21:50:44",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026214958_Intimation_VotingResultsandScrutinizerReport.pdf",
+          "fetched": "22:36"
+        },
+        {
+          "id": "f50e47b38221",
+          "datetime": "22-Sep-2026 21:46:50",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026214640_ProceedingsofAGM.pdf",
+          "fetched": "22:36"
+        },
+        {
+          "id": "452ec4eeb8f4",
+          "datetime": "22-Sep-2026 21:09:04",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026210831_CreditRatingIntimation.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [
@@ -59044,6 +59253,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_22092026144609_SE_Intimation_Sept_22_2026.pdf",
           "fetched": "14:55"
+        },
+        {
+          "id": "d0cb5c578444",
+          "datetime": "22-Sep-2026 22:33:09",
+          "subject": "Name Change",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_22092026223248_SE_Intimation_Sep_22_2026_signed.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -61469,6 +61689,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_22092026122624_21092026Nitin_002_Signed.pdf",
           "fetched": "14:19"
+        },
+        {
+          "id": "81a79c9f5ede",
+          "datetime": "22-Sep-2026 21:26:18",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CYIENT_ROID_98797_KMP_Doc.zip",
+          "fetched": "22:36"
         }
       ],
       "actions": [],
@@ -62992,6 +63223,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HUDCO_25082026191008_BSENSE_Voting_Results.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "853b2abf82d9",
+          "datetime": "22-Sep-2026 22:02:39",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HUDCO_22092026220115_SEDisclosure_22092026.pdf",
+          "fetched": "22:36"
         }
       ],
       "actions": [
@@ -76880,10 +77122,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-22 20:11",
+  "last_updated": "2026-09-22 22:36",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 11,
-  "total_seen_ids": 16538,
-  "guidance_events": 371
+  "new_this_run": 22,
+  "total_seen_ids": 16560,
+  "guidance_events": 372
 }
