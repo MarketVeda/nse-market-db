@@ -2271,6 +2271,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CEATLTD_27082026105134_CEATSELetterOrderfromGST27082026signed.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "af1d805195ee",
+          "datetime": "22-Sep-2026 14:42:51",
+          "subject": "Loss of Share Certificates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CEATLTD_22092026144212_SELossIntimationsigned.pdf",
+          "fetched": "14:55"
         }
       ],
       "actions": [
@@ -4876,6 +4887,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_30072026164858_SEIntimationappointmentofDir.pdf",
           "fetched": "17:00"
+        },
+        {
+          "id": "086f8288589d",
+          "datetime": "22-Sep-2026 14:38:32",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TITAN_22092026143808_Trading_Window_Closure_Q2FY27.pdf",
+          "fetched": "14:55"
         }
       ],
       "actions": [
@@ -37406,6 +37428,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_31082026220403_LDL_Acquisition_of_remaining_shares_in_Bellissimo_Infratech_Pvt_Ltd.pdf",
           "fetched": "22:41"
+        },
+        {
+          "id": "201430a29ad4",
+          "datetime": "22-Sep-2026 14:33:27",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_22092026143236_Lodha_Investor_Call_Intimation.pdf",
+          "fetched": "14:55"
         }
       ],
       "actions": [],
@@ -51664,6 +51697,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026134451_CPRecord_Date18092026.pdf",
           "fetched": "14:19"
+        },
+        {
+          "id": "9923f47c0497",
+          "datetime": "22-Sep-2026 14:34:51",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_22092026143439_Intimation_to_Stock_Exchange_-_Credit_Rating_Acuite.pdf",
+          "fetched": "14:55"
         }
       ],
       "actions": [
@@ -55892,6 +55936,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_31082026114916_PR31082026.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "5e9d211fc4fe",
+          "datetime": "22-Sep-2026 14:43:01",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_22092026144236_Newspaper_Advertisment.pdf",
+          "fetched": "14:55"
         }
       ],
       "actions": [],
@@ -57867,6 +57922,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_25082026153541_SE_Intimation_Aug_25_2026.pdf",
           "fetched": "16:12"
+        },
+        {
+          "id": "09cbf68f3af1",
+          "datetime": "22-Sep-2026 14:46:36",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ICICIPRULI_22092026144609_SE_Intimation_Sept_22_2026.pdf",
+          "fetched": "14:55"
         }
       ],
       "actions": [],
@@ -58725,6 +58791,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_21082026110726_Post_Ad.pdf",
           "fetched": "11:28"
+        },
+        {
+          "id": "06320ec09a2e",
+          "datetime": "22-Sep-2026 14:32:18",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KALYANKJIL_22092026143203_Intimation_Trading_Window.pdf",
+          "fetched": "14:55"
         }
       ],
       "actions": [],
@@ -75417,10 +75494,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-22 14:19",
+  "last_updated": "2026-09-22 14:55",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 48,
-  "total_seen_ids": 16404,
+  "new_this_run": 7,
+  "total_seen_ids": 16411,
   "guidance_events": 369
 }
