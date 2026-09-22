@@ -4182,14 +4182,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RHIM_30062026192852_merged_ocred.pdf",
           "fetched": "22:06"
+        },
+        {
+          "id": "578a28baecac",
+          "datetime": "22-Sep-2026 15:01:45",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RHIM_22092026150123_Intimation_of_Investor_meet.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -5432,6 +5443,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CDSL_22092026124034_Stock_Exchange_intimation_appointment_of_Shri_Kinjal_Shah_final.pdf",
           "fetched": "14:19"
+        },
+        {
+          "id": "2503c4950353",
+          "datetime": "22-Sep-2026 15:34:13",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CDSL_22092026152131_ConCallInvite_Sept24_2026_sd.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [],
@@ -15692,6 +15714,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_21092026134925_Release21September2026.pdf",
           "fetched": "14:48"
+        },
+        {
+          "id": "a7444098d51a",
+          "datetime": "22-Sep-2026 15:38:31",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HCLTECH_22092026153803_Release22September2026.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [],
@@ -33332,6 +33365,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ABDINDIA_21092026191012_SE_Intimation-_ESG_-_sd.pdf",
           "fetched": "20:00"
+        },
+        {
+          "id": "fae5ea1670bb",
+          "datetime": "22-Sep-2026 15:11:05",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ABDINDIA_22092026151055_SE_Intimation_-_Proposed_Sale_-_BKC_-_MPS_sd.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [
@@ -35509,6 +35553,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_31082026232351_SEintimationPreDispatch54thAGMnewspaperAd.pdf",
           "fetched": "00:40"
+        },
+        {
+          "id": "cc1a9a71cde3",
+          "datetime": "22-Sep-2026 15:18:51",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_22092026151843_signedSEIntimationProceedingsof54thAGM.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [
@@ -39067,6 +39122,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AHFL2021_21092026192434_SEIntimationpostalballotfinal.pdf",
           "fetched": "20:00"
+        },
+        {
+          "id": "1d5d6fd964c4",
+          "datetime": "22-Sep-2026 15:25:21",
+          "subject": "Credit Rating- Revision",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AHFL2021_22092026152458_SEIntimationICRA.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [],
@@ -43145,6 +43211,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_25082026155946_5LettersNon-EmailCases.pdf",
           "fetched": "16:12"
+        },
+        {
+          "id": "35d0bb536048",
+          "datetime": "22-Sep-2026 15:39:17",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PINELABS_22092026153836_ESOPSept2026.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [],
@@ -56712,6 +56789,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/DABUR_27082026150417_Flood_impact.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "a833a436add4",
+          "datetime": "22-Sep-2026 15:22:36",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/DABURA_22092026152210_TW.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [
@@ -67572,6 +67660,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CAMS_31082026151428_Analyst_Investor_Call_Filing.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "444525e0bd61",
+          "datetime": "22-Sep-2026 15:01:15",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Nandhini_22092026150105_Intimation_of_ESG_Rating.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [
@@ -68265,6 +68364,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MGL25_26082026193640_CoveringLetter26082026.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "80e760d5c022",
+          "datetime": "22-Sep-2026 15:33:53",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MGL25_22092026153242_IntimationTWclosure30092026.pdf",
+          "fetched": "15:43"
         }
       ],
       "actions": [
@@ -75494,10 +75604,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-22 14:55",
+  "last_updated": "2026-09-22 15:43",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 7,
-  "total_seen_ids": 16411,
-  "guidance_events": 369
+  "new_this_run": 10,
+  "total_seen_ids": 16421,
+  "guidance_events": 370
 }
