@@ -8204,6 +8204,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_22092026140022_AELIntimation21092026.pdf",
           "fetched": "14:19"
+        },
+        {
+          "id": "b1faf4471453",
+          "datetime": "22-Sep-2026 19:43:36",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/nishant_joshi_adani_com_22092026194323_AELintimationSO.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [],
@@ -28644,6 +28655,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/pooja_sanghvi_22092026193221_AGM_PROCEEDINGS_LETTER_.pdf",
           "fetched": "19:38"
+        },
+        {
+          "id": "61b58b6f2663",
+          "datetime": "22-Sep-2026 19:45:42",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/pooja_sanghvi_22092026194532_44.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [
@@ -31253,6 +31275,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CPPLUS_21082026123157_sepbnews.pdf",
           "fetched": "12:55"
+        },
+        {
+          "id": "c6f9cf940fa3",
+          "datetime": "22-Sep-2026 20:09:29",
+          "subject": "Qualified Institutional Placement",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CPPLUS_22092026200910_signedstxopeningqip.pdf",
+          "fetched": "20:11"
+        },
+        {
+          "id": "df21c0af7054",
+          "datetime": "22-Sep-2026 20:04:39",
+          "subject": "Committee Meeting Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CPPLUS_22092026200404_signedstxopeningqip.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [],
@@ -33445,6 +33489,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_22092026182125_Appointment_SE.pdf",
           "fetched": "19:06"
+        },
+        {
+          "id": "cca5e36923bd",
+          "datetime": "22-Sep-2026 20:06:55",
+          "subject": "Cessation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_22092026200423_Cessation.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [],
@@ -41755,6 +41810,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANITRANS_26082026090003_AESL_Press_Release_Satara_Transmission_Proj_win_.pdf",
           "fetched": "09:55"
+        },
+        {
+          "id": "f56ae152f055",
+          "datetime": "22-Sep-2026 19:38:24",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ADANITRANS_22092026193815_AESL_Settlement_Order.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [],
@@ -52282,6 +52348,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_31082026110417_Intimation_of_Press_Release_31082026.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "12e3a45e5534",
+          "datetime": "22-Sep-2026 20:06:57",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_22092026200639_IntimationofPressReleasellSeptember222026.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [
@@ -53264,6 +53341,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_22092026171156_SEIntimationUpdateonVoluntaryPublicOfferofNagarro-signed.pdf",
           "fetched": "17:30"
+        },
+        {
+          "id": "d7cd757642b8",
+          "datetime": "22-Sep-2026 19:53:18",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_22092026195302_PSLOutcomeofInvestorSessionsSeptember222026sd.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [
@@ -63540,6 +63628,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IKS2006_21092026195920_ProceedingsOfAGM21092026SEUPLOAD.pdf",
           "fetched": "20:00"
+        },
+        {
+          "id": "7e616f0c2f38",
+          "datetime": "22-Sep-2026 19:47:02",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IKS2006_22092026194524_Voting_Results_along_with_Scrutinizer_Report_SE_Upload_Final.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [],
@@ -68150,6 +68249,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AWL_27082026145527_SE_Credit_rating_inti.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "57f40b82edce",
+          "datetime": "22-Sep-2026 19:45:44",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AWL_22092026194520_SE_Intimation_SEBI_Settlement_Order_Sep_22.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [],
@@ -72682,6 +72792,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_21092026214925_KPIT_Anand_Rathi_outcome_signed.pdf",
           "fetched": "21:54"
+        },
+        {
+          "id": "239a0b33a20b",
+          "datetime": "22-Sep-2026 20:07:30",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KPITTECH_22092026200646_KPIT_JPM_Conference_outcome_signed.pdf",
+          "fetched": "20:11"
         }
       ],
       "actions": [
@@ -76759,10 +76880,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-22 19:38",
+  "last_updated": "2026-09-22 20:11",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 16,
-  "total_seen_ids": 16527,
+  "new_this_run": 11,
+  "total_seen_ids": 16538,
   "guidance_events": 371
 }
