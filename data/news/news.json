@@ -4786,6 +4786,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CLEAN_23092026174855_Intimation_of_Additional_Investment_in_WOS_September_2026.pdf",
           "fetched": "18:28"
+        },
+        {
+          "id": "312cd21f74fe",
+          "datetime": "23-Sep-2026 20:42:05",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CLEAN_23092026204111_Intimation_of_Search_seizure_23092026.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [],
@@ -7624,6 +7635,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RITES_23092026133657_IntimationSigned.pdf",
           "fetched": "14:20"
+        },
+        {
+          "id": "7bfa5e6190c6",
+          "datetime": "23-Sep-2026 22:09:54",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RITES_23092026220941_Investorsigned.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [
@@ -10932,6 +10954,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/532783_27082026171415_recorddate_18sep.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "6a8948b703ab",
+          "datetime": "23-Sep-2026 21:04:08",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/532783_23092026210357_intimation.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [],
@@ -17992,6 +18025,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KARURVYSYA_23092026153628_Intimation_DSC.pdf",
           "fetched": "15:42"
+        },
+        {
+          "id": "7f39e2023a9d",
+          "datetime": "23-Sep-2026 20:52:19",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KARURVYSYA_23092026205156_Investor_meet_DSC.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [
@@ -25405,6 +25449,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_21092026173810_Change_in_SMP_SE_Intimation_Signed.pdf",
           "fetched": "18:44"
+        },
+        {
+          "id": "ed8c4c364c6d",
+          "datetime": "23-Sep-2026 21:22:05",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_23092026211640_Change_in_SMP_SE_Intimation_Signed.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [
@@ -29378,6 +29433,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/pooja_sanghvi_23092026151449_Clarification_Letter.pdf",
           "fetched": "15:42"
+        },
+        {
+          "id": "91d2f2b91968",
+          "datetime": "23-Sep-2026 21:41:34",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BLUEDART_ROID_98872_KMP_Doc.zip",
+          "fetched": "22:49"
+        },
+        {
+          "id": "9813efa8d365",
+          "datetime": "23-Sep-2026 21:30:50",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/pooja_sanghvi_23092026213035_TradingWindowClosureQ2.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [
@@ -39086,6 +39163,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_22092026143236_Lodha_Investor_Call_Intimation.pdf",
           "fetched": "14:55"
+        },
+        {
+          "id": "409f7e35ae18",
+          "datetime": "23-Sep-2026 20:38:38",
+          "subject": "Allotment of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LODHA_23092026203742_AllotmentunderESOP23092026.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [],
@@ -42634,6 +42722,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_23092026142304_SEIntimation23092026.pdf",
           "fetched": "14:56"
+        },
+        {
+          "id": "85f8fa222b51",
+          "datetime": "23-Sep-2026 22:29:17",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO1_23092026222821_CapacityExpansion23092026.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [
@@ -73923,6 +74022,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_23092026202051_SEIntimationInvestorMeet23092026Signed.pdf",
           "fetched": "20:24"
+        },
+        {
+          "id": "94aaabb182b9",
+          "datetime": "23-Sep-2026 20:30:49",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_23092026203022_SEDisclosureESGRating23092026Signed.pdf",
+          "fetched": "22:49"
         }
       ],
       "actions": [
@@ -78920,10 +79030,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-23 20:24",
+  "last_updated": "2026-09-23 22:49",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 5,
-  "total_seen_ids": 16724,
+  "new_this_run": 10,
+  "total_seen_ids": 16734,
   "guidance_events": 377
 }
