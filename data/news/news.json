@@ -3959,6 +3959,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/YESBANK_23092026132453_YBL_SE_Intimation_Outcome_Anand_Rathi_Signed.pdf",
           "fetched": "14:20"
+        },
+        {
+          "id": "5a0020db6859",
+          "datetime": "23-Sep-2026 19:46:23",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/YESBANK_23092026194533_YBL_SE_Intimation_Outcome_Citi_India_Signed.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [],
@@ -21170,6 +21181,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CANBK_23092026170441_CREDITRATING.pdf",
           "fetched": "17:31"
+        },
+        {
+          "id": "4e1cb6fdc064",
+          "datetime": "23-Sep-2026 19:44:59",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CANBK_23092026194445_INTIMATIONCIMsign.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [],
@@ -38191,6 +38213,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RBLBANK_23092026171445_TradingwindowclosureQ2FY2026_27Signed.pdf",
           "fetched": "17:31"
+        },
+        {
+          "id": "13d34638f612",
+          "datetime": "23-Sep-2026 19:20:32",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RBLBANK_23092026191923_IntimationInvestorMeetSeptember232026Signed.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [],
@@ -54768,6 +54801,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23092026184452_PSLIntimationUpdateSeptember232026sd.pdf",
           "fetched": "19:18"
+        },
+        {
+          "id": "ab5141bb6a53",
+          "datetime": "23-Sep-2026 19:41:57",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23092026194147_PSLOutcomeofInvestorSessionsSeptember232026sd.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [
@@ -56210,6 +56254,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CUB_23092026181827_CUB_Analyst_Schdeule-Nuvama_28092026_signed.pdf",
           "fetched": "18:28"
+        },
+        {
+          "id": "bbac765d23f6",
+          "datetime": "23-Sep-2026 19:31:25",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CUB_23092026193039_CUB_TWC_01102026.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [
@@ -60932,6 +60987,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_29082026225937_Intimation_Shareholders_Communication_OEM.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "fd3fa7118636",
+          "datetime": "23-Sep-2026 19:26:57",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_23092026192603_Intimation_Press_Release_Ola_Electric.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [],
@@ -63435,14 +63501,25 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CHOICE_21072026110344_Upload.pdf",
           "fetched": "16:51"
+        },
+        {
+          "id": "8180b501c323",
+          "datetime": "23-Sep-2026 19:18:27",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CHOICE_23092026191805_upload.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [],
-      "news_impact_score": 10,
+      "news_impact_score": 13,
       "has_major_announcement": false,
       "exclude_negative": false,
       "board_meetings": [],
-      "has_guidance_event": false,
+      "has_guidance_event": true,
       "next_result_date": "",
       "next_result_purpose": ""
     },
@@ -73266,6 +73343,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_21082026163803_Intimation_Pursuant_to_Reg_30_Analyst_Meet_2026_Aug_2026.pdf",
           "fetched": "18:54"
+        },
+        {
+          "id": "c0843821f640",
+          "datetime": "23-Sep-2026 19:30:42",
+          "subject": "Scheme of Arrangement",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_23092026193034_GDGIL_-_Intimation_to_Exchanges_final_signed.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [],
@@ -76679,6 +76767,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AHMED_31072026234901_HFCL_STX_RO_Intimation_31072026.pdf",
           "fetched": "12:17"
+        },
+        {
+          "id": "c1115eaea407",
+          "datetime": "23-Sep-2026 19:26:44",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AHMED_23092026192630_HFCL_STX_ESG_Letter_23092026.pdf",
+          "fetched": "19:50"
         }
       ],
       "actions": [
@@ -78766,10 +78865,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-23 19:18",
+  "last_updated": "2026-09-23 19:50",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 27,
-  "total_seen_ids": 16710,
-  "guidance_events": 376
+  "new_this_run": 9,
+  "total_seen_ids": 16719,
+  "guidance_events": 377
 }
