@@ -12275,6 +12275,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRANULES_27072026120801_NSEBSE27072026.pdf",
           "fetched": "12:22"
+        },
+        {
+          "id": "05afaed7173e",
+          "datetime": "23-Sep-2026 14:22:58",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRANULES_23092026142232_NSEBSEINVESTORMEET.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [
@@ -20323,6 +20334,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIINFRATEL_21082026214651_SEIntimationScrutinizers21082026.pdf",
           "fetched": "09:59"
+        },
+        {
+          "id": "31399cbcd417",
+          "datetime": "23-Sep-2026 14:21:04",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BHARTIINFRATEL_23092026142051_SETradingWindowIndusQ2FY27.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [
@@ -28949,6 +28971,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/pooja_sanghvi_23092026141610_SELetterOutcomesigned.pdf",
           "fetched": "14:20"
+        },
+        {
+          "id": "8bb23c4eb84d",
+          "datetime": "23-Sep-2026 14:21:34",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/pooja_sanghvi_23092026142119_SELetterOutcomesigned.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [
@@ -33838,6 +33871,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_22092026201302_AGM_Proceedings.pdf",
           "fetched": "22:36"
+        },
+        {
+          "id": "e4e50d73b0de",
+          "datetime": "23-Sep-2026 14:28:31",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MARYA_23092026142717_Window_Closure.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [],
@@ -42018,6 +42062,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_22092026173104_MPM22092026.pdf",
           "fetched": "18:18"
+        },
+        {
+          "id": "4f5ba3d30bb9",
+          "datetime": "23-Sep-2026 14:23:19",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_23092026142304_SEIntimation23092026.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [
@@ -50442,6 +50497,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MRPL_26082026164135_InitmationtostockexchangesforQtr1202627sd.pdf",
           "fetched": "19:01"
+        },
+        {
+          "id": "2173fa6bce1c",
+          "datetime": "23-Sep-2026 14:48:39",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MRPL_23092026144827_ExhangeTRADINGWINDOWCLOSURE23092026sd.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [],
@@ -65187,6 +65253,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_31082026195314_SELETTEREDPF.pdf",
           "fetched": "20:52"
+        },
+        {
+          "id": "a09c47613612",
+          "datetime": "23-Sep-2026 14:31:29",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/bharatsahu_23092026143119_Tradingwindow.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [
@@ -77589,10 +77666,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-23 14:20",
+  "last_updated": "2026-09-23 14:56",
   "total_symbols": 500,
   "high_impact": 83,
-  "new_this_run": 43,
-  "total_seen_ids": 16603,
+  "new_this_run": 7,
+  "total_seen_ids": 16610,
   "guidance_events": 374
 }
