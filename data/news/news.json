@@ -10731,6 +10731,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BSOFT_27082026114755_SEIntimationSigned.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "a28498dd903a",
+          "datetime": "24-Sep-2026 20:20:02",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Birlasoft_24092026201918_SECreditRatingIntimation.pdf",
+          "fetched": "20:24"
+        },
+        {
+          "id": "d8b3a729c1db",
+          "datetime": "24-Sep-2026 19:59:29",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Birlasoft_24092026195841_SEIntimationTWCSeptember2026.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [],
@@ -20071,6 +20093,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRAVITA_30082026151504_FinalNewspaperAdvetisment30082026.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "cc3cc1a06226",
+          "datetime": "24-Sep-2026 20:05:49",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRAVITA_24092026200349_CreditRatingFinal24092026.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [],
@@ -30926,6 +30959,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Anupama_27082026160940_BSENSEKYCLETTERS27082026.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "6b484fb63cf6",
+          "datetime": "24-Sep-2026 20:06:57",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Anupama_24092026200636_NSEBSEINTIMATION24092026.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [],
@@ -35408,6 +35452,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_24092026194623_Outcome_AGM.pdf",
           "fetched": "19:51"
+        },
+        {
+          "id": "85112d4673d4",
+          "datetime": "24-Sep-2026 19:56:52",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_24092026195443_Designation_Change.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [],
@@ -43159,6 +43214,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKBARODA_23092026183202_SEREAPPOINTMENT.pdf",
           "fetched": "19:18"
+        },
+        {
+          "id": "6152f5d4b628",
+          "datetime": "24-Sep-2026 19:57:42",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BANKBARODA_24092026195735_SENSEINTIMATION.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [],
@@ -56536,6 +56602,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_23092026194147_PSLOutcomeofInvestorSessionsSeptember232026sd.pdf",
           "fetched": "19:50"
+        },
+        {
+          "id": "d466b5f8b8c7",
+          "datetime": "24-Sep-2026 20:04:28",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_24092026200420_PSLOutcomeofInvestorSessionsSeptember242026Sd.pdf",
+          "fetched": "20:24"
+        },
+        {
+          "id": "be295d07bdcc",
+          "datetime": "24-Sep-2026 19:52:43",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_24092026195235_PSLIntimationUpdateSeptember242026Sd.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [
@@ -63393,11 +63481,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AMIORG_24092026172143_AGMProceedingsswSigned.pdf",
           "fetched": "17:37"
+        },
+        {
+          "id": "42b3a524fb68",
+          "datetime": "24-Sep-2026 19:53:26",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AMIORG_24092026195234_EnchemAcquisitionIntimationSWSigned.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -75124,6 +75223,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AKZOINDIA_22092026170316_JSWDuluxRecordDateIntimation22Sept2026.pdf",
           "fetched": "17:30"
+        },
+        {
+          "id": "78e8187098f0",
+          "datetime": "24-Sep-2026 20:16:09",
+          "subject": "Action(s) initiated or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AKZOINDIA_24092026201538_JSWDuluxRegulation30Disclosure_WBGST_SCN_24092026.pdf",
+          "fetched": "20:24"
         }
       ],
       "actions": [],
@@ -81217,10 +81327,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-24 19:51",
+  "last_updated": "2026-09-24 20:24",
   "total_symbols": 500,
-  "high_impact": 86,
+  "high_impact": 87,
   "new_this_run": 10,
-  "total_seen_ids": 16934,
+  "total_seen_ids": 16944,
   "guidance_events": 378
 }
