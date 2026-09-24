@@ -1566,6 +1566,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SUZLON1_25082026093153_Suzlon_25082026.pdf",
           "fetched": "09:54"
+        },
+        {
+          "id": "c97e33194983",
+          "datetime": "24-Sep-2026 14:55:49",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUZLON1_24092026145503_Suzlon24092026.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [],
@@ -59241,6 +59252,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_22092026144236_Newspaper_Advertisment.pdf",
           "fetched": "14:55"
+        },
+        {
+          "id": "7161255fb960",
+          "datetime": "24-Sep-2026 14:28:36",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VPTPCL_24092026142820_Analyst_Meet.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [],
@@ -70316,6 +70338,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_27082026172957_InvestorMeetIntimation20260827.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "1d1e6ca47c57",
+          "datetime": "24-Sep-2026 14:44:16",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/YASHIKAN_24092026144341_20260924-CreditRatingIntimation.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [
@@ -78180,6 +78213,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_20052026165249_COALINDIA.pdf",
           "fetched": "14:16"
+        },
+        {
+          "id": "2530a7dba59c",
+          "datetime": "24-Sep-2026 14:46:09",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COALINDIA_24092026144558_Letter_Stock_Exchange.pdf",
+          "fetched": "14:56"
         }
       ],
       "actions": [
@@ -79764,10 +79808,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-24 14:16",
+  "last_updated": "2026-09-24 14:56",
   "total_symbols": 500,
   "high_impact": 85,
-  "new_this_run": 67,
-  "total_seen_ids": 16801,
+  "new_this_run": 4,
+  "total_seen_ids": 16805,
   "guidance_events": 377
 }
