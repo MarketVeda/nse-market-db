@@ -7855,6 +7855,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RITES_23092026220941_Investorsigned.pdf",
           "fetched": "22:49"
+        },
+        {
+          "id": "78741c21201c",
+          "datetime": "24-Sep-2026 21:18:19",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RITES_24092026211800_InvestorMeetsigned.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [
@@ -15808,6 +15819,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RRKL1995_29082026180828_Intimation_GST_SCN_27_08_26.pdf",
           "fetched": "15:36"
+        },
+        {
+          "id": "b68535c2df8a",
+          "datetime": "24-Sep-2026 21:50:53",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RRKL1995_24092026214959_Outcome_of_BM_acquisition_of_unit_-_Final.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [],
@@ -29312,6 +29334,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SGLOBAL_22092026193604_creditratingintimationsigned.pdf",
           "fetched": "19:38"
+        },
+        {
+          "id": "14aa1ca1088f",
+          "datetime": "24-Sep-2026 21:07:26",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SGLOBAL_24092026210614_outcomeagmsigned.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [],
@@ -38209,6 +38242,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_22092026151843_signedSEIntimationProceedingsof54thAGM.pdf",
           "fetched": "15:43"
+        },
+        {
+          "id": "23a1290fdbf3",
+          "datetime": "24-Sep-2026 22:24:00",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_24092026222346_SE_intimation_VR_Reg_44_54th_AGM_and_Scrutinizer_Report.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [
@@ -39066,6 +39110,61 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_23092026134545_Closure_of_Trading_window__Sep_2026.pdf",
           "fetched": "14:20"
+        },
+        {
+          "id": "13246371f862",
+          "datetime": "24-Sep-2026 21:33:33",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_24092026213041_Reg_30.pdf",
+          "fetched": "22:54"
+        },
+        {
+          "id": "78e5447625f9",
+          "datetime": "24-Sep-2026 21:26:44",
+          "subject": "Agreements",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_24092026211955_Reg_30.pdf",
+          "fetched": "22:54"
+        },
+        {
+          "id": "e264ece57a00",
+          "datetime": "24-Sep-2026 21:04:43",
+          "subject": "Resignation of Director/KMP/SMP",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_ROID_98967_KMP_Doc.zip",
+          "fetched": "22:54"
+        },
+        {
+          "id": "73a482091668",
+          "datetime": "24-Sep-2026 20:59:46",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_24092026205747_Resignation.pdf",
+          "fetched": "22:54"
+        },
+        {
+          "id": "ca09152b22df",
+          "datetime": "24-Sep-2026 20:37:51",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_24092026203539_License_Agreement.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [],
@@ -50594,6 +50693,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_23092026125737_Int_23092026_sd.pdf",
           "fetched": "14:20"
+        },
+        {
+          "id": "70c203546e35",
+          "datetime": "24-Sep-2026 21:54:07",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Piramalcapital_24092026214314_PFL_SE_intimation_24092026_sd.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [],
@@ -76231,6 +76341,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_23092026203022_SEDisclosureESGRating23092026Signed.pdf",
           "fetched": "22:49"
+        },
+        {
+          "id": "2e9b12cc2538",
+          "datetime": "24-Sep-2026 21:51:50",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/USHAMART_24092026215114_SEDisclosure24092026.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [
@@ -76803,6 +76924,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJCP_24092026185257_GCPL_Closure_of_Trading_Window_Sept_2026.pdf",
           "fetched": "19:13"
+        },
+        {
+          "id": "9e1b7b9f616b",
+          "datetime": "24-Sep-2026 22:12:05",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODREJCP_24092026221151_GCPLINTIMATIONSEPTEMBER242026signed.pdf",
+          "fetched": "22:54"
         }
       ],
       "actions": [
@@ -81327,10 +81459,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-24 20:24",
+  "last_updated": "2026-09-24 22:54",
   "total_symbols": 500,
   "high_impact": 87,
-  "new_this_run": 10,
-  "total_seen_ids": 16944,
+  "new_this_run": 12,
+  "total_seen_ids": 16956,
   "guidance_events": 378
 }
