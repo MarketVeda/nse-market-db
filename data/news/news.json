@@ -2544,6 +2544,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_24092026174406_GFCL_Eighth_AGM_Gist_of_AGM_Proceedings_24September2026.pdf",
           "fetched": "18:22"
+        },
+        {
+          "id": "3d383fd6baa6",
+          "datetime": "24-Sep-2026 19:48:27",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_24092026194811_GFCL_Appointment_of_Directors_24September2026.pdf",
+          "fetched": "19:51"
+        },
+        {
+          "id": "5b552a99f6f5",
+          "datetime": "24-Sep-2026 19:43:12",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FLUOROCHEM_24092026194254_GFCL_Intimation_of_Voting_Results__2_.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [],
@@ -10532,6 +10554,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_23092026184956_SE_23092026.pdf",
           "fetched": "19:18"
+        },
+        {
+          "id": "ca81d5857885",
+          "datetime": "24-Sep-2026 19:24:20",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/kavinavora_24092026192411_SE_24092026.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [],
@@ -26087,6 +26120,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_23092026211640_Change_in_SMP_SE_Intimation_Signed.pdf",
           "fetched": "22:49"
+        },
+        {
+          "id": "c3b19b259c06",
+          "datetime": "24-Sep-2026 19:35:38",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_24092026193439_SE_Letter_Trading_Window_Closure_Signed.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [
@@ -32976,6 +33020,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_24092026152243_nse_bse_twc_30092026.pdf",
           "fetched": "15:52"
+        },
+        {
+          "id": "a9dc4de9b765",
+          "datetime": "24-Sep-2026 19:27:51",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HINDCOPPERMKD_24092026192600_BSENSEScrutinizer24092026.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [
@@ -35342,6 +35397,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MARYA_23092026142717_Window_Closure.pdf",
           "fetched": "14:56"
+        },
+        {
+          "id": "acfbf317995f",
+          "datetime": "24-Sep-2026 19:46:44",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_24092026194623_Outcome_AGM.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [],
@@ -38713,6 +38779,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MINDAIND1_24092026165221_DSCTradingWindowClosureIntimationSep302026.pdf",
           "fetched": "17:37"
+        },
+        {
+          "id": "82c32cb5ae43",
+          "datetime": "24-Sep-2026 19:18:30",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MINDAIND1_24092026191817_stxintimation24092026.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [],
@@ -48742,6 +48819,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MAHINDRACIE_24092026115226_SEintimation.pdf",
           "fetched": "14:16"
+        },
+        {
+          "id": "427288f3b21a",
+          "datetime": "24-Sep-2026 19:20:33",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAHINDRACIE_24092026192020_SEintimation.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [],
@@ -55640,6 +55728,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_24092026175949_Intimation_Closureoftrading_Window.pdf",
           "fetched": "18:22"
+        },
+        {
+          "id": "e3be5370bfba",
+          "datetime": "24-Sep-2026 19:22:24",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGCL_24092026192040_CGCL_Investor_Interaction_Exchange_Filing.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [
@@ -77914,6 +78013,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_22092026190602_InvestorMeetDisclosure_22092026.pdf",
           "fetched": "19:38"
+        },
+        {
+          "id": "0410a96feea5",
+          "datetime": "24-Sep-2026 19:42:08",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_24092026194145_InvestorMeetDisclosure_24092026.pdf",
+          "fetched": "19:51"
         }
       ],
       "actions": [],
@@ -81107,10 +81217,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-24 19:13",
+  "last_updated": "2026-09-24 19:51",
   "total_symbols": 500,
   "high_impact": 86,
-  "new_this_run": 16,
-  "total_seen_ids": 16924,
+  "new_this_run": 10,
+  "total_seen_ids": 16934,
   "guidance_events": 378
 }
