@@ -17810,6 +17810,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_25092026172920_Intimation_-_Closure_of_Trading_Window_-_Signed.pdf",
           "fetched": "17:36"
+        },
+        {
+          "id": "7c4d54d6e716",
+          "datetime": "25-Sep-2026 19:37:54",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Indigo1_25092026193740_Disclosure_CreditRating.pdf",
+          "fetched": "20:12"
         }
       ],
       "actions": [],
@@ -22468,6 +22479,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CANBK_25092026180703_LettertoSE25092026.pdf",
           "fetched": "18:26"
+        },
+        {
+          "id": "9922ceddeae5",
+          "datetime": "25-Sep-2026 19:55:30",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CANBK_25092026195452_LettertoSE25092026.pdf",
+          "fetched": "20:12"
         }
       ],
       "actions": [],
@@ -42536,6 +42558,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ITCHOTELS12_22092026172059_Intimation.pdf",
           "fetched": "17:30"
+        },
+        {
+          "id": "26192f4836a2",
+          "datetime": "25-Sep-2026 19:50:25",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ITCHOTELS12_25092026195010_SE_Trading_Window.pdf",
+          "fetched": "20:12"
         }
       ],
       "actions": [],
@@ -47472,6 +47505,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRSE_25092026133119_Intimation_of_Appointment_of_Statutary_Auditor_for_FY_2026-27.pdf",
           "fetched": "14:36"
+        },
+        {
+          "id": "c2b6026df82c",
+          "datetime": "25-Sep-2026 19:38:37",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRSE_25092026193710_AGM_Proceedings_2025-26.pdf",
+          "fetched": "20:12"
         }
       ],
       "actions": [],
@@ -58480,6 +58524,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_25092026184013_PSLOutcomeofInvestorSessionsSeptember252026Sd.pdf",
           "fetched": "19:35"
+        },
+        {
+          "id": "c0f8e3b4b799",
+          "datetime": "25-Sep-2026 19:37:09",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_25092026193628_PSLIntimationofInvestorsSessions25092026Sd.pdf",
+          "fetched": "20:12"
         }
       ],
       "actions": [
@@ -72431,6 +72486,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_21092026184712_InvestorsMeetOutcome21Sep2026signed.pdf",
           "fetched": "20:00"
+        },
+        {
+          "id": "181c78f6a28a",
+          "datetime": "25-Sep-2026 19:40:45",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NESTLEIND1_25092026194029_TradingWindowClosureSEintimationsigned.pdf",
+          "fetched": "20:12"
         }
       ],
       "actions": [
@@ -82474,6 +82540,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SiemensRaj_25092026192017_Disclosure_-_Capital_Reduction.pdf",
           "fetched": "19:35"
+        },
+        {
+          "id": "5ae0cf1ed979",
+          "datetime": "25-Sep-2026 20:04:40",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SiemensRaj_25092026200342_SE_Intimation_-_KYC_Letters.pdf",
+          "fetched": "20:12"
         }
       ],
       "actions": [
@@ -84030,10 +84107,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-25 19:35",
+  "last_updated": "2026-09-25 20:12",
   "total_symbols": 500,
   "high_impact": 90,
-  "new_this_run": 37,
-  "total_seen_ids": 17195,
+  "new_this_run": 7,
+  "total_seen_ids": 17202,
   "guidance_events": 379
 }
