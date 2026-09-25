@@ -24353,6 +24353,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PNBHOUSING_23092026230535_Citi_Conference_Outcome_September_23_2026.pdf",
           "fetched": "14:16"
+        },
+        {
+          "id": "b8b4b974fdd1",
+          "datetime": "25-Sep-2026 20:17:14",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PNBHOUSING_25092026201645_SE_intimation_ICRA_Rating_Press_Release_25092026.pdf",
+          "fetched": "20:39"
         }
       ],
       "actions": [],
@@ -63063,6 +63074,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KMBLTAB_24082026194907_EMTNAllotment.pdf",
           "fetched": "09:54"
+        },
+        {
+          "id": "8cb504e4f060",
+          "datetime": "25-Sep-2026 20:15:12",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KMBLTAB_25092026201322_KMBLLODRV2250926.pdf",
+          "fetched": "20:39"
         }
       ],
       "actions": [
@@ -84107,10 +84129,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-25 20:12",
+  "last_updated": "2026-09-25 20:39",
   "total_symbols": 500,
   "high_impact": 90,
-  "new_this_run": 7,
-  "total_seen_ids": 17202,
+  "new_this_run": 2,
+  "total_seen_ids": 17204,
   "guidance_events": 379
 }
