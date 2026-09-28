@@ -6036,6 +6036,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PFLROHIT_28092026213848_PFLBoardmeetingTradingwindowQ2FY27.pdf",
           "fetched": "22:27"
+        },
+        {
+          "id": "ba2e9e13830c",
+          "datetime": "28-Sep-2026 23:39:00",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POONAWALLA_28092026233851_PFLIntimationReg30upload28092026final.pdf",
+          "fetched": "01:15"
         }
       ],
       "actions": [],
@@ -20551,6 +20562,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/rkbhagia_21082026132854_SEINTIMATION.pdf",
           "fetched": "13:39"
+        },
+        {
+          "id": "72813dd2fc2e",
+          "datetime": "29-Sep-2026 00:30:27",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/rkbhagia_29092026002844_APSEZSEIntimation.pdf",
+          "fetched": "01:15"
         }
       ],
       "actions": [],
@@ -25920,6 +25942,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BLS_25092026162558_TradingWindowClosuresigned25092026.pdf",
           "fetched": "17:36"
+        },
+        {
+          "id": "37fd546e2566",
+          "datetime": "28-Sep-2026 23:57:46",
+          "subject": "Sale or disposal",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BLS_28092026235718_Intimationregulation30JLGBUSINESSsigned.pdf",
+          "fetched": "01:15"
         }
       ],
       "actions": [
@@ -65588,6 +65621,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/INOXWIND_25092026205043_IWLAGM_Proceeding_s.pdf",
           "fetched": "22:54"
+        },
+        {
+          "id": "5b4973ba7262",
+          "datetime": "28-Sep-2026 23:40:49",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INOXWIND_28092026234029_IWL_AGM_VR_25092026_f.pdf",
+          "fetched": "01:15"
         }
       ],
       "actions": [],
@@ -67952,6 +67996,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026195546_SEintimationOutcomeofBMRightsIssue.pdf",
           "fetched": "21:22"
+        },
+        {
+          "id": "7c0b561abb57",
+          "datetime": "28-Sep-2026 23:39:17",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_28092026233852_Intimationforconstitutionofrightsissuecommittee.pdf",
+          "fetched": "01:15"
         }
       ],
       "actions": [],
@@ -88017,10 +88072,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-28 23:35",
+  "last_updated": "2026-09-29 01:15",
   "total_symbols": 500,
   "high_impact": 93,
-  "new_this_run": 3,
-  "total_seen_ids": 17565,
+  "new_this_run": 5,
+  "total_seen_ids": 17570,
   "guidance_events": 379
 }
