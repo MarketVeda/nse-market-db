@@ -3005,6 +3005,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PHOENIXLTD_22092026172916_PMLAnalystsInvestormeetoutcome22092026_sd.pdf",
           "fetched": "17:30"
+        },
+        {
+          "id": "9f63a54cbb94",
+          "datetime": "28-Sep-2026 22:10:39",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PHOENIXLTD_28092026221025_PML_ShareholderPres_sd.pdf",
+          "fetched": "22:27"
+        },
+        {
+          "id": "deeff27d42a5",
+          "datetime": "28-Sep-2026 22:07:22",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PHOENIXLTD_28092026220628_Covering_Letter_Reg_44_Scrutinizers_Report_sd.pdf",
+          "fetched": "22:27"
+        },
+        {
+          "id": "6f528f16eceb",
+          "datetime": "28-Sep-2026 21:59:31",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PHOENIXLTD_28092026215916_PML_Proceedings_sd.pdf",
+          "fetched": "22:27"
         }
       ],
       "actions": [
@@ -5992,6 +6025,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POONAWALLA_28092026185914_PFL_Draft_Intimation__Newspaper_Adv_28092026.pdf",
           "fetched": "19:52"
+        },
+        {
+          "id": "b0dc8760250f",
+          "datetime": "28-Sep-2026 21:39:00",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PFLROHIT_28092026213848_PFLBoardmeetingTradingwindowQ2FY27.pdf",
+          "fetched": "22:27"
         }
       ],
       "actions": [],
@@ -11015,6 +11059,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MANKIND1_28092026155312_Covering_sd.pdf",
           "fetched": "16:38"
+        },
+        {
+          "id": "5f7689794bd2",
+          "datetime": "28-Sep-2026 22:24:51",
+          "subject": "Resignation of Statutory Auditor",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MANKIND_ROSA_99227_KMP_Doc.zip",
+          "fetched": "22:27"
         }
       ],
       "actions": [],
@@ -59717,6 +59772,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_25092026205152_InvestorCallIntimation25092026.pdf",
           "fetched": "22:54"
+        },
+        {
+          "id": "0800e8414d6c",
+          "datetime": "28-Sep-2026 22:20:48",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_28092026222038_SEIntimationIIOutcomeofBoardMeetingllSep282026_004_.pdf",
+          "fetched": "22:27"
+        },
+        {
+          "id": "c7be4c756ccc",
+          "datetime": "28-Sep-2026 22:19:26",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_28092026221858_SEIntimationIIOutcomeofBoardMeetingllSep282026_004_.pdf",
+          "fetched": "22:27"
         }
       ],
       "actions": [
@@ -61508,11 +61585,22 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_24092026173926_NSEESGRATING.pdf",
           "fetched": "18:22"
+        },
+        {
+          "id": "a7adc4351336",
+          "datetime": "28-Sep-2026 22:26:47",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TMLCOMMERCIAL_28092026222610_LetterNSEBSETMLSPV.pdf",
+          "fetched": "22:27"
         }
       ],
       "actions": [],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -62755,6 +62843,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/UBLSJR_25082026172816_DisclosureMaterialEventHeinekenSilver25082026.pdf",
           "fetched": "18:56"
+        },
+        {
+          "id": "e36ef7aa08ae",
+          "datetime": "28-Sep-2026 21:54:18",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/UBLSJR_28092026215359_IntimationLossofShareCertificate.pdf",
+          "fetched": "22:27"
         }
       ],
       "actions": [
@@ -84289,6 +84388,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_25092026170149_InvestorMeetDisclosure_25092026.pdf",
           "fetched": "17:36"
+        },
+        {
+          "id": "3b443231f955",
+          "datetime": "28-Sep-2026 22:18:14",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/INDIAMART_28092026221802_InvestorMeetDisclosure_28092026.pdf",
+          "fetched": "22:27"
         }
       ],
       "actions": [],
@@ -86439,6 +86549,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AUBANK_24092026230354_Revised_Investor_Presentation_SE.pdf",
           "fetched": "14:36"
+        },
+        {
+          "id": "8e68f01d6acd",
+          "datetime": "28-Sep-2026 21:31:26",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SUMIT1_28092026212616_HIA_Re-appointment.pdf",
+          "fetched": "22:27"
         }
       ],
       "actions": [],
@@ -87819,10 +87940,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-28 21:22",
+  "last_updated": "2026-09-28 22:27",
   "total_symbols": 500,
-  "high_impact": 92,
-  "new_this_run": 18,
-  "total_seen_ids": 17547,
+  "high_impact": 93,
+  "new_this_run": 11,
+  "total_seen_ids": 17558,
   "guidance_events": 379
 }
