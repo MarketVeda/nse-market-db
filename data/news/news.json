@@ -8118,6 +8118,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_25092026141507_CLOSUREOFTRADINGWINDOW3092026sign.pdf",
           "fetched": "14:36"
+        },
+        {
+          "id": "c20acf70fd8e",
+          "datetime": "28-Sep-2026 22:57:17",
+          "subject": "Bagging/Receiving of orders/contracts",
+          "category": "",
+          "score": 20,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NEWGEN2_28092026225702_Stock_Exchange_Material_disclosure-NSI.pdf",
+          "fetched": "23:16"
         }
       ],
       "actions": [],
@@ -34581,6 +34592,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/FEDERALBNK_27092026184705_ESOS_24624714_260926_SE_S.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "36d726e10f68",
+          "datetime": "28-Sep-2026 22:51:54",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FEDERALBNK_28092026225132_FBL_Appointment_of_ED_Mr_Virat_280926_S.pdf",
+          "fetched": "23:16"
         }
       ],
       "actions": [
@@ -46032,6 +46054,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_28092026151006_JMFLIntimationofTradingWindowClosure_Nov2026upload.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "1536fe8445e2",
+          "datetime": "28-Sep-2026 22:40:37",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JMFINANCIL_28092026223954_JMFLRegulation30JMFARCSept2026signed.pdf",
+          "fetched": "23:16"
         }
       ],
       "actions": [],
@@ -59794,6 +59827,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_28092026221858_SEIntimationIIOutcomeofBoardMeetingllSep282026_004_.pdf",
           "fetched": "22:27"
+        },
+        {
+          "id": "8f3374a38c42",
+          "datetime": "28-Sep-2026 22:31:12",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/COFORGE_28092026223104_IntimationofPressReleasellSeptember282026.pdf",
+          "fetched": "23:16"
         }
       ],
       "actions": [
@@ -87940,10 +87984,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-28 22:27",
+  "last_updated": "2026-09-28 23:16",
   "total_symbols": 500,
   "high_impact": 93,
-  "new_this_run": 11,
-  "total_seen_ids": 17558,
+  "new_this_run": 4,
+  "total_seen_ids": 17562,
   "guidance_events": 379
 }
