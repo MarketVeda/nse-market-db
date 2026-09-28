@@ -41239,6 +41239,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_24092026222346_SE_intimation_VR_Reg_44_54th_AGM_and_Scrutinizer_Report.pdf",
           "fetched": "22:54"
+        },
+        {
+          "id": "11290635305e",
+          "datetime": "28-Sep-2026 23:31:06",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GICRE_28092026233051_SEintimationTWCSept2026.pdf",
+          "fetched": "23:35"
         }
       ],
       "actions": [
@@ -81674,6 +81685,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_25092026175200_GDGIL_Trading_Window_Closure.pdf",
           "fetched": "18:26"
+        },
+        {
+          "id": "b146786a580e",
+          "datetime": "28-Sep-2026 23:31:12",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_28092026233103_GDGIL_Reg_30_SE_Intimation_for_Notice_of_NCLT_convened_meeting.pdf",
+          "fetched": "23:35"
+        },
+        {
+          "id": "43dc49b74f05",
+          "datetime": "28-Sep-2026 23:29:30",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_28092026232919_GDGIL_Reg_30_SE_Intimation_for_Notice_of_NCLT_convened_meeting.pdf",
+          "fetched": "23:35"
         }
       ],
       "actions": [],
@@ -87984,10 +88017,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-28 23:16",
+  "last_updated": "2026-09-28 23:35",
   "total_symbols": 500,
   "high_impact": 93,
-  "new_this_run": 4,
-  "total_seen_ids": 17562,
+  "new_this_run": 3,
+  "total_seen_ids": 17565,
   "guidance_events": 379
 }
