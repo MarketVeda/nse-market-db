@@ -1446,6 +1446,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/-",
           "fetched": "15:39"
+        },
+        {
+          "id": "4454950686d3",
+          "datetime": "29-Sep-2026 21:41:22",
+          "subject": "News Verification",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_29092026214058_NSE_PVRumourVerification.pdf",
+          "fetched": "21:57"
         }
       ],
       "actions": [],
@@ -90126,10 +90137,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-29 21:35",
+  "last_updated": "2026-09-29 21:57",
   "total_symbols": 500,
   "high_impact": 95,
-  "new_this_run": 8,
-  "total_seen_ids": 17757,
+  "new_this_run": 1,
+  "total_seen_ids": 17758,
   "guidance_events": 379
 }
