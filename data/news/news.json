@@ -15449,6 +15449,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IREDAEQ_25092026190353_IntimationofJointAuditorAppointment.pdf",
           "fetched": "19:35"
+        },
+        {
+          "id": "98281bbc423d",
+          "datetime": "29-Sep-2026 21:11:06",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IREDAEQ_29092026211056_ProceedingsofAGM29092026Final.pdf",
+          "fetched": "21:35"
         }
       ],
       "actions": [],
@@ -20573,6 +20584,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_29092026172016_Board_Outcome_29_09_2026-Signed.pdf",
           "fetched": "18:45"
+        },
+        {
+          "id": "de783e647c86",
+          "datetime": "29-Sep-2026 21:22:42",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_29092026212052_AGM_Press_Release_Final_29_09_2026_Signed.pdf",
+          "fetched": "21:35"
         }
       ],
       "actions": [
@@ -39032,6 +39054,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_24092026195443_Designation_Change.pdf",
           "fetched": "20:24"
+        },
+        {
+          "id": "f5127abb57f0",
+          "datetime": "29-Sep-2026 21:12:35",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/TUFAIL_29092026211106_Credit_Rating.pdf",
+          "fetched": "21:35"
         }
       ],
       "actions": [],
@@ -73921,6 +73954,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MAHABANK_24092026185018_Letter_to_SE_Outcome_of_Investor_Meet_24092026.pdf",
           "fetched": "19:13"
+        },
+        {
+          "id": "4e37b5b89a01",
+          "datetime": "29-Sep-2026 21:07:39",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAHABANK_29092026210721_MCLRIntimation_Sept_2026.pdf",
+          "fetched": "21:35"
         }
       ],
       "actions": [],
@@ -77004,6 +77048,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PRESTIGE_29092026165154_Intimation29092026.pdf",
           "fetched": "16:59"
+        },
+        {
+          "id": "35757974b983",
+          "datetime": "29-Sep-2026 21:29:32",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PRESTIGE_29092026212629_Intimation29092026.pdf",
+          "fetched": "21:35"
+        },
+        {
+          "id": "a1c416596116",
+          "datetime": "29-Sep-2026 21:20:34",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PRESTIGE_29092026212001_PEPLInitmation290926.pdf",
+          "fetched": "21:35"
         }
       ],
       "actions": [
@@ -79471,6 +79537,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/JSWCL_29092026191654_JCL_Post_BM_Intimation_signed.pdf",
           "fetched": "19:48"
+        },
+        {
+          "id": "ddffea2e8026",
+          "datetime": "29-Sep-2026 21:03:29",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/JSWCL_29092026210016_Press_Release_Upload.pdf",
+          "fetched": "21:35"
         }
       ],
       "actions": [],
@@ -84717,6 +84794,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_28092026210644_ACL__NCLT_OUTCOME_28092026.pdf",
           "fetched": "21:22"
+        },
+        {
+          "id": "232991478542",
+          "datetime": "29-Sep-2026 20:41:18",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_29092026204018_Outcome_NCLT_Meeting_ACL1.pdf",
+          "fetched": "21:35"
         }
       ],
       "actions": [],
@@ -90038,10 +90126,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-29 20:31",
+  "last_updated": "2026-09-29 21:35",
   "total_symbols": 500,
   "high_impact": 95,
-  "new_this_run": 9,
-  "total_seen_ids": 17749,
+  "new_this_run": 8,
+  "total_seen_ids": 17757,
   "guidance_events": 379
 }
