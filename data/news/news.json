@@ -4664,6 +4664,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CEBBCO_29092026160746_Outcome46thAGM.pdf",
           "fetched": "16:20"
+        },
+        {
+          "id": "66541b507b3f",
+          "datetime": "30-Sep-2026 19:32:26",
+          "subject": "Spurt in Volume",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/-",
+          "fetched": "19:41"
+        },
+        {
+          "id": "32a04dc3ec8e",
+          "datetime": "30-Sep-2026 19:28:24",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CEBBCO_30092026192731_SEvotingresults.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -12394,6 +12416,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_29092026121137_SE_Intimation_-_Special_window.pdf",
           "fetched": "15:39"
+        },
+        {
+          "id": "05d7e217e561",
+          "datetime": "30-Sep-2026 18:33:11",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -16651,6 +16684,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/THERMAXNSE_25092026163531_SEIntimationTWC.pdf",
           "fetched": "17:36"
+        },
+        {
+          "id": "cc52e66ccfec",
+          "datetime": "30-Sep-2026 19:32:05",
+          "subject": "Acquisition",
+          "category": "",
+          "score": 15,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/THERMAXNSE_30092026193139_SEIntimationAcquisition.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -16662,8 +16706,8 @@
           "fetched": "00:53"
         }
       ],
-      "news_impact_score": 13,
-      "has_major_announcement": false,
+      "news_impact_score": 15,
+      "has_major_announcement": true,
       "exclude_negative": false,
       "board_meetings": [],
       "has_guidance_event": true,
@@ -18170,6 +18214,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PTCINDUSTRIES_26082026201352_Investor_Meet_26082026_Union.pdf",
           "fetched": "20:17"
+        },
+        {
+          "id": "6cb35ee73641",
+          "datetime": "30-Sep-2026 19:27:18",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PTCINDUSTRIES_30092026192701_Q2FY27closuretradingwindow.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -22598,6 +22653,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GRAVITA_29092026184925_VotingResultsFinal28092026.pdf",
           "fetched": "19:48"
+        },
+        {
+          "id": "bfe187c9e487",
+          "datetime": "30-Sep-2026 18:53:16",
+          "subject": "Issue of Securities",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GRAVITA_30092026185136_IntimationRIGHTISSUE.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -23302,6 +23368,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/FSL_28092026171940_Closure_of_Trading_Window_Q2_FY2026-27signed.pdf",
           "fetched": "17:23"
+        },
+        {
+          "id": "5d2f76df8ab9",
+          "datetime": "30-Sep-2026 19:32:53",
+          "subject": "Spurt in Volume",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/-",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -26177,6 +26254,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CREDITACC_29092026181018_29092026_InvesterCall_Intimation.pdf",
           "fetched": "18:45"
+        },
+        {
+          "id": "48bf5f188688",
+          "datetime": "30-Sep-2026 19:26:40",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CREDITACC_30092026192622_DA_IntimationFY26.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -27064,6 +27152,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BLS_29092026201221_Intimationunderregulation30signed.pdf",
           "fetched": "20:31"
+        },
+        {
+          "id": "186aae379c09",
+          "datetime": "30-Sep-2026 18:43:21",
+          "subject": "Resignation of Statutory Auditor",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BLS_ROSA_99452_KMP_Doc.zip",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -28649,6 +28748,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PGEL_29092026175426_ProccedingsAGM29092026.pdf",
           "fetched": "18:45"
+        },
+        {
+          "id": "6e46dbcc1daa",
+          "datetime": "30-Sep-2026 19:29:34",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PGEL_30092026192923_VotingResult29092026.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -29359,6 +29469,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_24092026193439_SE_Letter_Trading_Window_Closure_Signed.pdf",
           "fetched": "19:51"
+        },
+        {
+          "id": "fce71990fdcc",
+          "datetime": "30-Sep-2026 19:03:52",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_30092026190330_Intimation_under_Regulation_30_Signed.pdf",
+          "fetched": "19:41"
+        },
+        {
+          "id": "0347299935ec",
+          "datetime": "30-Sep-2026 18:42:39",
+          "subject": "Change in Director(s)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BATAINDIA_30092026184213_SE_Letter_Change_in_Director_Signed.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -35757,6 +35889,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAREGAMA_28092026115629_Signed_Covering_Letter_September_2026.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "0884da1b0dcb",
+          "datetime": "30-Sep-2026 18:39:57",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAREGAMA_30092026183944_Signed_ESOP_Intimation_VM.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -36077,6 +36220,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/FEDERALBNK_29092026134029_SE_Intimation_TWC_300926_S.pdf",
           "fetched": "15:39"
+        },
+        {
+          "id": "a65e3f9bffa9",
+          "datetime": "30-Sep-2026 19:07:03",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/FEDERALBNK_30092026190603_FBL_Cessation_of_ID_300926_S.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -38271,6 +38425,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RUCHI_29092026183016_Letter.pdf",
           "fetched": "18:45"
+        },
+        {
+          "id": "d675816b5c1c",
+          "datetime": "30-Sep-2026 18:39:47",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RUCHI_30092026183851_Letter.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -41348,50 +41513,6 @@
     "SAMMAANCAP": {
       "announcements": [
         {
-          "id": "89dbc4ae5b4c",
-          "datetime": "30-Jun-2026 15:26:33",
-          "subject": "Updates",
-          "category": "",
-          "score": 5,
-          "guidance_flag": false,
-          "has_pdf": true,
-          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30062026152620_SCL_Exchange_PP_intimation_57_30_06_2026.pdf",
-          "fetched": "17:32"
-        },
-        {
-          "id": "2ada8d484436",
-          "datetime": "30-Jun-2026 17:48:24",
-          "subject": "Trading Window",
-          "category": "",
-          "score": 5,
-          "guidance_flag": false,
-          "has_pdf": true,
-          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30062026174806_SCL_Closure_of_Trading_Window30June2026.pdf",
-          "fetched": "17:56"
-        },
-        {
-          "id": "7fb238f7cd94",
-          "datetime": "21-Jul-2026 18:40:34",
-          "subject": "Updates",
-          "category": "",
-          "score": 5,
-          "guidance_flag": false,
-          "has_pdf": true,
-          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_21072026184024_SCL_Exchange_intimation_57_21072026_FJ9.pdf",
-          "fetched": "20:56"
-        },
-        {
-          "id": "ab0734c05124",
-          "datetime": "23-Jul-2026 16:49:58",
-          "subject": "Updates",
-          "category": "",
-          "score": 5,
-          "guidance_flag": false,
-          "has_pdf": true,
-          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_23072026164947_SCL_Exchange_Retail_intimation_57_23072026_NV8.pdf",
-          "fetched": "16:52"
-        },
-        {
           "id": "70bf138f6273",
           "datetime": "23-Jul-2026 16:42:47",
           "subject": "Updates",
@@ -41896,6 +42017,50 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_26092026142838_SCL_Exchange_Retail_intimation_26092026_GJ.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "eb00e6c04b82",
+          "datetime": "30-Sep-2026 19:00:18",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30092026190006_SCL_Newspaper_Advertisement_30Sep2026.pdf",
+          "fetched": "19:41"
+        },
+        {
+          "id": "3659cbe6efa3",
+          "datetime": "30-Sep-2026 18:52:58",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30092026185249_SCL_Closure_of_Trading_Window30September2026.pdf",
+          "fetched": "19:41"
+        },
+        {
+          "id": "1cfd52789907",
+          "datetime": "30-Sep-2026 18:48:01",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30092026184750_SCL_Exchange_Retail_intimation_57_30092026_XR5.pdf",
+          "fetched": "19:41"
+        },
+        {
+          "id": "40be20c40b4d",
+          "datetime": "30-Sep-2026 18:36:46",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30092026183635_SCL_Exchange_Retail_intimation_57_30092026_TG6.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -43163,6 +43328,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HEXAWARETECH_29092026181902_Trading_Window_Closure_Intimation_Sep_Quarter.pdf",
           "fetched": "18:45"
+        },
+        {
+          "id": "b4a52dc27279",
+          "datetime": "30-Sep-2026 18:59:23",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HEXAWARETECH_30092026185913_intimation_Grant_of_ESOPs.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -49489,6 +49665,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_29092026182752_MPM29092026.pdf",
           "fetched": "18:45"
+        },
+        {
+          "id": "590151306b09",
+          "datetime": "30-Sep-2026 18:46:22",
+          "subject": "Rumour Verification - Regulation 30(11)",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ULTRACEMCO_30092026184543_MPM30092026.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -54700,6 +54887,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/KFINTECHNSE_25092026190022_Intimation.pdf",
           "fetched": "19:35"
+        },
+        {
+          "id": "a6fe6b9b0897",
+          "datetime": "30-Sep-2026 18:58:40",
+          "subject": "Retirement",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/KFINTECHNSE_30092026185828_Intimation.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -56441,6 +56639,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IRCON_30092026114930_STEXLETTERNEWSPAPER.pdf",
           "fetched": "15:30"
+        },
+        {
+          "id": "247981e1e77e",
+          "datetime": "30-Sep-2026 19:32:00",
+          "subject": "Spurt in Volume",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/-",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -59354,6 +59563,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MRPL_30092026145611_PressreleaseSD.pdf",
           "fetched": "15:30"
+        },
+        {
+          "id": "893c46f91900",
+          "datetime": "30-Sep-2026 18:32:05",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MRPL_30092026183135_2ndIntimationSD.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -63112,6 +63332,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ferozebaria_28092026144146_ICRA28092026.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "30878d08a2b8",
+          "datetime": "30-Sep-2026 19:21:51",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AmitDodani_30092026192055_UpcomingAnalystMeet8102026_.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -63636,6 +63867,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_29092026185028_PSLOutcomeofInvestorSessionsSeptember292026sd.pdf",
           "fetched": "19:48"
+        },
+        {
+          "id": "a60ee796ed71",
+          "datetime": "30-Sep-2026 19:18:57",
+          "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+          "category": "",
+          "score": 13,
+          "guidance_flag": true,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30092026191838_PSLOutcomeofInvestorSessionsSeptember302026sd.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -64889,6 +65131,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HitachiEnergy_28082026214955_outcome.pdf",
           "fetched": "22:20"
+        },
+        {
+          "id": "f5753c1dab55",
+          "datetime": "30-Sep-2026 18:55:19",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HitachiEnergy_30092026185455_tradingwindow.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -66355,6 +66608,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BAJAJFINSV_28092026184208_Intimation.pdf",
           "fetched": "19:52"
+        },
+        {
+          "id": "d5234286a906",
+          "datetime": "30-Sep-2026 19:15:52",
+          "subject": "Retirement",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/walimbelk_30092026191527_SamIntimation.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -72086,6 +72350,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NWML_29092026193042_SE_Voting_Results_and_Cons_Scrutiniser_Report.pdf",
           "fetched": "19:48"
+        },
+        {
+          "id": "db2d7a89fb8a",
+          "datetime": "30-Sep-2026 18:45:44",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NWML_30092026184524_SE_TradingWindow_Sept2026.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -75417,6 +75692,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MAHABANK_29092026210721_MCLRIntimation_Sept_2026.pdf",
           "fetched": "21:35"
+        },
+        {
+          "id": "81de87014aad",
+          "datetime": "30-Sep-2026 18:56:39",
+          "subject": "Cessation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MAHABANK_30092026185524_Letter_to_SE_Superannuation_of_CVO.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -76476,6 +76762,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POLICYBZR_29092026163223_ClosureofTradingWindowPOLICYBZRQ2FY27.pdf",
           "fetched": "16:59"
+        },
+        {
+          "id": "11c230ae62fc",
+          "datetime": "30-Sep-2026 19:15:49",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POLICYBZR_30092026191308_VotingResultsScrutinizerReportAGM2026PBFL.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -77387,6 +77684,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_28092026185540_Exchange_Intimation.pdf",
           "fetched": "19:52"
+        },
+        {
+          "id": "8c09272a35d4",
+          "datetime": "30-Sep-2026 18:57:00",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AAVAS_30092026185220_Intimation.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -78577,6 +78885,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PRESTIGE_29092026212001_PEPLInitmation290926.pdf",
           "fetched": "21:35"
+        },
+        {
+          "id": "e55b0860d952",
+          "datetime": "30-Sep-2026 18:37:49",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PRESTIGE_30092026183731_Intimation_30092026.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -79265,6 +79584,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/MOTHERSON_29092026194209_Disclosure_Credit_Ratings_JCLR_29092026.pdf",
           "fetched": "19:48"
+        },
+        {
+          "id": "27713eda51b9",
+          "datetime": "30-Sep-2026 19:19:39",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/MOTHERSON_30092026191927_SE_Disclosure_Payment_of_Interest_30092026.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -79942,6 +80272,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/Mathew_30092026153104_Final-_NSEBSEReg30NewspaperAdvertisementsigned.pdf",
           "fetched": "16:09"
+        },
+        {
+          "id": "9c7f68a4bec2",
+          "datetime": "30-Sep-2026 19:31:37",
+          "subject": "Action(s) taken or orders passed",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Mathew_30092026193113_NSEBSEReg30PenaltySept302026.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -81572,6 +81913,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SBFC_25092026160420_BMIntimationTWD_24102026_signed.pdf",
           "fetched": "17:36"
+        },
+        {
+          "id": "806b301c35be",
+          "datetime": "30-Sep-2026 19:16:53",
+          "subject": "Credit Rating",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SBFC_30092026191643_Credit_Rating_India_Credit_Ratings_30092026_Final_signed.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -82510,6 +82862,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_29092026142736_Reg30_RecordingofInvestorGroupMeetings_Sept282026.pdf",
           "fetched": "15:39"
+        },
+        {
+          "id": "85f77e0ed9e1",
+          "datetime": "30-Sep-2026 19:07:42",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SCHAEFFLERUSER1_30092026190730_Schaeffler_Intimationoftradingwindowclosure_September2026quarter.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -83279,6 +83642,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IRB_29092026090259_SE_Discl_InvIT_QIP.pdf",
           "fetched": "15:39"
+        },
+        {
+          "id": "415053515620",
+          "datetime": "30-Sep-2026 18:50:19",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IRB_30092026184940_IRBIDL_SE_Discl_Update_Zenithsd.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [
@@ -85282,6 +85656,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_29092026203012_Draft_Reg_30_SE_Intimation_for_Newspaper_Publication_Final.pdf",
           "fetched": "20:31"
+        },
+        {
+          "id": "7b89592f3c84",
+          "datetime": "30-Sep-2026 19:13:16",
+          "subject": "Copy of Newspaper Publication",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/GODIGITGI_30092026191300_Intimation_for_Newspaper_Publication_Chhatrapati_Sambhajinagar_edition.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -86444,6 +86829,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_29092026204018_Outcome_NCLT_Meeting_ACL1.pdf",
           "fetched": "21:35"
+        },
+        {
+          "id": "ecc1821e349f",
+          "datetime": "30-Sep-2026 19:33:51",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_30092026193225_ACL_Consol_Upload.pdf",
+          "fetched": "19:41"
         }
       ],
       "actions": [],
@@ -91996,10 +92392,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-30 18:26",
+  "last_updated": "2026-09-30 19:41",
   "total_symbols": 500,
-  "high_impact": 96,
-  "new_this_run": 60,
-  "total_seen_ids": 17927,
+  "high_impact": 97,
+  "new_this_run": 40,
+  "total_seen_ids": 17967,
   "guidance_events": 379
 }
