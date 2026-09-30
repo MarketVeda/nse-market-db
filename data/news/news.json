@@ -387,6 +387,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ASTERDM2_28092026183437_SEInt_280926sss.pdf",
           "fetched": "19:52"
+        },
+        {
+          "id": "5fa171c81935",
+          "datetime": "30-Sep-2026 19:43:50",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ASTERDM2_30092026193918_FinalSEIntAGMResultss.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -5029,6 +5040,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/RHIM_30092026173309_ClosureofTradingwindow.pdf",
           "fetched": "18:26"
+        },
+        {
+          "id": "5aac7204a4af",
+          "datetime": "30-Sep-2026 20:39:50",
+          "subject": "Change in Auditors",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RHIM_30092026203942_Appointmentofstatutoryauditor.pdf",
+          "fetched": "20:41"
+        },
+        {
+          "id": "741510fdd3dc",
+          "datetime": "30-Sep-2026 20:23:30",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/RHIM_30092026202320_20260930VotingResultsF.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -12427,6 +12460,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026183242_SE_Intimation-_CCO.pdf",
           "fetched": "19:41"
+        },
+        {
+          "id": "30c7be35ca10",
+          "datetime": "30-Sep-2026 20:36:36",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/HDFCBANK3_30092026203611_SE_intimation-_sudhir.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -21178,6 +21222,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_30092026141714_SE_intimation_Newspaper_Publication_Chariman_Speech_1.pdf",
           "fetched": "15:30"
+        },
+        {
+          "id": "bb37e550585a",
+          "datetime": "30-Sep-2026 19:52:06",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/NLCINDIA_30092026195110_LOA_Intimation_30_09_2026_signed.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [
@@ -24102,6 +24157,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/WAAREE_28092026144822_Tradingwindowclosure_signed.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "a06862391831",
+          "datetime": "30-Sep-2026 19:58:11",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/WAAREE_30092026195755_Capacityaddition_Signed.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -40307,6 +40373,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/BIOCON_25092026083515_CoStatement25092026.pdf",
           "fetched": "14:36"
+        },
+        {
+          "id": "f65b37ada2fa",
+          "datetime": "30-Sep-2026 19:42:07",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/BIOCON_30092026194151_IntimationTradingWindow.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [
@@ -41513,17 +41590,6 @@
     "SAMMAANCAP": {
       "announcements": [
         {
-          "id": "70bf138f6273",
-          "datetime": "23-Jul-2026 16:42:47",
-          "subject": "Updates",
-          "category": "",
-          "score": 5,
-          "guidance_flag": false,
-          "has_pdf": true,
-          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_23072026164237_SCL_Exchange_intimation_57_PP_23072026_TX1.pdf",
-          "fetched": "16:52"
-        },
-        {
           "id": "1bb89e44cb33",
           "datetime": "23-Jul-2026 17:05:05",
           "subject": "Updates",
@@ -42061,6 +42127,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30092026183635_SCL_Exchange_Retail_intimation_57_30092026_TG6.pdf",
           "fetched": "19:41"
+        },
+        {
+          "id": "50970b063bcf",
+          "datetime": "30-Sep-2026 20:00:50",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/IHFL_30092026195955_SCL_21st_AGM_Proceedings_Outcome_30Sep2026.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -44043,6 +44120,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_25092026183809_Press_release-Nashik.pdf",
           "fetched": "19:35"
+        },
+        {
+          "id": "65fa0a68c9ed",
+          "datetime": "30-Sep-2026 20:23:30",
+          "subject": "Press Release",
+          "category": "",
+          "score": 10,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/LEMONTREE_30092026202303_Intimation.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -52210,6 +52298,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/lakshmits_26092026075721_Allotment_Intimation_54302_shares_Sep2026.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "38c970fbbacb",
+          "datetime": "30-Sep-2026 20:18:55",
+          "subject": "ESOP/ESOS/ESPS",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/lakshmits_30092026200745_Allotment_Intimation_91063_shares_30Sep2026.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [
@@ -53132,6 +53231,39 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_26092026164111_NSEBSEReg30dt26092026_Signed.pdf",
           "fetched": "15:41"
+        },
+        {
+          "id": "9b54ef2f1c88",
+          "datetime": "30-Sep-2026 20:07:57",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30092026200747_BSENSEReg30signed.pdf",
+          "fetched": "20:41"
+        },
+        {
+          "id": "1f11ecdcef63",
+          "datetime": "30-Sep-2026 20:04:26",
+          "subject": "Appointment",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30092026200406_BSENSEReg30dt30092026_Final.pdf",
+          "fetched": "20:41"
+        },
+        {
+          "id": "2e0fead4f535",
+          "datetime": "30-Sep-2026 19:57:37",
+          "subject": "Outcome of Board Meeting",
+          "category": "",
+          "score": 8,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POWERGRID1_30092026195726_BSENSEReg30dt30092026_Final.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [
@@ -54489,6 +54621,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ACMECS_29092026182631_intimation29092026.pdf",
           "fetched": "18:45"
+        },
+        {
+          "id": "f5c27cdcc7a4",
+          "datetime": "30-Sep-2026 20:40:51",
+          "subject": "Change in Auditors",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ACMECS_30092026204041_auditorsmoa.pdf",
+          "fetched": "20:41"
+        },
+        {
+          "id": "21ad246b92b0",
+          "datetime": "30-Sep-2026 20:09:25",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ACMECS_30092026200811_Intimation30092026signed.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -63878,6 +64032,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30092026191838_PSLOutcomeofInvestorSessionsSeptember302026sd.pdf",
           "fetched": "19:41"
+        },
+        {
+          "id": "87157769b358",
+          "datetime": "30-Sep-2026 19:41:40",
+          "subject": "Trading Window",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PERSISTENTUSER1_30092026194107_PSL_Intimation_of_closure_of_trading_window_sd.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [
@@ -68834,6 +68999,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/-",
           "fetched": "18:26"
+        },
+        {
+          "id": "95ad770543e7",
+          "datetime": "30-Sep-2026 20:13:20",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/PIRAMALPHARMA_30092026201259_SEIntimationAppointmentofCTO.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -76773,6 +76949,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/POLICYBZR_30092026191308_VotingResultsScrutinizerReportAGM2026PBFL.pdf",
           "fetched": "19:41"
+        },
+        {
+          "id": "0134d2ee6fe0",
+          "datetime": "30-Sep-2026 20:07:17",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/POLICYBZR_30092026200702_DisclosurePBFAAInfusion30092026.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -86840,6 +87027,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_30092026193225_ACL_Consol_Upload.pdf",
           "fetched": "19:41"
+        },
+        {
+          "id": "dac1e03f8724",
+          "datetime": "30-Sep-2026 19:50:17",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/AMBUJACEM_30092026195001_ACL_Disclosure_30092026.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -87982,6 +88180,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/ACC_1_29092026200638_ACC_Outcome_Cover_Final.pdf",
           "fetched": "20:31"
+        },
+        {
+          "id": "e78f7e5b4553",
+          "datetime": "30-Sep-2026 19:44:03",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/ACC_1_30092026194339_ACC_CommissioningofProject_30092026.pdf",
+          "fetched": "20:41"
         }
       ],
       "actions": [],
@@ -92392,10 +92601,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-30 19:41",
+  "last_updated": "2026-09-30 20:41",
   "total_symbols": 500,
   "high_impact": 97,
-  "new_this_run": 40,
-  "total_seen_ids": 17967,
+  "new_this_run": 20,
+  "total_seen_ids": 17987,
   "guidance_events": 379
 }
