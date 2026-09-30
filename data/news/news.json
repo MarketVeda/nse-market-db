@@ -14660,6 +14660,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_25092026162237_TWCSep2026.pdf",
           "fetched": "17:36"
+        },
+        {
+          "id": "2aceaa270d79",
+          "datetime": "30-Sep-2026 21:43:42",
+          "subject": "General Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_30092026214303_Update_Crickely.pdf",
+          "fetched": "21:52"
+        },
+        {
+          "id": "03786a2e5c76",
+          "datetime": "30-Sep-2026 21:40:53",
+          "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/VBL_30092026214014_Update_Crickely.pdf",
+          "fetched": "21:52"
         }
       ],
       "actions": [],
@@ -37831,6 +37853,28 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/CGPOWER_28092026174813_StockExchangeIntimationTradingwindow30thSeptember2026.pdf",
           "fetched": "19:52"
+        },
+        {
+          "id": "2f89b293055f",
+          "datetime": "30-Sep-2026 21:38:27",
+          "subject": "Change in Management",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGPOWER_30092026213812_Disclosure_on_change_in_SMP_300926.pdf",
+          "fetched": "21:52"
+        },
+        {
+          "id": "9b4a80f9e84b",
+          "datetime": "30-Sep-2026 21:34:54",
+          "subject": "Resignation",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/CGPOWER_30092026213339_Disclosure_on_change_in_SMP_300926.pdf",
+          "fetched": "21:52"
         }
       ],
       "actions": [],
@@ -92755,10 +92799,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-30 21:32",
+  "last_updated": "2026-09-30 21:52",
   "total_symbols": 500,
   "high_impact": 97,
-  "new_this_run": 14,
-  "total_seen_ids": 18001,
+  "new_this_run": 4,
+  "total_seen_ids": 18005,
   "guidance_events": 379
 }
