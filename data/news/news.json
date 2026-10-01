@@ -4608,6 +4608,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/YESBANK_30092026231736_Stock_Exchange_Intimation_Income_Tax_AY_17-18-OGE_Order_signed.pdf",
           "fetched": "23:33"
+        },
+        {
+          "id": "ea38e15e58de",
+          "datetime": "30-Sep-2026 23:52:08",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/YESBANK_30092026235137_Stock_Exchange_Intimation_JCF_ARC_funds_receipt_signed.pdf",
+          "fetched": "15:58"
         }
       ],
       "actions": [],
@@ -24985,6 +24996,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/SAPPHIRE_28092026185042_SapphireSEDisclosure28092026.pdf",
           "fetched": "19:52"
+        },
+        {
+          "id": "0796943e66b0",
+          "datetime": "30-Sep-2026 23:56:19",
+          "subject": "Credit Rating- Revision",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/SAPPHIRE_30092026235558_NSE.pdf",
+          "fetched": "15:58"
         }
       ],
       "actions": [],
@@ -63761,6 +63783,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/AmitDodani_30092026192055_UpcomingAnalystMeet8102026_.pdf",
           "fetched": "19:41"
+        },
+        {
+          "id": "ba95afecfe50",
+          "datetime": "30-Sep-2026 23:32:57",
+          "subject": "Updates",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/Deepak_30092026233243_Employeeslist30092026.pdf",
+          "fetched": "15:58"
         }
       ],
       "actions": [
@@ -71604,6 +71637,17 @@
           "has_pdf": true,
           "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_29092026231359_SEintimationTradingWindowClosure30092026.pdf",
           "fetched": "23:40"
+        },
+        {
+          "id": "843193ce207c",
+          "datetime": "30-Sep-2026 23:47:17",
+          "subject": "Shareholders meeting",
+          "category": "",
+          "score": 5,
+          "guidance_flag": false,
+          "has_pdf": true,
+          "pdf_url": "https://nsearchives.nseindia.com/corporate/OLAELECTRIC_30092026234656_SEintimation9thAGMProceedings.pdf",
+          "fetched": "15:58"
         }
       ],
       "actions": [],
@@ -92920,10 +92964,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-09-30 23:33",
+  "last_updated": "2026-10-01 15:58",
   "total_symbols": 500,
   "high_impact": 97,
-  "new_this_run": 12,
-  "total_seen_ids": 18017,
+  "new_this_run": 86,
+  "total_seen_ids": 18103,
   "guidance_events": 379
 }
