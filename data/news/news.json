@@ -92964,10 +92964,10 @@
       "next_result_purpose": ""
     }
   },
-  "last_updated": "2026-10-01 17:14",
+  "last_updated": "2026-10-01 19:17",
   "total_symbols": 500,
   "high_impact": 97,
-  "new_this_run": 13,
-  "total_seen_ids": 18128,
+  "new_this_run": 50,
+  "total_seen_ids": 18178,
   "guidance_events": 379
 }
